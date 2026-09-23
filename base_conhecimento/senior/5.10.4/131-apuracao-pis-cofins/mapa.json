@@ -1,0 +1,45 @@
+{
+  "fonte": {
+    "pagina": "Processo automático 131 - Apuração do PIS/COFINS",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/131-apuracao-pis-cofins.htm",
+    "trilha": "Ajuda por telas > Recursos > Processos Automáticos > Cadastro > Processos automáticos disponíveis"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Processo automático 131 - Apuração do PIS/COFINS",
+      "slug": "processo-automatico-131-apuracao-do-pis-cofins",
+      "arquivo": "01-processo-automatico-131-apuracao-do-pis-cofins.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/131-apuracao-pis-cofins.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_recursos/f000age.htm"
+        },
+        {
+          "texto": "Processos automáticos disponíveis",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/indice.htm"
+        }
+      ],
+      "caracteres": 415
+    }
+  ],
+  "indice_telas": {},
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_recursos/f000age.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/indice.htm"
+  ]
+}

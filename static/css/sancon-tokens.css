@@ -1,0 +1,85 @@
+/* ==========================================================================
+   Sancon Design System — tokens
+   Fonte: skill `sancon-design-system` (references/tokens-reference.md).
+
+   As cores ficam como TRIPLA RGB, não hex, porque o Tailwind precisa injetar
+   alfa nos modificadores (`bg-aco-900/50` do overlay dos modais). O config em
+   base.html lê estas variáveis com `rgb(var(--sc-x) / <alpha-value>)`, então
+   trocar um token aqui repinta a aplicação inteira — nenhum hex no código.
+   ========================================================================== */
+:root {
+  /* ---------------------------------------------------------- Marca ----- */
+  /* Lime é CTA. Navy é estrutural. Inverter os dois quebra a hierarquia. */
+  --sc-acao:          171 216 33;   /* #ABD821 — botão primário / CTA        */
+  --sc-acao-escuro:   147 188 28;   /* #93BC1C — hover do CTA                */
+  --sc-acao-pale:     243 250 212;  /* #F3FAD4 — surface-lime-pale           */
+  --sc-oliva:          42  56  0;   /* #2A3800 — ÚNICO texto sobre lime      */
+
+  --sc-navy-50:      230 238 245;   /* #E6EEF5 — surface-navy-pale           */
+  --sc-navy-100:     203 220 234;   /* #CBDCEA                               */
+  --sc-navy-200:     168 196 220;   /* #A8C4DC                               */
+  --sc-navy-300:     127 165 199;   /* #7FA5C7                               */
+  --sc-navy-400:      74 124 166;   /* #4A7CA6                               */
+  --sc-navy-500:      13  66 112;   /* #0D4270 — brand-navy                  */
+  --sc-navy-600:      11  57  96;   /* #0B3960                               */
+  --sc-navy-700:       9  46  79;   /* #092E4F                               */
+  --sc-navy-800:       6  36  63;   /* #06243F                               */
+  --sc-navy-900:       4  26  46;   /* #041A2E                               */
+
+  --sc-roxo:          89   9 109;   /* #59096D — brand-purple                */
+  --sc-roxo-pale:    245 232 249;   /* #F5E8F9                               */
+
+  /* ------------------------------------------------------- Neutros ------ */
+  --sc-aco-50:       248 248 248;   /* #F8F8F8 — background                  */
+  --sc-aco-100:      241 241 242;   /* #F1F1F2                               */
+  --sc-aco-200:      220 220 221;   /* #DCDCDD — border-default              */
+  --sc-aco-300:      198 198 200;   /* #C6C6C8                               */
+  --sc-aco-400:      170 170 170;   /* #AAAAAA — pending                     */
+  --sc-aco-500:      115 119 127;   /* #73777F — outline                     */
+  --sc-aco-600:       91  96 104;   /* #5B6068                               */
+  --sc-aco-700:       67  71  78;   /* #43474E — on-surface-variant          */
+  --sc-aco-800:       63  63  63;   /* #3F3F3F — brand-charcoal              */
+  --sc-aco-900:       26  28  30;   /* #1A1C1E — on-surface                  */
+
+  /* -------------------------------------------------------- Status ------ */
+  /* action ≠ success: lime nunca comunica estado, só chamada para ação.     */
+  --sc-sucesso:       22 163  74;   /* #16A34A */
+  --sc-erro:         220  38  38;   /* #DC2626 */
+  --sc-atencao:      245 158  11;   /* #F59E0B */
+  --sc-pendente:     170 170 170;   /* #AAAAAA */
+  --sc-branco:       255 255 255;
+
+  /* ------------------------------------------------------ Elevação ------ */
+  --shadow-xs:    0 1px 2px rgba(13, 66, 112, .06);
+  --shadow-sm:    0 2px 4px rgba(13, 66, 112, .08);
+  --shadow-card:  0 2px 8px rgba(13, 66, 112, .08);
+  --shadow-md:    0 4px 16px rgba(13, 66, 112, .10);
+  --shadow-lg:    0 8px 32px rgba(13, 66, 112, .15);
+  --shadow-modal: 0 24px 48px rgba(13, 66, 112, .20);
+
+  /* -------------------------------------------------------- Motion ------ */
+  --motion-duration-fast:   .12s;
+  --motion-duration-normal: .18s;
+  --motion-duration-slow:   .25s;
+  --motion-easing-standard:  cubic-bezier(.4, 0, .2, 1);
+  --motion-easing-overshoot: cubic-bezier(.34, 1.56, .64, 1);
+
+  /* --------------------------------------------------------- Estado ----- */
+  --state-hover-overlay:    rgba(13, 66, 112, .06);
+  --state-active-overlay:   rgba(13, 66, 112, .12);
+  --state-focus-ring:       0 0 0 2px #356190;          /* foco é NAVY      */
+  --state-focus-glow:       0 0 0 3px rgba(13, 66, 112, .18);
+  --state-focus-ring-error: 0 0 0 2px #BA1A1A;
+  --state-disabled-opacity: .5;
+
+  /* ------------------------------------------------- Forma e tipo ------- */
+  --radius-sm:      .25rem;
+  --radius-default: .5rem;
+  --radius-md:      .75rem;
+  --radius-lg:      1rem;
+  --radius-full:    9999px;
+  --input-height:   40px;
+
+  --font-sans: 'Hanken Grotesk', 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', Consolas, monospace;
+}

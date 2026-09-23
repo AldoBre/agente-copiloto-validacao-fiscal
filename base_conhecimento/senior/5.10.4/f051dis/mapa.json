@@ -1,0 +1,43 @@
+{
+  "fonte": {
+    "pagina": "F051DIS - Cadastro de Dispositivos Fiscais",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm",
+    "trilha": "Ajuda por telas > Cadastros > Controladoria > Tributos"
+  },
+  "total_topicos": 2,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Opções",
+      "slug": "opcoes",
+      "arquivo": "01-opcoes.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 495
+    },
+    {
+      "ordem": 2,
+      "titulo": "Opções",
+      "slug": "opcoes",
+      "arquivo": "02-opcoes.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 969
+    }
+  ],
+  "indice_telas": {},
+  "paginas_relacionadas": []
+}

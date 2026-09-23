@@ -1,0 +1,73 @@
+{
+  "fonte": {
+    "pagina": "F403FSE - Ligações Fornecedor X Serviços Individual",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fse.htm",
+    "trilha": "Ajuda por telas > Cadastros > Clientes e Fornecedores > Fornecedores > Ligações > Fornecedor X Serviços"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F403FSE - Ligações Fornecedor X Serviços Individual",
+      "slug": "f403fse-ligacoes-fornecedor-x-servicos-individual",
+      "arquivo": "01-f403fse-ligacoes-fornecedor-x-servicos-individual.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fse.htm",
+      "subtopicos": [],
+      "telas": [
+        "F001TCP",
+        "F075PRO",
+        "F118PSI",
+        "F403FSE",
+        "F440GNE",
+        "F660NFC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-000INESR01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "F118PSI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_servicos/f118psi.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        }
+      ],
+      "caracteres": 4002
+    }
+  ],
+  "indice_telas": {
+    "F001TCP": [
+      "f403fse-ligacoes-fornecedor-x-servicos-individual"
+    ],
+    "F075PRO": [
+      "f403fse-ligacoes-fornecedor-x-servicos-individual"
+    ],
+    "F118PSI": [
+      "f403fse-ligacoes-fornecedor-x-servicos-individual"
+    ],
+    "F403FSE": [
+      "f403fse-ligacoes-fornecedor-x-servicos-individual"
+    ],
+    "F440GNE": [
+      "f403fse-ligacoes-fornecedor-x-servicos-individual"
+    ],
+    "F660NFC": [
+      "f403fse-ligacoes-fornecedor-x-servicos-individual"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_servicos/f118psi.htm"
+  ]
+}

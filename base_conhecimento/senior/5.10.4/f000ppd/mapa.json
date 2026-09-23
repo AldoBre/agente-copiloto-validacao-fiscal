@@ -1,0 +1,708 @@
+{
+  "fonte": {
+    "pagina": "F000PPD -  Configuração de parâmetros dinâmicos",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+    "trilha": "Ajuda por telas > Cadastros"
+  },
+  "total_topicos": 10,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Cadastro de clientes (F085CAD)",
+      "slug": "cadastro-de-clientes-f085cad",
+      "arquivo": "01-cadastro-de-clientes-f085cad.md",
+      "ancora": "cadcli",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#cadcli",
+      "subtopicos": [],
+      "telas": [
+        "F085CAD"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "ICMS Monofásico",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm"
+        },
+        {
+          "texto": "apuração",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm#apuracao"
+        }
+      ],
+      "caracteres": 2760
+    },
+    {
+      "ordem": 2,
+      "titulo": "Cadastro de empresas (F070EMP)",
+      "slug": "cadastro-de-empresas-f070emp",
+      "arquivo": "02-cadastro-de-empresas-f070emp.md",
+      "ancora": "cademp",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#cademp",
+      "subtopicos": [
+        "Campos disponíveis para seleção:",
+        "Exemplo:",
+        "Exemplo",
+        "Exemplo de configuração",
+        "Exemplo",
+        "Exemplo:",
+        "Exemplo",
+        "Códigos  TEF Auttar",
+        "Exemplo",
+        "Códigos TEF Auttar"
+      ],
+      "telas": [
+        "E045PLA",
+        "E113ACR",
+        "E900COP",
+        "F001TPA",
+        "F001TRE",
+        "F021MOT",
+        "F070EMP",
+        "F070ONF",
+        "F070PDV",
+        "F075GFP",
+        "F075PRO",
+        "F113REM",
+        "F135AEA",
+        "F135APM",
+        "F301ATL",
+        "F410QCP",
+        "F420OSC",
+        "F435CCC",
+        "F435MDT",
+        "F501ATL",
+        "F900RCP"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "GER-000BLQPE01",
+        "VEN-135EUDLE02"
+      ],
+      "campos_xml_citados": [
+        "CFOP"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F435CCC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435ccc.htm"
+        },
+        {
+          "texto": "F435MDT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435mdt.htm"
+        },
+        {
+          "texto": "F135APM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135apm.htm"
+        },
+        {
+          "texto": "F135AEA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135aea.htm"
+        },
+        {
+          "texto": "AtenderManualPedidos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_ven_manualpedidos.htm#AtenderManualPedidos_2"
+        },
+        {
+          "texto": "VEN-135EUDLE02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135eudle02.htm"
+        },
+        {
+          "texto": "Van Bancária",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/van-bancaria/van-bancaria-integracao.htm"
+        },
+        {
+          "texto": "F410QCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410qcp.htm#f410qcp.htm"
+        },
+        {
+          "texto": "registro I050",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contabil-ecd/bloco-i.htm#I050"
+        },
+        {
+          "texto": "Parâmetro dinâmico EMPRESA.GESTORSENIOR.FORMAEXIBIRRATEIO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/parametro_dinamico_empresa.gestorsenior.formaexibirrateio.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F900RCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/f900rcp.htm"
+        },
+        {
+          "texto": "VAN Bancária",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/van-bancaria/vans.htm"
+        },
+        {
+          "texto": "com.senior.g5.co.int.varejo.cliente",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_varejo_cliente.htm"
+        },
+        {
+          "texto": "com.senior.g5.co.int.varejo.produto",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_varejo_produto.htm"
+        },
+        {
+          "texto": "F070EMP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+        },
+        {
+          "texto": "Operações de nota fiscal (F070ONF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070onf.htm"
+        },
+        {
+          "texto": "F070PDV",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pdv.htm"
+        }
+      ],
+      "caracteres": 68994
+    },
+    {
+      "ordem": 3,
+      "titulo": "Cadastro de filiais (F070FCA)",
+      "slug": "cadastro-de-filiais-f070fca",
+      "arquivo": "03-cadastro-de-filiais-f070fca.md",
+      "ancora": "cadfil",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#cadfil",
+      "subtopicos": [
+        "Exemplo:",
+        "Exemplo:",
+        "Exemplo:",
+        "Exemplo:",
+        "Exemplo:",
+        "Exemplo:",
+        "Exemplo:",
+        "Exemplo",
+        "Exemplo:",
+        "Exemplo:",
+        "1 - Permite a emissão automática de Nota Fiscal",
+        "2 - Permite a emissão manual com escolha do usuário",
+        "3 - Não permite emissão de Nota Fiscal",
+        "Exemplo:",
+        "Exemplo:"
+      ],
+      "telas": [
+        "E660RRZ",
+        "E660RSC",
+        "E660RSV",
+        "F000AGE",
+        "F000GOW",
+        "F000PPD",
+        "F001TES",
+        "F021MOT",
+        "F039POR",
+        "F070FCA",
+        "F070VAR",
+        "F075CEP",
+        "F113REM",
+        "F135FCP",
+        "F185CFG",
+        "F460APR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "GER-140EUDLE01",
+        "GER-210EUDLE01",
+        "VEN-140CFILE01",
+        "VEN-140EUDLE02"
+      ],
+      "campos_xml_citados": [
+        "CEST",
+        "CFOP",
+        "NCM",
+        "cBenef"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "146 - Limpar fotos antigas da Balança",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/146-limpar-fotos-antigas-da-balanca.htm"
+        },
+        {
+          "texto": "F113REM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f113rem.htm"
+        },
+        {
+          "texto": "F021MOT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f021mot.htm"
+        },
+        {
+          "texto": "Base64 Decode and Encode",
+          "url": "https://www.base64encode.org/"
+        },
+        {
+          "texto": "Base64 Encode",
+          "url": "http://base64encode.net/"
+        },
+        {
+          "texto": "documentação da VAN Bancária",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/van-bancaria/van-bancaria-integracao.htm"
+        },
+        {
+          "texto": "com.senior.g5.co.mcm.ven.manualpedidos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_ven_manualpedidos.htm"
+        },
+        {
+          "texto": "VEN-140CFILE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cfile01.htm"
+        },
+        {
+          "texto": "VEN-140EUDLE02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140eudle02.htm"
+        },
+        {
+          "texto": "GER-140EUDLE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_140eudle01.htm"
+        },
+        {
+          "texto": "GER-210EUDLE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_210eudle01.htm"
+        },
+        {
+          "texto": "F000GOW",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000gow.htm"
+        },
+        {
+          "texto": "F001TES",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tes.htm"
+        },
+        {
+          "texto": "GER - 000INWMS01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000inwms01.htm"
+        },
+        {
+          "texto": "GER- 000INWMS18",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000inwms18.htm"
+        },
+        {
+          "texto": "na geração do .XML",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm"
+        },
+        {
+          "texto": "ICMS 53",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm#icms53"
+        },
+        {
+          "texto": "ICMS Monofásico",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm"
+        },
+        {
+          "texto": "validação da quantidade reservada exclusivamente do pedido",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manual-processos/mercado/gestao-faturamento/validacao-quantidade-reserva-exclusiva-pedidos.htm"
+        },
+        {
+          "texto": "F000AGE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_recursos/f000age.htm"
+        },
+        {
+          "texto": "documentação  correspondente",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manual-processos/mercado/gestao-faturamento/validacao-quantidade-reserva-exclusiva-pedidos.htm#execucaovalidacao"
+        },
+        {
+          "texto": "F039POR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f039por.htm"
+        },
+        {
+          "texto": "relatório de etiqueta de preço do produto",
+          "url": "https://documentacao.senior.com.br/gestaodelojas/6.2.19#ajuda-por-processos/retaguarda/mercado/gestao-de-faturamento/relatorio-de-etiqueta-de-produtos-para-revenda.htm"
+        },
+        {
+          "texto": "F070FCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm"
+        },
+        {
+          "texto": "F661IA5",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ia5.htm"
+        },
+        {
+          "texto": "Controle de Entrada de Produtos (F075CEP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cep.htm"
+        },
+        {
+          "texto": "Venda de produtos e serviços",
+          "url": "https://documentacao.senior.com.br/gestaodelojas/6.2.19#ajuda-por-processos/pdv/rotinas-de-caixa/venda-direta-produto-servico.htm"
+        },
+        {
+          "texto": "arquivos  JRXML",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/resources/snippets/parametros-dinamicos/cadastro-filiais/venda.contrato.compra.venda.caminho/arquivos_contrato_modelos.zip"
+        }
+      ],
+      "caracteres": 83182
+    },
+    {
+      "ordem": 4,
+      "titulo": "Cadastro de financeiras (F032FIN)",
+      "slug": "cadastro-de-financeiras-f032fin",
+      "arquivo": "04-cadastro-de-financeiras-f032fin.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+      "subtopicos": [],
+      "telas": [
+        "F032FIN"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "BASE64 Deconde and Encode",
+          "url": "http://www.base64encode.org/"
+        }
+      ],
+      "caracteres": 1534
+    },
+    {
+      "ordem": 5,
+      "titulo": "Cadastro de formas de pagamento (F066FPG)",
+      "slug": "cadastro-de-formas-de-pagamento-f066fpg",
+      "arquivo": "05-cadastro-de-formas-de-pagamento-f066fpg.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+      "subtopicos": [],
+      "telas": [
+        "F066FPG"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "SugPorFpg",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#SugPorFpg"
+        },
+        {
+          "texto": "SugCrtFpg",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#SugCrtFpg"
+        }
+      ],
+      "caracteres": 1728
+    },
+    {
+      "ordem": 6,
+      "titulo": "Cadastro de fornecedores (F095CAD)",
+      "slug": "cadastro-de-fornecedores-f095cad",
+      "arquivo": "06-cadastro-de-fornecedores-f095cad.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+      "subtopicos": [],
+      "telas": [
+        "F095CAD",
+        "F690ILA"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F690ILA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f690ila.htm"
+        },
+        {
+          "texto": "BHISS - Belo Horizonte (CIAM006)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/arquivos-eletronicos-municipais/ciam006.htm"
+        },
+        {
+          "texto": "Carta de suspensão de IPI a ser encaminhada aos fornecedores (CIOD033)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/declaracoes/ciod033.htm"
+        }
+      ],
+      "caracteres": 2222
+    },
+    {
+      "ordem": 7,
+      "titulo": "Cadastro de imóvel rural",
+      "slug": "cadastro-de-imovel-rural",
+      "arquivo": "07-cadastro-de-imovel-rural.md",
+      "ancora": "cadastro-imovel-rural",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#cadastro-imovel-rural",
+      "subtopicos": [],
+      "telas": [
+        "F603IMR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F603IMR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f603imr.htm"
+        }
+      ],
+      "caracteres": 352
+    },
+    {
+      "ordem": 8,
+      "titulo": "Cadastro de motivos (F021MOT)",
+      "slug": "cadastro-de-motivos-f021mot",
+      "arquivo": "08-cadastro-de-motivos-f021mot.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+      "subtopicos": [],
+      "telas": [
+        "F021MOT"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 524
+    },
+    {
+      "ordem": 9,
+      "titulo": "Cadastro de PDV (F070PDV)",
+      "slug": "cadastro-de-pdv-f070pdv",
+      "arquivo": "09-cadastro-de-pdv-f070pdv.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+      "subtopicos": [],
+      "telas": [
+        "F070PDV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F070PDV",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pdv.htm"
+        },
+        {
+          "texto": "Auttar",
+          "url": "https://www.auttar.com.br/"
+        }
+      ],
+      "caracteres": 1464
+    },
+    {
+      "ordem": 10,
+      "titulo": "Cadastro de perfis de usuários (F090PFU)",
+      "slug": "cadastro-de-perfis-de-usuarios-f090pfu",
+      "arquivo": "10-cadastro-de-perfis-de-usuarios-f090pfu.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+      "subtopicos": [
+        "Exemplo:"
+      ],
+      "telas": [
+        "F028GCP",
+        "F090PFU",
+        "F140GNF",
+        "F670BEM"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Digitação de Notas manuais (F140GNF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140gnf.htm"
+        },
+        {
+          "texto": "Controle de Bens / Bem / Individual (F670BEM)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f670bem.htm#F670BEM"
+        }
+      ],
+      "caracteres": 13459
+    }
+  ],
+  "indice_telas": {
+    "E045PLA": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "E113ACR": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "E660RRZ": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "E660RSC": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "E660RSV": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "E900COP": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F000AGE": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "F000GOW": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "F000PPD": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "F001TES": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "F001TPA": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F001TRE": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F021MOT": [
+      "cadastro-de-empresas-f070emp",
+      "cadastro-de-filiais-f070fca",
+      "cadastro-de-motivos-f021mot"
+    ],
+    "F028GCP": [
+      "cadastro-de-perfis-de-usuarios-f090pfu"
+    ],
+    "F032FIN": [
+      "cadastro-de-financeiras-f032fin"
+    ],
+    "F039POR": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "F066FPG": [
+      "cadastro-de-formas-de-pagamento-f066fpg"
+    ],
+    "F070EMP": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F070FCA": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "F070ONF": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F070PDV": [
+      "cadastro-de-empresas-f070emp",
+      "cadastro-de-pdv-f070pdv"
+    ],
+    "F070VAR": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "F075CEP": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "F075GFP": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F075PRO": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F085CAD": [
+      "cadastro-de-clientes-f085cad"
+    ],
+    "F090PFU": [
+      "cadastro-de-perfis-de-usuarios-f090pfu"
+    ],
+    "F095CAD": [
+      "cadastro-de-fornecedores-f095cad"
+    ],
+    "F113REM": [
+      "cadastro-de-empresas-f070emp",
+      "cadastro-de-filiais-f070fca"
+    ],
+    "F135AEA": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F135APM": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F135FCP": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "F140GNF": [
+      "cadastro-de-perfis-de-usuarios-f090pfu"
+    ],
+    "F185CFG": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "F301ATL": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F410QCP": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F420OSC": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F435CCC": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F435MDT": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F460APR": [
+      "cadastro-de-filiais-f070fca"
+    ],
+    "F501ATL": [
+      "cadastro-de-empresas-f070emp"
+    ],
+    "F603IMR": [
+      "cadastro-de-imovel-rural"
+    ],
+    "F670BEM": [
+      "cadastro-de-perfis-de-usuarios-f090pfu"
+    ],
+    "F690ILA": [
+      "cadastro-de-fornecedores-f095cad"
+    ],
+    "F900RCP": [
+      "cadastro-de-empresas-f070emp"
+    ]
+  },
+  "paginas_relacionadas": [
+    "http://base64encode.net/",
+    "http://www.base64encode.org/",
+    "https://documentacao.senior.com.br/gestaodelojas/6.2.19#ajuda-por-processos/pdv/rotinas-de-caixa/venda-direta-produto-servico.htm",
+    "https://documentacao.senior.com.br/gestaodelojas/6.2.19#ajuda-por-processos/retaguarda/mercado/gestao-de-faturamento/relatorio-de-etiqueta-de-produtos-para-revenda.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm#apuracao",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm#icms53",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000inwms01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000inwms18.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_140eudle01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_210eudle01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135eudle02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cfile01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140eudle02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/van-bancaria/van-bancaria-integracao.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/van-bancaria/vans.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manual-processos/mercado/gestao-faturamento/validacao-quantidade-reserva-exclusiva-pedidos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manual-processos/mercado/gestao-faturamento/validacao-quantidade-reserva-exclusiva-pedidos.htm#execucaovalidacao",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000gow.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#SugCrtFpg",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#SugPorFpg",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tes.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f021mot.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f039por.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070onf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pdv.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cep.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f603imr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/parametro_dinamico_empresa.gestorsenior.formaexibirrateio.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ia5.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f670bem.htm#F670BEM",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f690ila.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/arquivos-eletronicos-municipais/ciam006.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/declaracoes/ciod033.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contabil-ecd/bloco-i.htm#I050",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/f900rcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f113rem.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135aea.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135apm.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140gnf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_recursos/f000age.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410qcp.htm#f410qcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435ccc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435mdt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/146-limpar-fotos-antigas-da-balanca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/resources/snippets/parametros-dinamicos/cadastro-filiais/venda.contrato.compra.venda.caminho/arquivos_contrato_modelos.zip",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_varejo_cliente.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_varejo_produto.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_ven_manualpedidos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_ven_manualpedidos.htm#AtenderManualPedidos_2",
+    "https://www.auttar.com.br/",
+    "https://www.base64encode.org/"
+  ]
+}

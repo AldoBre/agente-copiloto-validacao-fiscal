@@ -1,0 +1,41 @@
+{
+  "fonte": {
+    "pagina": "F027EQI - Enquadramento do IPI",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027eqi.htm",
+    "trilha": "Ajuda por telas > Cadastros > Mercado e Suprimentos > Parâmetros Fiscais"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F027EQI - Enquadramento do IPI",
+      "slug": "f027eqi-enquadramento-do-ipi",
+      "arquivo": "01-f027eqi-enquadramento-do-ipi.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027eqi.htm",
+      "subtopicos": [],
+      "telas": [
+        "F027EQI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        }
+      ],
+      "caracteres": 1177
+    }
+  ],
+  "indice_telas": {
+    "F027EQI": [
+      "f027eqi-enquadramento-do-ipi"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "fonte": {
+    "pagina": "F669GPC - Geração da Portaria CAT 42/2018",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669gpc.htm",
+    "trilha": "Ajuda por telas > Controladoria > Gestão de Tributos > Arquivos Fiscais > Estaduais"
+  },
+  "total_topicos": 7,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "REGISTRO 0000: ABERTURA DO ARQUIVO DIGITAL E IDENTIFICAÇÃO DO CONTRIBUINTE)",
+      "slug": "registro-0000-abertura-do-arquivo-digital-e-identificacao-do",
+      "arquivo": "01-registro-0000-abertura-do-arquivo-digital-e-identificacao-do.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669gpc.htm",
+      "subtopicos": [],
+      "telas": [
+        "E008CEP",
+        "E070FIL"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 957
+    },
+    {
+      "ordem": 2,
+      "titulo": "REGISTRO 0150: TABELA DE CADASTRO DO PARTICIPANTE)",
+      "slug": "registro-0150-tabela-de-cadastro-do-participante",
+      "arquivo": "02-registro-0150-tabela-de-cadastro-do-participante.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669gpc.htm",
+      "subtopicos": [],
+      "telas": [
+        "E008CEP",
+        "E085CLI",
+        "E095FOR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1058
+    },
+    {
+      "ordem": 3,
+      "titulo": "REGISTRO 0200: TABELA DE IDENTIFICAÇÃO DO ITEM",
+      "slug": "registro-0200-tabela-de-identificacao-do-item",
+      "arquivo": "03-registro-0200-tabela-de-identificacao-do-item.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669gpc.htm",
+      "subtopicos": [],
+      "telas": [
+        "E015MED",
+        "E022CLF",
+        "E075DER",
+        "E075PRO",
+        "E660RSC",
+        "F009PPE",
+        "F019TIE",
+        "F019TIS",
+        "F070PSE",
+        "F075GFP",
+        "F075PRO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CEST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F075GFP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm"
+        },
+        {
+          "texto": "F070PSE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm"
+        },
+        {
+          "texto": "F019TIE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tie.htm"
+        },
+        {
+          "texto": "F019TIS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm"
+        },
+        {
+          "texto": "F009PPE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm"
+        }
+      ],
+      "caracteres": 1407
+    },
+    {
+      "ordem": 4,
+      "titulo": "REGISTRO 0205: CÓDIGO ANTERIOR DO ITEM (Não obrigados ao SPED)",
+      "slug": "registro-0205-codigo-anterior-do-item-nao-obrigados-ao-sped",
+      "arquivo": "04-registro-0205-codigo-anterior-do-item-nao-obrigados-ao-sped.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669gpc.htm",
+      "subtopicos": [],
+      "telas": [
+        "E075VPR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 495
+    },
+    {
+      "ordem": 5,
+      "titulo": "REGISTRO 1050: REGISTRO DE SALDOS",
+      "slug": "registro-1050-registro-de-saldos",
+      "arquivo": "05-registro-1050-registro-de-saldos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669gpc.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660INC",
+        "E660RRZ",
+        "E660RSC",
+        "E660RSV",
+        "E669CCP"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1215
+    },
+    {
+      "ordem": 6,
+      "titulo": "REGISTRO 1100: REGISTRO DE DOCUMENTO FISCAL ELETRÔNICO PARA FINS DE\r\nRESSARCIMENTO DE SUBSTITUIÇÂO TRIBUTÁRIA OU ANTECIPAÇÃO",
+      "slug": "registro-1100-registro-de-documento-fiscal-eletronico-para-f",
+      "arquivo": "06-registro-1100-registro-de-documento-fiscal-eletronico-para-f.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669gpc.htm",
+      "subtopicos": [],
+      "telas": [
+        "E022CLF",
+        "E660IDE",
+        "E660INC",
+        "E660INV",
+        "E660NFC",
+        "E660NFV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CFOP",
+        "CST"
+      ],
+      "links_documentacao": [],
+      "caracteres": 1861
+    },
+    {
+      "ordem": 7,
+      "titulo": "REGISTRO 1200: REGISTRO DE DOCUMENTO FISCAL NÃO-ELETRÔNICO PARA FINS\r\nDE RESSARCIMENTO DE SUBSTITUIÇÃO TRIBUTÁRIA – SP",
+      "slug": "registro-1200-registro-de-documento-fiscal-nao-eletronico-pa",
+      "arquivo": "07-registro-1200-registro-de-documento-fiscal-nao-eletronico-pa.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669gpc.htm",
+      "subtopicos": [],
+      "telas": [
+        "E020SNF",
+        "E022CLF",
+        "E660INC",
+        "E660INV",
+        "E660NFC",
+        "E660NFV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CFOP"
+      ],
+      "links_documentacao": [],
+      "caracteres": 1881
+    }
+  ],
+  "indice_telas": {
+    "E008CEP": [
+      "registro-0000-abertura-do-arquivo-digital-e-identificacao-do",
+      "registro-0150-tabela-de-cadastro-do-participante"
+    ],
+    "E015MED": [
+      "registro-0200-tabela-de-identificacao-do-item"
+    ],
+    "E020SNF": [
+      "registro-1200-registro-de-documento-fiscal-nao-eletronico-pa"
+    ],
+    "E022CLF": [
+      "registro-0200-tabela-de-identificacao-do-item",
+      "registro-1100-registro-de-documento-fiscal-eletronico-para-f",
+      "registro-1200-registro-de-documento-fiscal-nao-eletronico-pa"
+    ],
+    "E070FIL": [
+      "registro-0000-abertura-do-arquivo-digital-e-identificacao-do"
+    ],
+    "E075DER": [
+      "registro-0200-tabela-de-identificacao-do-item"
+    ],
+    "E075PRO": [
+      "registro-0200-tabela-de-identificacao-do-item"
+    ],
+    "E075VPR": [
+      "registro-0205-codigo-anterior-do-item-nao-obrigados-ao-sped"
+    ],
+    "E085CLI": [
+      "registro-0150-tabela-de-cadastro-do-participante"
+    ],
+    "E095FOR": [
+      "registro-0150-tabela-de-cadastro-do-participante"
+    ],
+    "E660IDE": [
+      "registro-1100-registro-de-documento-fiscal-eletronico-para-f"
+    ],
+    "E660INC": [
+      "registro-1050-registro-de-saldos",
+      "registro-1100-registro-de-documento-fiscal-eletronico-para-f",
+      "registro-1200-registro-de-documento-fiscal-nao-eletronico-pa"
+    ],
+    "E660INV": [
+      "registro-1100-registro-de-documento-fiscal-eletronico-para-f",
+      "registro-1200-registro-de-documento-fiscal-nao-eletronico-pa"
+    ],
+    "E660NFC": [
+      "registro-1100-registro-de-documento-fiscal-eletronico-para-f",
+      "registro-1200-registro-de-documento-fiscal-nao-eletronico-pa"
+    ],
+    "E660NFV": [
+      "registro-1100-registro-de-documento-fiscal-eletronico-para-f",
+      "registro-1200-registro-de-documento-fiscal-nao-eletronico-pa"
+    ],
+    "E660RRZ": [
+      "registro-1050-registro-de-saldos"
+    ],
+    "E660RSC": [
+      "registro-0200-tabela-de-identificacao-do-item",
+      "registro-1050-registro-de-saldos"
+    ],
+    "E660RSV": [
+      "registro-1050-registro-de-saldos"
+    ],
+    "E669CCP": [
+      "registro-1050-registro-de-saldos"
+    ],
+    "F009PPE": [
+      "registro-0200-tabela-de-identificacao-do-item"
+    ],
+    "F019TIE": [
+      "registro-0200-tabela-de-identificacao-do-item"
+    ],
+    "F019TIS": [
+      "registro-0200-tabela-de-identificacao-do-item"
+    ],
+    "F070PSE": [
+      "registro-0200-tabela-de-identificacao-do-item"
+    ],
+    "F075GFP": [
+      "registro-0200-tabela-de-identificacao-do-item"
+    ],
+    "F075PRO": [
+      "registro-0200-tabela-de-identificacao-do-item"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tie.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+  ]
+}

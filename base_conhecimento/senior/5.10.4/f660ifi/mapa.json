@@ -1,0 +1,92 @@
+{
+  "fonte": {
+    "pagina": "F660IFI - Integração de Outros Documentos",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660ifi.htm",
+    "trilha": "Ajuda por telas > Controladoria > Gestão de Tributos > Escrituração > Integrações"
+  },
+  "total_topicos": 2,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Opção Frete, seguro e outras despesas acessórias - Notas Fiscal:",
+      "slug": "opcao-frete-seguro-e-outras-despesas-acessorias-notas-fiscal",
+      "arquivo": "01-opcao-frete-seguro-e-outras-despesas-acessorias-notas-fiscal.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660ifi.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TVE",
+        "E660NFV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1742
+    },
+    {
+      "ordem": 2,
+      "titulo": "Integração dos Outros Documentos",
+      "slug": "integracao-dos-outros-documentos",
+      "arquivo": "02-integracao-dos-outros-documentos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660ifi.htm",
+      "subtopicos": [],
+      "telas": [
+        "F055PPF",
+        "F070FEF",
+        "F075PRO",
+        "F080SER"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F080SER",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080ser.htm"
+        },
+        {
+          "texto": "F070FEF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm"
+        },
+        {
+          "texto": "Configuração de Imposto para a Filial (F055PPF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm"
+        }
+      ],
+      "caracteres": 7750
+    }
+  ],
+  "indice_telas": {
+    "E001TVE": [
+      "opcao-frete-seguro-e-outras-despesas-acessorias-notas-fiscal"
+    ],
+    "E660NFV": [
+      "opcao-frete-seguro-e-outras-despesas-acessorias-notas-fiscal"
+    ],
+    "F055PPF": [
+      "integracao-dos-outros-documentos"
+    ],
+    "F070FEF": [
+      "integracao-dos-outros-documentos"
+    ],
+    "F075PRO": [
+      "integracao-dos-outros-documentos"
+    ],
+    "F080SER": [
+      "integracao-dos-outros-documentos"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080ser.htm"
+  ]
+}

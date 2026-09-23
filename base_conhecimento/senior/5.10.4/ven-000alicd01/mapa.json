@@ -1,0 +1,94 @@
+{
+  "fonte": {
+    "pagina": "Identificador de Regra",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicd01.htm",
+    "trilha": ""
+  },
+  "total_topicos": 4,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Exemplo:",
+      "slug": "exemplo",
+      "arquivo": "01-exemplo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicd01.htm",
+      "subtopicos": [],
+      "telas": [
+        "E120IPD",
+        "E140IPV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 178
+    },
+    {
+      "ordem": 2,
+      "titulo": "Exemplo:",
+      "slug": "exemplo",
+      "arquivo": "02-exemplo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicd01.htm",
+      "subtopicos": [],
+      "telas": [
+        "E120ISP",
+        "E140IPV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 33
+    },
+    {
+      "ordem": 3,
+      "titulo": "Para Notas Fiscais",
+      "slug": "para-notas-fiscais",
+      "arquivo": "03-para-notas-fiscais.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicd01.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 2092
+    },
+    {
+      "ordem": 4,
+      "titulo": "Para pedidos",
+      "slug": "para-pedidos",
+      "arquivo": "04-para-pedidos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicd01.htm",
+      "subtopicos": [],
+      "telas": [
+        "E120IPD",
+        "E120ISP"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 3470
+    }
+  ],
+  "indice_telas": {
+    "E120IPD": [
+      "exemplo",
+      "para-pedidos"
+    ],
+    "E120ISP": [
+      "exemplo",
+      "para-pedidos"
+    ],
+    "E140IPV": [
+      "exemplo"
+    ]
+  },
+  "paginas_relacionadas": []
+}

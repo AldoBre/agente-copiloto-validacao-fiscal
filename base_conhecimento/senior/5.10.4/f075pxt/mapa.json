@@ -1,0 +1,54 @@
+{
+  "fonte": {
+    "pagina": "F075PXT - Ligação Produto x Transação",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pxt.htm",
+    "trilha": "Ajuda por telas > Cadastros > Produtos e Serviços > Ligações"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F075PXT - Ligação Produto x Transação",
+      "slug": "f075pxt-ligacao-produto-x-transacao",
+      "arquivo": "01-f075pxt-ligacao-produto-x-transacao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pxt.htm",
+      "subtopicos": [],
+      "telas": [
+        "F012FXT",
+        "F075PXT",
+        "F075SPF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Enquadramento de IPI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/enquadramento-de-ipi.htm"
+        }
+      ],
+      "caracteres": 2861
+    }
+  ],
+  "indice_telas": {
+    "F012FXT": [
+      "f075pxt-ligacao-produto-x-transacao"
+    ],
+    "F075PXT": [
+      "f075pxt-ligacao-produto-x-transacao"
+    ],
+    "F075SPF": [
+      "f075pxt-ligacao-produto-x-transacao"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/enquadramento-de-ipi.htm"
+  ]
+}

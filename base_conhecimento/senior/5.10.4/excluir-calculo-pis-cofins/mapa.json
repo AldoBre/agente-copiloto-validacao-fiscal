@@ -1,0 +1,100 @@
+{
+  "fonte": {
+    "pagina": "ExcluirCalculoPISCOFINS",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/regra_funcoes/excluir-calculo-pis-cofins.htm",
+    "trilha": ""
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "ExcluirCalculoPISCOFINS",
+      "slug": "excluircalculopiscofins",
+      "arquivo": "01-excluircalculopiscofins.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/regra_funcoes/excluir-calculo-pis-cofins.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "English",
+          "url": "https://documentacao.senior.com.br/en/"
+        },
+        {
+          "texto": "Español",
+          "url": "https://documentacao.senior.com.br/es/"
+        },
+        {
+          "texto": "Política de Privacidade da Senior",
+          "url": "https://www.senior.com.br/politica-de-privacidade"
+        },
+        {
+          "texto": "Base de Conhecimento",
+          "url": "https://suporte.senior.com.br/hc/pt-br?utm_source=portal-documentacao&utm_medium=referral&utm_campaign=rodape"
+        },
+        {
+          "texto": "Portal de Exigências Legais",
+          "url": "https://documentacao.senior.com.br/exigenciaslegais/"
+        },
+        {
+          "texto": "Contrato de Licenciamento de Software e Prestação de Serviços",
+          "url": "https://documentacao.senior.com.br/contrato-licenciamento-de-software-e-prestacao-de-servicos.pdf"
+        },
+        {
+          "texto": "English",
+          "url": "https://documentacao.senior.com.br/home-en.htm"
+        },
+        {
+          "texto": "Español",
+          "url": "https://documentacao.senior.com.br/es"
+        },
+        {
+          "texto": "Senior Store",
+          "url": "https://store.senior.com.br/?utm_source=portal-documentacao&utm_medium=referral&utm_campaign=rodape"
+        },
+        {
+          "texto": "Universidade Corporativa",
+          "url": "https://www.senior.com.br/servicos/universidade-corporativa-senior?utm_source=portal-documentacao&utm_medium=referral&utm_campaign=rodape"
+        },
+        {
+          "texto": "Fórum de Produtos",
+          "url": "https://documentacao.senior.com.br/forum-de-produtos-senior.htm?utm_source=portal-documentacao&utm_medium=referral&utm_campaign=rodape"
+        },
+        {
+          "texto": "Trabalhe conosco",
+          "url": "https://www.senior.com.br/carreiras?utm_source=portal-documentacao&utm_medium=referral&utm_campaign=rodape"
+        },
+        {
+          "texto": "Blog",
+          "url": "https://www.senior.com.br/blog?utm_source=portal-documentacao&utm_medium=referral&utm_campaign=rodape"
+        },
+        {
+          "texto": "Ver site completo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/index.htm#regra_funcoes/excluir-calculo-pis-cofins.htm"
+        }
+      ],
+      "caracteres": 1770
+    }
+  ],
+  "indice_telas": {},
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/contrato-licenciamento-de-software-e-prestacao-de-servicos.pdf",
+    "https://documentacao.senior.com.br/en/",
+    "https://documentacao.senior.com.br/es",
+    "https://documentacao.senior.com.br/es/",
+    "https://documentacao.senior.com.br/exigenciaslegais/",
+    "https://documentacao.senior.com.br/forum-de-produtos-senior.htm?utm_source=portal-documentacao&utm_medium=referral&utm_campaign=rodape",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/index.htm#regra_funcoes/excluir-calculo-pis-cofins.htm",
+    "https://documentacao.senior.com.br/home-en.htm",
+    "https://store.senior.com.br/?utm_source=portal-documentacao&utm_medium=referral&utm_campaign=rodape",
+    "https://suporte.senior.com.br/hc/pt-br?utm_source=portal-documentacao&utm_medium=referral&utm_campaign=rodape",
+    "https://www.senior.com.br/blog?utm_source=portal-documentacao&utm_medium=referral&utm_campaign=rodape",
+    "https://www.senior.com.br/carreiras?utm_source=portal-documentacao&utm_medium=referral&utm_campaign=rodape",
+    "https://www.senior.com.br/politica-de-privacidade",
+    "https://www.senior.com.br/servicos/universidade-corporativa-senior?utm_source=portal-documentacao&utm_medium=referral&utm_campaign=rodape"
+  ]
+}

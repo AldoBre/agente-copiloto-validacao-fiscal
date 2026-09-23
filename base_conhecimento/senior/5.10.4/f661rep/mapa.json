@@ -1,0 +1,79 @@
+{
+  "fonte": {
+    "pagina": "F661REP - Controle de Retenções PIS/COFINS",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661rep.htm",
+    "trilha": "Ajuda por telas > Controladoria > Gestão de Tributos > Operações e Cálculos Fiscais > Cálculos > Retenções"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F661REP - Controle de Retenções PIS/COFINS",
+      "slug": "f661rep-controle-de-retencoes-pis-cofins",
+      "arquivo": "01-f661rep-controle-de-retencoes-pis-cofins.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661rep.htm",
+      "subtopicos": [],
+      "telas": [
+        "F070FEF",
+        "F661REP",
+        "F661UCR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Controladoria",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_controladoria.htm"
+        },
+        {
+          "texto": "Gestão de Tributos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/gestao-tributos.htm"
+        },
+        {
+          "texto": "Operações e Cálculos Fiscais",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_tributos_operacoescalculos.htm"
+        },
+        {
+          "texto": "Parâmetros da Filial para Tributos (F070FEF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm"
+        },
+        {
+          "texto": "CIOO078",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/operacionais/cioo078.htm"
+        },
+        {
+          "texto": "F661UCR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ucr.htm"
+        }
+      ],
+      "caracteres": 1535
+    }
+  ],
+  "indice_telas": {
+    "F070FEF": [
+      "f661rep-controle-de-retencoes-pis-cofins"
+    ],
+    "F661REP": [
+      "f661rep-controle-de-retencoes-pis-cofins"
+    ],
+    "F661UCR": [
+      "f661rep-controle-de-retencoes-pis-cofins"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_tributos_operacoescalculos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_controladoria.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ucr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/gestao-tributos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/operacionais/cioo078.htm"
+  ]
+}

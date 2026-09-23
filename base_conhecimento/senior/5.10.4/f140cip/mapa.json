@@ -1,0 +1,79 @@
+{
+  "fonte": {
+    "pagina": "F140CIP - Notas Fiscais de Saída - Cálculos Itens de Produto",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140cip.htm",
+    "trilha": "Ajuda por telas > Mercado > Gestão de Faturamento e Outras Saídas > Notas Fiscais de Saída > Digitação de Notas Manuais"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F140CIP - Notas Fiscais de Saída - Cálculos Itens de Produto",
+      "slug": "f140cip-notas-fiscais-de-saida-calculos-itens-de-produto",
+      "arquivo": "01-f140cip-notas-fiscais-de-saida-calculos-itens-de-produto.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140cip.htm",
+      "subtopicos": [],
+      "telas": [
+        "F000CRT",
+        "F140CIP",
+        "F140GNF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Mercado",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado.htm"
+        },
+        {
+          "texto": "Gestão de Faturamento e Outras Saídas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado_gestao_faturamentooutrassaidas.htm"
+        },
+        {
+          "texto": "Notas Fiscais de Saída",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_faturamento_nfsaida.htm"
+        },
+        {
+          "texto": "Digitação de Notas Manuais",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140gnf.htm"
+        },
+        {
+          "texto": "F000CRT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000crt.htm"
+        },
+        {
+          "texto": "documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/reforma-tributaria/rotinas-impactadas.htm"
+        }
+      ],
+      "caracteres": 1772
+    }
+  ],
+  "indice_telas": {
+    "F000CRT": [
+      "f140cip-notas-fiscais-de-saida-calculos-itens-de-produto"
+    ],
+    "F140CIP": [
+      "f140cip-notas-fiscais-de-saida-calculos-itens-de-produto"
+    ],
+    "F140GNF": [
+      "f140cip-notas-fiscais-de-saida-calculos-itens-de-produto"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_faturamento_nfsaida.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado_gestao_faturamentooutrassaidas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000crt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140gnf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/reforma-tributaria/rotinas-impactadas.htm"
+  ]
+}

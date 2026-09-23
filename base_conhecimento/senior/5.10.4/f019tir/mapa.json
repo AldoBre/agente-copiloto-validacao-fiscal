@@ -1,0 +1,64 @@
+{
+  "fonte": {
+    "pagina": "F019TIR - Reduções e Acréscimos de bases de Cálculos de Impostos - Por Estado",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm",
+    "trilha": "Ajuda por telas > Cadastros > Mercado e Suprimentos > Parâmetros Fiscais > Reduções/acréscimos base impostos"
+  },
+  "total_topicos": 3,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Exemplo",
+      "slug": "exemplo",
+      "arquivo": "01-exemplo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 601
+    },
+    {
+      "ordem": 2,
+      "titulo": "Exemplo",
+      "slug": "exemplo",
+      "arquivo": "02-exemplo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 148
+    },
+    {
+      "ordem": 3,
+      "titulo": "Exemplo",
+      "slug": "exemplo",
+      "arquivo": "03-exemplo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm",
+      "subtopicos": [],
+      "telas": [
+        "F019TIR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 408
+    }
+  ],
+  "indice_telas": {
+    "F019TIR": [
+      "exemplo"
+    ]
+  },
+  "paginas_relacionadas": []
+}

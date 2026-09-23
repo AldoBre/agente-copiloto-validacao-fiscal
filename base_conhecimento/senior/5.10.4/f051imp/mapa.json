@@ -1,0 +1,72 @@
+{
+  "fonte": {
+    "pagina": "F051IMP - Cadastro de Imposto",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051imp.htm",
+    "trilha": "Ajuda por telas > Cadastros > Controladoria > Tributos"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Impostos",
+      "slug": "impostos",
+      "arquivo": "01-impostos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051imp.htm",
+      "subtopicos": [
+        "Imposto 34 - ICMS Substituto por Estado",
+        "Imposto 50 - IRRF Exterior - Contratos de Empréstimos de Mercado Externo",
+        "Impostos 53 - IRPJ Lucro Presumido (SPED) e 54 - CSLL Lucro Presumido (SPED)",
+        "Impostos 55 - IRPJ Lucro Real (SPED) e 56 - CSLL Lucro Real (SPED)",
+        "Impostos  59 - IRPJ - Imune/Isenta (SPED) e 60 - CSLL - Imune/Isenta (SPED)",
+        "Imposto 65 - ISS Retido",
+        "Imposto 67 - Débitos especiais",
+        "Imposto 72 -  ISS próprio das instituições financeiras",
+        "Imposto 79 - FAF - Fator de Ajuste de Fruição",
+        "Imposto 81 - Fundo de Universalização dos Serviços de Telecomunicações (FUST)",
+        "Imposto 82 - Fundo para o Desenvolvimento Tecnológico das Telecomunicações (Funttel)",
+        "Impostos 73 - ISS (LC 175/2020) e 74 - ISS Retido (LC 175/2020)",
+        "Imposto 75 - ISS Partilha (LC 175/2020)"
+      ],
+      "telas": [
+        "F049TTR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "NCM"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "mercado externo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/contratos_empréstimos_ mercadoexterno.htm"
+        },
+        {
+          "texto": "apuração do ISSQN para instituições financeiras",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/issqn-if.htm"
+        },
+        {
+          "texto": "F049TTR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f049ttr.htm"
+        },
+        {
+          "texto": "Apuração do imposto FUST e Funttel (F661I23)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/f661i23 - apuração dos impostos fust e funttel.htm"
+        }
+      ],
+      "caracteres": 7011
+    }
+  ],
+  "indice_telas": {
+    "F049TTR": [
+      "impostos"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f049ttr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/issqn-if.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/f661i23 - apuração dos impostos fust e funttel.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/contratos_empréstimos_ mercadoexterno.htm"
+  ]
+}

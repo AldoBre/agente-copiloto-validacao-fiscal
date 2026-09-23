@@ -1,0 +1,74 @@
+{
+  "fonte": {
+    "pagina": "Sugestão do Código da Situação Tributária de ICMS de Entrada",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestaocst-icms-entrada.htm",
+    "trilha": "Ajuda por telas > Suprimentos"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Sugestão do Código da Situação Tributária de ICMS de Entrada",
+      "slug": "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-entrada",
+      "arquivo": "01-sugestao-do-codigo-da-situacao-tributaria-de-icms-de-entrada.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestaocst-icms-entrada.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TNS",
+        "E075PRO",
+        "E080SER",
+        "E403FPR",
+        "F001TVE",
+        "F075PRO",
+        "F080SER",
+        "F403FPR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Suprimentos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos.htm"
+        }
+      ],
+      "caracteres": 2014
+    }
+  ],
+  "indice_telas": {
+    "E001TNS": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-entrada"
+    ],
+    "E075PRO": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-entrada"
+    ],
+    "E080SER": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-entrada"
+    ],
+    "E403FPR": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-entrada"
+    ],
+    "F001TVE": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-entrada"
+    ],
+    "F075PRO": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-entrada"
+    ],
+    "F080SER": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-entrada"
+    ],
+    "F403FPR": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-entrada"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos.htm"
+  ]
+}

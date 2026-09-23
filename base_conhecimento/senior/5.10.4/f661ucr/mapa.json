@@ -1,0 +1,28 @@
+{
+  "fonte": {
+    "pagina": "F661UCR - Método de Utilização Retenções/Créditos",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ucr.htm",
+    "trilha": "Ajuda por telas > Controladoria > Gestão de Tributos > Operações e Cálculos Fiscais > Cálculos"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Tipos de Impostos",
+      "slug": "tipos-de-impostos",
+      "arquivo": "01-tipos-de-impostos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ucr.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 494
+    }
+  ],
+  "indice_telas": {},
+  "paginas_relacionadas": []
+}

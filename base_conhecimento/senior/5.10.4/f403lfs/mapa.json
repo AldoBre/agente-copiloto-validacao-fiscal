@@ -1,0 +1,71 @@
+{
+  "fonte": {
+    "pagina": "F403LFS - Ligações Fornecedor X Serviços Agrupado",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403lfs.htm",
+    "trilha": "Ajuda por telas > Cadastros > Clientes e Fornecedores > Fornecedores > Ligações > Fornecedor X Serviços"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F403LFS - Ligações Fornecedor X Serviços Agrupado",
+      "slug": "f403lfs-ligacoes-fornecedor-x-servicos-agrupado",
+      "arquivo": "01-f403lfs-ligacoes-fornecedor-x-servicos-agrupado.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403lfs.htm",
+      "subtopicos": [],
+      "telas": [
+        "F001TCP",
+        "F075PRO",
+        "F118PSI",
+        "F403LFS"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-000INESR01",
+        "GER-000HFOAU01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "GER-000HFOAU01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000hfoau01.htm"
+        },
+        {
+          "texto": "F118PSI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_servicos/f118psi.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        }
+      ],
+      "caracteres": 3136
+    }
+  ],
+  "indice_telas": {
+    "F001TCP": [
+      "f403lfs-ligacoes-fornecedor-x-servicos-agrupado"
+    ],
+    "F075PRO": [
+      "f403lfs-ligacoes-fornecedor-x-servicos-agrupado"
+    ],
+    "F118PSI": [
+      "f403lfs-ligacoes-fornecedor-x-servicos-agrupado"
+    ],
+    "F403LFS": [
+      "f403lfs-ligacoes-fornecedor-x-servicos-agrupado"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000hfoau01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_servicos/f118psi.htm"
+  ]
+}

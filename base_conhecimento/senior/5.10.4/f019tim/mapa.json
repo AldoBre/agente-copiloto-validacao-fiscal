@@ -1,0 +1,55 @@
+{
+  "fonte": {
+    "pagina": "F019TIM - Cadastro de partilha ICMS Monofásico",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tim.htm",
+    "trilha": "Ajuda por telas > Cadastros > Mercado e Suprimentos > Parâmetros Fiscais"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F019TIM - Cadastro de partilha ICMS Monofásico",
+      "slug": "f019tim-cadastro-de-partilha-icms-monofasico",
+      "arquivo": "01-f019tim-cadastro-de-partilha-icms-monofasico.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tim.htm",
+      "subtopicos": [],
+      "telas": [
+        "F019TIM",
+        "F075PCB"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "ICMS Monofásico",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm"
+        },
+        {
+          "texto": "Cadastro de origem de produtos do tipo combustível (F075PCB)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pcb.htm"
+        }
+      ],
+      "caracteres": 1458
+    }
+  ],
+  "indice_telas": {
+    "F019TIM": [
+      "f019tim-cadastro-de-partilha-icms-monofasico"
+    ],
+    "F075PCB": [
+      "f019tim-cadastro-de-partilha-icms-monofasico"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pcb.htm"
+  ]
+}

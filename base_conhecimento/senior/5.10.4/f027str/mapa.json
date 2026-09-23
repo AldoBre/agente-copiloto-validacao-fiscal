@@ -1,0 +1,46 @@
+{
+  "fonte": {
+    "pagina": "F027STR - Situações Tributárias",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm",
+    "trilha": "Ajuda por telas > Cadastros > Mercado e Suprimentos > Parâmetros Fiscais"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Lista para preenchimento",
+      "slug": "lista-para-preenchimento",
+      "arquivo": "01-lista-para-preenchimento.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm",
+      "subtopicos": [],
+      "telas": [
+        "E075DER"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-000ALSTR01"
+      ],
+      "campos_xml_citados": [
+        "CSOSN",
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "COM-000ALSTR01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr01.htm"
+        }
+      ],
+      "caracteres": 850
+    }
+  ],
+  "indice_telas": {
+    "E075DER": [
+      "lista-para-preenchimento"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr01.htm"
+  ]
+}

@@ -1,0 +1,231 @@
+/* ==========================================================================
+   Agente de Implantação Fiscal — estilos complementares ao Tailwind
+   Identidade: Sancon Design System (navy estrutural + lime de CTA).
+
+   Nenhum hex cru aqui: tudo sai de sancon-tokens.css. O `rgb(var(--sc-x))` é
+   o mesmo formato consumido pelo Tailwind, então um token trocado repinta os
+   dois lados juntos.
+   ========================================================================== */
+
+/* --------------------------------- Scroll -------------------------------- */
+.scroll-fino::-webkit-scrollbar { width: 8px; height: 8px; }
+.scroll-fino::-webkit-scrollbar-track { background: transparent; }
+.scroll-fino::-webkit-scrollbar-thumb {
+  background: rgb(var(--sc-aco-300)); border-radius: var(--radius-full);
+}
+.scroll-fino::-webkit-scrollbar-thumb:hover { background: rgb(var(--sc-aco-400)); }
+.scroll-fino { scrollbar-width: thin; scrollbar-color: rgb(var(--sc-aco-300)) transparent; }
+
+/* -------------------------------- Dropzone ------------------------------- */
+.dropzone {
+  border: 2px dashed rgb(var(--sc-aco-300));
+  border-radius: var(--radius-md);
+  transition: border-color var(--motion-duration-normal) var(--motion-easing-standard),
+              background-color var(--motion-duration-normal) var(--motion-easing-standard);
+  background: rgb(var(--sc-branco));
+}
+.dropzone:hover { border-color: rgb(var(--sc-navy-300)); }
+.dropzone.arrastando { border-color: rgb(var(--sc-navy-500)); background: rgb(var(--sc-navy-50)); }
+/* Arquivo já carregado é confirmação de estado — success, não CTA. */
+.dropzone.carregado {
+  border-style: solid; border-color: rgb(var(--sc-sucesso));
+  background: rgb(var(--sc-sucesso) / .06);
+}
+
+/* ------------------------------- Severidade ------------------------------ */
+/* Status usa os roles próprios do DS (erro/atenção/pendente) — nunca lime. */
+.sev-critica {
+  --sev-bg: rgb(var(--sc-erro) / .08);
+  --sev-borda: rgb(var(--sc-erro) / .45);
+  --sev-texto: rgb(var(--sc-erro));
+}
+.sev-alta {
+  --sev-bg: rgb(var(--sc-atencao) / .10);
+  --sev-borda: rgb(var(--sc-atencao) / .50);
+  --sev-texto: #B45309; /* sancon-gap: sem token para âmbar escuro legível em texto */
+}
+.sev-media {
+  --sev-bg: rgb(var(--sc-atencao) / .06);
+  --sev-borda: rgb(var(--sc-atencao) / .30);
+  --sev-texto: #92700E; /* sancon-gap: idem, tom de texto sobre âmbar claro */
+}
+.sev-baixa {
+  --sev-bg: rgb(var(--sc-aco-50));
+  --sev-borda: rgb(var(--sc-aco-300));
+  --sev-texto: rgb(var(--sc-aco-600));
+}
+
+.chip-sev {
+  background: var(--sev-bg);
+  border: 1px solid var(--sev-borda);
+  color: var(--sev-texto);
+  border-radius: var(--radius-full);
+}
+.card-divergencia { border-left: 3px solid var(--sev-borda); }
+
+/* -------------------------------- Markdown ------------------------------- */
+.md {
+  font-size: .875rem; line-height: 1.65;
+  color: rgb(var(--sc-aco-900)); word-break: break-word;
+}
+.md > *:first-child { margin-top: 0; }
+.md > *:last-child  { margin-bottom: 0; }
+.md h1, .md h2, .md h3, .md h4 {
+  font-weight: 700; color: rgb(var(--sc-navy-700)); line-height: 1.3;
+  margin-top: 1.1em; margin-bottom: .45em;
+}
+.md h1 { font-size: 1.15rem; }
+.md h2 { font-size: 1.05rem; }
+.md h3 { font-size: .95rem; }
+.md h4 { font-size: .875rem; }
+.md p { margin: .55em 0; }
+.md ul, .md ol { margin: .55em 0; padding-left: 1.35em; }
+.md ul { list-style: disc; }
+.md ol { list-style: decimal; }
+.md li { margin: .2em 0; }
+.md a {
+  color: rgb(var(--sc-navy-500));
+  text-decoration: underline; text-underline-offset: 2px;
+}
+.md strong { font-weight: 600; color: rgb(var(--sc-aco-900)); }
+.md code {
+  font-family: var(--font-mono);
+  font-size: .8em;
+  background: rgb(var(--sc-navy-50));
+  border: 1px solid rgb(var(--sc-navy-100));
+  border-radius: var(--radius-sm); padding: .08em .34em;
+  color: rgb(var(--sc-navy-700));
+}
+.md pre {
+  background: rgb(var(--sc-navy-800)); color: rgb(var(--sc-aco-100));
+  border-radius: var(--radius-default);
+  padding: .8rem 1rem; overflow-x: auto; margin: .7em 0; font-size: .8rem;
+}
+.md pre code { background: transparent; border: 0; color: inherit; padding: 0; }
+.md blockquote {
+  border-left: 3px solid rgb(var(--sc-navy-300));
+  background: rgb(var(--sc-navy-50));
+  padding: .5em .9em; margin: .7em 0;
+  border-radius: 0 var(--radius-default) var(--radius-default) 0;
+  color: rgb(var(--sc-navy-700));
+}
+.md hr { border: 0; border-top: 1px solid rgb(var(--sc-aco-200)); margin: 1em 0; }
+
+/* Print da tela do ERP vindo da documentação. Fica contido — o chat é uma
+   coluna estreita e uma captura em tamanho original empurraria todo o resto.
+   Clicar amplia no lightbox (#modal-print), onde dá para ler os campos. */
+.md .bloco-print { display: block; margin: .7em 0; text-decoration: none; cursor: zoom-in; }
+.md .bloco-print img {
+  display: block; max-width: 100%; max-height: 320px; width: auto;
+  border: 1px solid rgb(var(--sc-aco-200));
+  border-radius: var(--radius-default);
+  background: rgb(var(--sc-aco-50));
+}
+.md .bloco-print:hover img { border-color: rgb(var(--sc-navy-400)); }
+/* Imagem que não carregar (anexo removido do portal) não deixa ícone quebrado. */
+.md .bloco-print img:not([src]), .md .bloco-print img[src=""] { display: none; }
+.md table {
+  width: 100%; border-collapse: collapse; margin: .7em 0; font-size: .8rem;
+  display: block; overflow-x: auto;
+}
+.md th, .md td { border: 1px solid rgb(var(--sc-aco-200)); padding: .4em .6em; text-align: left; }
+/* Header de tabela é surface-navy-pale no DS. */
+.md th { background: rgb(var(--sc-navy-50)); font-weight: 700; color: rgb(var(--sc-navy-700)); }
+.md tbody tr:hover { background: rgb(var(--sc-acao-pale) / .5); }
+
+/* ---------------------------- Divisória do painel ------------------------ */
+/* A faixa tem 7px para ser clicável, mas só a linha central é pintada — o que
+   se vê é a mesma borda de antes. */
+.divisor-painel {
+  position: relative;
+  cursor: col-resize;
+  background: rgb(var(--sc-aco-200));
+  background-clip: content-box;
+  border-left: 3px solid rgb(var(--sc-branco));
+  border-right: 3px solid rgb(var(--sc-aco-50));
+  transition: background-color var(--motion-duration-normal) var(--motion-easing-standard);
+}
+.divisor-painel:hover,
+.divisor-painel:focus-visible,
+.divisor-painel.arrastando { background: rgb(var(--sc-navy-400)); outline: none; }
+
+/* Enquanto arrasta, o cursor não pode virar "texto" ao passar sobre o conteúdo
+   e nada pode ser selecionado — senão a página inteira fica azul de seleção. */
+body.redimensionando { cursor: col-resize; user-select: none; }
+body.redimensionando iframe { pointer-events: none; }
+
+/* ------------------------------- Lightbox -------------------------------- */
+/* A imagem ampliada usa a área toda que sobra da legenda, sem estourar a
+   viewport. `object-fit: contain` preserva a proporção do print. */
+.imagem-lightbox {
+  display: block; margin: 0 auto;
+  max-width: 100%; max-height: calc(100vh - 6rem);
+  object-fit: contain;
+  border-radius: var(--radius-default);
+  background: rgb(var(--sc-branco));
+  box-shadow: var(--shadow-modal);
+  cursor: zoom-out;
+}
+
+/* --------------------------- Feedback da resposta ------------------------- */
+/* Vive FORA de .corpo-resposta: o corpo é reescrito a cada token do streaming
+   e levaria junto qualquer botão. */
+.btn-feedback {
+  display: inline-flex; align-items: center; gap: .25rem;
+  border: 1px solid rgb(var(--sc-aco-200));
+  border-radius: var(--radius-full);
+  background: rgb(var(--sc-branco)); color: rgb(var(--sc-aco-600));
+  padding: .1rem .45rem; font-size: 11px; line-height: 1.5;
+  cursor: pointer;
+  transition: background-color var(--motion-duration-normal) var(--motion-easing-standard),
+              border-color var(--motion-duration-normal) var(--motion-easing-standard),
+              color var(--motion-duration-normal) var(--motion-easing-standard);
+}
+.btn-feedback:hover { background: var(--state-hover-overlay); color: rgb(var(--sc-aco-900)); }
+.btn-feedback:focus-visible { outline: none; box-shadow: var(--state-focus-ring); }
+.btn-feedback.ativo-positivo {
+  border-color: rgb(var(--sc-sucesso) / .5);
+  background: rgb(var(--sc-sucesso) / .10);
+  color: rgb(var(--sc-sucesso));
+}
+.btn-feedback.ativo-negativo {
+  border-color: rgb(var(--sc-erro) / .45);
+  background: rgb(var(--sc-erro) / .08);
+  color: rgb(var(--sc-erro));
+}
+.btn-feedback[disabled] { opacity: var(--state-disabled-opacity); cursor: progress; }
+
+/* -------------------------- Indicador de digitação ----------------------- */
+.pontos span {
+  display: inline-block; width: 6px; height: 6px; margin-right: 3px;
+  border-radius: 50%; background: rgb(var(--sc-navy-500));
+  animation: pular 1.2s infinite ease-in-out;
+}
+.pontos span:nth-child(2) { animation-delay: .15s; }
+.pontos span:nth-child(3) { animation-delay: .3s; }
+@keyframes pular {
+  0%, 60%, 100% { transform: translateY(0);    opacity: .45; }
+  30%           { transform: translateY(-4px); opacity: 1;   }
+}
+
+/* ------------------------ Consultas do agente ---------------------------- */
+/* O ponto pulsa enquanto a consulta roda; ao fim do turno o JS o remove e a
+   pastilha vira o registro estático do que foi consultado. */
+.ponto-consulta { animation: pulsar-consulta 1.1s infinite ease-in-out; }
+@keyframes pulsar-consulta {
+  0%, 100% { opacity: .3;  transform: scale(.8); }
+  50%      { opacity: 1;   transform: scale(1);  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ponto-consulta { animation: none; opacity: .7; }
+}
+
+/* -------------------------------- Utilidades ----------------------------- */
+.cursor-digitando::after {
+  content: '▌'; color: rgb(var(--sc-navy-500));
+  animation: piscar 1s step-end infinite;
+}
+@keyframes piscar { 50% { opacity: 0; } }
+
+.aparecer { animation: aparecer var(--motion-duration-normal) var(--motion-easing-standard); }
+@keyframes aparecer { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }

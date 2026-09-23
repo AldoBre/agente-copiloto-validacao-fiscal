@@ -1,0 +1,55 @@
+{
+  "fonte": {
+    "pagina": "F019TST - Cadastros - Substituição de ICMS",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tst.htm",
+    "trilha": "Ajuda por telas > Cadastros > Mercado e Suprimentos > Parâmetros Fiscais > Substituições Impostos/Modalidade Base Cálculo/Antecipação"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F019TST - Cadastros - Substituição de ICMS",
+      "slug": "f019tst-cadastros-substituicao-de-icms",
+      "arquivo": "01-f019tst-cadastros-substituicao-de-icms.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tst.htm",
+      "subtopicos": [],
+      "telas": [
+        "F019TIS",
+        "F019TST"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "antecipação de ICMS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#icms-antecipacao"
+        },
+        {
+          "texto": "F019TIS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm"
+        }
+      ],
+      "caracteres": 1148
+    }
+  ],
+  "indice_telas": {
+    "F019TIS": [
+      "f019tst-cadastros-substituicao-de-icms"
+    ],
+    "F019TST": [
+      "f019tst-cadastros-substituicao-de-icms"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#icms-antecipacao",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm"
+  ]
+}

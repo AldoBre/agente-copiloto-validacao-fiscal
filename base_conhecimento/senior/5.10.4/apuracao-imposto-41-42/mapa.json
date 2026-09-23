@@ -1,0 +1,92 @@
+{
+  "fonte": {
+    "pagina": "Apuração dos impostos dos tipos 41 e 42",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/lucro-real/apuracao-imposto-41-42.htm",
+    "trilha": "Segmentos > Compliance > Escriturações Fiscais Digitais (SPED) > SPED Contribuições > Pessoa Jurídica Tributada pelo Lucro Real"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Apuração dos impostos dos tipos 41 e 42",
+      "slug": "apuracao-dos-impostos-dos-tipos-41-e-42",
+      "arquivo": "01-apuracao-dos-impostos-dos-tipos-41-e-42.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/lucro-real/apuracao-imposto-41-42.htm",
+      "subtopicos": [],
+      "telas": [
+        "E070IMP",
+        "E661UCR",
+        "F661CAD",
+        "F661PAI",
+        "F661UCR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Escriturações Fiscais Digitais (SPED)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/compliance.htm"
+        },
+        {
+          "texto": "SPED Contribuições",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669spc.htm"
+        },
+        {
+          "texto": "Pessoa Jurídica Tributada pelo Lucro Real",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/lucro-real/conceitual-de-negocio.htm"
+        },
+        {
+          "texto": "Apuração do Faturamento por Regime Tributário (H)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/lucro-real/faturamento-regime-tributario.htm"
+        },
+        {
+          "texto": "Parametrizações para geração da EFD Contribuições (Lucro Real)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/lucro-real/parametrizacoes.htm"
+        },
+        {
+          "texto": "F661PAI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm"
+        },
+        {
+          "texto": "Crédito Apropriação Direta (F661CAD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661cad.htm"
+        },
+        {
+          "texto": "Método Utilização/Retenções/Creditos (F661UCR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ucr.htm"
+        }
+      ],
+      "caracteres": 4148
+    }
+  ],
+  "indice_telas": {
+    "E070IMP": [
+      "apuracao-dos-impostos-dos-tipos-41-e-42"
+    ],
+    "E661UCR": [
+      "apuracao-dos-impostos-dos-tipos-41-e-42"
+    ],
+    "F661CAD": [
+      "apuracao-dos-impostos-dos-tipos-41-e-42"
+    ],
+    "F661PAI": [
+      "apuracao-dos-impostos-dos-tipos-41-e-42"
+    ],
+    "F661UCR": [
+      "apuracao-dos-impostos-dos-tipos-41-e-42"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ucr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669spc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/compliance.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/lucro-real/conceitual-de-negocio.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/lucro-real/faturamento-regime-tributario.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/lucro-real/parametrizacoes.htm"
+  ]
+}

@@ -1,0 +1,577 @@
+{
+  "fonte": {
+    "pagina": "PIS/COFINS",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+    "trilha": "Segmentos > Compliance > Configurações para cálculos fiscais > Impostos"
+  },
+  "total_topicos": 17,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Cadastro do imposto PIS/COFINS",
+      "slug": "cadastro-do-imposto-pis-cofins",
+      "arquivo": "01-cadastro-do-imposto-pis-cofins.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [
+        "F051IMP"
+      ],
+      "caminhos_menu": [
+        "* Cadastros > Controladoria > Tributos > Cadastro (F051IMP)"
+      ],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051imp.htm"
+        }
+      ],
+      "caracteres": 190
+    },
+    {
+      "ordem": 2,
+      "titulo": "Cadastro da alíquota para os impostos",
+      "slug": "cadastro-da-aliquota-para-os-impostos",
+      "arquivo": "02-cadastro-da-aliquota-para-os-impostos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [
+        "F001TCP",
+        "F001TVE",
+        "F049TTR",
+        "F055PPF",
+        "F075PRO",
+        "F080SER",
+        "F085CAD",
+        "F095CAD",
+        "F403FPR"
+      ],
+      "caminhos_menu": [
+        "* Cadastros > Clientes e Fornecedores > Clientes > Cadastro (F085CAD)",
+        "* Cadastros > Clientes e Fornecedores > Fornecedores > Cadastro (F095CAD)",
+        "* Cadastros > Clientes e Fornecedores > Fornecedores > Ligações > Fornecedor X Produtos > Individual (F403FPR)",
+        "* Cadastros > Controladoria > Tributos > Base imposto (Liga Filial) (F055PPF)",
+        "* Cadastros > Controladoria > Tributos > Tabelas de tributação (F049TTR)",
+        "* Cadastros > Produtos e Serviços > Produtos > Individual (F075PRO)",
+        "* Cadastros > Produtos e Serviços > Serviços > Individual (F080SER)",
+        "* Cadastros > Transações > Parâmetros por Gestão > Compras > Ordem Compra > NF Entrada > Fatura (F001TCP)",
+        "* Cadastros > Transações > Parâmetros por Gestão > Vendas (F001TVE)"
+      ],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Tabelas de tributação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f049ttr.htm"
+        },
+        {
+          "texto": "Base imposto (Liga Filial)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm"
+        },
+        {
+          "texto": "Vendas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "Fatura",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        },
+        {
+          "texto": "Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "Individual",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "Individual",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080ser.htm"
+        },
+        {
+          "texto": "Individual",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm"
+        }
+      ],
+      "caracteres": 2189
+    },
+    {
+      "ordem": 3,
+      "titulo": "Definição do regime tributário para cálculo dos impostos",
+      "slug": "definicao-do-regime-tributario-para-calculo-dos-impostos",
+      "arquivo": "03-definicao-do-regime-tributario-para-calculo-dos-impostos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [
+        "F075PRO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Individual (F075PRO)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "Integração dos movimentos de variação cambial para apurar o PIS e a COFINS no regime Cumulativo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660ifi.htm#variacao-cambial-pis-cofins"
+        }
+      ],
+      "caracteres": 332
+    },
+    {
+      "ordem": 4,
+      "titulo": "Identificadores para manipulação do PIS/COFINS",
+      "slug": "identificadores-para-manipulacao-do-pis-cofins",
+      "arquivo": "04-identificadores-para-manipulacao-do-pis-cofins.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-000ALCOF01",
+        "COM-000ALPIS01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "COM-000ALCOF01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alcof01.htm"
+        },
+        {
+          "texto": "COM-000ALPIS01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alpis01.htm"
+        }
+      ],
+      "caracteres": 33
+    },
+    {
+      "ordem": 5,
+      "titulo": "Sugestão da situação tributária",
+      "slug": "sugestao-da-situacao-tributaria",
+      "arquivo": "05-sugestao-da-situacao-tributaria.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-000ALSTR03",
+        "COM-000ALSTR04",
+        "CPR-440GERCS01"
+      ],
+      "campos_xml_citados": [
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "COM-000ALSTR03",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr03.htm"
+        },
+        {
+          "texto": "COM-000ALSTR04",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr04.htm"
+        },
+        {
+          "texto": "CPR-440GERCS01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440gercs01.htm"
+        }
+      ],
+      "caracteres": 1028
+    },
+    {
+      "ordem": 6,
+      "titulo": "Situação tributária x cálculo do imposto",
+      "slug": "situacao-tributaria-x-calculo-do-imposto",
+      "arquivo": "06-situacao-tributaria-x-calculo-do-imposto.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [
+        "F001TCP",
+        "F049TTR",
+        "F075PRO",
+        "F095CAD"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST"
+      ],
+      "links_documentacao": [],
+      "caracteres": 642
+    },
+    {
+      "ordem": 7,
+      "titulo": "Controle único de retenção para os regimes de tributação cumulativo e não cumulativo",
+      "slug": "controle-unico-de-retencao-para-os-regimes-de-tributacao-cum",
+      "arquivo": "07-controle-unico-de-retencao-para-os-regimes-de-tributacao-cum.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [
+        "E070IMP",
+        "F070FEF",
+        "F661PAI",
+        "F661REP",
+        "F661UCR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Método de Utilização Retenções/Créditos (F661UCR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ucr.htm"
+        },
+        {
+          "texto": "Controle de Retenções PIS/COFINS (F661REP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661rep.htm"
+        },
+        {
+          "texto": "Apuração dos Impostos (F661PAI)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm"
+        },
+        {
+          "texto": "Resumo de Apuração do Imposto (F661I12)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm"
+        },
+        {
+          "texto": "F070FEF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm"
+        }
+      ],
+      "caracteres": 2831
+    },
+    {
+      "ordem": 8,
+      "titulo": "Cálculo do PIS/COFINS (Lucro Real)",
+      "slug": "calculo-do-pis-cofins-lucro-real",
+      "arquivo": "08-calculo-do-pis-cofins-lucro-real.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Apuração dos impostos dos tipos 41 e 42",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/lucro-real/apuracao-imposto-41-42.htm"
+        }
+      ],
+      "caracteres": 41
+    },
+    {
+      "ordem": 9,
+      "titulo": "Cálculo do PIS/COFINS nas notas de devolução",
+      "slug": "calculo-do-pis-cofins-nas-notas-de-devolucao",
+      "arquivo": "09-calculo-do-pis-cofins-nas-notas-de-devolucao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-000ALPIS01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "COM-000ALPIS01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alpis01.htm"
+        }
+      ],
+      "caracteres": 1268
+    },
+    {
+      "ordem": 10,
+      "titulo": "Cálculo do PIS/COFINS por quantidade",
+      "slug": "calculo-do-pis-cofins-por-quantidade",
+      "arquivo": "10-calculo-do-pis-cofins-por-quantidade.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [
+        "F022CLF",
+        "F075PRO",
+        "F081TPA"
+      ],
+      "caminhos_menu": [
+        "* Cadastros > Mercado e Suprimentos > Tabelas de Preço > Cadastro (F081TPA)"
+      ],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro (F081TPA)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081tpa.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F022CLF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f022clf.htm"
+        }
+      ],
+      "caracteres": 1933
+    },
+    {
+      "ordem": 11,
+      "titulo": "Valor Limite Isenção na classificação fiscal",
+      "slug": "valor-limite-isencao-na-classificacao-fiscal",
+      "arquivo": "11-valor-limite-isencao-na-classificacao-fiscal.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 262
+    },
+    {
+      "ordem": 12,
+      "titulo": "Inclusão de itens em notas fiscais sem código de serviço/produto",
+      "slug": "inclusao-de-itens-em-notas-fiscais-sem-codigo-de-servico-pro",
+      "arquivo": "12-inclusao-de-itens-em-notas-fiscais-sem-codigo-de-servico-pro.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 195
+    },
+    {
+      "ordem": 13,
+      "titulo": "Tabela E049TTR",
+      "slug": "tabela-e049ttr",
+      "arquivo": "13-tabela-e049ttr.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [
+        "E049TTR",
+        "F049TTR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 604
+    },
+    {
+      "ordem": 14,
+      "titulo": "Apuração automática de PIS/COFINS",
+      "slug": "apuracao-automatica-de-pis-cofins",
+      "arquivo": "14-apuracao-automatica-de-pis-cofins.md",
+      "ancora": "apuracao-pis-cofins",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm#apuracao-pis-cofins",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Processo automático 131 - Apuração de PIS/COFINS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/131-apuracao-pis-cofins.htm"
+        },
+        {
+          "texto": "Web service com.senior.g5.co.mct.imp.exclusaocalculo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mct_imp_exclusaocalculo.htm"
+        },
+        {
+          "texto": "Função de programador ExcluirCalculoPISCOFINS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/regra_funcoes/excluir-calculo-pis-cofins.htm"
+        }
+      ],
+      "caracteres": 387
+    },
+    {
+      "ordem": 15,
+      "titulo": "Cálculo de IRRF/PIS/COFINS - Fornecedor Exterior",
+      "slug": "calculo-de-irrf-pis-cofins-fornecedor-exterior",
+      "arquivo": "15-calculo-de-irrf-pis-cofins-fornecedor-exterior.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/regime-calculo-irrf-pis-cofins-iss-fe.htm"
+        }
+      ],
+      "caracteres": 162
+    },
+    {
+      "ordem": 16,
+      "titulo": "Descontar PIS/COFINS do valor da base de ICMS ST",
+      "slug": "descontar-pis-cofins-do-valor-da-base-de-icms-st",
+      "arquivo": "16-descontar-pis-cofins-do-valor-da-base-de-icms-st.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [
+        "F019TIS"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F019TIS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm"
+        }
+      ],
+      "caracteres": 330
+    },
+    {
+      "ordem": 17,
+      "titulo": "PIS e COFINS Importação",
+      "slug": "pis-e-cofins-importacao",
+      "arquivo": "17-pis-e-cofins-importacao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_pis_cofins.htm",
+      "subtopicos": [],
+      "telas": [
+        "F001TCP",
+        "F022CLF",
+        "F075PRO",
+        "F095CAD",
+        "F403FPR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 4538
+    }
+  ],
+  "indice_telas": {
+    "E049TTR": [
+      "tabela-e049ttr"
+    ],
+    "E070IMP": [
+      "controle-unico-de-retencao-para-os-regimes-de-tributacao-cum"
+    ],
+    "F001TCP": [
+      "cadastro-da-aliquota-para-os-impostos",
+      "pis-e-cofins-importacao",
+      "situacao-tributaria-x-calculo-do-imposto"
+    ],
+    "F001TVE": [
+      "cadastro-da-aliquota-para-os-impostos"
+    ],
+    "F019TIS": [
+      "descontar-pis-cofins-do-valor-da-base-de-icms-st"
+    ],
+    "F022CLF": [
+      "calculo-do-pis-cofins-por-quantidade",
+      "pis-e-cofins-importacao"
+    ],
+    "F049TTR": [
+      "cadastro-da-aliquota-para-os-impostos",
+      "situacao-tributaria-x-calculo-do-imposto",
+      "tabela-e049ttr"
+    ],
+    "F051IMP": [
+      "cadastro-do-imposto-pis-cofins"
+    ],
+    "F055PPF": [
+      "cadastro-da-aliquota-para-os-impostos"
+    ],
+    "F070FEF": [
+      "controle-unico-de-retencao-para-os-regimes-de-tributacao-cum"
+    ],
+    "F075PRO": [
+      "cadastro-da-aliquota-para-os-impostos",
+      "calculo-do-pis-cofins-por-quantidade",
+      "definicao-do-regime-tributario-para-calculo-dos-impostos",
+      "pis-e-cofins-importacao",
+      "situacao-tributaria-x-calculo-do-imposto"
+    ],
+    "F080SER": [
+      "cadastro-da-aliquota-para-os-impostos"
+    ],
+    "F081TPA": [
+      "calculo-do-pis-cofins-por-quantidade"
+    ],
+    "F085CAD": [
+      "cadastro-da-aliquota-para-os-impostos"
+    ],
+    "F095CAD": [
+      "cadastro-da-aliquota-para-os-impostos",
+      "pis-e-cofins-importacao",
+      "situacao-tributaria-x-calculo-do-imposto"
+    ],
+    "F403FPR": [
+      "cadastro-da-aliquota-para-os-impostos",
+      "pis-e-cofins-importacao"
+    ],
+    "F661PAI": [
+      "controle-unico-de-retencao-para-os-regimes-de-tributacao-cum"
+    ],
+    "F661REP": [
+      "controle-unico-de-retencao-para-os-regimes-de-tributacao-cum"
+    ],
+    "F661UCR": [
+      "controle-unico-de-retencao-para-os-regimes-de-tributacao-cum"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/regime-calculo-irrf-pis-cofins-iss-fe.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alcof01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alpis01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr03.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr04.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440gercs01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f022clf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f049ttr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051imp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080ser.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081tpa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660ifi.htm#variacao-cambial-pis-cofins",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661rep.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ucr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/lucro-real/apuracao-imposto-41-42.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/131-apuracao-pis-cofins.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/regra_funcoes/excluir-calculo-pis-cofins.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mct_imp_exclusaocalculo.htm"
+  ]
+}

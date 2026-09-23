@@ -1,0 +1,386 @@
+{
+  "fonte": {
+    "pagina": "F070FEF - Parâmetros da Filial para Tributos",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm",
+    "trilha": "Ajuda por telas > Cadastros > Filiais > Parâmetros por Gestão"
+  },
+  "total_topicos": 5,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Impostos 1",
+      "slug": "impostos-1",
+      "arquivo": "01-impostos-1.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm",
+      "subtopicos": [],
+      "telas": [
+        "F070EMP",
+        "F660INT"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F660INT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660int.htm"
+        },
+        {
+          "texto": "Variáveis disponíveis para utilização na regra",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/variaveis-regra_integracao.htm"
+        },
+        {
+          "texto": "F070EMP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+        }
+      ],
+      "caracteres": 2232
+    },
+    {
+      "ordem": 2,
+      "titulo": "Impostos 2",
+      "slug": "impostos-2",
+      "arquivo": "02-impostos-2.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm",
+      "subtopicos": [
+        "Opções",
+        "Exemplo",
+        "Exemplo",
+        "Exemplo"
+      ],
+      "telas": [
+        "E070FEF",
+        "E140IDE",
+        "E661UCR",
+        "E900SOP",
+        "F001TIT",
+        "F049DEC",
+        "F049TTR",
+        "F051DIS",
+        "F055PPF",
+        "F055TPR",
+        "F070AFI",
+        "F070EMP",
+        "F070FCA",
+        "F445PRC",
+        "F660CCI",
+        "F660CMO",
+        "F660INF",
+        "F660INT",
+        "F660ISP",
+        "F660NCI",
+        "F661RST",
+        "F661UCR",
+        "F669SPC",
+        "F690ILA"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "Exemplo do \r\ntratamento das notas fiscais de serviços (Entrada e Saídas) no sistema.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/exemplo_tratamento_de_servicos_nos_livros.htm"
+        },
+        {
+          "texto": "crédito do imposto",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/patrimonio/calculo-credito.htm"
+        },
+        {
+          "texto": "F661I18",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i18.htm"
+        },
+        {
+          "texto": "F660INF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660inf.htm"
+        },
+        {
+          "texto": "F049TTR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f049ttr.htm"
+        },
+        {
+          "texto": "Bloco F",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/bloco-f.htm"
+        },
+        {
+          "texto": "Funcionalidade do campo Agrupamento de filiais para a geração do SPED Contribuições.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/agrupamento-filial.htm"
+        },
+        {
+          "texto": "F660NCI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660nci.htm"
+        },
+        {
+          "texto": "F661UCR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ucr.htm"
+        },
+        {
+          "texto": "F660CCI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660cci.htm"
+        },
+        {
+          "texto": "F445PRC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f445prc.htm"
+        },
+        {
+          "texto": "F051DIS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm"
+        },
+        {
+          "texto": "F669SPC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669spc.htm"
+        },
+        {
+          "texto": "F049DEC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f049dec.htm"
+        },
+        {
+          "texto": "F661I12",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm"
+        },
+        {
+          "texto": "F055TPR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055tpr.htm"
+        },
+        {
+          "texto": "SPED ECF",
+          "url": "http://sped.rfb.gov.br/pasta/show/1644"
+        },
+        {
+          "texto": "Cadastro de Empresas (F070EMP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+        },
+        {
+          "texto": "F660INT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660int.htm"
+        },
+        {
+          "texto": "F660CMO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660cmo.htm"
+        },
+        {
+          "texto": "confira a documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-bloco-k.htm#retorno-bloco-k"
+        },
+        {
+          "texto": "F660ISP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660isp.htm"
+        },
+        {
+          "texto": "confira a documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660isp-remessa-retorno.htm"
+        },
+        {
+          "texto": "Veja o impacto na apuração dos impostos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm#considerar-estorno"
+        },
+        {
+          "texto": "Configuração da filial de Sociedade em Conta de Participação (SCP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/parametrizacoes-fiscal-contribuicoes-sef.htm#scp"
+        },
+        {
+          "texto": "C112",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/bloco-c.htm#C112"
+        },
+        {
+          "texto": "Configuração de Impostos para a Filial (F055PPF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm"
+        },
+        {
+          "texto": "Impostos: Programas de incentivo ao algodão na Bahia",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/impostos/algodao_bahia.htm"
+        },
+        {
+          "texto": "EFD-Reinf - Integração (F690ILA)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f690ila.htm"
+        },
+        {
+          "texto": "F001TIT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tit.htm"
+        }
+      ],
+      "caracteres": 43400
+    },
+    {
+      "ordem": 3,
+      "titulo": "Impostos 3",
+      "slug": "impostos-3",
+      "arquivo": "03-impostos-3.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 84
+    },
+    {
+      "ordem": 4,
+      "titulo": "Auditoria",
+      "slug": "auditoria",
+      "arquivo": "04-auditoria.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Senior Store",
+          "url": "http://store.senior.com.br/"
+        }
+      ],
+      "caracteres": 616
+    },
+    {
+      "ordem": 5,
+      "titulo": "Reforma Tributária",
+      "slug": "reforma-tributaria",
+      "arquivo": "05-reforma-tributaria.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm",
+      "subtopicos": [],
+      "telas": [
+        "F027LSF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/reforma-tributaria/parametrizacao-reforma-tributaria.htm"
+        },
+        {
+          "texto": "F027LSF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027lsf.htm"
+        }
+      ],
+      "caracteres": 1085
+    }
+  ],
+  "indice_telas": {
+    "E070FEF": [
+      "impostos-2"
+    ],
+    "E140IDE": [
+      "impostos-2"
+    ],
+    "E661UCR": [
+      "impostos-2"
+    ],
+    "E900SOP": [
+      "impostos-2"
+    ],
+    "F001TIT": [
+      "impostos-2"
+    ],
+    "F027LSF": [
+      "reforma-tributaria"
+    ],
+    "F049DEC": [
+      "impostos-2"
+    ],
+    "F049TTR": [
+      "impostos-2"
+    ],
+    "F051DIS": [
+      "impostos-2"
+    ],
+    "F055PPF": [
+      "impostos-2"
+    ],
+    "F055TPR": [
+      "impostos-2"
+    ],
+    "F070AFI": [
+      "impostos-2"
+    ],
+    "F070EMP": [
+      "impostos-1",
+      "impostos-2"
+    ],
+    "F070FCA": [
+      "impostos-2"
+    ],
+    "F445PRC": [
+      "impostos-2"
+    ],
+    "F660CCI": [
+      "impostos-2"
+    ],
+    "F660CMO": [
+      "impostos-2"
+    ],
+    "F660INF": [
+      "impostos-2"
+    ],
+    "F660INT": [
+      "impostos-1",
+      "impostos-2"
+    ],
+    "F660ISP": [
+      "impostos-2"
+    ],
+    "F660NCI": [
+      "impostos-2"
+    ],
+    "F661RST": [
+      "impostos-2"
+    ],
+    "F661UCR": [
+      "impostos-2"
+    ],
+    "F669SPC": [
+      "impostos-2"
+    ],
+    "F690ILA": [
+      "impostos-2"
+    ]
+  },
+  "paginas_relacionadas": [
+    "http://sped.rfb.gov.br/pasta/show/1644",
+    "http://store.senior.com.br/",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/exemplo_tratamento_de_servicos_nos_livros.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/impostos/algodao_bahia.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tit.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027lsf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f049dec.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f049ttr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055tpr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660cci.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660cmo.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660inf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660int.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660isp-remessa-retorno.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660isp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660nci.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm#considerar-estorno",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i18.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ucr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669spc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f690ila.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/patrimonio/calculo-credito.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-bloco-k.htm#retorno-bloco-k",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/agrupamento-filial.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/bloco-f.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/bloco-c.htm#C112",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/parametrizacoes-fiscal-contribuicoes-sef.htm#scp",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/variaveis-regra_integracao.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f445prc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/reforma-tributaria/parametrizacao-reforma-tributaria.htm"
+  ]
+}

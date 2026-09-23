@@ -1,0 +1,34 @@
+{
+  "fonte": {
+    "pagina": "F140CNF - Cálculos da Nota Fiscal de Saída",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140cnf.htm",
+    "trilha": ""
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F140CNF - Cálculos da Nota Fiscal de Saída",
+      "slug": "f140cnf-calculos-da-nota-fiscal-de-saida",
+      "arquivo": "01-f140cnf-calculos-da-nota-fiscal-de-saida.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140cnf.htm",
+      "subtopicos": [],
+      "telas": [
+        "F140CNF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 293
+    }
+  ],
+  "indice_telas": {
+    "F140CNF": [
+      "f140cnf-calculos-da-nota-fiscal-de-saida"
+    ]
+  },
+  "paginas_relacionadas": []
+}

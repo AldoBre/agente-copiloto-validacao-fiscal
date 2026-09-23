@@ -1,0 +1,220 @@
+{
+  "fonte": {
+    "pagina": "Processo para Controle de Entrada e Saída de Produtos (PEPS/FIFO)",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-controle-entrada-saida-produto.htm",
+    "trilha": "Segmentos > Compliance"
+  },
+  "total_topicos": 7,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Habilitar controle",
+      "slug": "habilitar-controle",
+      "arquivo": "01-habilitar-controle.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-controle-entrada-saida-produto.htm",
+      "subtopicos": [],
+      "telas": [
+        "F070EMP"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro de Empresas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+        }
+      ],
+      "caracteres": 355
+    },
+    {
+      "ordem": 2,
+      "titulo": "Configurar produtos",
+      "slug": "configurar-produtos",
+      "arquivo": "02-configurar-produtos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-controle-entrada-saida-produto.htm",
+      "subtopicos": [
+        "Exemplo:"
+      ],
+      "telas": [
+        "F075PFF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F075PFF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pff.htm"
+        }
+      ],
+      "caracteres": 457
+    },
+    {
+      "ordem": 3,
+      "titulo": "Inicializar campos do Controle de Entrada e Saída (PEPS) (F660GDG)",
+      "slug": "inicializar-campos-do-controle-de-entrada-e-saida-peps-f660g",
+      "arquivo": "03-inicializar-campos-do-controle-de-entrada-e-saida-peps-f660g.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-controle-entrada-saida-produto.htm",
+      "subtopicos": [],
+      "telas": [
+        "F075CEP",
+        "F660GDG"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CFOP",
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F075CEP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cep.htm"
+        }
+      ],
+      "caracteres": 1377
+    },
+    {
+      "ordem": 4,
+      "titulo": "Identificar compra ou venda em movimentação do controle de entrada e saída",
+      "slug": "identificar-compra-ou-venda-em-movimentacao-do-controle-de-e",
+      "arquivo": "04-identificar-compra-ou-venda-em-movimentacao-do-controle-de-e.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-controle-entrada-saida-produto.htm",
+      "subtopicos": [],
+      "telas": [
+        "F001TCP",
+        "F001TDC",
+        "F001TDV",
+        "F001TVE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 519
+    },
+    {
+      "ordem": 5,
+      "titulo": "Controlar produtos com ICMS ST entre filiais em estados diferentes",
+      "slug": "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife",
+      "arquivo": "05-controlar-produtos-com-icms-st-entre-filiais-em-estados-dife.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-controle-entrada-saida-produto.htm",
+      "subtopicos": [],
+      "telas": [
+        "F075APF",
+        "F075GFP",
+        "F075PFI",
+        "F075PRO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1518
+    },
+    {
+      "ordem": 6,
+      "titulo": "Controle de Entrada ao cadastrar um movimento manual de estoque pela tela F210MVP",
+      "slug": "controle-de-entrada-ao-cadastrar-um-movimento-manual-de-esto",
+      "arquivo": "06-controle-de-entrada-ao-cadastrar-um-movimento-manual-de-esto.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-controle-entrada-saida-produto.htm",
+      "subtopicos": [],
+      "telas": [
+        "F210MVP",
+        "F215FES",
+        "F440RCI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F440RCI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440rci.htm"
+        }
+      ],
+      "caracteres": 1742
+    },
+    {
+      "ordem": 7,
+      "titulo": "Exemplo:",
+      "slug": "exemplo",
+      "arquivo": "07-exemplo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-controle-entrada-saida-produto.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Manutenção de Controle de Entrada de Produtos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440rci.htm"
+        }
+      ],
+      "caracteres": 1427
+    }
+  ],
+  "indice_telas": {
+    "F001TCP": [
+      "identificar-compra-ou-venda-em-movimentacao-do-controle-de-e"
+    ],
+    "F001TDC": [
+      "identificar-compra-ou-venda-em-movimentacao-do-controle-de-e"
+    ],
+    "F001TDV": [
+      "identificar-compra-ou-venda-em-movimentacao-do-controle-de-e"
+    ],
+    "F001TVE": [
+      "identificar-compra-ou-venda-em-movimentacao-do-controle-de-e"
+    ],
+    "F070EMP": [
+      "habilitar-controle"
+    ],
+    "F075APF": [
+      "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife"
+    ],
+    "F075CEP": [
+      "inicializar-campos-do-controle-de-entrada-e-saida-peps-f660g"
+    ],
+    "F075GFP": [
+      "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife"
+    ],
+    "F075PFF": [
+      "configurar-produtos"
+    ],
+    "F075PFI": [
+      "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife"
+    ],
+    "F075PRO": [
+      "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife"
+    ],
+    "F210MVP": [
+      "controle-de-entrada-ao-cadastrar-um-movimento-manual-de-esto"
+    ],
+    "F215FES": [
+      "controle-de-entrada-ao-cadastrar-um-movimento-manual-de-esto"
+    ],
+    "F440RCI": [
+      "controle-de-entrada-ao-cadastrar-um-movimento-manual-de-esto"
+    ],
+    "F660GDG": [
+      "inicializar-campos-do-controle-de-entrada-e-saida-peps-f660g"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cep.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pff.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440rci.htm"
+  ]
+}

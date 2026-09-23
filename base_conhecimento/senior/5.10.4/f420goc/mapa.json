@@ -1,0 +1,71 @@
+{
+  "fonte": {
+    "pagina": "F420GOC - Ordem de Compra Agrupada",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm",
+    "trilha": "Ajuda por telas > Suprimentos > Gestão de Compras > Ordens de Compra"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Sobre a rotina de exclusão:",
+      "slug": "sobre-a-rotina-de-exclusao",
+      "arquivo": "01-sobre-a-rotina-de-exclusao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm",
+      "subtopicos": [
+        "1 - Primeiramente, a rotina de exclusão executará a consistência básica, aplicada à todas as Ordens de Compra, antes de proceder efetivamente com a exclusão:",
+        "2 - Após as consistências básicas já descritas acima, caso exista integração com o Aplicativo Gestor Senior:",
+        "3 - Se não existir integração com o Aplicativo Gestor Senior outras consistências serão executadas caso haja configuração de aprovação multinível para ordens de compra, conforme segue:"
+      ],
+      "telas": [
+        "E420OCP",
+        "F099UCA",
+        "F420GOC",
+        "F420OCB",
+        "F426CEQ"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F420OCB",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420ocb.htm"
+        },
+        {
+          "texto": "F426CEQ",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f426ceq.htm"
+        },
+        {
+          "texto": "F099UCA)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099uca.htm"
+        }
+      ],
+      "caracteres": 4346
+    }
+  ],
+  "indice_telas": {
+    "E420OCP": [
+      "sobre-a-rotina-de-exclusao"
+    ],
+    "F099UCA": [
+      "sobre-a-rotina-de-exclusao"
+    ],
+    "F420GOC": [
+      "sobre-a-rotina-de-exclusao"
+    ],
+    "F420OCB": [
+      "sobre-a-rotina-de-exclusao"
+    ],
+    "F426CEQ": [
+      "sobre-a-rotina-de-exclusao"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099uca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420ocb.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f426ceq.htm"
+  ]
+}

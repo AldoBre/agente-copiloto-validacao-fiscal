@@ -1,0 +1,461 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block titulo %}Agente Implantação - ERP{% endblock %}
+
+{% block conteudo %}
+<!-- A largura das colunas vem de --col-chat, ajustada arrastando o #divisor e
+     lembrada no localStorage. Em telas menores o grid vira uma coluna só e o
+     divisor some. -->
+<div id="area-painel" class="grid h-full grid-cols-1 lg:grid-cols-[var(--col-chat,42%)_7px_minmax(0,1fr)]">
+
+  <!-- =================================================================== -->
+  <!--  ESQUERDA — CHAT COM O AGENTE                                       -->
+  <!-- =================================================================== -->
+  <section class="flex min-h-0 flex-col bg-white">
+
+    <div class="flex flex-none items-center justify-between border-b border-aco-200 px-4 py-2.5">
+      <div class="flex items-center gap-2">
+        <span class="flex h-5 w-5 items-center justify-center rounded bg-navy-50 text-navy-600">
+          <svg class="h-3 w-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.9 9.9 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+          </svg>
+        </span>
+        <h2 class="text-sm font-semibold text-aco-900">Agente fiscal</h2>
+        <span id="badge-contexto"
+              class="hidden rounded-full bg-navy-50 px-2 py-0.5 text-[10px] font-medium text-navy-700"></span>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <button id="btn-historico" title="Conversas anteriores"
+                class="rounded-md border border-aco-200 p-1 text-aco-500 transition hover:bg-aco-100 hover:text-aco-700">
+          <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </button>
+        <button id="btn-nova-conversa" title="Nova conversa"
+                class="rounded-md border border-aco-200 p-1 text-aco-500 transition hover:bg-aco-100 hover:text-aco-700">
+          <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mensagens" class="scroll-fino min-h-0 flex-1 space-y-4 overflow-y-auto px-4 py-5">
+      <div id="estado-vazio-chat" class="mx-auto max-w-md pt-8 text-center">
+        <div class="mx-auto mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-navy-50">
+          <svg class="h-4 w-4 text-navy-500" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+          </svg>
+        </div>
+        <h3 class="text-sm font-semibold text-aco-900">O agente entra depois da análise</h3>
+        <p class="mt-1.5 text-xs leading-relaxed text-aco-500">
+          Envie os XMLs no painel à direita e rode a comparação. Assim que ela terminar,
+          o chat é liberado com o resultado já no contexto.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex-none border-t border-aco-200 bg-aco-50 px-4 py-3">
+      <div id="caixa-entrada"
+           class="flex items-end gap-2 rounded-lg border border-aco-200 bg-aco-100 p-2 opacity-60 transition
+                  focus-within:border-navy-400 focus-within:ring-1 focus-within:ring-navy-400">
+        <textarea id="entrada-mensagem" rows="1" disabled
+                  placeholder="Rode uma comparação para liberar o chat"
+                  class="scroll-fino max-h-40 min-h-[24px] flex-1 resize-none bg-transparent text-sm text-aco-800 placeholder-aco-400 focus:outline-none disabled:cursor-not-allowed"></textarea>
+        <button id="btn-enviar" disabled
+                class="flex h-7 w-7 flex-none items-center justify-center rounded-md bg-acao text-oliva transition hover:bg-acao-escuro disabled:cursor-not-allowed disabled:bg-aco-300">
+          <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 19V5m0 0l-7 7m7-7l7 7"/>
+          </svg>
+        </button>
+      </div>
+      <p id="dica-rodape" class="mt-1.5 text-[10px] text-aco-400">
+        O chat é liberado assim que a comparação terminar.
+      </p>
+    </div>
+  </section>
+
+  <!-- Divisória arrastável. `hidden lg:block` porque abaixo de lg o grid é de
+       uma coluna só e ela viraria uma faixa horizontal sem sentido. -->
+  <div id="divisor" role="separator" aria-orientation="vertical" tabindex="0"
+       title="Arraste para redimensionar (duplo clique restaura)"
+       class="divisor-painel hidden lg:block"></div>
+
+  <!-- =================================================================== -->
+  <!--  DIREITA — COMPARADOR                                               -->
+  <!-- =================================================================== -->
+  <section class="flex min-h-0 flex-col bg-aco-100">
+
+    <div class="flex flex-none items-center justify-between border-b border-aco-200 bg-white px-4">
+      <div class="flex gap-1">
+        <button class="aba-modo border-b-2 border-navy-500 px-3 py-2.5 text-sm font-medium text-navy-700" data-modo="massa">
+          Em massa
+        </button>
+        <button class="aba-modo border-b-2 border-transparent px-3 py-2.5 text-sm font-medium text-aco-500 hover:text-aco-700" data-modo="unico">
+          Nota a nota
+        </button>
+      </div>
+      <button id="btn-limpar-tudo"
+              class="rounded-md px-2.5 py-1 text-xs text-aco-500 transition hover:bg-aco-100 hover:text-aco-700">
+        Recomeçar
+      </button>
+    </div>
+
+    <div class="scroll-fino min-h-0 flex-1 overflow-y-auto p-4">
+
+      <!-- ================================================================= -->
+      <!--  MODO EM MASSA                                                    -->
+      <!-- ================================================================= -->
+      <div class="painel-modo" data-modo="massa">
+
+        <!-- ---------- ETAPA 1 — envio ---------- -->
+        <div id="etapa-envio">
+          <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <div class="dropzone p-4" data-alvo="lote-cliente">
+              <input type="file" accept=".zip,.xml" multiple class="hidden" id="input-lote-cliente">
+              <label for="input-lote-cliente" class="flex cursor-pointer flex-col items-center text-center">
+                <span class="mb-1 rounded-full bg-aco-100 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-aco-500">
+                  Sistema atual
+                </span>
+                <svg class="my-1.5 h-5 w-5 text-aco-400" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"/>
+                </svg>
+                <span class="text-xs font-medium text-aco-700">ZIP com os XMLs do cliente</span>
+                <span class="nome-arquivo mt-0.5 max-w-full truncate text-[11px] text-aco-400">
+                  .zip ou vários .xml
+                </span>
+              </label>
+            </div>
+
+            <div class="dropzone p-4" data-alvo="lote-senior">
+              <input type="file" accept=".zip,.xml" multiple class="hidden" id="input-lote-senior">
+              <label for="input-lote-senior" class="flex cursor-pointer flex-col items-center text-center">
+                <span class="mb-1 rounded-full bg-navy-50 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-navy-600">
+                  ERP Senior
+                </span>
+                <svg class="my-1.5 h-5 w-5 text-aco-400" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"/>
+                </svg>
+                <span class="text-xs font-medium text-aco-700">ZIP com os XMLs do Senior</span>
+                <span class="nome-arquivo mt-0.5 max-w-full truncate text-[11px] text-aco-400">
+                  .zip ou vários .xml
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <button id="btn-parear" disabled
+                  class="mt-3 w-full rounded-md bg-acao py-2.5 text-sm font-semibold text-oliva transition
+                         hover:bg-acao-escuro disabled:cursor-not-allowed disabled:bg-aco-300">
+            Analisar e parear as notas
+          </button>
+
+          <p class="mt-2 text-center text-[11px] text-aco-400">
+            O pareamento é por conteúdo fiscal (destinatário, valor, produtos, data) —
+            os nomes e números das notas são diferentes nos dois sistemas.
+          </p>
+        </div>
+
+        <!-- ---------- ETAPA 2 — pareamento ---------- -->
+        <div id="etapa-pareamento" class="hidden">
+          <div id="resumo-pareamento" class="grid grid-cols-2 gap-2 sm:grid-cols-4"></div>
+
+          <div id="alerta-confianca" class="mt-3 hidden rounded-lg border border-atencao/40 bg-atencao/10 p-3 text-[11px] text-aco-800"></div>
+
+          <label class="mt-3 flex items-start gap-2 rounded-md border border-aco-200 bg-aco-50 p-2.5">
+            <input type="checkbox" id="chk-itens-nao-simulados" checked
+                   class="mt-0.5 rounded border-aco-300 text-navy-500 focus:ring-navy-400">
+            <span class="text-[11px] leading-relaxed text-aco-600">
+              <strong class="text-aco-800">Apontar itens que o Senior não emitiu</strong><br>
+              Quando só parte dos itens foi simulada no Senior, os demais viram
+              divergência crítica e afogam os erros de parametrização. Desmarque
+              para olhar só o que você simulou.
+            </span>
+          </label>
+
+          <div class="mt-4 flex flex-wrap items-center gap-2">
+            <button id="btn-comparar-lote"
+                    class="rounded-md bg-acao px-4 py-2 text-sm font-semibold text-oliva transition hover:bg-acao-escuro">
+              Comparar
+            </button>
+            <button id="btn-ver-sem-par"
+                    class="rounded-md border border-aco-200 bg-white px-3 py-2 text-xs font-medium text-aco-600 transition hover:bg-aco-50">
+              Notas sem par (<span id="cnt-sem-par">0</span>)
+            </button>
+            <div class="ml-auto flex items-center gap-1.5">
+              <span class="text-[11px] text-aco-500">ordenar:</span>
+              <select id="ordem-pares" class="rounded-md border border-aco-200 px-2 py-1 text-[11px] focus:border-navy-400 focus:outline-none">
+                <option value="confianca">menor confiança primeiro</option>
+                <option value="arquivo">nome do arquivo</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- notas sem par -->
+          <div id="area-sem-par" class="mt-3 hidden rounded-lg border border-aco-200 bg-white p-3">
+            <h4 class="text-xs font-semibold text-aco-800">Vincular manualmente</h4>
+            <p class="mt-0.5 text-[11px] text-aco-500">
+              Escolha uma nota de cada lado e clique em vincular. Abra o XML pelo link
+              quando a identificação não bastar. Se não houver contraparte, deixe sem par —
+              ela ficará registrada como "operação não emitida".
+            </p>
+            <div class="mt-2 grid grid-cols-1 gap-2 sm:grid-cols-[1fr_auto_1fr]">
+              <div>
+                <div class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-aco-400">
+                  XML Original
+                </div>
+                <div id="sel-sem-par-cliente"
+                     class="max-h-64 space-y-1 overflow-y-auto rounded border border-aco-200 p-1"></div>
+              </div>
+              <div class="flex items-center justify-center">
+                <button id="btn-vincular"
+                        class="rounded-md bg-aco-700 px-3 py-1.5 text-[11px] font-medium text-white transition hover:bg-aco-800">
+                  Vincular →
+                </button>
+              </div>
+              <div>
+                <div class="mb-1 text-[10px] font-semibold uppercase tracking-wide text-navy-500">
+                  XML Senior
+                </div>
+                <div id="sel-sem-par-senior"
+                     class="max-h-64 space-y-1 overflow-y-auto rounded border border-aco-200 p-1"></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="lista-pares" class="mt-3 space-y-1.5"></div>
+        </div>
+
+        <!-- ---------- ETAPA 3 — progresso ---------- -->
+        <div id="etapa-progresso" class="hidden">
+          <div class="rounded-lg border border-aco-200 bg-white p-6 text-center">
+            <div class="mx-auto mb-3 flex h-9 w-9 items-center justify-center">
+              <svg class="h-7 w-7 animate-spin text-navy-500" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3"/>
+                <path class="opacity-90" fill="currentColor"
+                      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/>
+              </svg>
+            </div>
+            <h3 class="text-sm font-semibold text-aco-900">Comparando as notas…</h3>
+            <p id="texto-progresso" class="mt-1 text-xs text-aco-500">preparando…</p>
+
+            <div class="mx-auto mt-4 h-2 w-full max-w-md overflow-hidden rounded-full bg-aco-200">
+              <div id="barra-progresso" class="h-full rounded-full bg-navy-500 transition-all duration-200" style="width:0%"></div>
+            </div>
+
+            <div id="parciais-progresso" class="mt-4 grid grid-cols-3 gap-2 text-center"></div>
+            <p class="mt-4 text-[10px] text-aco-400">
+              Cada nota é comparada campo a campo por um script determinístico — sem IA.
+            </p>
+          </div>
+        </div>
+
+        <!-- ---------- ETAPA 4 — resultado consolidado ---------- -->
+        <div id="etapa-resultado" class="hidden">
+
+          <!-- resumo em linguagem natural -->
+          <div id="resumo-narrativo"
+               class="rounded-lg border-l-4 border-navy-500 bg-white p-4 shadow-sm"></div>
+
+          <div id="placar-lote" class="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-4"></div>
+
+          <div class="mt-3 flex flex-wrap items-center gap-2">
+            <button id="btn-enviar-lote-agente"
+                    class="flex items-center gap-1.5 rounded-md bg-acao px-4 py-2.5 text-sm font-semibold text-oliva transition hover:bg-acao-escuro">
+              <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7"/>
+              </svg>
+              Enviar divergências para o agente de IA
+            </button>
+            <button id="btn-relatorio-detalhado"
+                    class="flex items-center gap-1.5 rounded-md border border-aco-300 bg-white px-3.5 py-2.5 text-xs font-medium text-aco-700 transition hover:bg-aco-50">
+              <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+              Gerar relatório detalhado
+            </button>
+          </div>
+
+          <div class="mt-4 flex gap-1 border-b border-aco-200">
+            <button class="aba-resultado border-b-2 border-navy-500 px-3 py-1.5 text-xs font-medium text-navy-700" data-vista="causas">
+              Causas recorrentes
+            </button>
+            <button class="aba-resultado border-b-2 border-transparent px-3 py-1.5 text-xs font-medium text-aco-500 hover:text-aco-700" data-vista="notas">
+              Nota a nota
+            </button>
+            <button class="aba-resultado border-b-2 border-transparent px-3 py-1.5 text-xs font-medium text-aco-500 hover:text-aco-700" data-vista="sem-par">
+              Sem par
+            </button>
+          </div>
+
+          <div class="vista-resultado mt-3" data-vista="causas">
+            <div id="lista-causas" class="space-y-2"></div>
+          </div>
+          <div class="vista-resultado mt-3 hidden" data-vista="notas">
+            <div id="lista-notas-lote" class="space-y-1.5"></div>
+          </div>
+          <div class="vista-resultado mt-3 hidden" data-vista="sem-par">
+            <div id="lista-sem-par-final" class="space-y-1.5"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================================================================= -->
+      <!--  MODO NOTA A NOTA                                                 -->
+      <!-- ================================================================= -->
+      <div class="painel-modo hidden" data-modo="unico">
+        <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          <div class="dropzone p-4" data-alvo="cliente">
+            <input type="file" accept=".xml,text/xml,application/xml" class="hidden" id="input-cliente">
+            <label for="input-cliente" class="flex cursor-pointer flex-col items-center text-center">
+              <span class="mb-1 rounded-full bg-aco-100 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-aco-500">
+                Sistema atual
+              </span>
+              <svg class="my-1.5 h-5 w-5 text-aco-400" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M7 16a4 4 0 01-.88-7.9A5 5 0 1115.9 6H16a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
+              </svg>
+              <span class="text-xs font-medium text-aco-700">XML do cliente</span>
+              <span class="nome-arquivo mt-0.5 max-w-full truncate text-[11px] text-aco-400">clique ou arraste</span>
+            </label>
+          </div>
+
+          <div class="dropzone p-4" data-alvo="senior">
+            <input type="file" accept=".xml,text/xml,application/xml" class="hidden" id="input-senior">
+            <label for="input-senior" class="flex cursor-pointer flex-col items-center text-center">
+              <span class="mb-1 rounded-full bg-navy-50 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-navy-600">
+                ERP Senior
+              </span>
+              <svg class="my-1.5 h-5 w-5 text-aco-400" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M7 16a4 4 0 01-.88-7.9A5 5 0 1115.9 6H16a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
+              </svg>
+              <span class="text-xs font-medium text-aco-700">XML gerado pelo Senior</span>
+              <span class="nome-arquivo mt-0.5 max-w-full truncate text-[11px] text-aco-400">clique ou arraste</span>
+            </label>
+          </div>
+        </div>
+
+        <button id="btn-comparar" disabled
+                class="mt-3 w-full rounded-md bg-acao py-2.5 text-sm font-semibold text-oliva transition
+                       hover:bg-acao-escuro disabled:cursor-not-allowed disabled:bg-aco-300">
+          Comparar XMLs
+        </button>
+
+        <div id="painel-resultado" class="mt-4 hidden">
+          <div class="grid grid-cols-2 gap-2 sm:grid-cols-4">
+            <div class="rounded-lg border border-aco-200 bg-white p-3">
+              <div class="text-[10px] font-medium uppercase tracking-wide text-aco-400">Críticas</div>
+              <div id="cnt-critica" class="mt-0.5 text-xl font-bold text-erro">0</div>
+            </div>
+            <div class="rounded-lg border border-aco-200 bg-white p-3">
+              <div class="text-[10px] font-medium uppercase tracking-wide text-aco-400">Altas</div>
+              <div id="cnt-alta" class="mt-0.5 text-xl font-bold text-orange-600">0</div>
+            </div>
+            <div class="rounded-lg border border-aco-200 bg-white p-3">
+              <div class="text-[10px] font-medium uppercase tracking-wide text-aco-400">Médias</div>
+              <div id="cnt-media" class="mt-0.5 text-xl font-bold text-aco-700">0</div>
+            </div>
+            <div class="rounded-lg border border-aco-200 bg-white p-3">
+              <div class="text-[10px] font-medium uppercase tracking-wide text-aco-400">Baixas</div>
+              <div id="cnt-baixa" class="mt-0.5 text-xl font-bold text-aco-500">0</div>
+            </div>
+          </div>
+
+          <div id="resumo-documentos" class="mt-3 grid grid-cols-1 gap-2 text-[11px] text-aco-600 sm:grid-cols-2"></div>
+          <div id="avisos" class="mt-3 hidden rounded-lg border border-atencao/30 bg-atencao/10 p-3 text-[11px] text-aco-800"></div>
+
+          <div class="mt-3 flex flex-wrap items-center gap-2">
+            <button id="btn-enviar-agente"
+                    class="flex items-center gap-1.5 rounded-md bg-acao px-3.5 py-2 text-xs font-semibold text-oliva transition hover:bg-acao-escuro">
+              Enviar para o agente
+            </button>
+            <button id="btn-relatorio-unico"
+                    class="rounded-md border border-aco-300 bg-white px-3 py-2 text-xs font-medium text-aco-700 transition hover:bg-aco-50">
+              Gerar relatório detalhado
+            </button>
+          </div>
+
+          <div class="mt-4 flex flex-wrap items-center gap-1.5">
+            <span class="text-[11px] font-medium text-aco-500">Filtrar:</span>
+            <button class="filtro-sev rounded-full border border-navy-300 bg-navy-50 px-2.5 py-0.5 text-[11px] font-medium text-navy-700" data-sev="todas">Todas</button>
+            <button class="filtro-sev rounded-full border border-aco-200 px-2.5 py-0.5 text-[11px] text-aco-600" data-sev="critica">Críticas</button>
+            <button class="filtro-sev rounded-full border border-aco-200 px-2.5 py-0.5 text-[11px] text-aco-600" data-sev="alta">Altas</button>
+            <button class="filtro-sev rounded-full border border-aco-200 px-2.5 py-0.5 text-[11px] text-aco-600" data-sev="media">Médias</button>
+            <button class="filtro-sev rounded-full border border-aco-200 px-2.5 py-0.5 text-[11px] text-aco-600" data-sev="baixa">Baixas</button>
+            <input id="busca-divergencia" type="search" placeholder="buscar campo, item…"
+                   class="ml-auto w-40 rounded-md border border-aco-200 px-2 py-1 text-[11px] focus:border-navy-400 focus:outline-none">
+          </div>
+
+          <div id="lista-divergencias" class="mt-3 space-y-2"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+
+<!-- Modal de detalhe de uma nota do lote -->
+<div id="modal-nota" class="fixed inset-0 z-40 hidden items-center justify-center bg-aco-900/50 p-4">
+  <div class="flex max-h-[85vh] w-full max-w-3xl flex-col rounded-lg bg-white shadow-xl">
+    <div class="flex flex-none items-center justify-between border-b border-aco-200 px-4 py-3">
+      <h3 id="titulo-modal-nota" class="text-sm font-semibold text-aco-900">Detalhe da nota</h3>
+      <button id="btn-fechar-modal" class="rounded p-1 text-aco-400 transition hover:bg-aco-100 hover:text-aco-700">
+        <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+    <div id="conteudo-modal-nota" class="scroll-fino min-h-0 flex-1 space-y-2 overflow-y-auto p-4"></div>
+  </div>
+</div>
+
+<!-- Print da documentação ampliado. z-50 para ficar acima do modal de nota. -->
+<div id="modal-print" class="overlay-modal fixed inset-0 z-50 hidden items-center justify-center bg-aco-900/80 p-4">
+  <div class="flex max-h-full w-full max-w-6xl flex-col gap-2">
+    <div class="flex flex-none items-center justify-between gap-3 text-white">
+      <p id="legenda-print" class="truncate text-xs text-white/80"></p>
+      <div class="flex flex-none items-center gap-3">
+        <a id="link-print" href="#" target="_blank" rel="noopener noreferrer"
+           class="text-[11px] text-white/80 underline underline-offset-2 hover:text-white">
+          Abrir original em nova aba
+        </a>
+        <button id="btn-fechar-print" title="Fechar (Esc)"
+                class="rounded p-1 text-white/70 transition hover:bg-white/10 hover:text-white">
+          <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <img id="imagem-print" class="imagem-lightbox" alt="Captura da tela na documentação Senior">
+  </div>
+</div>
+
+<!-- Histórico de conversas -->
+<div id="modal-conversas" class="overlay-modal fixed inset-0 z-40 hidden items-center justify-center bg-aco-900/50 p-4">
+  <div class="flex max-h-[85vh] w-full max-w-2xl flex-col rounded-lg bg-white shadow-xl">
+    <div class="flex flex-none items-center justify-between border-b border-aco-200 px-4 py-3">
+      <h3 class="text-sm font-semibold text-aco-900">Histórico de conversas</h3>
+      <button id="btn-fechar-conversas" class="rounded p-1 text-aco-400 transition hover:bg-aco-100 hover:text-aco-700">
+        <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+    <div id="lista-conversas" class="scroll-fino min-h-0 flex-1 space-y-1.5 overflow-y-auto p-4"></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/painel.js' %}"></script>
+{% endblock %}

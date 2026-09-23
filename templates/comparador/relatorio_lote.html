@@ -1,0 +1,293 @@
+{% load fiscal %}{% load static %}<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relatório de validação fiscal — {{ lote.id }}</title>
+  <style>
+    /* Sancon DS. O relatório abre em aba nova (e vira PDF pela impressão do
+       navegador), então não herda os tokens do app — as cores são declaradas
+       aqui, com os mesmos valores de sancon-tokens.css. */
+    :root { --navy:#0D4270; --navy-esc:#092E4F; --navy-cl:#E6EEF5;
+            --acao:#ABD821; --oliva:#2A3800;
+            --cinza:#43474E; --cinza-cl:#F1F1F2; --borda:#DCDCDD; --escuro:#1A1C1E; }
+    * { box-sizing:border-box; }
+    body { margin:0; padding:0; background:#F8F8F8; color:#1A1C1E;
+           font:14px/1.6 'Hanken Grotesk','Segoe UI',Roboto,sans-serif; }
+    .folha { max-width:960px; margin:0 auto; background:#fff; padding:40px 48px; }
+
+    h1 { font-size:22px; margin:0 0 4px; color:var(--escuro); }
+    h2 { font-size:16px; margin:32px 0 12px; padding-bottom:6px;
+         border-bottom:2px solid var(--navy); color:var(--escuro); }
+    h3 { font-size:13px; margin:20px 0 8px; color:var(--escuro); }
+    p  { margin:8px 0; }
+    code { font-family:'IBM Plex Mono',Consolas,monospace; font-size:.85em;
+           background:var(--cinza-cl); border:1px solid var(--borda);
+           border-radius:3px; padding:1px 5px; }
+
+    .cabecalho { display:flex; align-items:flex-start; justify-content:space-between;
+                 gap:24px; border-bottom:1px solid var(--borda); padding-bottom:20px; }
+    .marca { display:flex; align-items:center; gap:10px; }
+    /* Logo original (colorido) porque o relatório é sempre fundo claro. */
+    .logo-marca { height:26px; width:auto; flex:none; }
+    .meta { font-size:11px; color:#73777F; text-align:right; line-height:1.7; }
+
+    .placar { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin:20px 0; }
+    .cartao { border:1px solid var(--borda); border-radius:7px; padding:12px; }
+    .cartao .rot { font-size:10px; text-transform:uppercase; letter-spacing:.4px; color:#73777F; }
+    .cartao .num { font-size:22px; font-weight:700; margin-top:2px; }
+
+    .resumo { background:var(--navy-cl); border-left:3px solid var(--navy);
+              border-radius:0 7px 7px 0; padding:14px 18px; margin:16px 0; }
+    .resumo ul { margin:10px 0 0; padding-left:20px; }
+    .resumo li { margin:4px 0; }
+
+    .causa { border:1px solid var(--borda); border-left-width:3px; border-radius:7px;
+             padding:14px 16px; margin-bottom:12px; page-break-inside:avoid; }
+    .causa.critica { border-left-color:#DC2626; }
+    .causa.alta    { border-left-color:#EA580C; }
+    .causa.media   { border-left-color:#CA8A04; }
+    .causa.baixa   { border-left-color:#73777F; }
+    .causa-topo { display:flex; align-items:flex-start; justify-content:space-between; gap:14px; }
+    .causa-titulo { font-size:14px; font-weight:600; color:var(--escuro); }
+    .causa-sub { font-size:10px; color:#73777F; margin-top:2px; }
+    .selo { flex:none; background:var(--escuro); color:#fff; border-radius:999px;
+            padding:2px 9px; font-size:10px; font-weight:600; white-space:nowrap; }
+
+    .variacao { background:#F8F8F8; border:1px solid var(--borda); border-radius:5px;
+                padding:8px 10px; margin-top:8px; font-size:12px; }
+    .seta { color:#CBD1D8; margin:0 6px; }
+    .notas { margin-top:5px; font-size:10px; color:var(--cinza); word-break:break-word; }
+    .acao { margin-top:10px; padding:9px 12px; background:var(--navy-cl);
+            border-left:2px solid var(--navy); border-radius:0 4px 4px 0; font-size:12px; }
+    .acao b { display:block; font-size:9px; text-transform:uppercase;
+              letter-spacing:.4px; color:var(--navy-esc); margin-bottom:3px; }
+
+    table { width:100%; border-collapse:collapse; margin:10px 0; font-size:11.5px; }
+    th,td { border:1px solid var(--borda); padding:6px 9px; text-align:left; vertical-align:top; }
+    th { background:var(--cinza-cl); font-weight:600; font-size:10px;
+         text-transform:uppercase; letter-spacing:.3px; color:var(--cinza); }
+    tr { page-break-inside:avoid; }
+
+    .nota-bloco { border:1px solid var(--borda); border-radius:7px; padding:14px 16px;
+                  margin-bottom:12px; page-break-inside:avoid; }
+    .nota-topo { display:flex; align-items:center; justify-content:space-between;
+                 gap:12px; margin-bottom:6px; }
+    .nota-rotulo { font-family:'IBM Plex Mono',Consolas,monospace; font-weight:600; font-size:13px; }
+    .arquivos { font-size:10px; color:#73777F; word-break:break-all; }
+    .ok { color:var(--navy-esc); font-size:12px; }
+
+    .rodape { margin-top:36px; padding-top:16px; border-top:1px solid var(--borda);
+              font-size:10.5px; color:#73777F; line-height:1.7; }
+
+    .barra-acoes { max-width:960px; margin:16px auto 0; display:flex; gap:8px; }
+    .btn { background:var(--navy); color:#fff; border:0; border-radius:6px;
+           padding:9px 18px; font-size:13px; font-weight:600; cursor:pointer; }
+    .btn.sec { background:#fff; color:var(--cinza); border:1px solid var(--borda); }
+
+    @media print {
+      body { background:#fff; }
+      .folha { max-width:none; padding:0; }
+      .barra-acoes { display:none; }
+      h2 { page-break-after:avoid; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="barra-acoes">
+  <button class="btn" onclick="window.print()">Imprimir / salvar em PDF</button>
+  <button class="btn sec" onclick="window.close()">Fechar</button>
+</div>
+
+<div class="folha">
+
+  <div class="cabecalho">
+    <div>
+      <div class="marca">
+        <img class="logo-marca" src="{% static 'img/logo-sancon.svg' %}" alt="Grupo Sancon">
+        <div>
+          <h1>Relatório de validação fiscal</h1>
+          <div style="font-size:11px;color:#73777F">Implantação do ERP Senior · comparação de XMLs</div>
+        </div>
+      </div>
+    </div>
+    <div class="meta">
+      Lote <code>{{ lote.id|truncatechars:13 }}</code><br>
+      Gerado em {% now "d/m/Y H:i" %}<br>
+      Sistema atual: {{ lote.nome_origem_cliente }}<br>
+      ERP Senior: {{ lote.nome_origem_senior }}
+    </div>
+  </div>
+
+  <!-- ============================ RESUMO ============================ -->
+  <h2>Resumo</h2>
+
+  <div class="placar">
+    <div class="cartao"><div class="rot">Notas comparadas</div><div class="num">{{ placar.notas_comparadas|default:0 }}</div></div>
+    <div class="cartao"><div class="rot">Com divergência</div><div class="num" style="color:#EA580C">{{ placar.notas_com_divergencia|default:0 }}</div></div>
+    <div class="cartao"><div class="rot">Sem divergência</div><div class="num" style="color:var(--navy-esc)">{{ placar.notas_conformes|default:0 }}</div></div>
+    <div class="cartao"><div class="rot">Causas distintas</div><div class="num" style="color:#DC2626">{{ placar.total_causas|default:0 }}</div></div>
+  </div>
+
+  {% if narrativa.abertura %}
+  <div class="resumo">
+    <p style="margin-top:0">{{ narrativa.abertura|negrito }}</p>
+    {% if narrativa.linhas %}
+    <ul>
+      {% for linha in narrativa.linhas %}<li>{{ linha|negrito }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    {% if narrativa.fechamento %}<p style="margin-bottom:0">{{ narrativa.fechamento }}</p>{% endif %}
+  </div>
+  {% endif %}
+
+  {% if nao_pareados.cliente or nao_pareados.senior %}
+  <p style="font-size:12px;color:var(--cinza)">
+    <strong>{{ nao_pareados.cliente|length }}</strong> nota(s) do sistema atual e
+    <strong>{{ nao_pareados.senior|length }}</strong> do Senior ficaram sem contraparte —
+    ver seção "Notas sem par" ao final.
+  </p>
+  {% endif %}
+
+  <!-- ============================ CAUSAS ============================ -->
+  <h2>Causas de divergência</h2>
+  <p style="font-size:12px;color:var(--cinza)">
+    Cada bloco é um ajuste de parametrização que resolve todas as notas listadas nele.
+    <code>NF X ↔ NF Y</code> identifica o par: nota X no sistema atual, nota Y equivalente no Senior.
+  </p>
+
+  {% for causa in causas %}
+  <div class="causa {{ causa.severidade }}">
+    <div class="causa-topo">
+      <div>
+        <div class="causa-titulo">{{ forloop.counter }}. {{ causa.titulo }}</div>
+        <div class="causa-sub">
+          {{ causa.severidade_rotulo }} · {{ causa.categoria }} · campo <code>{{ causa.campo }}</code>
+          {% if causa.caminho %} · <code>{{ causa.caminho }}</code>{% endif %}
+        </div>
+      </div>
+      <span class="selo">{{ causa.notas_afetadas }} nota{{ causa.notas_afetadas|pluralize }} · {{ causa.percentual_notas }}%</span>
+    </div>
+
+    {% for v in causa.variacoes %}
+    <div class="variacao">
+      {% if causa.campo == "_item" %}
+        Produto <code>{{ v.cliente }}</code> — <strong>{{ v.ocorrencias }}</strong> item(ns) não emitido(s) pelo Senior
+      {% else %}
+        cliente <code>{{ v.cliente|default:"(ausente)" }}</code>
+        <span class="seta">→</span>
+        Senior <code>{{ v.senior|default:"(ausente)" }}</code>
+      {% endif %}
+      <div class="notas">
+        {{ v.notas|join:" · " }}{% if v.total_notas > v.notas|length %} · +{{ v.total_notas|add:"-6" }}{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+
+    {% if causa.total_variacoes > causa.variacoes|length %}
+    <div class="notas">Há mais variações de valor além das listadas ({{ causa.total_variacoes }} no total).</div>
+    {% endif %}
+
+    {% if causa.produtos and causa.campo != "_item" %}
+    <div class="notas">
+      Produtos: {% for p in causa.produtos %}<code>{{ p.codigo }}</code>{% if not forloop.last %}, {% endif %}{% endfor %}
+    </div>
+    {% endif %}
+
+    {% if causa.pista %}
+    <div class="acao"><b>O que ajustar</b>{{ causa.pista }}</div>
+    {% endif %}
+  </div>
+  {% empty %}
+  <p class="ok">Nenhuma divergência fiscal encontrada nas notas comparadas.</p>
+  {% endfor %}
+
+  <!-- ========================= DETALHE POR NOTA ========================= -->
+  <h2>Detalhamento nota a nota</h2>
+
+  {% for nota in notas %}
+  <div class="nota-bloco">
+    <div class="nota-topo">
+      <div>
+        <div class="nota-rotulo">{{ nota.rotulo }}</div>
+        <div class="arquivos">{{ nota.par.arquivo_cliente }} ↔ {{ nota.par.arquivo_senior }}</div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-size:11px;color:var(--cinza)">
+          {% if nota.total %}{{ nota.total }} divergência{{ nota.total|pluralize }}{% else %}
+          <span class="ok">sem divergência</span>{% endif %}
+        </div>
+        <div style="font-size:9px;color:#73777F">
+          pareamento: {{ nota.par.get_confianca_display }}{% if nota.par.score %} ({{ nota.par.score|floatformat:0 }}){% endif %}
+        </div>
+      </div>
+    </div>
+
+    {% if nota.divergencias %}
+    <table>
+      <thead>
+        <tr><th style="width:32%">Divergência</th><th style="width:12%">Item</th>
+            <th style="width:20%">Sistema atual</th><th style="width:20%">ERP Senior</th>
+            <th style="width:16%">Campo</th></tr>
+      </thead>
+      <tbody>
+        {% for d in nota.divergencias %}
+        <tr>
+          <td>{{ d.titulo|default:d.campo }}</td>
+          <td>{% if d.item_numero %}{{ d.item_numero }}{% if d.item_codigo %} · {{ d.item_codigo }}{% endif %}{% else %}—{% endif %}</td>
+          <td><code>{{ d.valor_cliente|default:"(ausente)" }}</code></td>
+          <td><code>{{ d.valor_senior|default:"(ausente)" }}</code></td>
+          <td><code>{{ d.campo }}</code></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+  </div>
+  {% endfor %}
+
+  <!-- ========================== NOTAS SEM PAR ========================== -->
+  {% if nao_pareados.cliente or nao_pareados.senior %}
+  <h2>Notas sem par</h2>
+  <p style="font-size:12px;color:var(--cinza)">
+    Operações encontradas em um sistema e não no outro. Normalmente significa que a nota
+    não foi emitida no ERP em implantação (ou foi emitida a mais).
+  </p>
+  <table>
+    <thead><tr><th>Origem</th><th>Arquivo</th><th>Nota</th><th>Destinatário</th><th>Itens</th></tr></thead>
+    <tbody>
+      {% for d in nao_pareados.cliente %}
+      <tr><td>Só no sistema atual</td><td>{{ d.nome_arquivo }}</td><td>{{ d.numero }}</td>
+          <td>{{ d.destinatario_doc }}</td><td>{{ d.quantidade_itens }}</td></tr>
+      {% endfor %}
+      {% for d in nao_pareados.senior %}
+      <tr><td>Só no ERP Senior</td><td>{{ d.nome_arquivo }}</td><td>{{ d.numero }}</td>
+          <td>{{ d.destinatario_doc }}</td><td>{{ d.quantidade_itens }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+
+  <!-- ============================= RODAPÉ ============================= -->
+  <div class="rodape">
+    <strong>Como este relatório foi produzido.</strong>
+    As notas dos dois sistemas foram pareadas por conteúdo fiscal (destinatário, valor total,
+    conjunto de produtos, NCM, data e quantidade de itens) e depois comparadas campo a campo
+    por um script determinístico — <strong>sem inteligência artificial</strong>. Rodar de novo
+    sobre os mesmos XMLs produz exatamente o mesmo resultado.<br><br>
+
+    <strong>O que foi comparado.</strong> Somente parametrização fiscal: CST/CSOSN, CFOP, NCM,
+    CEST, código de benefício, alíquotas, modalidade de base, origem da mercadoria e presença
+    do item. Dados cadastrais (CNPJ, razão social), do documento (número, série, data) e
+    comerciais (quantidade, preço, valor da nota) foram usados apenas para parear as notas e
+    <strong>não</strong> entram como divergência — base e valor de imposto são consequência da
+    alíquota aplicada, não parametrização.<br><br>
+
+    As orientações em "O que ajustar" descrevem a área de parametrização por conceito.
+    O caminho exato de tela depende da versão e dos módulos implantados no cliente.
+  </div>
+
+</div>
+</body>
+</html>

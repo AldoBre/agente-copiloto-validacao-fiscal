@@ -1,0 +1,20 @@
+# Nunca dentro da imagem
+.env
+.env.*
+!.env.example
+db.sqlite3
+
+# Ambiente local
+venv/
+.venv/
+__pycache__/
+*.pyc
+media/
+staticfiles/
+
+# Fora do runtime
+.git/
+exemplos/
+xml_example/
+docker-compose.yml
+agente_maquina/

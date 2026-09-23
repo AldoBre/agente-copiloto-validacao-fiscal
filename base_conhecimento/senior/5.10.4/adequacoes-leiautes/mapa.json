@@ -1,0 +1,736 @@
+{
+  "fonte": {
+    "pagina": "Adequação aos leiautes do SPED Fiscal",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+    "trilha": "Segmentos > Compliance > Escriturações Fiscais Digitais (SPED) > SPED Fiscal (EFD ICMS/IPI)"
+  },
+  "total_topicos": 35,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Fórmula",
+      "slug": "formula",
+      "arquivo": "01-formula.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 898
+    },
+    {
+      "ordem": 2,
+      "titulo": "Valor médio",
+      "slug": "valor-medio",
+      "arquivo": "02-valor-medio.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 492
+    },
+    {
+      "ordem": 3,
+      "titulo": "Regras",
+      "slug": "regras",
+      "arquivo": "03-regras.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 685
+    },
+    {
+      "ordem": 4,
+      "titulo": "Tabelas disponibilizadas",
+      "slug": "tabelas-disponibilizadas",
+      "arquivo": "04-tabelas-disponibilizadas.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [
+        "Mato Grosso do Sul",
+        "Minas Gerais",
+        "Pará",
+        "Rio de Janeiro",
+        "Rio Grande do Sul",
+        "Rondônia",
+        "Sergipe"
+      ],
+      "telas": [
+        "E001TNS",
+        "E001TVE",
+        "E085HCL",
+        "E660INC",
+        "E660NFC",
+        "E660NFV",
+        "E660RSV",
+        "F070FCA",
+        "F075CEP"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CFOP"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro de Filiais (F070FCA)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm"
+        },
+        {
+          "texto": "parâmetro dinâmico",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm"
+        },
+        {
+          "texto": "Controle de Entrada de Produtos (F075CEP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cep.htm"
+        },
+        {
+          "texto": "C176/C197",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/bloco-c.htm#C176"
+        }
+      ],
+      "caracteres": 17735
+    },
+    {
+      "ordem": 5,
+      "titulo": "Inicialização das médias",
+      "slug": "inicializacao-das-medias",
+      "arquivo": "05-inicializacao-das-medias.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660RSM"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1228
+    },
+    {
+      "ordem": 6,
+      "titulo": "Atualização das médias",
+      "slug": "atualizacao-das-medias",
+      "arquivo": "06-atualizacao-das-medias.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "F075CEP",
+        "F660INT"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F075CEP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cep.htm"
+        },
+        {
+          "texto": "F660INT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660int.htm"
+        }
+      ],
+      "caracteres": 1662
+    },
+    {
+      "ordem": 7,
+      "titulo": "Detalhes técnicos",
+      "slug": "detalhes-tecnicos",
+      "arquivo": "07-detalhes-tecnicos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660NFV",
+        "E660RRZ",
+        "E660RSC",
+        "E660RSM",
+        "E660RSV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 2361
+    },
+    {
+      "ordem": 8,
+      "titulo": "Formato",
+      "slug": "formato",
+      "arquivo": "08-formato.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [
+        "Guia Restituição/Complementação",
+        "Guia Ressarcimento",
+        "Identificador de regra IMP-661CALIM05 utilizado na apuração"
+      ],
+      "telas": [
+        "E660RRZ",
+        "E660RSC",
+        "E660RSV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "IMP-661CALIM05"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F661IA5",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ia5.htm"
+        },
+        {
+          "texto": "IMP-661CALIM05",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/imp_661calim05.htm"
+        }
+      ],
+      "caracteres": 6228
+    },
+    {
+      "ordem": 9,
+      "titulo": "Geração do SPED Fiscal",
+      "slug": "geracao-do-sped-fiscal",
+      "arquivo": "09-geracao-do-sped-fiscal.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 282
+    },
+    {
+      "ordem": 10,
+      "titulo": "H010",
+      "slug": "h010",
+      "arquivo": "10-h010.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "E075PRO",
+        "E660RSM"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 214
+    },
+    {
+      "ordem": 11,
+      "titulo": "H030",
+      "slug": "h030",
+      "arquivo": "11-h030.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660RSM"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 227
+    },
+    {
+      "ordem": 12,
+      "titulo": "C110, C111 e C113",
+      "slug": "c110-c111-e-c113",
+      "arquivo": "12-c110-c111-e-c113.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "F024MSG",
+        "F660DGC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F660DGC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660dgc.htm"
+        },
+        {
+          "texto": "F024MSG",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f024msg.htm"
+        }
+      ],
+      "caracteres": 507
+    },
+    {
+      "ordem": 13,
+      "titulo": "E110",
+      "slug": "e110",
+      "arquivo": "13-e110.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 483
+    },
+    {
+      "ordem": 14,
+      "titulo": "E210, E220 e E250 sem guia de recolhimento",
+      "slug": "e210-e220-e-e250-sem-guia-de-recolhimento",
+      "arquivo": "14-e210-e220-e-e250-sem-guia-de-recolhimento.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 701
+    },
+    {
+      "ordem": 15,
+      "titulo": "E210, E220 e E250 com guia de recolhimento",
+      "slug": "e210-e220-e-e250-com-guia-de-recolhimento",
+      "arquivo": "15-e210-e220-e-e250-com-guia-de-recolhimento.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 647
+    },
+    {
+      "ordem": 16,
+      "titulo": "E210 e E220",
+      "slug": "e210-e-e220",
+      "arquivo": "16-e210-e-e220.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 493
+    },
+    {
+      "ordem": 17,
+      "titulo": "C480",
+      "slug": "c480",
+      "arquivo": "17-c480.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660RSM"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 516
+    },
+    {
+      "ordem": 18,
+      "titulo": "C430",
+      "slug": "c430",
+      "arquivo": "18-c430.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660RSM",
+        "E660RSV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 786
+    },
+    {
+      "ordem": 19,
+      "titulo": "C181",
+      "slug": "c181",
+      "arquivo": "19-c181.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660RSM",
+        "E660RSV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 476
+    },
+    {
+      "ordem": 20,
+      "titulo": "C185",
+      "slug": "c185",
+      "arquivo": "20-c185.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660RSM",
+        "E660RSV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 583
+    },
+    {
+      "ordem": 21,
+      "titulo": "C186",
+      "slug": "c186",
+      "arquivo": "21-c186.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660RSV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 224
+    },
+    {
+      "ordem": 22,
+      "titulo": "C330",
+      "slug": "c330",
+      "arquivo": "22-c330.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660RSM"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 515
+    },
+    {
+      "ordem": 23,
+      "titulo": "C380",
+      "slug": "c380",
+      "arquivo": "23-c380.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660RSM"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 516
+    },
+    {
+      "ordem": 24,
+      "titulo": "C815",
+      "slug": "c815",
+      "arquivo": "24-c815.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660RSM",
+        "E660RSV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 750
+    },
+    {
+      "ordem": 25,
+      "titulo": "C880",
+      "slug": "c880",
+      "arquivo": "25-c880.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660RSM"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 516
+    },
+    {
+      "ordem": 26,
+      "titulo": "0210",
+      "slug": "0210",
+      "arquivo": "26-0210.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 31
+    },
+    {
+      "ordem": 27,
+      "titulo": "1600",
+      "slug": "1600",
+      "arquivo": "27-1600.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 54
+    },
+    {
+      "ordem": 28,
+      "titulo": "1601",
+      "slug": "1601",
+      "arquivo": "28-1601.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 53
+    },
+    {
+      "ordem": 29,
+      "titulo": "DACT002.XML",
+      "slug": "dact002-xml",
+      "arquivo": "29-dact002-xml.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 162
+    },
+    {
+      "ordem": 30,
+      "titulo": "Registro 0000",
+      "slug": "registro-0000",
+      "arquivo": "30-registro-0000.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 30
+    },
+    {
+      "ordem": 31,
+      "titulo": "Registro 0220",
+      "slug": "registro-0220",
+      "arquivo": "31-registro-0220.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 42
+    },
+    {
+      "ordem": 32,
+      "titulo": "Registro B020",
+      "slug": "registro-b020",
+      "arquivo": "32-registro-b020.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 58
+    },
+    {
+      "ordem": 33,
+      "titulo": "Registro C176",
+      "slug": "registro-c176",
+      "arquivo": "33-registro-c176.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CSOSN"
+      ],
+      "links_documentacao": [],
+      "caracteres": 147
+    },
+    {
+      "ordem": 34,
+      "titulo": "Registro C500",
+      "slug": "registro-c500",
+      "arquivo": "34-registro-c500.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 386
+    },
+    {
+      "ordem": 35,
+      "titulo": "Registro D100",
+      "slug": "registro-d100",
+      "arquivo": "35-registro-d100.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 323
+    }
+  ],
+  "indice_telas": {
+    "E001TNS": [
+      "tabelas-disponibilizadas"
+    ],
+    "E001TVE": [
+      "tabelas-disponibilizadas"
+    ],
+    "E075PRO": [
+      "h010"
+    ],
+    "E085HCL": [
+      "tabelas-disponibilizadas"
+    ],
+    "E660INC": [
+      "tabelas-disponibilizadas"
+    ],
+    "E660NFC": [
+      "tabelas-disponibilizadas"
+    ],
+    "E660NFV": [
+      "detalhes-tecnicos",
+      "tabelas-disponibilizadas"
+    ],
+    "E660RRZ": [
+      "detalhes-tecnicos",
+      "formato"
+    ],
+    "E660RSC": [
+      "detalhes-tecnicos",
+      "formato"
+    ],
+    "E660RSM": [
+      "c181",
+      "c185",
+      "c330",
+      "c380",
+      "c430",
+      "c480",
+      "c815",
+      "c880",
+      "detalhes-tecnicos",
+      "h010",
+      "h030",
+      "inicializacao-das-medias"
+    ],
+    "E660RSV": [
+      "c181",
+      "c185",
+      "c186",
+      "c430",
+      "c815",
+      "detalhes-tecnicos",
+      "formato",
+      "tabelas-disponibilizadas"
+    ],
+    "F024MSG": [
+      "c110-c111-e-c113"
+    ],
+    "F070FCA": [
+      "tabelas-disponibilizadas"
+    ],
+    "F075CEP": [
+      "atualizacao-das-medias",
+      "tabelas-disponibilizadas"
+    ],
+    "F660DGC": [
+      "c110-c111-e-c113"
+    ],
+    "F660INT": [
+      "atualizacao-das-medias"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/imp_661calim05.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f024msg.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cep.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660dgc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660int.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ia5.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/bloco-c.htm#C176"
+  ]
+}

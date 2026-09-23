@@ -1,0 +1,65 @@
+{
+  "fonte": {
+    "pagina": "F120CAP - Cálculos do Pedido",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120cap.htm",
+    "trilha": "Ajuda por telas > Mercado > Gestão de Vendas > Pedidos > Pedido Agrupado"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F120CAP - Cálculos do Pedido",
+      "slug": "f120cap-calculos-do-pedido",
+      "arquivo": "01-f120cap-calculos-do-pedido.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120cap.htm",
+      "subtopicos": [],
+      "telas": [
+        "F120CAP",
+        "F120GPD"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Mercado",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado.htm"
+        },
+        {
+          "texto": "Gestão de Vendas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado_gestao_vendas.htm"
+        },
+        {
+          "texto": "Pedidos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_vendas_pedidos.htm"
+        },
+        {
+          "texto": "Pedido Agrupado",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpd.htm"
+        }
+      ],
+      "caracteres": 843
+    }
+  ],
+  "indice_telas": {
+    "F120CAP": [
+      "f120cap-calculos-do-pedido"
+    ],
+    "F120GPD": [
+      "f120cap-calculos-do-pedido"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_vendas_pedidos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado_gestao_vendas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpd.htm"
+  ]
+}

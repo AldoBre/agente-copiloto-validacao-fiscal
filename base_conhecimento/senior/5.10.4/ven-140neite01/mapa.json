@@ -1,0 +1,84 @@
+{
+  "fonte": {
+    "pagina": "Identificador de Regra",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm",
+    "trilha": ""
+  },
+  "total_topicos": 3,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Informações iniciais importantes",
+      "slug": "informacoes-iniciais-importantes",
+      "arquivo": "01-informacoes-iniciais-importantes.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 939
+    },
+    {
+      "ordem": 2,
+      "titulo": "Informações complementares sobre as variáveis e a lógica do sistema para geração das tags através das variáveis",
+      "slug": "informacoes-complementares-sobre-as-variaveis-e-a-logica-do-",
+      "arquivo": "02-informacoes-complementares-sobre-as-variaveis-e-a-logica-do-.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm",
+      "subtopicos": [
+        "Sobre as variáveis VSIntPedCli e VSIntIpeCli",
+        "Sobre as variáveis VSIntProPed e VSIntProIpe",
+        "Sobre utilização das variáveis",
+        "Sobre a definição incorreta de valores para estas variáveis",
+        "Exemplo:"
+      ],
+      "telas": [
+        "E120IPD"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 2005
+    },
+    {
+      "ordem": 3,
+      "titulo": "Variáveis Disponibilizadas:",
+      "slug": "variaveis-disponibilizadas",
+      "arquivo": "03-variaveis-disponibilizadas.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST",
+        "EXTIPI",
+        "NCM",
+        "cMunFG",
+        "modBC",
+        "modBCST",
+        "motDesICMS",
+        "orig",
+        "pMVAST",
+        "pRedBC",
+        "vICMS"
+      ],
+      "links_documentacao": [],
+      "caracteres": 9145
+    }
+  ],
+  "indice_telas": {
+    "E120IPD": [
+      "informacoes-complementares-sobre-as-variaveis-e-a-logica-do-"
+    ]
+  },
+  "paginas_relacionadas": []
+}

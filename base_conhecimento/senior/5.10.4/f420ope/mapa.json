@@ -1,0 +1,133 @@
+{
+  "fonte": {
+    "pagina": "F420OPE - Ordens de Compra via Pedidos",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420ope.htm",
+    "trilha": "Ajuda por telas > Suprimentos > Gestão de Compras > Ordens de Compra"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F420OPE - Ordens de Compra via Pedidos",
+      "slug": "f420ope-ordens-de-compra-via-pedidos",
+      "arquivo": "01-f420ope-ordens-de-compra-via-pedidos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420ope.htm",
+      "subtopicos": [],
+      "telas": [
+        "E120LPO",
+        "F000CRT",
+        "F095CAD",
+        "F099UCP",
+        "F420OPE",
+        "F420SPE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "GER-000HFOAU01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Suprimentos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos.htm"
+        },
+        {
+          "texto": "Gestão de Compras",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos_gestao_compras.htm"
+        },
+        {
+          "texto": "Ordens de Compra",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_compras_ordemcompra.htm"
+        },
+        {
+          "texto": "F000CRT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000crt.htm"
+        },
+        {
+          "texto": "documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/reforma-tributaria/rotinas-impactadas.htm"
+        },
+        {
+          "texto": "F420SPE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420spe.htm"
+        },
+        {
+          "texto": "F095CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "F099UCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099ucp.htm"
+        },
+        {
+          "texto": "processo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm"
+        },
+        {
+          "texto": "420DATEN01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_420daten01.htm"
+        },
+        {
+          "texto": "000DEFFO01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000deffo01.htm"
+        },
+        {
+          "texto": "000DEFCL01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000defcl01.htm"
+        },
+        {
+          "texto": "210PRDEP01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/est_210prdep01.htm"
+        },
+        {
+          "texto": "000HFOAU01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000hfoau01.htm"
+        }
+      ],
+      "caracteres": 6444
+    }
+  ],
+  "indice_telas": {
+    "E120LPO": [
+      "f420ope-ordens-de-compra-via-pedidos"
+    ],
+    "F000CRT": [
+      "f420ope-ordens-de-compra-via-pedidos"
+    ],
+    "F095CAD": [
+      "f420ope-ordens-de-compra-via-pedidos"
+    ],
+    "F099UCP": [
+      "f420ope-ordens-de-compra-via-pedidos"
+    ],
+    "F420OPE": [
+      "f420ope-ordens-de-compra-via-pedidos"
+    ],
+    "F420SPE": [
+      "f420ope-ordens-de-compra-via-pedidos"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_compras_ordemcompra.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos_gestao_compras.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000defcl01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000deffo01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_420daten01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/est_210prdep01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000hfoau01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000crt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099ucp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420spe.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/reforma-tributaria/rotinas-impactadas.htm"
+  ]
+}

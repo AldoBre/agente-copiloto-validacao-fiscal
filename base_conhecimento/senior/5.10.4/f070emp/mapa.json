@@ -1,0 +1,41 @@
+{
+  "fonte": {
+    "pagina": "F070EMP - Cadastro de Empresas",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm",
+    "trilha": "Ajuda por telas > Cadastros > Empresas"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Exemplo",
+      "slug": "exemplo",
+      "arquivo": "01-exemplo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm",
+      "subtopicos": [],
+      "telas": [
+        "F135CCA"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F135CCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f113cca.htm"
+        }
+      ],
+      "caracteres": 304
+    }
+  ],
+  "indice_telas": {
+    "F135CCA": [
+      "exemplo"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f113cca.htm"
+  ]
+}

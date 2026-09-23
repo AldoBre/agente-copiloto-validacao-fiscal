@@ -1,0 +1,71 @@
+{
+  "fonte": {
+    "pagina": "F022CLF - Classificações Fiscais",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f022clf.htm",
+    "trilha": "Ajuda por telas > Cadastros > Mercado e Suprimentos > Parâmetros Fiscais > Classificações Fiscais"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F022CLF - Classificações Fiscais",
+      "slug": "f022clf-classificacoes-fiscais",
+      "arquivo": "01-f022clf-classificacoes-fiscais.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f022clf.htm",
+      "subtopicos": [],
+      "telas": [
+        "F015MED",
+        "F022CLF",
+        "F403FPR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "NCM"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Tipo Varejo Senior",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000sis.htm"
+        },
+        {
+          "texto": "F403FPR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm"
+        },
+        {
+          "texto": "F015MED",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f015med.htm"
+        },
+        {
+          "texto": "ClfPisCof",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#ClfPisCof"
+        }
+      ],
+      "caracteres": 8981
+    }
+  ],
+  "indice_telas": {
+    "F015MED": [
+      "f022clf-classificacoes-fiscais"
+    ],
+    "F022CLF": [
+      "f022clf-classificacoes-fiscais"
+    ],
+    "F403FPR": [
+      "f022clf-classificacoes-fiscais"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#ClfPisCof",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000sis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f015med.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm"
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "fonte": {
+    "pagina": "F661PAI - Apuração dos Impostos",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm",
+    "trilha": "Ajuda por telas > Controladoria > Gestão de Tributos > Operações e Cálculos Fiscais > Cálculos"
+  },
+  "total_topicos": 8,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Exemplos",
+      "slug": "exemplos",
+      "arquivo": "01-exemplos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm",
+      "subtopicos": [
+        "Produtos - Datas"
+      ],
+      "telas": [
+        "F055PPF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F055PPF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm"
+        }
+      ],
+      "caracteres": 1231
+    },
+    {
+      "ordem": 2,
+      "titulo": "Imposto 49",
+      "slug": "imposto-49",
+      "arquivo": "02-imposto-49.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 438
+    },
+    {
+      "ordem": 3,
+      "titulo": "Impostos 65 e 74",
+      "slug": "impostos-65-e-74",
+      "arquivo": "03-impostos-65-e-74.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm",
+      "subtopicos": [],
+      "telas": [
+        "F055PPF",
+        "F660NFC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F660NFC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660nfc.htm"
+        },
+        {
+          "texto": "F055PPF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm"
+        }
+      ],
+      "caracteres": 419
+    },
+    {
+      "ordem": 4,
+      "titulo": "Imposto 34",
+      "slug": "imposto-34",
+      "arquivo": "04-imposto-34.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1068
+    },
+    {
+      "ordem": 5,
+      "titulo": "Imposto 72",
+      "slug": "imposto-72",
+      "arquivo": "05-imposto-72.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 923
+    },
+    {
+      "ordem": 6,
+      "titulo": "Imposto 75",
+      "slug": "imposto-75",
+      "arquivo": "06-imposto-75.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 233
+    },
+    {
+      "ordem": 7,
+      "titulo": "Imposto 76",
+      "slug": "imposto-76",
+      "arquivo": "07-imposto-76.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F661I76",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i76.htm"
+        }
+      ],
+      "caracteres": 156
+    },
+    {
+      "ordem": 8,
+      "titulo": "Imposto 78",
+      "slug": "imposto-78",
+      "arquivo": "08-imposto-78.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Apuraração do imposto 78 - ICMS Monofásico",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#apuracao"
+        }
+      ],
+      "caracteres": 74
+    }
+  ],
+  "indice_telas": {
+    "F055PPF": [
+      "exemplos",
+      "impostos-65-e-74"
+    ],
+    "F660NFC": [
+      "impostos-65-e-74"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#apuracao",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660nfc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i76.htm"
+  ]
+}

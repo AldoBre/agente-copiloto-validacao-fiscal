@@ -1,0 +1,56 @@
+{
+  "fonte": {
+    "pagina": "F019RET - Consulta Controle de Retenção de Impostos",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f019ret.htm",
+    "trilha": "Ajuda por telas > Suprimentos > Gestão de Recebimento > Notas Fiscais de Entrada > Consultas"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F019RET - Consulta Controle de Retenção de Impostos",
+      "slug": "f019ret-consulta-controle-de-retencao-de-impostos",
+      "arquivo": "01-f019ret-consulta-controle-de-retencao-de-impostos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f019ret.htm",
+      "subtopicos": [],
+      "telas": [
+        "F019RET"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Suprimentos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos.htm"
+        },
+        {
+          "texto": "Gestão de Recebimento",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos_gestao_recebimento.htm"
+        },
+        {
+          "texto": "Notas Fiscais de Entrada",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_recebimento_nfentrada.htm"
+        }
+      ],
+      "caracteres": 532
+    }
+  ],
+  "indice_telas": {
+    "F019RET": [
+      "f019ret-consulta-controle-de-retencao-de-impostos"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_recebimento_nfentrada.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos_gestao_recebimento.htm"
+  ]
+}

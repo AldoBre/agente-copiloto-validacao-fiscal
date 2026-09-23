@@ -1,0 +1,298 @@
+{
+  "fonte": {
+    "pagina": "F140PRE - Preparação da Nota Fiscal de Saída",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm",
+    "trilha": "Ajuda por telas > Mercado > Gestão de Faturamento e Outras Saídas > Notas Fiscais de Saída"
+  },
+  "total_topicos": 11,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Comportamento da variável VSCODSTR na tela Preparação da Nota Fiscal Saída (F140PRE)",
+      "slug": "comportamento-da-variavel-vscodstr-na-tela-preparacao-da-not",
+      "arquivo": "01-comportamento-da-variavel-vscodstr-na-tela-preparacao-da-not.md",
+      "ancora": "Comportamento_da_variável_VSCODSTR",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm#Comportamento_da_variável_VSCODSTR",
+      "subtopicos": [],
+      "telas": [
+        "F027STR",
+        "F070FVE",
+        "F140PRE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-000ALICM01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "VEN-000ALICM01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicm01.htm#VEN-000ALICM01"
+        },
+        {
+          "texto": "Parâmetros da Filial para Vendas (F070FVE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm"
+        },
+        {
+          "texto": "Situações Tributárias (F027STR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm"
+        }
+      ],
+      "caracteres": 1794
+    },
+    {
+      "ordem": 2,
+      "titulo": "Controlar produtos com ICMS ST entre filiais em estados diferentes",
+      "slug": "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife",
+      "arquivo": "02-controlar-produtos-com-icms-st-entre-filiais-em-estados-dife.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm",
+      "subtopicos": [],
+      "telas": [
+        "F075APF",
+        "F075GFP",
+        "F075PFI",
+        "F075PRO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1518
+    },
+    {
+      "ordem": 3,
+      "titulo": "Referenciar mais de uma NF de entrada para um item da NF de saída",
+      "slug": "referenciar-mais-de-uma-nf-de-entrada-para-um-item-da-nf-de-",
+      "arquivo": "03-referenciar-mais-de-uma-nf-de-entrada-para-um-item-da-nf-de-.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "documentação correspondente",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/referenciacao_nf_entrada_processo_exportacao.htm"
+        }
+      ],
+      "caracteres": 163
+    },
+    {
+      "ordem": 4,
+      "titulo": "Regras para atualização do pedido no processo de cobranças e remessas",
+      "slug": "regras-para-atualizacao-do-pedido-no-processo-de-cobrancas-e",
+      "arquivo": "04-regras-para-atualizacao-do-pedido-no-processo-de-cobrancas-e.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm",
+      "subtopicos": [],
+      "telas": [
+        "F140PRE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 873
+    },
+    {
+      "ordem": 5,
+      "titulo": "Via Pedido",
+      "slug": "via-pedido",
+      "arquivo": "05-via-pedido.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm",
+      "subtopicos": [],
+      "telas": [
+        "E085CLI",
+        "F027STR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F027STR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm#menu_cadastros/F027STR.htm"
+        }
+      ],
+      "caracteres": 1172
+    },
+    {
+      "ordem": 6,
+      "titulo": "Consultar NF",
+      "slug": "consultar-nf",
+      "arquivo": "06-consultar-nf.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 37
+    },
+    {
+      "ordem": 7,
+      "titulo": "Via Nota Saída",
+      "slug": "via-nota-saida",
+      "arquivo": "07-via-nota-saida.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm",
+      "subtopicos": [],
+      "telas": [
+        "E085CLI",
+        "F027STR",
+        "F140PRE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-000TNSDE01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F027STR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm#menu_cadastros/F027STR.htm"
+        }
+      ],
+      "caracteres": 1917
+    },
+    {
+      "ordem": 8,
+      "titulo": "Via Nota Entrada",
+      "slug": "via-nota-entrada",
+      "arquivo": "08-via-nota-entrada.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm",
+      "subtopicos": [],
+      "telas": [
+        "F027STR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F027STR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm#menu_cadastros/F027STR.htm"
+        }
+      ],
+      "caracteres": 1468
+    },
+    {
+      "ordem": 9,
+      "titulo": "Via Pedido e Nota Entrada",
+      "slug": "via-pedido-e-nota-entrada",
+      "arquivo": "09-via-pedido-e-nota-entrada.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 208
+    },
+    {
+      "ordem": 10,
+      "titulo": "Via Cupom Fiscal (ECF, NFC-e, CF-e)",
+      "slug": "via-cupom-fiscal-ecf-nfc-e-cf-e",
+      "arquivo": "10-via-cupom-fiscal-ecf-nfc-e-cf-e.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm",
+      "subtopicos": [],
+      "telas": [
+        "F001TVE",
+        "F027STR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F027STR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm#menu_cadastros/F027STR.htm"
+        }
+      ],
+      "caracteres": 1200
+    },
+    {
+      "ordem": 11,
+      "titulo": "Quanto ao valor do desconto",
+      "slug": "quanto-ao-valor-do-desconto",
+      "arquivo": "11-quanto-ao-valor-do-desconto.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm",
+      "subtopicos": [
+        "Ao clicar em Proporção",
+        "Ao clicar em Original"
+      ],
+      "telas": [
+        "F001TVE",
+        "F140PRE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Transações de Vendas (F001TVE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        }
+      ],
+      "caracteres": 1756
+    }
+  ],
+  "indice_telas": {
+    "E085CLI": [
+      "via-nota-saida",
+      "via-pedido"
+    ],
+    "F001TVE": [
+      "quanto-ao-valor-do-desconto",
+      "via-cupom-fiscal-ecf-nfc-e-cf-e"
+    ],
+    "F027STR": [
+      "comportamento-da-variavel-vscodstr-na-tela-preparacao-da-not",
+      "via-cupom-fiscal-ecf-nfc-e-cf-e",
+      "via-nota-entrada",
+      "via-nota-saida",
+      "via-pedido"
+    ],
+    "F070FVE": [
+      "comportamento-da-variavel-vscodstr-na-tela-preparacao-da-not"
+    ],
+    "F075APF": [
+      "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife"
+    ],
+    "F075GFP": [
+      "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife"
+    ],
+    "F075PFI": [
+      "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife"
+    ],
+    "F075PRO": [
+      "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife"
+    ],
+    "F140PRE": [
+      "comportamento-da-variavel-vscodstr-na-tela-preparacao-da-not",
+      "quanto-ao-valor-do-desconto",
+      "regras-para-atualizacao-do-pedido-no-processo-de-cobrancas-e",
+      "via-nota-saida"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicm01.htm#VEN-000ALICM01",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm#menu_cadastros/F027STR.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/referenciacao_nf_entrada_processo_exportacao.htm"
+  ]
+}

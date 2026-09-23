@@ -1,0 +1,85 @@
+{
+  "fonte": {
+    "pagina": "F441CIE - Consulta de Itens de Notas Fiscais de Entrada",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f441cie.htm",
+    "trilha": "Ajuda por telas > Suprimentos > Gestão de Recebimento > Notas Fiscais de Entrada > Consultas"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F441CIE - Consulta de Itens de Notas Fiscais de Entrada",
+      "slug": "f441cie-consulta-de-itens-de-notas-fiscais-de-entrada",
+      "arquivo": "01-f441cie-consulta-de-itens-de-notas-fiscais-de-entrada.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f441cie.htm",
+      "subtopicos": [],
+      "telas": [
+        "F000CRT",
+        "F441CIE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Suprimentos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos.htm"
+        },
+        {
+          "texto": "Gestão de Recebimento",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos_gestao_recebimento.htm"
+        },
+        {
+          "texto": "Notas Fiscais de Entrada",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_recebimento_nfentrada.htm"
+        },
+        {
+          "texto": "F000CRT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000crt.htm"
+        },
+        {
+          "texto": "documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/reforma-tributaria/rotinas-impactadas.htm"
+        },
+        {
+          "texto": "C170 - Itens do documento",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/bloco-c.htm#C170"
+        },
+        {
+          "texto": "PerDocBlo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#PerDocBlo"
+        },
+        {
+          "texto": "000SELEF01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000selef01.htm"
+        }
+      ],
+      "caracteres": 5399
+    }
+  ],
+  "indice_telas": {
+    "F000CRT": [
+      "f441cie-consulta-de-itens-de-notas-fiscais-de-entrada"
+    ],
+    "F441CIE": [
+      "f441cie-consulta-de-itens-de-notas-fiscais-de-entrada"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_recebimento_nfentrada.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_suprimentos_gestao_recebimento.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000selef01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000crt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#PerDocBlo",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/bloco-c.htm#C170",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/reforma-tributaria/rotinas-impactadas.htm"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "fonte": {
+    "pagina": "Web service Com.senior.g5.co.mct.imp.exclusaocalculo",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mct_imp_exclusaocalculo.htm",
+    "trilha": "Integrações com outros sistemas > Web services > Web services disponíveis no Gestão Empresarial"
+  },
+  "total_topicos": 3,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Campos que representam valores monetários, quantidade e percentual e estão declarados como String",
+      "slug": "campos-que-representam-valores-monetarios-quantidade-e-perce",
+      "arquivo": "01-campos-que-representam-valores-monetarios-quantidade-e-perce.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mct_imp_exclusaocalculo.htm",
+      "subtopicos": [
+        "Exemplo:"
+      ],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 870
+    },
+    {
+      "ordem": 2,
+      "titulo": "Campos que representam valores monetários, quantidade e percentual e não estão declarados como String",
+      "slug": "campos-que-representam-valores-monetarios-quantidade-e-perce",
+      "arquivo": "02-campos-que-representam-valores-monetarios-quantidade-e-perce.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mct_imp_exclusaocalculo.htm",
+      "subtopicos": [
+        "Exemplo:"
+      ],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 640
+    },
+    {
+      "ordem": 3,
+      "titulo": "Processar",
+      "slug": "processar",
+      "arquivo": "03-processar.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mct_imp_exclusaocalculo.htm",
+      "subtopicos": [
+        "Requisição:",
+        "Parâmetros da requisição:",
+        "Resposta:",
+        "Atributos da resposta:"
+      ],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 2388
+    }
+  ],
+  "indice_telas": {},
+  "paginas_relacionadas": []
+}

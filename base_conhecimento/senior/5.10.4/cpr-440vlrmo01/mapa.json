@@ -1,0 +1,49 @@
+{
+  "fonte": {
+    "pagina": "Identificador de Regra",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440vlrmo01.htm",
+    "trilha": ""
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Identificador de Regra",
+      "slug": "identificador-de-regra",
+      "arquivo": "01-identificador-de-regra.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440vlrmo01.htm",
+      "subtopicos": [],
+      "telas": [
+        "E440IPC",
+        "F440VPR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-440PRMED01",
+        "CPR-440VLRMO01",
+        "CPR-440VLRMO02"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "LisVarReg",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#LisVarReg"
+        }
+      ],
+      "caracteres": 7354
+    }
+  ],
+  "indice_telas": {
+    "E440IPC": [
+      "identificador-de-regra"
+    ],
+    "F440VPR": [
+      "identificador-de-regra"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#LisVarReg"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "fonte": {
+    "pagina": "F001TIT - Configuração para Geração de Títulos de Impostos",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tit.htm",
+    "trilha": "Ajuda por telas > Cadastros > Transações > Parâmetros por Gestão"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F001TIT - Configuração para Geração de Títulos de Impostos",
+      "slug": "f001tit-configuracao-para-geracao-de-titulos-de-impostos",
+      "arquivo": "01-f001tit-configuracao-para-geracao-de-titulos-de-impostos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tit.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TNS",
+        "E051DIS",
+        "E051IMP",
+        "F001TIT",
+        "F055PPF",
+        "F070FEF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Tabelas > Contábil > Impostos > Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051imp.htm"
+        },
+        {
+          "texto": "Tabelas > Financeiro > Tipos Títulos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f002tpt.htm"
+        },
+        {
+          "texto": "F070FEF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm#Programa_de_Incentivo_Ao_Algodao"
+        },
+        {
+          "texto": "informações de fornecedores",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095inf.htm"
+        },
+        {
+          "texto": "440GERTI01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440gerti01.htm"
+        }
+      ],
+      "caracteres": 8424
+    }
+  ],
+  "indice_telas": {
+    "E001TNS": [
+      "f001tit-configuracao-para-geracao-de-titulos-de-impostos"
+    ],
+    "E051DIS": [
+      "f001tit-configuracao-para-geracao-de-titulos-de-impostos"
+    ],
+    "E051IMP": [
+      "f001tit-configuracao-para-geracao-de-titulos-de-impostos"
+    ],
+    "F001TIT": [
+      "f001tit-configuracao-para-geracao-de-titulos-de-impostos"
+    ],
+    "F055PPF": [
+      "f001tit-configuracao-para-geracao-de-titulos-de-impostos"
+    ],
+    "F070FEF": [
+      "f001tit-configuracao-para-geracao-de-titulos-de-impostos"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440gerti01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f002tpt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051imp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm#Programa_de_Incentivo_Ao_Algodao",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095inf.htm"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "fonte": {
+    "pagina": "F120CAC - Cálculos do Pedido",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120cac.htm",
+    "trilha": "Ajuda por telas > Mercado > Gestão de Vendas > Pedidos > Avaliação de Produto"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Exemplo da regra",
+      "slug": "exemplo-da-regra",
+      "arquivo": "01-exemplo-da-regra.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120cac.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 778
+    }
+  ],
+  "indice_telas": {},
+  "paginas_relacionadas": []
+}

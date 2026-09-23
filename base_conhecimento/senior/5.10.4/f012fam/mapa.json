@@ -1,0 +1,336 @@
+{
+  "fonte": {
+    "pagina": "F012FAM - Cadastro de Famílias",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm",
+    "trilha": "Ajuda por telas > Cadastros > Produtos e Serviços"
+  },
+  "total_topicos": 5,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Guia Dados Gerais",
+      "slug": "guia-dados-gerais",
+      "arquivo": "01-guia-dados-gerais.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm",
+      "subtopicos": [],
+      "telas": [
+        "F000ATX",
+        "F000IPR",
+        "F000PGS",
+        "F011CLC",
+        "F013AGP",
+        "F055TPR",
+        "F070EMP",
+        "F075GFP",
+        "F075PRO",
+        "F076MAR",
+        "F083ORI",
+        "F085COP",
+        "F118OCR",
+        "F403FPR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "centro de custo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/conceito_centrodecusto.htm"
+        },
+        {
+          "texto": "Como montar o código EAN13",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/montagem_ean13.htm"
+        },
+        {
+          "texto": "Sugestão de depósito padrão",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestao-deposito-padrao.htm#menu_mercado/Sugestao-deposito-padrao"
+        },
+        {
+          "texto": "F076MAR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f076mar.htm"
+        },
+        {
+          "texto": "F011CLC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f011clc.htm"
+        },
+        {
+          "texto": "aqui",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/conceito_digitoverifproduto.htm"
+        },
+        {
+          "texto": "F083ORI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f083ori.htm"
+        },
+        {
+          "texto": "F000ATX",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000atx.htm"
+        },
+        {
+          "texto": "F118OCR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_servicos/f118ocr.htm"
+        },
+        {
+          "texto": "produto volume",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/conceito_produto_com_controle_de_volumes.htm"
+        },
+        {
+          "texto": "F055TPR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055tpr.htm"
+        },
+        {
+          "texto": "Ato Cooperado",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/ato-cooperado/inicio.htm"
+        },
+        {
+          "texto": "F085COP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cop.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F013AGP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f013agp.htm"
+        },
+        {
+          "texto": "F403FPR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm"
+        },
+        {
+          "texto": "Manutenção dos parâmetros globais do sistema (F000PGS)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm"
+        },
+        {
+          "texto": "Definição da Cópia (F000IPR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_ajuda/f000ipr.htm"
+        },
+        {
+          "texto": "GTIN",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/nf-e/regras-e-sugestoes-valores.htm#gtin"
+        },
+        {
+          "texto": "recebimento eletrônico de NFS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/recebimento-eletronico/recebimento-eletronico.htm#nfs-e"
+        },
+        {
+          "texto": "F070EMP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+        },
+        {
+          "texto": "confira a documentação do processo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/duplicacao-automatica.htm"
+        },
+        {
+          "texto": "F075GFP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm"
+        },
+        {
+          "texto": "Geração automática do DUN-14",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/dun-14.htm"
+        },
+        {
+          "texto": "Processo automático 157 - Integração ERP x Gestão Safra",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/157-integracao-erp-gestao-safra.htm"
+        }
+      ],
+      "caracteres": 21480
+    },
+    {
+      "ordem": 2,
+      "titulo": "Guia Estágios",
+      "slug": "guia-estagios",
+      "arquivo": "02-guia-estagios.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm",
+      "subtopicos": [],
+      "telas": [
+        "F093ETG"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "estágio",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/conceito_estagio.htm"
+        },
+        {
+          "texto": "F093ETG",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f093etg.htm"
+        }
+      ],
+      "caracteres": 364
+    },
+    {
+      "ordem": 3,
+      "titulo": "Guia Características",
+      "slug": "guia-caracteristicas",
+      "arquivo": "03-guia-caracteristicas.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm",
+      "subtopicos": [],
+      "telas": [
+        "F010CTE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F010CTE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f010cte.htm"
+        }
+      ],
+      "caracteres": 373
+    },
+    {
+      "ordem": 4,
+      "titulo": "Guia Faixas",
+      "slug": "guia-faixas",
+      "arquivo": "04-guia-faixas.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm",
+      "subtopicos": [],
+      "telas": [
+        "F070INT",
+        "F084FXA"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F084FXA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f084fxa.htm"
+        },
+        {
+          "texto": "F070INT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070int.htm"
+        },
+        {
+          "texto": "Exportação de cadastro de produtos  em grade",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/erpxwmsexpress/administracaosistema/exportacoes.htm#produtos-grade"
+        }
+      ],
+      "caracteres": 724
+    },
+    {
+      "ordem": 5,
+      "titulo": "Guia Másc. Endereçamento",
+      "slug": "guia-masc-enderecamento",
+      "arquivo": "05-guia-masc-enderecamento.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm",
+      "subtopicos": [],
+      "telas": [
+        "F084MEP"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F084MEP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f084mep.htm"
+        }
+      ],
+      "caracteres": 218
+    }
+  ],
+  "indice_telas": {
+    "F000ATX": [
+      "guia-dados-gerais"
+    ],
+    "F000IPR": [
+      "guia-dados-gerais"
+    ],
+    "F000PGS": [
+      "guia-dados-gerais"
+    ],
+    "F010CTE": [
+      "guia-caracteristicas"
+    ],
+    "F011CLC": [
+      "guia-dados-gerais"
+    ],
+    "F013AGP": [
+      "guia-dados-gerais"
+    ],
+    "F055TPR": [
+      "guia-dados-gerais"
+    ],
+    "F070EMP": [
+      "guia-dados-gerais"
+    ],
+    "F070INT": [
+      "guia-faixas"
+    ],
+    "F075GFP": [
+      "guia-dados-gerais"
+    ],
+    "F075PRO": [
+      "guia-dados-gerais"
+    ],
+    "F076MAR": [
+      "guia-dados-gerais"
+    ],
+    "F083ORI": [
+      "guia-dados-gerais"
+    ],
+    "F084FXA": [
+      "guia-faixas"
+    ],
+    "F084MEP": [
+      "guia-masc-enderecamento"
+    ],
+    "F085COP": [
+      "guia-dados-gerais"
+    ],
+    "F093ETG": [
+      "guia-estagios"
+    ],
+    "F118OCR": [
+      "guia-dados-gerais"
+    ],
+    "F403FPR": [
+      "guia-dados-gerais"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/ato-cooperado/inicio.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/erpxwmsexpress/administracaosistema/exportacoes.htm#produtos-grade",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/duplicacao-automatica.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/nf-e/regras-e-sugestoes-valores.htm#gtin",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/recebimento-eletronico/recebimento-eletronico.htm#nfs-e",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_ajuda/f000ipr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/conceito_centrodecusto.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/conceito_digitoverifproduto.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/conceito_estagio.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000atx.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f010cte.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f011clc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f013agp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055tpr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070int.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f076mar.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f083ori.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f084fxa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f084mep.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cop.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f093etg.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/montagem_ean13.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/conceito_produto_com_controle_de_volumes.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/dun-14.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestao-deposito-padrao.htm#menu_mercado/Sugestao-deposito-padrao",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_servicos/f118ocr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/157-integracao-erp-gestao-safra.htm"
+  ]
+}

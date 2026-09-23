@@ -1,0 +1,28 @@
+{
+  "fonte": {
+    "pagina": "F075PFI - Parâmetros por Filial",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pfi.htm",
+    "trilha": "Ajuda por telas > Cadastros > Produtos e Serviços > Produtos > Parâmetros por Filial"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Estão disponíveis os seguintes códigos:",
+      "slug": "estao-disponiveis-os-seguintes-codigos",
+      "arquivo": "01-estao-disponiveis-os-seguintes-codigos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pfi.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 4237
+    }
+  ],
+  "indice_telas": {},
+  "paginas_relacionadas": []
+}

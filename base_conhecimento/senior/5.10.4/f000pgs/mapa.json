@@ -1,0 +1,3356 @@
+{
+  "fonte": {
+    "pagina": "F000PGS - Manutenção dos parâmetros globais do sistema",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm",
+    "trilha": "Ajuda por telas > Cadastros > Identificadores e parâmetros"
+  },
+  "total_topicos": 23,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "#",
+      "slug": "",
+      "arquivo": "01-.md",
+      "ancora": "#",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm##",
+      "subtopicos": [],
+      "telas": [
+        "F410NQC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CTB-640ILCFT01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "CTB-640ILCFT01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ctb_640ilcft01.htm"
+        }
+      ],
+      "caracteres": 1253
+    },
+    {
+      "ordem": 2,
+      "titulo": "A",
+      "slug": "a",
+      "arquivo": "02-a.md",
+      "ancora": "A",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#A",
+      "subtopicos": [
+        "Lista dos campos alterados no fornecedor ao incluir/alterar um cliente",
+        "Lista dos campos alterados no cliente ao incluir/alterar um fornecedor"
+      ],
+      "telas": [
+        "E000LOG",
+        "E075DER",
+        "E075PPF",
+        "E210EST",
+        "E210MED",
+        "E301TCR",
+        "E440RAT",
+        "E600MES",
+        "E660EXP",
+        "F000APA",
+        "F000LOG",
+        "F008CEP",
+        "F070FES",
+        "F070FVE",
+        "F070MPF",
+        "F070PRJ",
+        "F075CRF",
+        "F075EPP",
+        "F075PPC",
+        "F085ENT",
+        "F085HCL",
+        "F095ENT",
+        "F095HFO",
+        "F095ORM",
+        "F135FCP",
+        "F135MPF",
+        "F140GNF",
+        "F140MDG",
+        "F205DEP",
+        "F211ADA",
+        "F211CPR",
+        "F213CLS",
+        "F215FES",
+        "F320DTC",
+        "F405GSA",
+        "F405SOL",
+        "F410CEA",
+        "F410NQC",
+        "F410PCT",
+        "F420GOC",
+        "F420OCP",
+        "F420OPS",
+        "F420OSC",
+        "F440GNE",
+        "F460CTR",
+        "F615CSP",
+        "F615PAF",
+        "F615PAP",
+        "F615PXC",
+        "F615PXP",
+        "F667AFM",
+        "F667RIR",
+        "F670BEM",
+        "F670LOT"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-000MSGRE01",
+        "VEN-000CRECL01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "AbrirTelaSistema",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/regra_funcoes/abrirtelasistema.htm"
+        },
+        {
+          "texto": "Ordens de Compra via Solicitação de Compra (F420OSC)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420osc.htm"
+        },
+        {
+          "texto": "Geração de parcelas com base na condição de pagamento",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/triangulacao/geracao-de-parcelas-com-base-na-condicao-de-pagamento.htm"
+        },
+        {
+          "texto": "Notas Fiscais de Saída (F140GNF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140gnf.htm"
+        },
+        {
+          "texto": "Depósitos (F205DEP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f205dep.htm"
+        },
+        {
+          "texto": "F085ENT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085ent.htm"
+        },
+        {
+          "texto": "F095ORM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095orm.htm"
+        },
+        {
+          "texto": "Analytics",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/extended/analytics-erp.htm"
+        },
+        {
+          "texto": "F070FVE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm"
+        },
+        {
+          "texto": "VEN-000CRECL01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000crecl01.htm"
+        },
+        {
+          "texto": "F070PRJ",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070prj.htm"
+        },
+        {
+          "texto": "F615CSP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f615csp.htm"
+        },
+        {
+          "texto": "F667AFM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f667afm.htm"
+        },
+        {
+          "texto": "F667RIR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f667rir.htm"
+        },
+        {
+          "texto": "recebimentos de NFS-e",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/recebimento-eletronico/recebimento-nfs-e.htm#importacao-nfs-e"
+        },
+        {
+          "texto": "documentação específica",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/parametro-global-atucodbnf.htm"
+        },
+        {
+          "texto": "F000APA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000apa.htm"
+        },
+        {
+          "texto": "CPR-000MSGRE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000msgre01.htm"
+        },
+        {
+          "texto": "documentação correspondente",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/atualizacao_nf_serie_nota.htm"
+        }
+      ],
+      "caracteres": 34839
+    },
+    {
+      "ordem": 3,
+      "titulo": "B",
+      "slug": "b",
+      "arquivo": "03-b.md",
+      "ancora": "B",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#B",
+      "subtopicos": [],
+      "telas": [
+        "E039POR",
+        "F037VDS",
+        "F140PRE",
+        "F145BLO",
+        "F146NNU",
+        "F185CFG",
+        "F205DEP",
+        "F211ARA",
+        "F301BAA",
+        "F302CRB",
+        "F420GOC",
+        "F420OCP"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-000SIGUF01",
+        "CRE-302CRBNN01",
+        "GER-000INWMS15",
+        "VEN-135FLPFA01"
+      ],
+      "campos_xml_citados": [
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "CRE-302CRBNN01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cre_302crbnn01.htm"
+        },
+        {
+          "texto": "F302CRB",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f302crb.htm"
+        },
+        {
+          "texto": "F185CFG",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f185cfg.htm"
+        },
+        {
+          "texto": "GER-000INWMS15",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000inwms15.htm"
+        },
+        {
+          "texto": "F205DEP – Depósitos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f205dep.htm"
+        },
+        {
+          "texto": "F037VDS – Valores por Sugestão",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f037vds.htm"
+        },
+        {
+          "texto": "SimularPedidos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_ven_pedidos.htm#SimularPedidos"
+        },
+        {
+          "texto": "GravarPedidos_13",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_ven_pedidos.htm#GravarPedidos13"
+        },
+        {
+          "texto": "GravarNotasFiscaisSaida_13",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_ven_notafiscal.htm#GravarNotasFiscaisSaida_13"
+        },
+        {
+          "texto": "COM-000SIGUF01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000siguf01.htm"
+        },
+        {
+          "texto": "71 - Faturamento de pré-faturas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/71-faturamento-pre-faturas.htm"
+        },
+        {
+          "texto": "VEN-135FLPFA01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135flpfa01.htm"
+        }
+      ],
+      "caracteres": 8492
+    },
+    {
+      "ordem": 4,
+      "titulo": "C",
+      "slug": "c",
+      "arquivo": "04-c.md",
+      "ancora": "C",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#C",
+      "subtopicos": [
+        "Baixa de saldo com parâmetro igual a \"S - Sim\"",
+        "Baixa de saldo com parâmetro = \"N - Não\""
+      ],
+      "telas": [
+        "E000NFC",
+        "E070CPR",
+        "E115PRO",
+        "E210PNU",
+        "E501TCP",
+        "E900EOQ",
+        "F000APA",
+        "F001TXT",
+        "F022CLF",
+        "F022GCF",
+        "F070FVE",
+        "F075EPP",
+        "F080SER",
+        "F085ENT",
+        "F085INC",
+        "F095ORM",
+        "F115CAR",
+        "F115COE",
+        "F115CST",
+        "F115NPF",
+        "F120GPP",
+        "F120GRA",
+        "F120LIB",
+        "F135APM",
+        "F135CCA",
+        "F135CMC",
+        "F135FCP",
+        "F135MCA",
+        "F135MPF",
+        "F143AFI",
+        "F160NOV",
+        "F161GPD",
+        "F161GPS",
+        "F191CPT",
+        "F210ISA",
+        "F211ADA",
+        "F211ARA",
+        "F211RAV",
+        "F217DVP",
+        "F301ATL",
+        "F301BAA",
+        "F301BCD",
+        "F301BLO",
+        "F301BMA",
+        "F301BMD",
+        "F301BMV",
+        "F301CCF",
+        "F301LOT",
+        "F301RPF",
+        "F301RTF",
+        "F301SUB",
+        "F301TCR",
+        "F403LFP",
+        "F403PFL",
+        "F405APR",
+        "F410NQC",
+        "F420GOC",
+        "F420OCC",
+        "F435CCC",
+        "F435CST",
+        "F440GNE",
+        "F440NFV",
+        "F501BAA",
+        "F501BCD",
+        "F501BCO",
+        "F501BLM",
+        "F501LOT",
+        "F501SBA",
+        "F501SUB",
+        "F606CCR",
+        "F621AEQ",
+        "F621SIC",
+        "F630GSE",
+        "F660EXP",
+        "F667AFM",
+        "F667RIR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPA-501BAARE01",
+        "CPR-000ALICM01",
+        "EST-210ATREP01",
+        "EST-215IGUAL01",
+        "TES-600GECOC01",
+        "VEN-000CRECL01",
+        "VEN-115CSTPL01"
+      ],
+      "campos_xml_citados": [
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "CPA-501BAARE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpa_501baare01.htm"
+        },
+        {
+          "texto": "Análise do Ponto de Equilíbrio (F621AEQ)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_custos/f621aeq.htm"
+        },
+        {
+          "texto": "CPR-000ALICM01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000alicm01.htm"
+        },
+        {
+          "texto": "EST-215IGUAL01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/est_215igual01.htm"
+        },
+        {
+          "texto": "F210ISA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f210isa.htm"
+        },
+        {
+          "texto": "geração da carga",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135fcp.htm"
+        },
+        {
+          "texto": "Gestor Senior",
+          "url": "https://documentacao.senior.com.br/seniorxplatform/manual-do-usuario/aplicativo-gestor-senior/"
+        },
+        {
+          "texto": "F403LFP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403lfp.htm"
+        },
+        {
+          "texto": "F403PFL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403pfl.htm"
+        },
+        {
+          "texto": "F070FVE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm"
+        },
+        {
+          "texto": "GER-000GERSDE1",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000gersde1.htm"
+        },
+        {
+          "texto": "Recebimento Eletrônico de NFS-e",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/recebimento-eletronico/recebimento-nfs-e.htm"
+        },
+        {
+          "texto": "F301SUB",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f301sub.htm"
+        },
+        {
+          "texto": "VEN-000CRECL01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000crecl01.htm"
+        },
+        {
+          "texto": "Conferência de Cargas (F135CCA)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135cca.htm"
+        },
+        {
+          "texto": "EST-210ATREP01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/est_210atrep01.htm"
+        },
+        {
+          "texto": "Geração de Saldos de Produtos em Elaboração (F630GSE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_custos/f630gse.htm"
+        },
+        {
+          "texto": "F660EXP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660exp.htm"
+        },
+        {
+          "texto": "F667AFM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f667afm.htm"
+        },
+        {
+          "texto": "F667RIR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f667rir.htm"
+        },
+        {
+          "texto": "TES-600GECOC01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/tes_600gecoc01.htm"
+        },
+        {
+          "texto": "F435CCC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435ccc.htm"
+        },
+        {
+          "texto": "F621SIC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_custos/f621sic.htm"
+        },
+        {
+          "texto": "aqui",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/dados-faturamento-contratos.htm"
+        },
+        {
+          "texto": "rotina de consulta na\r\n\t\t\t\t\tSEFAZ",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/consulta_cadastros_sefaz.htm"
+        },
+        {
+          "texto": "F191CPT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f191cpt.htm"
+        },
+        {
+          "texto": "F000APA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000apa.htm"
+        },
+        {
+          "texto": "F410NQC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410nqc.htm"
+        }
+      ],
+      "caracteres": 67829
+    },
+    {
+      "ordem": 5,
+      "titulo": "D",
+      "slug": "d",
+      "arquivo": "05-d.md",
+      "ancora": "D",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#D",
+      "subtopicos": [],
+      "telas": [
+        "E075IBP",
+        "E080SER",
+        "E204HCL",
+        "F001TCP",
+        "F001TVE",
+        "F006EEN",
+        "F070EMP",
+        "F075IBP",
+        "F140LOT",
+        "F140PRE",
+        "F145EBQ",
+        "F149GNC",
+        "F210AME",
+        "F420GOC",
+        "F420GRD",
+        "F420OCB",
+        "F420OCP",
+        "F435CCC",
+        "F435CLA",
+        "F435MDT",
+        "F440EXF",
+        "F440GNE",
+        "F460CTR",
+        "F510DDA",
+        "F510OLD"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro de Empresas (F070EMP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+        },
+        {
+          "texto": "Cadastro da Carga Tributária - IBPT (F075IBP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075ibp.htm"
+        },
+        {
+          "texto": "aqui",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestao-deposito-padrao.htm"
+        },
+        {
+          "texto": "Transações de Vendas (F001TVE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "Transações de Compras (F001TCP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "Com.senior.g5.co.int.geral.relatorio",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_geral_relatorio.htm"
+        },
+        {
+          "texto": "Débito Direto Autorizado por Série (F510DDA)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f510dda.htm"
+        },
+        {
+          "texto": "F435MDT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435mdt.htm"
+        },
+        {
+          "texto": "F435CCC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435ccc.htm"
+        },
+        {
+          "texto": "F145EBQ",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f145ebq.htm"
+        }
+      ],
+      "caracteres": 19924
+    },
+    {
+      "ordem": 6,
+      "titulo": "E",
+      "slug": "e",
+      "arquivo": "06-e.md",
+      "ancora": "E",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#E",
+      "subtopicos": [],
+      "telas": [
+        "F000DLS",
+        "F070LOG",
+        "F075BAR",
+        "F075GFP",
+        "F075PRO",
+        "F085HCL",
+        "F095PCF",
+        "F099UXR",
+        "F120DEP",
+        "F120EBP",
+        "F121CIP",
+        "F140GNF",
+        "F140PRE",
+        "F207APR",
+        "F302CCR",
+        "F302CRR",
+        "F405APR",
+        "F410CEA",
+        "F410CPC",
+        "F410PCT",
+        "F410QCP",
+        "F420OPS",
+        "F426RVN",
+        "F435COS",
+        "F440GNE",
+        "F440VPR",
+        "F460CXO",
+        "F460PFO",
+        "F501GTC",
+        "F610PFL"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-460TITCT01",
+        "VEN-000TNSDE01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Relacionamentos de Usuários (F099UXR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099uxr.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F075GFP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm"
+        },
+        {
+          "texto": "F070LOG",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070log.htm"
+        },
+        {
+          "texto": "Cotações de preços - Cotei",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/integracao-erp-cotei.htm"
+        },
+        {
+          "texto": "F610PFL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f610pfl.htm"
+        }
+      ],
+      "caracteres": 18353
+    },
+    {
+      "ordem": 7,
+      "titulo": "F",
+      "slug": "f",
+      "arquivo": "07-f.md",
+      "ancora": "F",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#F",
+      "subtopicos": [],
+      "telas": [
+        "F099UCA",
+        "F119OCT",
+        "F120DPE",
+        "F120GPC",
+        "F120GPD",
+        "F120GPP",
+        "F120GRA",
+        "F120PMN",
+        "F121CPD",
+        "F129PED",
+        "F129UFP",
+        "F161GPD",
+        "F215FES",
+        "F439FIX",
+        "F439PRF",
+        "F440EXF",
+        "F440GNE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "EST-215IGUAL01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F439FIX",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f439fix.htm"
+        },
+        {
+          "texto": "F439PRF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f439prf.htm"
+        },
+        {
+          "texto": "EST-215IGUAL01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/est_215igual01.htm"
+        },
+        {
+          "texto": "Geração de Orçamento (F119OCT)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f119oct.htm"
+        },
+        {
+          "texto": "Cadastro de Usuários (F099UCA)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099uca.htm"
+        }
+      ],
+      "caracteres": 10447
+    },
+    {
+      "ordem": 8,
+      "titulo": "G",
+      "slug": "g",
+      "arquivo": "08-g.md",
+      "ancora": "G",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#G",
+      "subtopicos": [],
+      "telas": [
+        "E000GRI",
+        "E140DTP",
+        "E140DTS",
+        "E301TPC",
+        "F000INE",
+        "F070FAM",
+        "F075INF",
+        "F085CAD",
+        "F301EBL",
+        "F440GNE",
+        "F600ELC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "finNFe",
+        "vTotTrib"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F301EBL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f301ebl.htm"
+        },
+        {
+          "texto": "F600ELC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f600elc.htm"
+        },
+        {
+          "texto": "Log de operações da Análise",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/log_analise.htm"
+        },
+        {
+          "texto": "aqui",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manual-processos/mercado/gestao-faturamento/log-operacoes-nota-fiscal-saida.htm"
+        },
+        {
+          "texto": "Via Recebimento de Documento Eletrônico (F000INE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f000ine.htm"
+        },
+        {
+          "texto": "Cotei",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/integracao-erp-cotei.htm"
+        },
+        {
+          "texto": "F070FAM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fam.htm"
+        },
+        {
+          "texto": "Cadastro de Clientes (F085CAD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        }
+      ],
+      "caracteres": 13423
+    },
+    {
+      "ordem": 9,
+      "titulo": "H",
+      "slug": "h",
+      "arquivo": "09-h.md",
+      "ancora": "H",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#H",
+      "subtopicos": [
+        "Campos afetados por este parâmetro"
+      ],
+      "telas": [
+        "E095HFO",
+        "E403FPR",
+        "E403FSE",
+        "E440IPC",
+        "E440ISC",
+        "E440LPN",
+        "E440LSN",
+        "F000ANX",
+        "F030BAN",
+        "F066OPE",
+        "F069SEG",
+        "F073PRT",
+        "F073TRA",
+        "F076FAB",
+        "F085CAD",
+        "F085COB",
+        "F085ENT",
+        "F095CAD",
+        "F095INS",
+        "F135MPF",
+        "F210TPA",
+        "F301BAA",
+        "F301BMA",
+        "F301SUB",
+        "F420GOC",
+        "F420OPS",
+        "F420OSC",
+        "F435COS",
+        "F440CNE",
+        "F440DMC",
+        "F440GNE",
+        "F440NFV",
+        "F443GNP",
+        "F460CTR",
+        "F501BCD",
+        "F600CHE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-440BURAT01",
+        "CPR-460PERAL01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F066OPE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f066ope.htm"
+        },
+        {
+          "texto": "F420GOC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm"
+        },
+        {
+          "texto": "Ordens de Compra via Solicitação de Compra (F420OSC)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420osc.htm"
+        },
+        {
+          "texto": "F135MPF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135mpf.htm"
+        },
+        {
+          "texto": "F460CTR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm"
+        },
+        {
+          "texto": "CPR-460PERAL01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_460peral01.htm"
+        },
+        {
+          "texto": "F000ANX",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/f000anx.htm"
+        },
+        {
+          "texto": "F301BMA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f301bma.htm"
+        },
+        {
+          "texto": "F301BAA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f301baa.htm"
+        },
+        {
+          "texto": "F301SUB",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f301sub.htm"
+        },
+        {
+          "texto": "F095CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "F085CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        }
+      ],
+      "caracteres": 13663
+    },
+    {
+      "ordem": 10,
+      "titulo": "I",
+      "slug": "i",
+      "arquivo": "10-i.md",
+      "ancora": "I",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#I",
+      "subtopicos": [],
+      "telas": [
+        "E998IME",
+        "F000QLO",
+        "F000SXT",
+        "F055NRE",
+        "F073LVV",
+        "F075EPP",
+        "F075PCA",
+        "F085CAD",
+        "F085VCL",
+        "F135FCA",
+        "F135FCP",
+        "F135MPF",
+        "F135RCR",
+        "F135TVC",
+        "F140ENL",
+        "F140GNF",
+        "F210AME",
+        "F210LOT",
+        "F210MVP",
+        "F210TPA",
+        "F213MLO",
+        "F220COA",
+        "F220COC",
+        "F220COI",
+        "F410CEA",
+        "F420OSC",
+        "F426CEQ",
+        "F435CCC",
+        "F439FIX",
+        "F440GNE",
+        "F690ILA"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPA-501ITPCP01",
+        "CPR-000INECN01",
+        "CPR-000MTNEL01"
+      ],
+      "campos_xml_citados": [
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "com.senior.g5.co.int.eletronicos.documentos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_eletronicos_documentos.htm"
+        },
+        {
+          "texto": "CPR-000INECN01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000inecn01.htm"
+        },
+        {
+          "texto": "CPR-000MTNEL01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000mtnel01.htm"
+        },
+        {
+          "texto": "Cadastro de Clientes (F085CAD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        },
+        {
+          "texto": "ICMS Monofásico",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm"
+        },
+        {
+          "texto": "com.senior.g5.co.int.varejo.NotaAutorizada.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_varejo_notaautorizada.htm"
+        },
+        {
+          "texto": "aplicativo Gestor Senior",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/mobilidade/aplicativo-gestor-senior.htm"
+        },
+        {
+          "texto": "CPA-501ITPCP01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpa_501itpcp01.htm"
+        },
+        {
+          "texto": "EFD-Reinf - Integração (F690ILA)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f690ila.htm"
+        },
+        {
+          "texto": "Natureza de rendimento (F055NRE).",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055nre.htm"
+        }
+      ],
+      "caracteres": 20212
+    },
+    {
+      "ordem": 11,
+      "titulo": "L",
+      "slug": "l",
+      "arquivo": "11-l.md",
+      "ancora": "L",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#L",
+      "subtopicos": [
+        "Geração de logs de títulos do contas a receber em notas fiscais de saída",
+        "Orientações"
+      ],
+      "telas": [
+        "E210DLS",
+        "E900RIN",
+        "F000INE",
+        "F000PGS",
+        "F000PPD",
+        "F070INT",
+        "F081GPT",
+        "F081SPF",
+        "F095CAD",
+        "F098REG",
+        "F140COL",
+        "F420GOC",
+        "F440GNE",
+        "F600MCC",
+        "F615FPJ",
+        "F900RET",
+        "F900RST"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CHA-900AGCNF01",
+        "TES-600CCOFF01",
+        "VEN-140CNFEC01",
+        "VEN-140CNFEC02",
+        "VEN-140CNFEC03"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F420GOC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm"
+        },
+        {
+          "texto": "137 - Integração ERP x Cotei",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/137-integracao-erp-cotei.htm"
+        },
+        {
+          "texto": "F000PPD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm"
+        },
+        {
+          "texto": "LOG.NFS.TIT.CRE.140CNFEC01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.140CNFEC01"
+        },
+        {
+          "texto": "LOG.NFS.TIT.CRE.140CNFEC02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.140CNFEC02"
+        },
+        {
+          "texto": "LOG.NFS.TIT.CRE.140CNFEC03",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.140CNFEC03"
+        },
+        {
+          "texto": "LOG.NFS.TIT.CRE.EMISSAO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.EMISSAO"
+        },
+        {
+          "texto": "LOG.NFS.TIT.CRE.GERAR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.GERAR"
+        },
+        {
+          "texto": "F098REG",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f098reg.htm"
+        },
+        {
+          "texto": "VEN-140CNFEC01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cnfec01.htm"
+        },
+        {
+          "texto": "VEN-140CNFEC02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cnfec02.htm"
+        },
+        {
+          "texto": "VEN-140CNFEC03",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cnfec03.htm"
+        },
+        {
+          "texto": "F070INT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070int.htm"
+        },
+        {
+          "texto": "F000INE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f000ine.htm"
+        }
+      ],
+      "caracteres": 14828
+    },
+    {
+      "ordem": 12,
+      "titulo": "M",
+      "slug": "m",
+      "arquivo": "12-m.md",
+      "ancora": "M",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#M",
+      "subtopicos": [],
+      "telas": [
+        "E614USU",
+        "F000DLS",
+        "F046CSS",
+        "F075EPP",
+        "F120GPC",
+        "F405APR",
+        "F406SOL",
+        "F420APR",
+        "F435MDT",
+        "F606CCR",
+        "F606TLC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-420EMAOC01",
+        "VEN-120SALES01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "CPR-420EMAOC01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_420emaoc01.htm"
+        },
+        {
+          "texto": "F405APR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f405apr.htm"
+        },
+        {
+          "texto": "processo de Geração de .XML",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/geracao-xml.htm"
+        },
+        {
+          "texto": "Integração com e-­Procurement",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/mercado-eletronico.htm"
+        },
+        {
+          "texto": "VEN-120SALES01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120sales01.htm"
+        },
+        {
+          "texto": "Base de Conhecimento",
+          "url": "https://s.seniorlabs.io/iPIqCP"
+        }
+      ],
+      "caracteres": 13344
+    },
+    {
+      "ordem": 13,
+      "titulo": "N",
+      "slug": "n",
+      "arquivo": "13-n.md",
+      "ancora": "N",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#N",
+      "subtopicos": [],
+      "telas": [
+        "E140IPV",
+        "E140ISV",
+        "F145EBQ",
+        "F145GSM",
+        "F440MDF",
+        "F632CCR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CRT",
+        "modBCST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "NT 2020.005",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/notas-tecnicas-nfe-nfce.htm#2020.005"
+        },
+        {
+          "texto": "NT 2022.001",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/ct-e/notas-tecnicas-ct-e.htm#2022.001"
+        },
+        {
+          "texto": "NT 2022.003",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/notas-tecnicas-nfe-nfce.htm#2022.003"
+        },
+        {
+          "texto": "NT 2023.004",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/notas-tecnicas-nfe-nfce.htm#2023.004"
+        },
+        {
+          "texto": "NT 2024.001",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/mdf-e/notas-tecnicas-mdf-e.htm#2024.001.mdfe"
+        },
+        {
+          "texto": "NT 2025.001",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/mdf-e/notas-tecnicas-mdf-e.htm#2025.001"
+        }
+      ],
+      "caracteres": 9484
+    },
+    {
+      "ordem": 14,
+      "titulo": "O",
+      "slug": "o",
+      "arquivo": "14-o.md",
+      "ancora": "O",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#O",
+      "subtopicos": [],
+      "telas": [
+        "E001TNS",
+        "E070PFO",
+        "E075DER",
+        "E210EST",
+        "E210MVP",
+        "F001TXT",
+        "F009PPE",
+        "F066OPE",
+        "F081DCV",
+        "F081GTP",
+        "F081TPA",
+        "F082DTC",
+        "F082GTP",
+        "F095FXS",
+        "F113RTC",
+        "F140GNF",
+        "F140PRE",
+        "F210MVP",
+        "F211ADA",
+        "F213CSL",
+        "F215FES",
+        "F420GOC",
+        "F422CGO",
+        "F435CST",
+        "F435GNF",
+        "F440DMC",
+        "F440ERT",
+        "F440GNE",
+        "F440NOR",
+        "F440NPR",
+        "F440NRI",
+        "F440VCB",
+        "F440VER",
+        "F443GNP",
+        "F461GNC",
+        "F615OCT",
+        "F650ORC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "GER-000EUDLE01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F420GOC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm"
+        },
+        {
+          "texto": "Operadoras financeiras (F066OPE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f066ope.htm"
+        },
+        {
+          "texto": "F113RTC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f113rtc.htm"
+        },
+        {
+          "texto": "CTB- 650ORCTA01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ctb_650orcta01.htm"
+        },
+        {
+          "texto": "CTB- 640RATFI01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ctb_640ratfi01.htm"
+        }
+      ],
+      "caracteres": 15747
+    },
+    {
+      "ordem": 15,
+      "titulo": "P",
+      "slug": "p",
+      "arquivo": "15-p.md",
+      "ancora": "P",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#P",
+      "subtopicos": [],
+      "telas": [
+        "F075EPP",
+        "F113BUL",
+        "F120GPC",
+        "F120GPD",
+        "F120MVP",
+        "F120PVC",
+        "F135CPF",
+        "F135FCP",
+        "F140GNF",
+        "F160NOV",
+        "F215FES",
+        "F410EPC",
+        "F410PCT",
+        "F420TSO",
+        "F441CIE",
+        "F441CNE",
+        "F460APR",
+        "F615DOC",
+        "F615IPT"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-120GERNE01",
+        "VEN-120IDSPE01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Entrada de Pedidos com Avaliação de Produto (F120GPC)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpc.htm"
+        },
+        {
+          "texto": "Entrada de Pedidos Agrupado (F120GPD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpd.htm"
+        },
+        {
+          "texto": "F140GNF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140gnf.htm"
+        },
+        {
+          "texto": "F460APR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460apr.htm"
+        }
+      ],
+      "caracteres": 19191
+    },
+    {
+      "ordem": 16,
+      "titulo": "Q",
+      "slug": "q",
+      "arquivo": "16-q.md",
+      "ancora": "Q",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#Q",
+      "subtopicos": [
+        "Exemplo"
+      ],
+      "telas": [
+        "F210AME",
+        "F210ASE",
+        "F410QCP",
+        "F420APR",
+        "F435CCC",
+        "F435MDT",
+        "F660NCI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "84 -­ WMS Senior",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/84-wms-senior.htm"
+        },
+        {
+          "texto": "VEN-140XMLPRE0",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140xmlpre0.htm"
+        }
+      ],
+      "caracteres": 5932
+    },
+    {
+      "ordem": 17,
+      "titulo": "R",
+      "slug": "r",
+      "arquivo": "17-r.md",
+      "ancora": "R",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#R",
+      "subtopicos": [
+        "Exemplo:"
+      ],
+      "telas": [
+        "E113ACR",
+        "E113REB",
+        "E301TCR",
+        "E310PEF",
+        "F000APA",
+        "F000PEF",
+        "F000PES",
+        "F030PPE",
+        "F085CAD",
+        "F090REP",
+        "F095CAD",
+        "F113APL",
+        "F113BUL",
+        "F113REM",
+        "F120LIB",
+        "F140NSR",
+        "F310PEF",
+        "F320SRT",
+        "F420GOC",
+        "F440NFV",
+        "F510PRM",
+        "F600MCC",
+        "F999PAN"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "documentação correspondente",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manual-processos/mercado/gestao-faturamento/validacao-quantidade-reserva-exclusiva-pedidos.htm"
+        },
+        {
+          "texto": "Rateio do Valor de Outras.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/rateio-valor-de-outras.htm"
+        },
+        {
+          "texto": "F030PPE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f030ppe.htm"
+        },
+        {
+          "texto": "F510PRM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f510prm.htm"
+        },
+        {
+          "texto": "F085CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        },
+        {
+          "texto": "F095CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "F090REP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f090rep.htm"
+        },
+        {
+          "texto": "F000PES",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pes.htm"
+        },
+        {
+          "texto": "F000PEF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pef.htm"
+        },
+        {
+          "texto": "F113APL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f113apl.htm"
+        },
+        {
+          "texto": "F113BUL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f113bul.htm"
+        },
+        {
+          "texto": "F113REM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f113rem.htm"
+        },
+        {
+          "texto": "F140NSR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140nsr.htm"
+        },
+        {
+          "texto": "Exemplo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140can.htm#validar-cnpj-cpf"
+        }
+      ],
+      "caracteres": 19560
+    },
+    {
+      "ordem": 18,
+      "titulo": "S",
+      "slug": "s",
+      "arquivo": "18-s.md",
+      "ancora": "S",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#S",
+      "subtopicos": [],
+      "telas": [
+        "F000INE",
+        "F066FPG",
+        "F075GFP",
+        "F075PFF",
+        "F075PRO",
+        "F135FCA",
+        "F135FCP",
+        "F135MCA",
+        "F135MPF",
+        "F140PRE",
+        "F207APR",
+        "F207ARP",
+        "F207EME",
+        "F207LOT",
+        "F210AME",
+        "F210FEC",
+        "F210LOT",
+        "F210MVP",
+        "F210TPA",
+        "F211ADA",
+        "F220COI",
+        "F301BCD",
+        "F410NQC",
+        "F410QCP",
+        "F435CCC",
+        "F440APR",
+        "F440NFV",
+        "F443GNP",
+        "F501BMD",
+        "F600CON",
+        "F621APC",
+        "F621AVC",
+        "F630GSE",
+        "F900RST"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-420ALTDP01",
+        "VEN-135LIBPF02"
+      ],
+      "campos_xml_citados": [
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F621AVC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_custos/f621avc.htm"
+        },
+        {
+          "texto": "F900RST",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/f900rst.htm"
+        },
+        {
+          "texto": "com.senior.g5.co.mcm.est.requisicoes",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_est_requisicoes.htm"
+        },
+        {
+          "texto": "F630GSE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_custos/f630gse.htm"
+        },
+        {
+          "texto": "F301BCD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f301bcd.htm"
+        },
+        {
+          "texto": "F501BMD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f501bmd.htm"
+        },
+        {
+          "texto": "F066FPG",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f066fpg.htm"
+        },
+        {
+          "texto": "Sugestão do Código da Situação Tributária de ICMS de Entrada.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestaocst-icms-entrada.htm"
+        },
+        {
+          "texto": "Sugestão do Código da Situação Tributária de ICMS de Saída",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestaocst-icms-saida.htm"
+        },
+        {
+          "texto": "F075PFF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pff.htm"
+        },
+        {
+          "texto": "F135MCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135mca.htm"
+        },
+        {
+          "texto": "F135MPF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135mpf.htm"
+        },
+        {
+          "texto": "VEN-135LIBPF02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135libpf02.htm"
+        },
+        {
+          "texto": "F135FCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135fcp.htm"
+        },
+        {
+          "texto": "F135FCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135fca.htm"
+        },
+        {
+          "texto": "F435CCC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435ccc.htm"
+        },
+        {
+          "texto": "F000INE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f000ine.htm"
+        }
+      ],
+      "caracteres": 19004
+    },
+    {
+      "ordem": 19,
+      "titulo": "T",
+      "slug": "t",
+      "arquivo": "19-t.md",
+      "ancora": "T",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#T",
+      "subtopicos": [
+        "Cenário"
+      ],
+      "telas": [
+        "E120PED",
+        "F000INE",
+        "F000NFC",
+        "F000NFV",
+        "F000PEF",
+        "F000PES",
+        "F000PPD",
+        "F001TES",
+        "F010FCA",
+        "F044BME",
+        "F073TRA",
+        "F075EPP",
+        "F140COL",
+        "F210AME",
+        "F210TPA",
+        "F212CME"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "pCOFINS",
+        "pPIS"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "Configuração de parâmetros dinâmicos (F000PPD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm"
+        },
+        {
+          "texto": "F075EPP.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f075epp.htm"
+        },
+        {
+          "texto": "F000INE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f000ine.htm"
+        },
+        {
+          "texto": "F210AME.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f210ame.htm"
+        },
+        {
+          "texto": "F001TES",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tes.htm"
+        },
+        {
+          "texto": "Bloqueio Movimentação de Estoque (F044BME)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f044bme.htm"
+        },
+        {
+          "texto": "F212CME",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f212cme.htm"
+        },
+        {
+          "texto": "F073TRA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f073tra.htm"
+        },
+        {
+          "texto": "F000PES",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pes.htm"
+        },
+        {
+          "texto": "F000PEF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pef.htm"
+        },
+        {
+          "texto": "F000NFC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f000nfc.htm"
+        },
+        {
+          "texto": "F000NFV",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f000nfv.htm"
+        },
+        {
+          "texto": "F140COL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140col.htm"
+        },
+        {
+          "texto": "F210TPA.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f210tpa.htm"
+        }
+      ],
+      "caracteres": 14490
+    },
+    {
+      "ordem": 20,
+      "titulo": "U",
+      "slug": "u",
+      "arquivo": "20-u.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm",
+      "subtopicos": [
+        "Exemplo:"
+      ],
+      "telas": [
+        "E008CEP",
+        "E008RAI",
+        "E039POR",
+        "E046PAR",
+        "E046PCP",
+        "F000INE",
+        "F008CEP",
+        "F025FER",
+        "F034ETC",
+        "F034TXE",
+        "F039POR",
+        "F056IMO",
+        "F066OPE",
+        "F069SEG",
+        "F070ENT",
+        "F070FCA",
+        "F070RET",
+        "F073MOT",
+        "F073TRA",
+        "F073VEI",
+        "F075GFP",
+        "F076FAB",
+        "F077FAV",
+        "F085CAD",
+        "F085COB",
+        "F085CXC",
+        "F085ENT",
+        "F085FIS",
+        "F086SAC",
+        "F087INF",
+        "F090CID",
+        "F090REP",
+        "F095CAD",
+        "F095ORM",
+        "F113ICL",
+        "F113MPH",
+        "F113PTX",
+        "F113RTC",
+        "F140DSI",
+        "F145EBQ",
+        "F145GSM",
+        "F145SEB",
+        "F171COT",
+        "F410APR",
+        "F410CEA",
+        "F410COS",
+        "F410IPR",
+        "F410NQC",
+        "F410QCP",
+        "F420APR",
+        "F420DOC",
+        "F420GOC",
+        "F420OSC",
+        "F425FOA",
+        "F435CCC",
+        "F435MDT",
+        "F435SEL",
+        "F439FIX",
+        "F440MDF",
+        "F615CRD",
+        "F802GCI",
+        "F900ICP",
+        "F910GPR",
+        "R900NXV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-000MTNEL01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F095ORM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095orm.htm"
+        },
+        {
+          "texto": "F085ENT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085ent.htm"
+        },
+        {
+          "texto": "aqui",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/impacto-parametro-global-usaentori.htm"
+        },
+        {
+          "texto": "processo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/cota-capital/gerenciamento-cota.htm"
+        },
+        {
+          "texto": "F113PTX",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f113ptx.htm"
+        },
+        {
+          "texto": "5.10.3.1",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/notasdaversao#5-10-3/5-10-3-1.htm%23ERPMERC-8677"
+        },
+        {
+          "texto": "estorno da comissão",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f504con.htm#estorno"
+        },
+        {
+          "texto": "F000INE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f000ine.htm"
+        },
+        {
+          "texto": "CPR-000MTNEL01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000mtnel01.htm"
+        },
+        {
+          "texto": "F900ICP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/f900icp.htm"
+        },
+        {
+          "texto": "F140DSI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140dsi.htm"
+        },
+        {
+          "texto": "F008CEP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f008cep.htm"
+        },
+        {
+          "texto": "ViaCEP",
+          "url": "https://viacep.com.br/"
+        },
+        {
+          "texto": "Com.senior.g5.co.ger.cad.clientes",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_ger_cad_clientes.htm"
+        },
+        {
+          "texto": "Com.senior.g5.co.ger.cad.fornecedores",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_ger_cad_fornecedores.htm"
+        },
+        {
+          "texto": "F439FIX",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f439fix.htm"
+        }
+      ],
+      "caracteres": 20027
+    },
+    {
+      "ordem": 21,
+      "titulo": "V",
+      "slug": "v",
+      "arquivo": "21-v.md",
+      "ancora": "V",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#V",
+      "subtopicos": [
+        "Exemplo"
+      ],
+      "telas": [
+        "E070EST",
+        "E099UXT",
+        "E440NFC",
+        "F000INE",
+        "F070FCP",
+        "F070VEN",
+        "F080CSI",
+        "F085CAD",
+        "F099UVE",
+        "F121CIP",
+        "F140PRE",
+        "F141CNE",
+        "F210ISM",
+        "F440GNE",
+        "F813GNE",
+        "F909MIF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F141CNE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f141cne.htm"
+        },
+        {
+          "texto": "Com.senior.g5.co.int.eletronicos.documentos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_eletronicos_documentos.htm"
+        },
+        {
+          "texto": "F080CSI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080csi.htm"
+        },
+        {
+          "texto": "F121CIP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f121cip.htm"
+        },
+        {
+          "texto": "F085CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        },
+        {
+          "texto": "F210ISM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f210ism.htm"
+        }
+      ],
+      "caracteres": 16166
+    },
+    {
+      "ordem": 22,
+      "titulo": "W",
+      "slug": "w",
+      "arquivo": "22-w.md",
+      "ancora": "W",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#W",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 290
+    },
+    {
+      "ordem": 23,
+      "titulo": "Z",
+      "slug": "z",
+      "arquivo": "23-z.md",
+      "ancora": "Z",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#Z",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-000ALSUB01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "COM-000ALSUB01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alsub01.htm"
+        }
+      ],
+      "caracteres": 740
+    }
+  ],
+  "indice_telas": {
+    "E000GRI": [
+      "g"
+    ],
+    "E000LOG": [
+      "a"
+    ],
+    "E000NFC": [
+      "c"
+    ],
+    "E001TNS": [
+      "o"
+    ],
+    "E008CEP": [
+      "u"
+    ],
+    "E008RAI": [
+      "u"
+    ],
+    "E039POR": [
+      "b",
+      "u"
+    ],
+    "E046PAR": [
+      "u"
+    ],
+    "E046PCP": [
+      "u"
+    ],
+    "E070CPR": [
+      "c"
+    ],
+    "E070EST": [
+      "v"
+    ],
+    "E070PFO": [
+      "o"
+    ],
+    "E075DER": [
+      "a",
+      "o"
+    ],
+    "E075IBP": [
+      "d"
+    ],
+    "E075PPF": [
+      "a"
+    ],
+    "E080SER": [
+      "d"
+    ],
+    "E095HFO": [
+      "h"
+    ],
+    "E099UXT": [
+      "v"
+    ],
+    "E113ACR": [
+      "r"
+    ],
+    "E113REB": [
+      "r"
+    ],
+    "E115PRO": [
+      "c"
+    ],
+    "E120PED": [
+      "t"
+    ],
+    "E140DTP": [
+      "g"
+    ],
+    "E140DTS": [
+      "g"
+    ],
+    "E140IPV": [
+      "n"
+    ],
+    "E140ISV": [
+      "n"
+    ],
+    "E204HCL": [
+      "d"
+    ],
+    "E210DLS": [
+      "l"
+    ],
+    "E210EST": [
+      "a",
+      "o"
+    ],
+    "E210MED": [
+      "a"
+    ],
+    "E210MVP": [
+      "o"
+    ],
+    "E210PNU": [
+      "c"
+    ],
+    "E301TCR": [
+      "a",
+      "r"
+    ],
+    "E301TPC": [
+      "g"
+    ],
+    "E310PEF": [
+      "r"
+    ],
+    "E403FPR": [
+      "h"
+    ],
+    "E403FSE": [
+      "h"
+    ],
+    "E440IPC": [
+      "h"
+    ],
+    "E440ISC": [
+      "h"
+    ],
+    "E440LPN": [
+      "h"
+    ],
+    "E440LSN": [
+      "h"
+    ],
+    "E440NFC": [
+      "v"
+    ],
+    "E440RAT": [
+      "a"
+    ],
+    "E501TCP": [
+      "c"
+    ],
+    "E600MES": [
+      "a"
+    ],
+    "E614USU": [
+      "m"
+    ],
+    "E660EXP": [
+      "a"
+    ],
+    "E900EOQ": [
+      "c"
+    ],
+    "E900RIN": [
+      "l"
+    ],
+    "E998IME": [
+      "i"
+    ],
+    "F000ANX": [
+      "h"
+    ],
+    "F000APA": [
+      "a",
+      "c",
+      "r"
+    ],
+    "F000DLS": [
+      "e",
+      "m"
+    ],
+    "F000INE": [
+      "g",
+      "l",
+      "s",
+      "t",
+      "u",
+      "v"
+    ],
+    "F000LOG": [
+      "a"
+    ],
+    "F000NFC": [
+      "t"
+    ],
+    "F000NFV": [
+      "t"
+    ],
+    "F000PEF": [
+      "r",
+      "t"
+    ],
+    "F000PES": [
+      "r",
+      "t"
+    ],
+    "F000PGS": [
+      "l"
+    ],
+    "F000PPD": [
+      "l",
+      "t"
+    ],
+    "F000QLO": [
+      "i"
+    ],
+    "F000SXT": [
+      "i"
+    ],
+    "F001TCP": [
+      "d"
+    ],
+    "F001TES": [
+      "t"
+    ],
+    "F001TVE": [
+      "d"
+    ],
+    "F001TXT": [
+      "c",
+      "o"
+    ],
+    "F006EEN": [
+      "d"
+    ],
+    "F008CEP": [
+      "a",
+      "u"
+    ],
+    "F009PPE": [
+      "o"
+    ],
+    "F010FCA": [
+      "t"
+    ],
+    "F022CLF": [
+      "c"
+    ],
+    "F022GCF": [
+      "c"
+    ],
+    "F025FER": [
+      "u"
+    ],
+    "F030BAN": [
+      "h"
+    ],
+    "F030PPE": [
+      "r"
+    ],
+    "F034ETC": [
+      "u"
+    ],
+    "F034TXE": [
+      "u"
+    ],
+    "F037VDS": [
+      "b"
+    ],
+    "F039POR": [
+      "u"
+    ],
+    "F044BME": [
+      "t"
+    ],
+    "F046CSS": [
+      "m"
+    ],
+    "F055NRE": [
+      "i"
+    ],
+    "F056IMO": [
+      "u"
+    ],
+    "F066FPG": [
+      "s"
+    ],
+    "F066OPE": [
+      "h",
+      "o",
+      "u"
+    ],
+    "F069SEG": [
+      "h",
+      "u"
+    ],
+    "F070EMP": [
+      "d"
+    ],
+    "F070ENT": [
+      "u"
+    ],
+    "F070FAM": [
+      "g"
+    ],
+    "F070FCA": [
+      "u"
+    ],
+    "F070FCP": [
+      "v"
+    ],
+    "F070FES": [
+      "a"
+    ],
+    "F070FVE": [
+      "a",
+      "c"
+    ],
+    "F070INT": [
+      "l"
+    ],
+    "F070LOG": [
+      "e"
+    ],
+    "F070MPF": [
+      "a"
+    ],
+    "F070PRJ": [
+      "a"
+    ],
+    "F070RET": [
+      "u"
+    ],
+    "F070VEN": [
+      "v"
+    ],
+    "F073LVV": [
+      "i"
+    ],
+    "F073MOT": [
+      "u"
+    ],
+    "F073PRT": [
+      "h"
+    ],
+    "F073TRA": [
+      "h",
+      "t",
+      "u"
+    ],
+    "F073VEI": [
+      "u"
+    ],
+    "F075BAR": [
+      "e"
+    ],
+    "F075CRF": [
+      "a"
+    ],
+    "F075EPP": [
+      "a",
+      "c",
+      "i",
+      "m",
+      "p",
+      "t"
+    ],
+    "F075GFP": [
+      "e",
+      "s",
+      "u"
+    ],
+    "F075IBP": [
+      "d"
+    ],
+    "F075INF": [
+      "g"
+    ],
+    "F075PCA": [
+      "i"
+    ],
+    "F075PFF": [
+      "s"
+    ],
+    "F075PPC": [
+      "a"
+    ],
+    "F075PRO": [
+      "e",
+      "s"
+    ],
+    "F076FAB": [
+      "h",
+      "u"
+    ],
+    "F077FAV": [
+      "u"
+    ],
+    "F080CSI": [
+      "v"
+    ],
+    "F080SER": [
+      "c"
+    ],
+    "F081DCV": [
+      "o"
+    ],
+    "F081GPT": [
+      "l"
+    ],
+    "F081GTP": [
+      "o"
+    ],
+    "F081SPF": [
+      "l"
+    ],
+    "F081TPA": [
+      "o"
+    ],
+    "F082DTC": [
+      "o"
+    ],
+    "F082GTP": [
+      "o"
+    ],
+    "F085CAD": [
+      "g",
+      "h",
+      "i",
+      "r",
+      "u",
+      "v"
+    ],
+    "F085COB": [
+      "h",
+      "u"
+    ],
+    "F085CXC": [
+      "u"
+    ],
+    "F085ENT": [
+      "a",
+      "c",
+      "h",
+      "u"
+    ],
+    "F085FIS": [
+      "u"
+    ],
+    "F085HCL": [
+      "a",
+      "e"
+    ],
+    "F085INC": [
+      "c"
+    ],
+    "F085VCL": [
+      "i"
+    ],
+    "F086SAC": [
+      "u"
+    ],
+    "F087INF": [
+      "u"
+    ],
+    "F090CID": [
+      "u"
+    ],
+    "F090REP": [
+      "r",
+      "u"
+    ],
+    "F095CAD": [
+      "h",
+      "l",
+      "r",
+      "u"
+    ],
+    "F095ENT": [
+      "a"
+    ],
+    "F095FXS": [
+      "o"
+    ],
+    "F095HFO": [
+      "a"
+    ],
+    "F095INS": [
+      "h"
+    ],
+    "F095ORM": [
+      "a",
+      "c",
+      "u"
+    ],
+    "F095PCF": [
+      "e"
+    ],
+    "F098REG": [
+      "l"
+    ],
+    "F099UCA": [
+      "f"
+    ],
+    "F099UVE": [
+      "v"
+    ],
+    "F099UXR": [
+      "e"
+    ],
+    "F113APL": [
+      "r"
+    ],
+    "F113BUL": [
+      "p",
+      "r"
+    ],
+    "F113ICL": [
+      "u"
+    ],
+    "F113MPH": [
+      "u"
+    ],
+    "F113PTX": [
+      "u"
+    ],
+    "F113REM": [
+      "r"
+    ],
+    "F113RTC": [
+      "o",
+      "u"
+    ],
+    "F115CAR": [
+      "c"
+    ],
+    "F115COE": [
+      "c"
+    ],
+    "F115CST": [
+      "c"
+    ],
+    "F115NPF": [
+      "c"
+    ],
+    "F119OCT": [
+      "f"
+    ],
+    "F120DEP": [
+      "e"
+    ],
+    "F120DPE": [
+      "f"
+    ],
+    "F120EBP": [
+      "e"
+    ],
+    "F120GPC": [
+      "f",
+      "m",
+      "p"
+    ],
+    "F120GPD": [
+      "f",
+      "p"
+    ],
+    "F120GPP": [
+      "c",
+      "f"
+    ],
+    "F120GRA": [
+      "c",
+      "f"
+    ],
+    "F120LIB": [
+      "c",
+      "r"
+    ],
+    "F120MVP": [
+      "p"
+    ],
+    "F120PMN": [
+      "f"
+    ],
+    "F120PVC": [
+      "p"
+    ],
+    "F121CIP": [
+      "e",
+      "v"
+    ],
+    "F121CPD": [
+      "f"
+    ],
+    "F129PED": [
+      "f"
+    ],
+    "F129UFP": [
+      "f"
+    ],
+    "F135APM": [
+      "c"
+    ],
+    "F135CCA": [
+      "c"
+    ],
+    "F135CMC": [
+      "c"
+    ],
+    "F135CPF": [
+      "p"
+    ],
+    "F135FCA": [
+      "i",
+      "s"
+    ],
+    "F135FCP": [
+      "a",
+      "c",
+      "i",
+      "p",
+      "s"
+    ],
+    "F135MCA": [
+      "c",
+      "s"
+    ],
+    "F135MPF": [
+      "a",
+      "c",
+      "h",
+      "i",
+      "s"
+    ],
+    "F135RCR": [
+      "i"
+    ],
+    "F135TVC": [
+      "i"
+    ],
+    "F140COL": [
+      "l",
+      "t"
+    ],
+    "F140DSI": [
+      "u"
+    ],
+    "F140ENL": [
+      "i"
+    ],
+    "F140GNF": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "p"
+    ],
+    "F140LOT": [
+      "d"
+    ],
+    "F140MDG": [
+      "a"
+    ],
+    "F140NSR": [
+      "r"
+    ],
+    "F140PRE": [
+      "b",
+      "d",
+      "e",
+      "o",
+      "s",
+      "v"
+    ],
+    "F141CNE": [
+      "v"
+    ],
+    "F143AFI": [
+      "c"
+    ],
+    "F145BLO": [
+      "b"
+    ],
+    "F145EBQ": [
+      "d",
+      "n",
+      "u"
+    ],
+    "F145GSM": [
+      "n",
+      "u"
+    ],
+    "F145SEB": [
+      "u"
+    ],
+    "F146NNU": [
+      "b"
+    ],
+    "F149GNC": [
+      "d"
+    ],
+    "F160NOV": [
+      "c",
+      "p"
+    ],
+    "F161GPD": [
+      "c",
+      "f"
+    ],
+    "F161GPS": [
+      "c"
+    ],
+    "F171COT": [
+      "u"
+    ],
+    "F185CFG": [
+      "b"
+    ],
+    "F191CPT": [
+      "c"
+    ],
+    "F205DEP": [
+      "a",
+      "b"
+    ],
+    "F207APR": [
+      "e",
+      "s"
+    ],
+    "F207ARP": [
+      "s"
+    ],
+    "F207EME": [
+      "s"
+    ],
+    "F207LOT": [
+      "s"
+    ],
+    "F210AME": [
+      "d",
+      "i",
+      "q",
+      "s",
+      "t"
+    ],
+    "F210ASE": [
+      "q"
+    ],
+    "F210FEC": [
+      "s"
+    ],
+    "F210ISA": [
+      "c"
+    ],
+    "F210ISM": [
+      "v"
+    ],
+    "F210LOT": [
+      "i",
+      "s"
+    ],
+    "F210MVP": [
+      "i",
+      "o",
+      "s"
+    ],
+    "F210TPA": [
+      "h",
+      "i",
+      "s",
+      "t"
+    ],
+    "F211ADA": [
+      "a",
+      "c",
+      "o",
+      "s"
+    ],
+    "F211ARA": [
+      "b",
+      "c"
+    ],
+    "F211CPR": [
+      "a"
+    ],
+    "F211RAV": [
+      "c"
+    ],
+    "F212CME": [
+      "t"
+    ],
+    "F213CLS": [
+      "a"
+    ],
+    "F213CSL": [
+      "o"
+    ],
+    "F213MLO": [
+      "i"
+    ],
+    "F215FES": [
+      "a",
+      "f",
+      "o",
+      "p"
+    ],
+    "F217DVP": [
+      "c"
+    ],
+    "F220COA": [
+      "i"
+    ],
+    "F220COC": [
+      "i"
+    ],
+    "F220COI": [
+      "i",
+      "s"
+    ],
+    "F301ATL": [
+      "c"
+    ],
+    "F301BAA": [
+      "b",
+      "c",
+      "h"
+    ],
+    "F301BCD": [
+      "c",
+      "s"
+    ],
+    "F301BLO": [
+      "c"
+    ],
+    "F301BMA": [
+      "c",
+      "h"
+    ],
+    "F301BMD": [
+      "c"
+    ],
+    "F301BMV": [
+      "c"
+    ],
+    "F301CCF": [
+      "c"
+    ],
+    "F301EBL": [
+      "g"
+    ],
+    "F301LOT": [
+      "c"
+    ],
+    "F301RPF": [
+      "c"
+    ],
+    "F301RTF": [
+      "c"
+    ],
+    "F301SUB": [
+      "c",
+      "h"
+    ],
+    "F301TCR": [
+      "c"
+    ],
+    "F302CCR": [
+      "e"
+    ],
+    "F302CRB": [
+      "b"
+    ],
+    "F302CRR": [
+      "e"
+    ],
+    "F310PEF": [
+      "r"
+    ],
+    "F320DTC": [
+      "a"
+    ],
+    "F320SRT": [
+      "r"
+    ],
+    "F403LFP": [
+      "c"
+    ],
+    "F403PFL": [
+      "c"
+    ],
+    "F405APR": [
+      "c",
+      "e",
+      "m"
+    ],
+    "F405GSA": [
+      "a"
+    ],
+    "F405SOL": [
+      "a"
+    ],
+    "F406SOL": [
+      "m"
+    ],
+    "F410APR": [
+      "u"
+    ],
+    "F410CEA": [
+      "a",
+      "e",
+      "i",
+      "u"
+    ],
+    "F410COS": [
+      "u"
+    ],
+    "F410CPC": [
+      "e"
+    ],
+    "F410EPC": [
+      "p"
+    ],
+    "F410IPR": [
+      "u"
+    ],
+    "F410NQC": [
+      "",
+      "a",
+      "c",
+      "s",
+      "u"
+    ],
+    "F410PCT": [
+      "a",
+      "e",
+      "p"
+    ],
+    "F410QCP": [
+      "e",
+      "q",
+      "s",
+      "u"
+    ],
+    "F420APR": [
+      "m",
+      "q",
+      "u"
+    ],
+    "F420DOC": [
+      "u"
+    ],
+    "F420GOC": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "h",
+      "l",
+      "o",
+      "r",
+      "u"
+    ],
+    "F420GRD": [
+      "d"
+    ],
+    "F420OCB": [
+      "d"
+    ],
+    "F420OCC": [
+      "c"
+    ],
+    "F420OCP": [
+      "a",
+      "b",
+      "d"
+    ],
+    "F420OPS": [
+      "a",
+      "e",
+      "h"
+    ],
+    "F420OSC": [
+      "a",
+      "h",
+      "i",
+      "u"
+    ],
+    "F420TSO": [
+      "p"
+    ],
+    "F422CGO": [
+      "o"
+    ],
+    "F425FOA": [
+      "u"
+    ],
+    "F426CEQ": [
+      "i"
+    ],
+    "F426RVN": [
+      "e"
+    ],
+    "F435CCC": [
+      "c",
+      "d",
+      "i",
+      "q",
+      "s",
+      "u"
+    ],
+    "F435CLA": [
+      "d"
+    ],
+    "F435COS": [
+      "e",
+      "h"
+    ],
+    "F435CST": [
+      "c",
+      "o"
+    ],
+    "F435GNF": [
+      "o"
+    ],
+    "F435MDT": [
+      "d",
+      "m",
+      "q",
+      "u"
+    ],
+    "F435SEL": [
+      "u"
+    ],
+    "F439FIX": [
+      "f",
+      "i",
+      "u"
+    ],
+    "F439PRF": [
+      "f"
+    ],
+    "F440APR": [
+      "s"
+    ],
+    "F440CNE": [
+      "h"
+    ],
+    "F440DMC": [
+      "h",
+      "o"
+    ],
+    "F440ERT": [
+      "o"
+    ],
+    "F440EXF": [
+      "d",
+      "f"
+    ],
+    "F440GNE": [
+      "a",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "l",
+      "o",
+      "v"
+    ],
+    "F440MDF": [
+      "n",
+      "u"
+    ],
+    "F440NFV": [
+      "c",
+      "h",
+      "r",
+      "s"
+    ],
+    "F440NOR": [
+      "o"
+    ],
+    "F440NPR": [
+      "o"
+    ],
+    "F440NRI": [
+      "o"
+    ],
+    "F440VCB": [
+      "o"
+    ],
+    "F440VER": [
+      "o"
+    ],
+    "F440VPR": [
+      "e"
+    ],
+    "F441CIE": [
+      "p"
+    ],
+    "F441CNE": [
+      "p"
+    ],
+    "F443GNP": [
+      "h",
+      "o",
+      "s"
+    ],
+    "F460APR": [
+      "p"
+    ],
+    "F460CTR": [
+      "a",
+      "d",
+      "h"
+    ],
+    "F460CXO": [
+      "e"
+    ],
+    "F460PFO": [
+      "e"
+    ],
+    "F461GNC": [
+      "o"
+    ],
+    "F501BAA": [
+      "c"
+    ],
+    "F501BCD": [
+      "c",
+      "h"
+    ],
+    "F501BCO": [
+      "c"
+    ],
+    "F501BLM": [
+      "c"
+    ],
+    "F501BMD": [
+      "s"
+    ],
+    "F501GTC": [
+      "e"
+    ],
+    "F501LOT": [
+      "c"
+    ],
+    "F501SBA": [
+      "c"
+    ],
+    "F501SUB": [
+      "c"
+    ],
+    "F510DDA": [
+      "d"
+    ],
+    "F510OLD": [
+      "d"
+    ],
+    "F510PRM": [
+      "r"
+    ],
+    "F600CHE": [
+      "h"
+    ],
+    "F600CON": [
+      "s"
+    ],
+    "F600ELC": [
+      "g"
+    ],
+    "F600MCC": [
+      "l",
+      "r"
+    ],
+    "F606CCR": [
+      "c",
+      "m"
+    ],
+    "F606TLC": [
+      "m"
+    ],
+    "F610PFL": [
+      "e"
+    ],
+    "F615CRD": [
+      "u"
+    ],
+    "F615CSP": [
+      "a"
+    ],
+    "F615DOC": [
+      "p"
+    ],
+    "F615FPJ": [
+      "l"
+    ],
+    "F615IPT": [
+      "p"
+    ],
+    "F615OCT": [
+      "o"
+    ],
+    "F615PAF": [
+      "a"
+    ],
+    "F615PAP": [
+      "a"
+    ],
+    "F615PXC": [
+      "a"
+    ],
+    "F615PXP": [
+      "a"
+    ],
+    "F621AEQ": [
+      "c"
+    ],
+    "F621APC": [
+      "s"
+    ],
+    "F621AVC": [
+      "s"
+    ],
+    "F621SIC": [
+      "c"
+    ],
+    "F630GSE": [
+      "c",
+      "s"
+    ],
+    "F632CCR": [
+      "n"
+    ],
+    "F650ORC": [
+      "o"
+    ],
+    "F660EXP": [
+      "c"
+    ],
+    "F660NCI": [
+      "q"
+    ],
+    "F667AFM": [
+      "a",
+      "c"
+    ],
+    "F667RIR": [
+      "a",
+      "c"
+    ],
+    "F670BEM": [
+      "a"
+    ],
+    "F670LOT": [
+      "a"
+    ],
+    "F690ILA": [
+      "i"
+    ],
+    "F802GCI": [
+      "u"
+    ],
+    "F813GNE": [
+      "v"
+    ],
+    "F900ICP": [
+      "u"
+    ],
+    "F900RET": [
+      "l"
+    ],
+    "F900RST": [
+      "l",
+      "s"
+    ],
+    "F909MIF": [
+      "v"
+    ],
+    "F910GPR": [
+      "u"
+    ],
+    "F999PAN": [
+      "r"
+    ],
+    "R900NXV": [
+      "u"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/extended/analytics-erp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/f000anx.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/triangulacao/geracao-de-parcelas-com-base-na-condicao-de-pagamento.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alsub01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000siguf01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpa_501baare01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpa_501itpcp01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000alicm01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000inecn01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000msgre01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000mtnel01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_420emaoc01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_460peral01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cre_302crbnn01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ctb_640ilcft01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ctb_640ratfi01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ctb_650orcta01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/est_210atrep01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/est_215igual01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000gersde1.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000inwms15.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/tes_600gecoc01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000crecl01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120sales01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135flpfa01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135libpf02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cnfec01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cnfec02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cnfec03.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140xmlpre0.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/ct-e/notas-tecnicas-ct-e.htm#2022.001",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/integracao-erp-cotei.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/mdf-e/notas-tecnicas-mdf-e.htm#2024.001.mdfe",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/mdf-e/notas-tecnicas-mdf-e.htm#2025.001",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/mercado-eletronico.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/notas-tecnicas-nfe-nfce.htm#2020.005",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/notas-tecnicas-nfe-nfce.htm#2022.003",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/notas-tecnicas-nfe-nfce.htm#2023.004",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/cota-capital/gerenciamento-cota.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/geracao-xml.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/recebimento-eletronico/recebimento-nfs-e.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/recebimento-eletronico/recebimento-nfs-e.htm#importacao-nfs-e",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manual-processos/mercado/gestao-faturamento/log-operacoes-nota-fiscal-saida.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manual-processos/mercado/gestao-faturamento/validacao-quantidade-reserva-exclusiva-pedidos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000apa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pef.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pes.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.140CNFEC01",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.140CNFEC02",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.140CNFEC03",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.EMISSAO",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.GERAR",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tes.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f008cep.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f030ppe.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f037vds.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055nre.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f066fpg.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f066ope.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fam.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070int.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070log.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070prj.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f073tra.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075ibp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pff.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080csi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085ent.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f090rep.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095orm.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f098reg.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099uca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099uxr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f113apl.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f113bul.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f113ptx.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f113rtc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f185cfg.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f191cpt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f205dep.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403lfp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403pfl.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/parametro-global-atucodbnf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/consulta_cadastros_sefaz.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f000nfc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f000nfv.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f044bme.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660exp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f667afm.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f667rir.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f690ila.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_custos/f621aeq.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_custos/f621avc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_custos/f621sic.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_custos/f630gse.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f301baa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f301bcd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f301bma.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f301ebl.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f301sub.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f302crb.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f501bmd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f504con.htm#estorno",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f510dda.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f510prm.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f600elc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f610pfl.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/f615csp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/f900icp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/f900rst.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/atualizacao_nf_serie_nota.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/dados-faturamento-contratos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f113rem.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f119oct.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f121cip.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135cca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135fca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135fcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135mca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135mpf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140can.htm#validar-cnpj-cpf",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140col.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140dsi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140gnf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140nsr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f141cne.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f145ebq.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/impacto-parametro-global-usaentori.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/log_analise.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestao-deposito-padrao.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestaocst-icms-entrada.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestaocst-icms-saida.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f000ine.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f075epp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f210ame.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f210isa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f210ism.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f210tpa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f212cme.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f405apr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410nqc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420osc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435ccc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435mdt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f439fix.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f439prf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460apr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/mobilidade/aplicativo-gestor-senior.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/137-integracao-erp-cotei.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/71-faturamento-pre-faturas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/processos-automaticos/84-wms-senior.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/regra_funcoes/abrirtelasistema.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_ger_cad_clientes.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_ger_cad_fornecedores.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_eletronicos_documentos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_geral_relatorio.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_varejo_notaautorizada.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_est_requisicoes.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_ven_notafiscal.htm#GravarNotasFiscaisSaida_13",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_ven_pedidos.htm#GravarPedidos13",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_ven_pedidos.htm#SimularPedidos",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/rateio-valor-de-outras.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/notasdaversao#5-10-3/5-10-3-1.htm%23ERPMERC-8677",
+    "https://documentacao.senior.com.br/seniorxplatform/manual-do-usuario/aplicativo-gestor-senior/",
+    "https://s.seniorlabs.io/iPIqCP",
+    "https://viacep.com.br/"
+  ]
+}

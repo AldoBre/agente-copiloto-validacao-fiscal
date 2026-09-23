@@ -1,0 +1,82 @@
+{
+  "fonte": {
+    "pagina": "F075CEP - Controle de Entrada de Produtos",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cep.htm",
+    "trilha": "Ajuda por telas > Cadastros > Produtos e Serviços > Produtos"
+  },
+  "total_topicos": 2,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Controlar produtos com ICMS ST entre filiais em estados diferentes",
+      "slug": "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife",
+      "arquivo": "01-controlar-produtos-com-icms-st-entre-filiais-em-estados-dife.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cep.htm",
+      "subtopicos": [],
+      "telas": [
+        "F075APF",
+        "F075GFP",
+        "F075PFI",
+        "F075PRO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1518
+    },
+    {
+      "ordem": 2,
+      "titulo": "Detalhes técnicos",
+      "slug": "detalhes-tecnicos",
+      "arquivo": "02-detalhes-tecnicos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cep.htm",
+      "subtopicos": [],
+      "telas": [
+        "E660NFV",
+        "E660RRZ",
+        "E660RSC",
+        "E660RSM",
+        "E660RSV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 2361
+    }
+  ],
+  "indice_telas": {
+    "E660NFV": [
+      "detalhes-tecnicos"
+    ],
+    "E660RRZ": [
+      "detalhes-tecnicos"
+    ],
+    "E660RSC": [
+      "detalhes-tecnicos"
+    ],
+    "E660RSM": [
+      "detalhes-tecnicos"
+    ],
+    "E660RSV": [
+      "detalhes-tecnicos"
+    ],
+    "F075APF": [
+      "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife"
+    ],
+    "F075GFP": [
+      "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife"
+    ],
+    "F075PFI": [
+      "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife"
+    ],
+    "F075PRO": [
+      "controlar-produtos-com-icms-st-entre-filiais-em-estados-dife"
+    ]
+  },
+  "paginas_relacionadas": []
+}

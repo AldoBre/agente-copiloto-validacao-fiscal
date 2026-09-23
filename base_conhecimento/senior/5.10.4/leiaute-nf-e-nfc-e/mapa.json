@@ -1,0 +1,2230 @@
+{
+  "fonte": {
+    "pagina": "Leiautes NF-e e NFC-e",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+    "trilha": "Segmentos > Compliance > Documentos Eletrônicos > NF-e | NFC-e (Nota Fiscal Eletrônica) > Nota Fiscal Eletrônica 4.0"
+  },
+  "total_topicos": 77,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Grupo A - Dados da nota fiscal eletrônica",
+      "slug": "grupo-a-dados-da-nota-fiscal-eletronica",
+      "arquivo": "01-grupo-a-dados-da-nota-fiscal-eletronica.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E140NFV",
+        "F070FVE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEDGE01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEDGE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140nedge01.htm"
+        }
+      ],
+      "caracteres": 1509
+    },
+    {
+      "ordem": 2,
+      "titulo": "Grupo B - Identificação da Nota Fiscal Eletrônica",
+      "slug": "grupo-b-identificacao-da-nota-fiscal-eletronica",
+      "arquivo": "02-grupo-b-identificacao-da-nota-fiscal-eletronica.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E140DEC",
+        "E140NFV",
+        "E140TNF",
+        "F020SNF",
+        "F070FCA",
+        "F070FVE",
+        "F440GNE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140ALDIV01",
+        "VEN-140NEDGE01"
+      ],
+      "campos_xml_citados": [
+        "CFOP",
+        "cMunFG",
+        "finNFe",
+        "idDest",
+        "indFinal",
+        "indPres",
+        "natOp",
+        "tpNF"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "código IBGE",
+          "url": "https://www.ibge.gov.br/explica/codigos-dos-municipios.php"
+        },
+        {
+          "texto": "VEN-140NEDGE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140nedge01.htm"
+        },
+        {
+          "texto": "Fuso horário x Arquivos XMLs de Documentos Eletrônicos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/fuso-horario-arquivos-xmls.htm"
+        }
+      ],
+      "caracteres": 15764
+    },
+    {
+      "ordem": 3,
+      "titulo": "Grupo BA - Documento Fiscal Referenciado",
+      "slug": "grupo-ba-documento-fiscal-referenciado",
+      "arquivo": "03-grupo-ba-documento-fiscal-referenciado.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E140NFV",
+        "F050EQF",
+        "F070FVE",
+        "F140NSR",
+        "F440GNE",
+        "F440NFR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "código IBGE",
+          "url": "https://www.ibge.gov.br/explica/codigos-dos-municipios.php"
+        }
+      ],
+      "caracteres": 7215
+    },
+    {
+      "ordem": 4,
+      "titulo": "Grupo BB -  Grupo de Compras Governamentais",
+      "slug": "grupo-bb-grupo-de-compras-governamentais",
+      "arquivo": "04-grupo-bb-grupo-de-compras-governamentais.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E085CLI",
+        "E140IPR",
+        "E140ISR",
+        "E140NFR",
+        "E140TNF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1134
+    },
+    {
+      "ordem": 5,
+      "titulo": "Grupo BC - Grupo de notas de antecipação de pagamento",
+      "slug": "grupo-bc-grupo-de-notas-de-antecipacao-de-pagamento",
+      "arquivo": "05-grupo-bc-grupo-de-notas-de-antecipacao-de-pagamento.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E140NFR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 560
+    },
+    {
+      "ordem": 6,
+      "titulo": "Grupo C - Identificação do Emitente da Nota Fiscal eletrônica",
+      "slug": "grupo-c-identificacao-do-emitente-da-nota-fiscal-eletronica",
+      "arquivo": "06-grupo-c-identificacao-do-emitente-da-nota-fiscal-eletronica.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E051FCI",
+        "E070FIL",
+        "F070EMP",
+        "F070FCA",
+        "F070FCP",
+        "F070FEF",
+        "F099PPE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEDGE02"
+      ],
+      "campos_xml_citados": [
+        "CRT"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEDGE02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140nedge02.htm"
+        }
+      ],
+      "caracteres": 5211
+    },
+    {
+      "ordem": 7,
+      "titulo": "Grupo D - Identificação do Fisco Emitente da NF-e",
+      "slug": "grupo-d-identificacao-do-fisco-emitente-da-nf-e",
+      "arquivo": "07-grupo-d-identificacao-do-fisco-emitente-da-nf-e.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1434
+    },
+    {
+      "ordem": 8,
+      "titulo": "Grupo E - Identificação do Destinatário da Nota Fiscal eletrônica",
+      "slug": "grupo-e-identificacao-do-destinatario-da-nota-fiscal-eletron",
+      "arquivo": "08-grupo-e-identificacao-do-destinatario-da-nota-fiscal-eletron.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "F085CAD",
+        "F085ENT"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "indIEDest"
+      ],
+      "links_documentacao": [],
+      "caracteres": 7364
+    },
+    {
+      "ordem": 9,
+      "titulo": "Grupo F - Identificação do Local de Retirada",
+      "slug": "grupo-f-identificacao-do-local-de-retirada",
+      "arquivo": "09-grupo-f-identificacao-do-local-de-retirada.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "F070EMP",
+        "F070RET"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 3343
+    },
+    {
+      "ordem": 10,
+      "titulo": "Grupo G - Identificação do Local de Entrega",
+      "slug": "grupo-g-identificacao-do-local-de-entrega",
+      "arquivo": "10-grupo-g-identificacao-do-local-de-entrega.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E085CLI",
+        "E085ENT",
+        "F085ENT"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 4001
+    },
+    {
+      "ordem": 11,
+      "titulo": "Grupo GA - Autorização para obter XML",
+      "slug": "grupo-ga-autorizacao-para-obter-xml",
+      "arquivo": "11-grupo-ga-autorizacao-para-obter-xml.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEAUT01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEAUT01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neaut01.htm"
+        }
+      ],
+      "caracteres": 632
+    },
+    {
+      "ordem": 12,
+      "titulo": "Grupo H - Detalhamento de Produtos e Serviços da NF-e",
+      "slug": "grupo-h-detalhamento-de-produtos-e-servicos-da-nf-e",
+      "arquivo": "12-grupo-h-detalhamento-de-produtos-e-servicos-da-nf-e.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 489
+    },
+    {
+      "ordem": 13,
+      "titulo": "Grupo I - Produtos e Serviços da NF-e",
+      "slug": "grupo-i-produtos-e-servicos-da-nf-e",
+      "arquivo": "13-grupo-i-produtos-e-servicos-da-nf-e.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TVE",
+        "E075DER",
+        "E140IPV",
+        "F022CLF",
+        "F051DIS",
+        "F070EPF",
+        "F075PRO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEDGE02",
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CEST",
+        "CFOP",
+        "EXTIPI",
+        "NCM",
+        "NVE",
+        "cBenef",
+        "indTot",
+        "uCom",
+        "vDesc",
+        "vFrete",
+        "vProd"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEDGE02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140nedge02.htm"
+        },
+        {
+          "texto": "Regras e sugestão de valores",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/nf-e/regras-e-sugestoes-valores.htm"
+        },
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        },
+        {
+          "texto": "Configuração de Dispositivo e Benefício Fiscais",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/geracao-beneficio-fiscal.htm"
+        },
+        {
+          "texto": "F051DIS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm"
+        }
+      ],
+      "caracteres": 12626
+    },
+    {
+      "ordem": 14,
+      "titulo": "Grupo I01 - Produtos e Serviços / Declaração de Importação",
+      "slug": "grupo-i01-produtos-e-servicos-declaracao-de-importacao",
+      "arquivo": "14-grupo-i01-produtos-e-servicos-declaracao-de-importacao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "F440GNE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 4988
+    },
+    {
+      "ordem": 15,
+      "titulo": "Grupo I03 - Produtos e Serviços / Grupo de Exportação",
+      "slug": "grupo-i03-produtos-e-servicos-grupo-de-exportacao",
+      "arquivo": "15-grupo-i03-produtos-e-servicos-grupo-de-exportacao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "F140GNF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CFOP"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F140GNF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140gnf.htm"
+        },
+        {
+          "texto": "aqui.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/referenciacao_nf_entrada_processo_exportacao.htm"
+        }
+      ],
+      "caracteres": 2115
+    },
+    {
+      "ordem": 16,
+      "titulo": "Grupo I05 - Produtos e Serviços / Pedido de Compra",
+      "slug": "grupo-i05-produtos-e-servicos-pedido-de-compra",
+      "arquivo": "16-grupo-i05-produtos-e-servicos-pedido-de-compra.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E120IPD"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1233
+    },
+    {
+      "ordem": 17,
+      "titulo": "Grupo I07 - Produtos e Serviços / Grupos Diversos",
+      "slug": "grupo-i07-produtos-e-servicos-grupos-diversos",
+      "arquivo": "17-grupo-i07-produtos-e-servicos-grupos-diversos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 513
+    },
+    {
+      "ordem": 18,
+      "titulo": "Grupo I80 - Rastreabilidade de produto",
+      "slug": "grupo-i80-rastreabilidade-de-produto",
+      "arquivo": "18-grupo-i80-rastreabilidade-de-produto.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E140DLS",
+        "E210DLS"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140LTRAS01",
+        "VEN-140NERAS01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140LTRAS01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140ltras01.htm"
+        },
+        {
+          "texto": "VEN-140NERAS01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neras01.htm"
+        }
+      ],
+      "caracteres": 1690
+    },
+    {
+      "ordem": 19,
+      "titulo": "Grupo J - Produto Específico",
+      "slug": "grupo-j-produto-especifico",
+      "arquivo": "19-grupo-j-produto-especifico.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 387
+    },
+    {
+      "ordem": 20,
+      "titulo": "Grupo JA - Detalhamento Específico de Veículos novos",
+      "slug": "grupo-ja-detalhamento-especifico-de-veiculos-novos",
+      "arquivo": "20-grupo-ja-detalhamento-especifico-de-veiculos-novos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 5679
+    },
+    {
+      "ordem": 21,
+      "titulo": "Grupo K - Detalhamento Específico de Medicamento e de matérias-primas farmacêuticas",
+      "slug": "grupo-k-detalhamento-especifico-de-medicamento-e-de-materias",
+      "arquivo": "21-grupo-k-detalhamento-especifico-de-medicamento-e-de-materias.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEMED02"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Identificador de Regra VEN-140NEMED02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140nemed02.htm"
+        }
+      ],
+      "caracteres": 1672
+    },
+    {
+      "ordem": 22,
+      "titulo": "Grupo L - Detalhamento Específico de Armamentos",
+      "slug": "grupo-l-detalhamento-especifico-de-armamentos",
+      "arquivo": "22-grupo-l-detalhamento-especifico-de-armamentos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1240
+    },
+    {
+      "ordem": 23,
+      "titulo": "Grupo LA - Detalhamento Específico de Combustíveis",
+      "slug": "grupo-la-detalhamento-especifico-de-combustiveis",
+      "arquivo": "23-grupo-la-detalhamento-especifico-de-combustiveis.md",
+      "ancora": "la",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm#la",
+      "subtopicos": [],
+      "telas": [
+        "F075PCB",
+        "F075PRO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "vAliqProd"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "Diversos",
+          "url": "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=/NJarYc9nus="
+        },
+        {
+          "texto": "F075PCB",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pcb.htm"
+        }
+      ],
+      "caracteres": 6902
+    },
+    {
+      "ordem": 24,
+      "titulo": "Grupo LB - Detalhamento Específico para Operação com Papel Imune",
+      "slug": "grupo-lb-detalhamento-especifico-para-operacao-com-papel-imu",
+      "arquivo": "24-grupo-lb-detalhamento-especifico-para-operacao-com-papel-imu.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 315
+    },
+    {
+      "ordem": 25,
+      "titulo": "Grupo M - Tributos incidentes no Produto ou Serviço",
+      "slug": "grupo-m-tributos-incidentes-no-produto-ou-servico",
+      "arquivo": "25-grupo-m-tributos-incidentes-no-produto-ou-servico.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "vTotTrib"
+      ],
+      "links_documentacao": [],
+      "caracteres": 937
+    },
+    {
+      "ordem": 26,
+      "titulo": "Grupo N01 - ICMS Normal e ST",
+      "slug": "grupo-n01-icms-normal-e-st",
+      "arquivo": "26-grupo-n01-icms-normal-e-st.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 401
+    },
+    {
+      "ordem": 27,
+      "titulo": "Grupo N02 - Grupo Tributação do ICMS= 00",
+      "slug": "grupo-n02-grupo-tributacao-do-icms-00",
+      "arquivo": "27-grupo-n02-grupo-tributacao-do-icms-00.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "modBC",
+        "orig",
+        "pFCP",
+        "pICMS",
+        "vBC",
+        "vICMS"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 3113
+    },
+    {
+      "ordem": 28,
+      "titulo": "Grupo N02a - Grupo Tributação do ICMS= 02",
+      "slug": "grupo-n02a-grupo-tributacao-do-icms-02",
+      "arquivo": "28-grupo-n02a-grupo-tributacao-do-icms-02.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST",
+        "orig"
+      ],
+      "links_documentacao": [],
+      "caracteres": 1976
+    },
+    {
+      "ordem": 29,
+      "titulo": "Grupo N03 - Grupo Tributação do ICMS= 10",
+      "slug": "grupo-n03-grupo-tributacao-do-icms-10",
+      "arquivo": "29-grupo-n03-grupo-tributacao-do-icms-10.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "F019TST"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "modBC",
+        "modBCST",
+        "orig",
+        "pFCP",
+        "pFCPST",
+        "pICMS",
+        "pICMSST",
+        "pMVAST",
+        "vBC",
+        "vBCST",
+        "vICMS",
+        "vICMSST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        },
+        {
+          "texto": "F019TST",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tst.htm"
+        }
+      ],
+      "caracteres": 6359
+    },
+    {
+      "ordem": 30,
+      "titulo": "Grupo N03a - Grupo Tributação do ICMS= 15",
+      "slug": "grupo-n03a-grupo-tributacao-do-icms-15",
+      "arquivo": "30-grupo-n03a-grupo-tributacao-do-icms-15.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST",
+        "orig"
+      ],
+      "links_documentacao": [],
+      "caracteres": 3318
+    },
+    {
+      "ordem": 31,
+      "titulo": "Grupo N04 - Grupo Tributação do ICMS= 20",
+      "slug": "grupo-n04-grupo-tributacao-do-icms-20",
+      "arquivo": "31-grupo-n04-grupo-tributacao-do-icms-20.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TVE",
+        "E140IPV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "modBC",
+        "motDesICMS",
+        "orig",
+        "pFCP",
+        "pICMS",
+        "pRedBC",
+        "vBC",
+        "vICMS",
+        "vICMSDeson",
+        "vProd"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 4997
+    },
+    {
+      "ordem": 32,
+      "titulo": "Grupo N05 - Grupo Tributação do ICMS= 30",
+      "slug": "grupo-n05-grupo-tributacao-do-icms-30",
+      "arquivo": "32-grupo-n05-grupo-tributacao-do-icms-30.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TVE",
+        "E140IPV",
+        "F019TST"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "modBCST",
+        "motDesICMS",
+        "orig",
+        "pFCP",
+        "pFCPST",
+        "pICMSST",
+        "pMVAST",
+        "vBCST",
+        "vICMSDeson",
+        "vICMSST",
+        "vProd"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        },
+        {
+          "texto": "F019TST",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tst.htm"
+        }
+      ],
+      "caracteres": 6128
+    },
+    {
+      "ordem": 33,
+      "titulo": "Grupo N06 - Grupo Tributação do ICMS= 40, 41, 50",
+      "slug": "grupo-n06-grupo-tributacao-do-icms-40-41-50",
+      "arquivo": "33-grupo-n06-grupo-tributacao-do-icms-40-41-50.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TVE",
+        "E140IPV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "motDesICMS",
+        "orig",
+        "vICMSDeson",
+        "vProd"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 3728
+    },
+    {
+      "ordem": 34,
+      "titulo": "Grupo N07 - Grupo Tributação do ICMS= 51",
+      "slug": "grupo-n07-grupo-tributacao-do-icms-51",
+      "arquivo": "34-grupo-n07-grupo-tributacao-do-icms-51.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "F051DIS",
+        "F070FVE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "modBC",
+        "orig",
+        "pFCP",
+        "pICMS",
+        "pRedBC",
+        "vBC",
+        "vICMS"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        },
+        {
+          "texto": "F051DIS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm"
+        },
+        {
+          "texto": "F070FVE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm"
+        }
+      ],
+      "caracteres": 4744
+    },
+    {
+      "ordem": 35,
+      "titulo": "Grupo N07a - Grupo Tributação do ICMS= 53",
+      "slug": "grupo-n07a-grupo-tributacao-do-icms-53",
+      "arquivo": "35-grupo-n07a-grupo-tributacao-do-icms-53.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [
+        "Lista"
+      ],
+      "telas": [
+        "F070FCA"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST",
+        "orig"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "NOTAFISCAL.XML.ICMS.MONOFASICO.DIFERIMENTO.GERAVICMSMONO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm"
+        },
+        {
+          "texto": "Cadastro de Filiais (F070FCA)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm"
+        }
+      ],
+      "caracteres": 2946
+    },
+    {
+      "ordem": 36,
+      "titulo": "Grupo N08 - Grupo Tributação do ICMS= 60",
+      "slug": "grupo-n08-grupo-tributacao-do-icms-60",
+      "arquivo": "36-grupo-n08-grupo-tributacao-do-icms-60.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E440RCI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "orig"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 5686
+    },
+    {
+      "ordem": 37,
+      "titulo": "Grupo N08a - Grupo Tributação do ICMS= 61",
+      "slug": "grupo-n08a-grupo-tributacao-do-icms-61",
+      "arquivo": "37-grupo-n08a-grupo-tributacao-do-icms-61.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [
+        "Lista"
+      ],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST",
+        "orig"
+      ],
+      "links_documentacao": [],
+      "caracteres": 2049
+    },
+    {
+      "ordem": 38,
+      "titulo": "Grupo N09 - Grupo Tributação do ICMS= 70",
+      "slug": "grupo-n09-grupo-tributacao-do-icms-70",
+      "arquivo": "38-grupo-n09-grupo-tributacao-do-icms-70.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TVE",
+        "E140IPV",
+        "F019TST"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "modBC",
+        "modBCST",
+        "motDesICMS",
+        "orig",
+        "pFCP",
+        "pFCPST",
+        "pICMS",
+        "pICMSST",
+        "pMVAST",
+        "pRedBC",
+        "vBC",
+        "vBCST",
+        "vICMS",
+        "vICMSDeson",
+        "vICMSST",
+        "vProd"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        },
+        {
+          "texto": "F019TST",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tst.htm"
+        }
+      ],
+      "caracteres": 8208
+    },
+    {
+      "ordem": 39,
+      "titulo": "Grupo N10 - Grupo Tributação do ICMS= 90",
+      "slug": "grupo-n10-grupo-tributacao-do-icms-90",
+      "arquivo": "39-grupo-n10-grupo-tributacao-do-icms-90.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TVE",
+        "E140IPV",
+        "E140PVD",
+        "F019TST",
+        "F051DIS",
+        "F070PSE",
+        "F075PRO",
+        "F140DIS"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "modBC",
+        "modBCST",
+        "motDesICMS",
+        "orig",
+        "pFCP",
+        "pFCPST",
+        "pICMS",
+        "pICMSST",
+        "pMVAST",
+        "pRedBC",
+        "vBC",
+        "vBCST",
+        "vICMS",
+        "vICMSDeson",
+        "vICMSST",
+        "vProd"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        },
+        {
+          "texto": "F019TST",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tst.htm"
+        }
+      ],
+      "caracteres": 10697
+    },
+    {
+      "ordem": 40,
+      "titulo": "Grupo N10a - Grupo de Partilha do ICMS",
+      "slug": "grupo-n10a-grupo-de-partilha-do-icms",
+      "arquivo": "40-grupo-n10a-grupo-de-partilha-do-icms.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "F019TST"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "modBC",
+        "modBCST",
+        "orig",
+        "pICMS",
+        "pICMSST",
+        "pMVAST",
+        "pRedBC",
+        "vBC",
+        "vBCST",
+        "vICMS",
+        "vICMSST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        },
+        {
+          "texto": "F019TST",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tst.htm"
+        }
+      ],
+      "caracteres": 5386
+    },
+    {
+      "ordem": 41,
+      "titulo": "Grupo N10b - Grupo de Repasse do ICMS ST",
+      "slug": "grupo-n10b-grupo-de-repasse-do-icms-st",
+      "arquivo": "41-grupo-n10b-grupo-de-repasse-do-icms-st.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E440RCI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "orig"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 6071
+    },
+    {
+      "ordem": 42,
+      "titulo": "Grupo N10c - Grupo CRT=1 (CSON 101)",
+      "slug": "grupo-n10c-grupo-crt-1-cson-101",
+      "arquivo": "42-grupo-n10c-grupo-crt-1-cson-101.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CRT",
+        "CSOSN",
+        "orig",
+        "pCredSN",
+        "vCredICMSSN"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 2058
+    },
+    {
+      "ordem": 43,
+      "titulo": "Grupo N10d - Grupo CRT=1 (CSON 102, 103, 300 ou 400)",
+      "slug": "grupo-n10d-grupo-crt-1-cson-102-103-300-ou-400",
+      "arquivo": "43-grupo-n10d-grupo-crt-1-cson-102-103-300-ou-400.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CRT",
+        "CSOSN",
+        "orig"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 1806
+    },
+    {
+      "ordem": 44,
+      "titulo": "Grupo N10e - Grupo CRT=1 (CSON 201)",
+      "slug": "grupo-n10e-grupo-crt-1-cson-201",
+      "arquivo": "44-grupo-n10e-grupo-crt-1-cson-201.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CRT",
+        "CSOSN",
+        "modBCST",
+        "orig",
+        "pCredSN",
+        "pFCP",
+        "pFCPST",
+        "pICMSST",
+        "pMVAST",
+        "vBCST",
+        "vCredICMSSN",
+        "vICMSST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 3620
+    },
+    {
+      "ordem": 45,
+      "titulo": "Grupo N10f - Grupo CRT=1 (CSON 202 ou 203)",
+      "slug": "grupo-n10f-grupo-crt-1-cson-202-ou-203",
+      "arquivo": "45-grupo-n10f-grupo-crt-1-cson-202-ou-203.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "F019TST"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CRT",
+        "CSOSN",
+        "modBCST",
+        "orig",
+        "pFCP",
+        "pFCPST",
+        "pICMSST",
+        "pMVAST",
+        "vBCST",
+        "vICMSST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 4900
+    },
+    {
+      "ordem": 46,
+      "titulo": "Grupo N10g - Grupo CRT=1 (CSON 500)",
+      "slug": "grupo-n10g-grupo-crt-1-cson-500",
+      "arquivo": "46-grupo-n10g-grupo-crt-1-cson-500.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E440RCI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CRT",
+        "CSOSN",
+        "orig"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 5615
+    },
+    {
+      "ordem": 47,
+      "titulo": "Grupo N10h - Grupo CRT=1 (CSON 900)",
+      "slug": "grupo-n10h-grupo-crt-1-cson-900",
+      "arquivo": "47-grupo-n10h-grupo-crt-1-cson-900.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "F019TST"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "CRT",
+        "CSOSN",
+        "modBC",
+        "modBCST",
+        "orig",
+        "pCredSN",
+        "pFCP",
+        "pFCPST",
+        "pICMS",
+        "pICMSST",
+        "pMVAST",
+        "pRedBC",
+        "vBC",
+        "vBCST",
+        "vCredICMSSN",
+        "vICMS",
+        "vICMSST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 6422
+    },
+    {
+      "ordem": 48,
+      "titulo": "Grupo NA - ICMS para UF de destino",
+      "slug": "grupo-na-icms-para-uf-de-destino",
+      "arquivo": "48-grupo-na-icms-para-uf-de-destino.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "pFCPUFDest",
+        "pICMSInter",
+        "pICMSUFDest",
+        "vBCUFDest"
+      ],
+      "links_documentacao": [],
+      "caracteres": 3478
+    },
+    {
+      "ordem": 49,
+      "titulo": "Grupo O - Imposto sobre Produtos Industrializados",
+      "slug": "grupo-o-imposto-sobre-produtos-industrializados",
+      "arquivo": "49-grupo-o-imposto-sobre-produtos-industrializados.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST",
+        "cEnq",
+        "pIPI",
+        "vBC",
+        "vIPI",
+        "vUnid"
+      ],
+      "links_documentacao": [],
+      "caracteres": 4048
+    },
+    {
+      "ordem": 50,
+      "titulo": "Grupo P - Imposto de Importação",
+      "slug": "grupo-p-imposto-de-importacao",
+      "arquivo": "50-grupo-p-imposto-de-importacao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E440IPC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "vBC"
+      ],
+      "links_documentacao": [],
+      "caracteres": 1122
+    },
+    {
+      "ordem": 51,
+      "titulo": "Grupo Q - PIS",
+      "slug": "grupo-q-pis",
+      "arquivo": "51-grupo-q-pis.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST",
+        "pPIS",
+        "vAliqProd",
+        "vBC",
+        "vPIS"
+      ],
+      "links_documentacao": [],
+      "caracteres": 5555
+    },
+    {
+      "ordem": 52,
+      "titulo": "Grupo R - PIS ST",
+      "slug": "grupo-r-pis-st",
+      "arquivo": "52-grupo-r-pis-st.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "pPIS",
+        "vBC",
+        "vPIS"
+      ],
+      "links_documentacao": [],
+      "caracteres": 1398
+    },
+    {
+      "ordem": 53,
+      "titulo": "Grupo S - COFINS",
+      "slug": "grupo-s-cofins",
+      "arquivo": "53-grupo-s-cofins.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [
+        "Lista"
+      ],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST",
+        "pCOFINS",
+        "vAliqProd",
+        "vBC",
+        "vCOFINS"
+      ],
+      "links_documentacao": [],
+      "caracteres": 6068
+    },
+    {
+      "ordem": 54,
+      "titulo": "Grupo T - COFINS ST",
+      "slug": "grupo-t-cofins-st",
+      "arquivo": "54-grupo-t-cofins-st.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "pCOFINS",
+        "vAliqProd",
+        "vBC",
+        "vCOFINS"
+      ],
+      "links_documentacao": [],
+      "caracteres": 1451
+    },
+    {
+      "ordem": 55,
+      "titulo": "Grupo U - ISSQN",
+      "slug": "grupo-u-issqn",
+      "arquivo": "55-grupo-u-issqn.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140ISRET01",
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "cListServ",
+        "cMunFG",
+        "indISS",
+        "indIncentivo",
+        "vAliq",
+        "vBC",
+        "vISSQN"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140ISRET01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140isret01.htm"
+        },
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 3981
+    },
+    {
+      "ordem": 56,
+      "titulo": "Grupo UA - Tributos Devolvidos (para o item da NF-e)",
+      "slug": "grupo-ua-tributos-devolvidos-para-o-item-da-nf-e",
+      "arquivo": "56-grupo-ua-tributos-devolvidos-para-o-item-da-nf-e.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 981
+    },
+    {
+      "ordem": 57,
+      "titulo": "Grupo UB -  Informações dos tributos IBS / CBS e Imposto Seletivo - Novo grupo para atender a Reforma Tributária!",
+      "slug": "grupo-ub-informacoes-dos-tributos-ibs-cbs-e-imposto-seletivo",
+      "arquivo": "57-grupo-ub-informacoes-dos-tributos-ibs-cbs-e-imposto-seletivo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TVE",
+        "E027SCR",
+        "E051CBS",
+        "E051FCI",
+        "E070IMP",
+        "E075PRO",
+        "E140IPR",
+        "E140IPV",
+        "E140ISR",
+        "E140TNF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST",
+        "cClassTrib",
+        "pCBS",
+        "pIBSMun",
+        "pIBSUF",
+        "vBC"
+      ],
+      "links_documentacao": [],
+      "caracteres": 14812
+    },
+    {
+      "ordem": 58,
+      "titulo": "Grupo de Informações do Crédito Presumido da Operação - Novo grupo para atender a Reforma Tributária!",
+      "slug": "grupo-de-informacoes-do-credito-presumido-da-operacao-novo-g",
+      "arquivo": "58-grupo-de-informacoes-do-credito-presumido-da-operacao-novo-g.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E140IPR",
+        "E140ISR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 3502
+    },
+    {
+      "ordem": 59,
+      "titulo": "Grupo V - Informações adicionais (para o item da NF-e)",
+      "slug": "grupo-v-informacoes-adicionais-para-o-item-da-nf-e",
+      "arquivo": "59-grupo-v-informacoes-adicionais-para-o-item-da-nf-e.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E024MSG",
+        "E140IPM",
+        "E140IPV",
+        "F024MSG"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F024MSG",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f024msg.htm"
+        },
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 1319
+    },
+    {
+      "ordem": 60,
+      "titulo": "Grupo VB - Total do item da NF-e - Novo grupo para atender a Reforma Tributária!",
+      "slug": "grupo-vb-total-do-item-da-nf-e-novo-grupo-para-atender-a-ref",
+      "arquivo": "60-grupo-vb-total-do-item-da-nf-e-novo-grupo-para-atender-a-ref.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E140IPV",
+        "E140ISV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 460
+    },
+    {
+      "ordem": 61,
+      "titulo": "Grupo VC - Referenciamento de item de outro Documento Fiscal Eletrônico - DF-e - Novo grupo para atender a Reforma Tributária!",
+      "slug": "grupo-vc-referenciamento-de-item-de-outro-documento-fiscal-e",
+      "arquivo": "61-grupo-vc-referenciamento-de-item-de-outro-documento-fiscal-e.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E140IDE",
+        "E140ISV",
+        "E140PVD",
+        "F140NCI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1325
+    },
+    {
+      "ordem": 62,
+      "titulo": "Grupo W - Total da NF-e",
+      "slug": "grupo-w-total-da-nf-e",
+      "arquivo": "62-grupo-w-total-da-nf-e.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "finNFe",
+        "vBC",
+        "vBCST",
+        "vCOFINS",
+        "vDesc",
+        "vFrete",
+        "vICMS",
+        "vICMSDeson",
+        "vIPI",
+        "vNF",
+        "vPIS",
+        "vProd",
+        "vTotTrib"
+      ],
+      "links_documentacao": [],
+      "caracteres": 6138
+    },
+    {
+      "ordem": 63,
+      "titulo": "Grupo W01 - Total da NF-e / ISSQN",
+      "slug": "grupo-w01-total-da-nf-e-issqn",
+      "arquivo": "63-grupo-w01-total-da-nf-e-issqn.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "vBC",
+        "vCOFINS",
+        "vPIS"
+      ],
+      "links_documentacao": [],
+      "caracteres": 2434
+    },
+    {
+      "ordem": 64,
+      "titulo": "Grupo W02 - Total da NF-e / Retenção de Tributos",
+      "slug": "grupo-w02-total-da-nf-e-retencao-de-tributos",
+      "arquivo": "64-grupo-w02-total-da-nf-e-retencao-de-tributos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1303
+    },
+    {
+      "ordem": 65,
+      "titulo": "Grupo W03 - Total da NF-e - IBS / CBS / IS - Novo grupo para atender a Reforma Tributária!",
+      "slug": "grupo-w03-total-da-nf-e-ibs-cbs-is-novo-grupo-para-atender-a",
+      "arquivo": "65-grupo-w03-total-da-nf-e-ibs-cbs-is-novo-grupo-para-atender-a.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TVE",
+        "E027SCR",
+        "E070IMP",
+        "E140IPR",
+        "E140ISR",
+        "E140NFV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "cClassTrib"
+      ],
+      "links_documentacao": [],
+      "caracteres": 5183
+    },
+    {
+      "ordem": 66,
+      "titulo": "Grupo X - Informações do Transporte da NF-e",
+      "slug": "grupo-x-informacoes-do-transporte-da-nf-e",
+      "arquivo": "66-grupo-x-informacoes-do-transporte-da-nf-e.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [
+        "Lista de CFOPs válidas para operações com combustíveis:"
+      ],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEDGE01",
+        "VEN-140NEDGE02",
+        "VEN-140NELAC01"
+      ],
+      "campos_xml_citados": [
+        "CFOP",
+        "cMunFG",
+        "tpNF"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "Regras e sugestão de valores",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/nf-e/regras-e-sugestoes-valores.htm#modalidade_de_frete"
+        },
+        {
+          "texto": "VEN-140NEDGE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140nedge01.htm"
+        },
+        {
+          "texto": "VEN-140NELAC01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140nelac01.htm"
+        }
+      ],
+      "caracteres": 8123
+    },
+    {
+      "ordem": 67,
+      "titulo": "Grupo Y - Dados da Cobrança",
+      "slug": "grupo-y-dados-da-cobranca",
+      "arquivo": "67-grupo-y-dados-da-cobranca.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "vDesc"
+      ],
+      "links_documentacao": [],
+      "caracteres": 2203
+    },
+    {
+      "ordem": 68,
+      "titulo": "Grupo YA - Informações de Pagamento",
+      "slug": "grupo-ya-informacoes-de-pagamento",
+      "arquivo": "68-grupo-ya-informacoes-de-pagamento.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140ALTPG01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "EN-140ALTPG01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140altpg01.htm"
+        }
+      ],
+      "caracteres": 5261
+    },
+    {
+      "ordem": 69,
+      "titulo": "Grupo YB - Informações do Intermediador da Transação",
+      "slug": "grupo-yb-informacoes-do-intermediador-da-transacao",
+      "arquivo": "69-grupo-yb-informacoes-do-intermediador-da-transacao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1216
+    },
+    {
+      "ordem": 70,
+      "titulo": "Grupo Z - Informações Adicionais da NF-e",
+      "slug": "grupo-z-informacoes-adicionais-da-nf-e",
+      "arquivo": "70-grupo-z-informacoes-adicionais-da-nf-e.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E024MSG",
+        "E140IPM",
+        "E140IPV",
+        "F024MSG",
+        "F075IBP"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEDGE01",
+        "VEN-140NEINF01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEINF01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neinf01.htm"
+        },
+        {
+          "texto": "VEN-140NEDGE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140nedge01.htm"
+        },
+        {
+          "texto": "F075IBP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075ibp.htm"
+        },
+        {
+          "texto": "esta documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/preenchimento-tag-infcpl.htm"
+        },
+        {
+          "texto": "F024MSG",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f024msg.htm"
+        }
+      ],
+      "caracteres": 7000
+    },
+    {
+      "ordem": 71,
+      "titulo": "Grupo ZA - Informações do Comércio Exterior",
+      "slug": "grupo-za-informacoes-do-comercio-exterior",
+      "arquivo": "71-grupo-za-informacoes-do-comercio-exterior.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 874
+    },
+    {
+      "ordem": 72,
+      "titulo": "Grupo ZB - Informações de Compras",
+      "slug": "grupo-zb-informacoes-de-compras",
+      "arquivo": "72-grupo-zb-informacoes-de-compras.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NEDGE01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NEDGE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140nedge01.htm"
+        }
+      ],
+      "caracteres": 920
+    },
+    {
+      "ordem": 73,
+      "titulo": "Grupo ZC - Informações do Registro de Aquisição de Cana",
+      "slug": "grupo-zc-informacoes-do-registro-de-aquisicao-de-cana",
+      "arquivo": "73-grupo-zc-informacoes-do-registro-de-aquisicao-de-cana.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140NECAN01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140NECAN01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140necan01.htm"
+        }
+      ],
+      "caracteres": 3111
+    },
+    {
+      "ordem": 74,
+      "titulo": "Grupo ZD - Informações do Responsável Técnico (NT 2018.005)",
+      "slug": "grupo-zd-informacoes-do-responsavel-tecnico-nt-2018-005",
+      "arquivo": "74-grupo-zd-informacoes-do-responsavel-tecnico-nt-2018-005.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 2115
+    },
+    {
+      "ordem": 75,
+      "titulo": "Grupo ZF - Informações de Produtos da Agricultura, Pecuária e Produção Florestal",
+      "slug": "grupo-zf-informacoes-de-produtos-da-agricultura-pecuaria-e-p",
+      "arquivo": "75-grupo-zf-informacoes-de-produtos-da-agricultura-pecuaria-e-p.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [
+        "E140DEF",
+        "E140TNF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 2192
+    },
+    {
+      "ordem": 76,
+      "titulo": "Grupo ZX - Informações Suplementares da Nota Fiscal",
+      "slug": "grupo-zx-informacoes-suplementares-da-nota-fiscal",
+      "arquivo": "76-grupo-zx-informacoes-suplementares-da-nota-fiscal.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1339
+    },
+    {
+      "ordem": 77,
+      "titulo": "Grupo ZZ - Informações da Assinatura Digital",
+      "slug": "grupo-zz-informacoes-da-assinatura-digital",
+      "arquivo": "77-grupo-zz-informacoes-da-assinatura-digital.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 443
+    }
+  ],
+  "indice_telas": {
+    "E001TVE": [
+      "grupo-i-produtos-e-servicos-da-nf-e",
+      "grupo-n04-grupo-tributacao-do-icms-20",
+      "grupo-n05-grupo-tributacao-do-icms-30",
+      "grupo-n06-grupo-tributacao-do-icms-40-41-50",
+      "grupo-n09-grupo-tributacao-do-icms-70",
+      "grupo-n10-grupo-tributacao-do-icms-90",
+      "grupo-ub-informacoes-dos-tributos-ibs-cbs-e-imposto-seletivo",
+      "grupo-w03-total-da-nf-e-ibs-cbs-is-novo-grupo-para-atender-a"
+    ],
+    "E024MSG": [
+      "grupo-v-informacoes-adicionais-para-o-item-da-nf-e",
+      "grupo-z-informacoes-adicionais-da-nf-e"
+    ],
+    "E027SCR": [
+      "grupo-ub-informacoes-dos-tributos-ibs-cbs-e-imposto-seletivo",
+      "grupo-w03-total-da-nf-e-ibs-cbs-is-novo-grupo-para-atender-a"
+    ],
+    "E051CBS": [
+      "grupo-ub-informacoes-dos-tributos-ibs-cbs-e-imposto-seletivo"
+    ],
+    "E051FCI": [
+      "grupo-c-identificacao-do-emitente-da-nota-fiscal-eletronica",
+      "grupo-ub-informacoes-dos-tributos-ibs-cbs-e-imposto-seletivo"
+    ],
+    "E070FIL": [
+      "grupo-c-identificacao-do-emitente-da-nota-fiscal-eletronica"
+    ],
+    "E070IMP": [
+      "grupo-ub-informacoes-dos-tributos-ibs-cbs-e-imposto-seletivo",
+      "grupo-w03-total-da-nf-e-ibs-cbs-is-novo-grupo-para-atender-a"
+    ],
+    "E075DER": [
+      "grupo-i-produtos-e-servicos-da-nf-e"
+    ],
+    "E075PRO": [
+      "grupo-ub-informacoes-dos-tributos-ibs-cbs-e-imposto-seletivo"
+    ],
+    "E085CLI": [
+      "grupo-bb-grupo-de-compras-governamentais",
+      "grupo-g-identificacao-do-local-de-entrega"
+    ],
+    "E085ENT": [
+      "grupo-g-identificacao-do-local-de-entrega"
+    ],
+    "E120IPD": [
+      "grupo-i05-produtos-e-servicos-pedido-de-compra"
+    ],
+    "E140DEC": [
+      "grupo-b-identificacao-da-nota-fiscal-eletronica"
+    ],
+    "E140DEF": [
+      "grupo-zf-informacoes-de-produtos-da-agricultura-pecuaria-e-p"
+    ],
+    "E140DLS": [
+      "grupo-i80-rastreabilidade-de-produto"
+    ],
+    "E140IDE": [
+      "grupo-vc-referenciamento-de-item-de-outro-documento-fiscal-e"
+    ],
+    "E140IPM": [
+      "grupo-v-informacoes-adicionais-para-o-item-da-nf-e",
+      "grupo-z-informacoes-adicionais-da-nf-e"
+    ],
+    "E140IPR": [
+      "grupo-bb-grupo-de-compras-governamentais",
+      "grupo-de-informacoes-do-credito-presumido-da-operacao-novo-g",
+      "grupo-ub-informacoes-dos-tributos-ibs-cbs-e-imposto-seletivo",
+      "grupo-w03-total-da-nf-e-ibs-cbs-is-novo-grupo-para-atender-a"
+    ],
+    "E140IPV": [
+      "grupo-i-produtos-e-servicos-da-nf-e",
+      "grupo-n04-grupo-tributacao-do-icms-20",
+      "grupo-n05-grupo-tributacao-do-icms-30",
+      "grupo-n06-grupo-tributacao-do-icms-40-41-50",
+      "grupo-n09-grupo-tributacao-do-icms-70",
+      "grupo-n10-grupo-tributacao-do-icms-90",
+      "grupo-ub-informacoes-dos-tributos-ibs-cbs-e-imposto-seletivo",
+      "grupo-v-informacoes-adicionais-para-o-item-da-nf-e",
+      "grupo-vb-total-do-item-da-nf-e-novo-grupo-para-atender-a-ref",
+      "grupo-z-informacoes-adicionais-da-nf-e"
+    ],
+    "E140ISR": [
+      "grupo-bb-grupo-de-compras-governamentais",
+      "grupo-de-informacoes-do-credito-presumido-da-operacao-novo-g",
+      "grupo-ub-informacoes-dos-tributos-ibs-cbs-e-imposto-seletivo",
+      "grupo-w03-total-da-nf-e-ibs-cbs-is-novo-grupo-para-atender-a"
+    ],
+    "E140ISV": [
+      "grupo-vb-total-do-item-da-nf-e-novo-grupo-para-atender-a-ref",
+      "grupo-vc-referenciamento-de-item-de-outro-documento-fiscal-e"
+    ],
+    "E140NFR": [
+      "grupo-bb-grupo-de-compras-governamentais",
+      "grupo-bc-grupo-de-notas-de-antecipacao-de-pagamento"
+    ],
+    "E140NFV": [
+      "grupo-a-dados-da-nota-fiscal-eletronica",
+      "grupo-b-identificacao-da-nota-fiscal-eletronica",
+      "grupo-ba-documento-fiscal-referenciado",
+      "grupo-w03-total-da-nf-e-ibs-cbs-is-novo-grupo-para-atender-a"
+    ],
+    "E140PVD": [
+      "grupo-n10-grupo-tributacao-do-icms-90",
+      "grupo-vc-referenciamento-de-item-de-outro-documento-fiscal-e"
+    ],
+    "E140TNF": [
+      "grupo-b-identificacao-da-nota-fiscal-eletronica",
+      "grupo-bb-grupo-de-compras-governamentais",
+      "grupo-ub-informacoes-dos-tributos-ibs-cbs-e-imposto-seletivo",
+      "grupo-zf-informacoes-de-produtos-da-agricultura-pecuaria-e-p"
+    ],
+    "E210DLS": [
+      "grupo-i80-rastreabilidade-de-produto"
+    ],
+    "E440IPC": [
+      "grupo-p-imposto-de-importacao"
+    ],
+    "E440RCI": [
+      "grupo-n08-grupo-tributacao-do-icms-60",
+      "grupo-n10b-grupo-de-repasse-do-icms-st",
+      "grupo-n10g-grupo-crt-1-cson-500"
+    ],
+    "F019TST": [
+      "grupo-n03-grupo-tributacao-do-icms-10",
+      "grupo-n05-grupo-tributacao-do-icms-30",
+      "grupo-n09-grupo-tributacao-do-icms-70",
+      "grupo-n10-grupo-tributacao-do-icms-90",
+      "grupo-n10a-grupo-de-partilha-do-icms",
+      "grupo-n10f-grupo-crt-1-cson-202-ou-203",
+      "grupo-n10h-grupo-crt-1-cson-900"
+    ],
+    "F020SNF": [
+      "grupo-b-identificacao-da-nota-fiscal-eletronica"
+    ],
+    "F022CLF": [
+      "grupo-i-produtos-e-servicos-da-nf-e"
+    ],
+    "F024MSG": [
+      "grupo-v-informacoes-adicionais-para-o-item-da-nf-e",
+      "grupo-z-informacoes-adicionais-da-nf-e"
+    ],
+    "F050EQF": [
+      "grupo-ba-documento-fiscal-referenciado"
+    ],
+    "F051DIS": [
+      "grupo-i-produtos-e-servicos-da-nf-e",
+      "grupo-n07-grupo-tributacao-do-icms-51",
+      "grupo-n10-grupo-tributacao-do-icms-90"
+    ],
+    "F070EMP": [
+      "grupo-c-identificacao-do-emitente-da-nota-fiscal-eletronica",
+      "grupo-f-identificacao-do-local-de-retirada"
+    ],
+    "F070EPF": [
+      "grupo-i-produtos-e-servicos-da-nf-e"
+    ],
+    "F070FCA": [
+      "grupo-b-identificacao-da-nota-fiscal-eletronica",
+      "grupo-c-identificacao-do-emitente-da-nota-fiscal-eletronica",
+      "grupo-n07a-grupo-tributacao-do-icms-53"
+    ],
+    "F070FCP": [
+      "grupo-c-identificacao-do-emitente-da-nota-fiscal-eletronica"
+    ],
+    "F070FEF": [
+      "grupo-c-identificacao-do-emitente-da-nota-fiscal-eletronica"
+    ],
+    "F070FVE": [
+      "grupo-a-dados-da-nota-fiscal-eletronica",
+      "grupo-b-identificacao-da-nota-fiscal-eletronica",
+      "grupo-ba-documento-fiscal-referenciado",
+      "grupo-n07-grupo-tributacao-do-icms-51"
+    ],
+    "F070PSE": [
+      "grupo-n10-grupo-tributacao-do-icms-90"
+    ],
+    "F070RET": [
+      "grupo-f-identificacao-do-local-de-retirada"
+    ],
+    "F075IBP": [
+      "grupo-z-informacoes-adicionais-da-nf-e"
+    ],
+    "F075PCB": [
+      "grupo-la-detalhamento-especifico-de-combustiveis"
+    ],
+    "F075PRO": [
+      "grupo-i-produtos-e-servicos-da-nf-e",
+      "grupo-la-detalhamento-especifico-de-combustiveis",
+      "grupo-n10-grupo-tributacao-do-icms-90"
+    ],
+    "F085CAD": [
+      "grupo-e-identificacao-do-destinatario-da-nota-fiscal-eletron"
+    ],
+    "F085ENT": [
+      "grupo-e-identificacao-do-destinatario-da-nota-fiscal-eletron",
+      "grupo-g-identificacao-do-local-de-entrega"
+    ],
+    "F099PPE": [
+      "grupo-c-identificacao-do-emitente-da-nota-fiscal-eletronica"
+    ],
+    "F140DIS": [
+      "grupo-n10-grupo-tributacao-do-icms-90"
+    ],
+    "F140GNF": [
+      "grupo-i03-produtos-e-servicos-grupo-de-exportacao"
+    ],
+    "F140NCI": [
+      "grupo-vc-referenciamento-de-item-de-outro-documento-fiscal-e"
+    ],
+    "F140NSR": [
+      "grupo-ba-documento-fiscal-referenciado"
+    ],
+    "F440GNE": [
+      "grupo-b-identificacao-da-nota-fiscal-eletronica",
+      "grupo-ba-documento-fiscal-referenciado",
+      "grupo-i01-produtos-e-servicos-declaracao-de-importacao"
+    ],
+    "F440NFR": [
+      "grupo-ba-documento-fiscal-referenciado"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140altpg01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140isret01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140ltras01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neaut01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140necan01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140nedge01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140nedge02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neinf01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140nelac01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140nemed02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neras01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/fuso-horario-arquivos-xmls.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/geracao-beneficio-fiscal.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/nf-e/regras-e-sugestoes-valores.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/nf-e/regras-e-sugestoes-valores.htm#modalidade_de_frete",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tst.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f024msg.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075ibp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pcb.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/preenchimento-tag-infcpl.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140gnf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/referenciacao_nf_entrada_processo_exportacao.htm",
+    "https://www.ibge.gov.br/explica/codigos-dos-municipios.php",
+    "https://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=/NJarYc9nus="
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "fonte": {
+    "pagina": "Identificador de Regra",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alcof01.htm",
+    "trilha": ""
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Identificador de Regra",
+      "slug": "identificador-de-regra",
+      "arquivo": "01-identificador-de-regra.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alcof01.htm",
+      "subtopicos": [],
+      "telas": [
+        "F000INE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-000ALCOF01",
+        "CPR-000MTNEL01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F000INE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f000ine.htm"
+        },
+        {
+          "texto": "LisVarReg",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#LisVarReg"
+        }
+      ],
+      "caracteres": 7136
+    }
+  ],
+  "indice_telas": {
+    "F000INE": [
+      "identificador-de-regra"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#LisVarReg",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f000ine.htm"
+  ]
+}

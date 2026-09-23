@@ -1,0 +1,355 @@
+{
+  "fonte": {
+    "pagina": "Saiba tudo sobre o ICMS Monofásico",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm",
+    "trilha": "Segmentos > Compliance > Configurações para cálculos fiscais > Impostos > ICMS"
+  },
+  "total_topicos": 4,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "ICMS02 (ICMS Monofásico próprio)",
+      "slug": "icms02-icms-monofasico-proprio",
+      "arquivo": "01-icms02-icms-monofasico-proprio.md",
+      "ancora": "icms02",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm#icms02",
+      "subtopicos": [],
+      "telas": [
+        "F001TCP",
+        "F001TVE",
+        "F027STR",
+        "F075PRO",
+        "F081GTP",
+        "F085CAD",
+        "F095CAD"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro de Clientes (F085CAD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        },
+        {
+          "texto": "Cadastro de Fornecedores (F095CAD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "Cadastro de Produtos (",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "Transações de Vendas (F001TVE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "Transações de Compras (F001TCP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "Parametrização para calcular ICMS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#parametrizacao"
+        },
+        {
+          "texto": "Situações Tributárias (F027STR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm"
+        },
+        {
+          "texto": "Tabela de Preço de Venda (F081GTP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081gtp.htm"
+        }
+      ],
+      "caracteres": 2433
+    },
+    {
+      "ordem": 2,
+      "titulo": "ICMS15 (ICMS Monofásico próprio com retenção)",
+      "slug": "icms15-icms-monofasico-proprio-com-retencao",
+      "arquivo": "02-icms15-icms-monofasico-proprio-com-retencao.md",
+      "ancora": "icms15",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm#icms15",
+      "subtopicos": [],
+      "telas": [
+        "E075PRO",
+        "F000PPD",
+        "F001TCP",
+        "F001TVE",
+        "F019TIM",
+        "F019TIR",
+        "F027STR",
+        "F075PRO",
+        "F081GTP",
+        "F085CAD",
+        "F095CAD"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Reduções e Acréscimos de bases de Cálculos de Impostos - Por Estado (F019TIR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm"
+        },
+        {
+          "texto": "Cadastro de Produtos (F075PRO)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "Cadastro de partilha ICMS Monofásico (F019TIM)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tim.htm"
+        },
+        {
+          "texto": "Cadastro de Clientes (F085CAD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        },
+        {
+          "texto": "Cadastro de Fornecedores (F095CAD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "Transações de Vendas (F001TVE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "Transações de Compras (F001TCP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "Parametrização para calcular ICMS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#parametrizacao"
+        },
+        {
+          "texto": "Situações Tributárias (F027STR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm"
+        },
+        {
+          "texto": "Tabela de Preço de Venda (F081GTP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081gtp.htm"
+        },
+        {
+          "texto": "Configuração de parâmetros dinâmicos (F000PPD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#cadcli"
+        }
+      ],
+      "caracteres": 5193
+    },
+    {
+      "ordem": 3,
+      "titulo": "ICMS53 (ICMS Monofásico diferido)",
+      "slug": "icms53-icms-monofasico-diferido",
+      "arquivo": "03-icms53-icms-monofasico-diferido.md",
+      "ancora": "icms53",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm#icms53",
+      "subtopicos": [],
+      "telas": [
+        "E019TIM",
+        "F000PPD",
+        "F001TCP",
+        "F001TVE",
+        "F019TIM",
+        "F027STR",
+        "F070FCA",
+        "F075PRO",
+        "F081GTP",
+        "F085CAD",
+        "F095CAD"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro de partilha ICMS Monofásico (F019TIM)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tim.htm"
+        },
+        {
+          "texto": "Cadastro de Clientes (F085CAD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        },
+        {
+          "texto": "Cadastro de Fornecedores (F095CAD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "Cadastro de Produtos (",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "Transações de Vendas (F001TVE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "Transações de Compras (F001TCP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "Parametrização para calcular ICMS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#parametrizacao"
+        },
+        {
+          "texto": "Situações Tributárias (F027STR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm"
+        },
+        {
+          "texto": "Tabela de Preço de Venda (F081GTP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081gtp.htm"
+        },
+        {
+          "texto": "Configuração de parâmetros dinâmicos (F000PPD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#cadcli"
+        },
+        {
+          "texto": "NOTAFISCAL.XML.ICMS.MONOFASICO.DIFERIMENTO.GERAVICMSMONO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm"
+        },
+        {
+          "texto": "na geração do .XML",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm"
+        },
+        {
+          "texto": "Cadastro de Filiais (F070FCA)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm"
+        }
+      ],
+      "caracteres": 3964
+    },
+    {
+      "ordem": 4,
+      "titulo": "ICMS61 (ICMS Monofásico destacado)",
+      "slug": "icms61-icms-monofasico-destacado",
+      "arquivo": "04-icms61-icms-monofasico-destacado.md",
+      "ancora": "icms61",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm#icms61",
+      "subtopicos": [],
+      "telas": [
+        "F001TCP",
+        "F001TVE",
+        "F027STR",
+        "F075PRO",
+        "F081GTP",
+        "F085CAD",
+        "F095CAD"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro de Clientes (F085CAD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        },
+        {
+          "texto": "Cadastro de Fornecedores (F095CAD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "Cadastro de Produtos (",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "Transações de Vendas (F001TVE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "Transações de Compras (F001TCP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "Parametrização para calcular ICMS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#parametrizacao"
+        },
+        {
+          "texto": "Situações Tributárias (F027STR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm"
+        },
+        {
+          "texto": "Tabela de Preço de Venda (F081GTP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081gtp.htm"
+        }
+      ],
+      "caracteres": 2459
+    }
+  ],
+  "indice_telas": {
+    "E019TIM": [
+      "icms53-icms-monofasico-diferido"
+    ],
+    "E075PRO": [
+      "icms15-icms-monofasico-proprio-com-retencao"
+    ],
+    "F000PPD": [
+      "icms15-icms-monofasico-proprio-com-retencao",
+      "icms53-icms-monofasico-diferido"
+    ],
+    "F001TCP": [
+      "icms02-icms-monofasico-proprio",
+      "icms15-icms-monofasico-proprio-com-retencao",
+      "icms53-icms-monofasico-diferido",
+      "icms61-icms-monofasico-destacado"
+    ],
+    "F001TVE": [
+      "icms02-icms-monofasico-proprio",
+      "icms15-icms-monofasico-proprio-com-retencao",
+      "icms53-icms-monofasico-diferido",
+      "icms61-icms-monofasico-destacado"
+    ],
+    "F019TIM": [
+      "icms15-icms-monofasico-proprio-com-retencao",
+      "icms53-icms-monofasico-diferido"
+    ],
+    "F019TIR": [
+      "icms15-icms-monofasico-proprio-com-retencao"
+    ],
+    "F027STR": [
+      "icms02-icms-monofasico-proprio",
+      "icms15-icms-monofasico-proprio-com-retencao",
+      "icms53-icms-monofasico-diferido",
+      "icms61-icms-monofasico-destacado"
+    ],
+    "F070FCA": [
+      "icms53-icms-monofasico-diferido"
+    ],
+    "F075PRO": [
+      "icms02-icms-monofasico-proprio",
+      "icms15-icms-monofasico-proprio-com-retencao",
+      "icms53-icms-monofasico-diferido",
+      "icms61-icms-monofasico-destacado"
+    ],
+    "F081GTP": [
+      "icms02-icms-monofasico-proprio",
+      "icms15-icms-monofasico-proprio-com-retencao",
+      "icms53-icms-monofasico-diferido",
+      "icms61-icms-monofasico-destacado"
+    ],
+    "F085CAD": [
+      "icms02-icms-monofasico-proprio",
+      "icms15-icms-monofasico-proprio-com-retencao",
+      "icms53-icms-monofasico-diferido",
+      "icms61-icms-monofasico-destacado"
+    ],
+    "F095CAD": [
+      "icms02-icms-monofasico-proprio",
+      "icms15-icms-monofasico-proprio-com-retencao",
+      "icms53-icms-monofasico-diferido",
+      "icms61-icms-monofasico-destacado"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#parametrizacao",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/leiaute-nf-e-nfc-e.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#cadcli",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tim.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081gtp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+  ]
+}

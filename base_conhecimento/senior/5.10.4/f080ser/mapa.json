@@ -1,0 +1,321 @@
+{
+  "fonte": {
+    "pagina": "F080SER - Cadastro de Serviços",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080ser.htm",
+    "trilha": "Ajuda por telas > Cadastros > Produtos e Serviços > Serviços"
+  },
+  "total_topicos": 2,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Cadastro",
+      "slug": "cadastro",
+      "arquivo": "01-cadastro.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080ser.htm",
+      "subtopicos": [],
+      "telas": [
+        "E080SER",
+        "E083ORI",
+        "F012FAM",
+        "F019TIR",
+        "F022CLF",
+        "F047NTG",
+        "F051DIS",
+        "F055TPR",
+        "F066OTE",
+        "F070FEF",
+        "F073TRA",
+        "F080CSA",
+        "F080SXC",
+        "F080TSI",
+        "F081GTP",
+        "F095CBO",
+        "F103CAT",
+        "F118PSI",
+        "F140GNF",
+        "F660NFV",
+        "F670EBI",
+        "F670EBN"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "GER-080SERVI01"
+      ],
+      "campos_xml_citados": [
+        "CEST",
+        "cClassTrib"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "GER-000GERSDE4",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000gersde4.htm"
+        },
+        {
+          "texto": "F012FAM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm"
+        },
+        {
+          "texto": "F047NTG",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f047ntg.htm"
+        },
+        {
+          "texto": "ConCtaRed",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#ConCtaRed"
+        },
+        {
+          "texto": "F019TIR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm"
+        },
+        {
+          "texto": "INSS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/rpa/parametrizacao.htm#reducao-inss"
+        },
+        {
+          "texto": "GER-080SERVI01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_080servi01.htm"
+        },
+        {
+          "texto": "F660NFV",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660nfv.htm"
+        },
+        {
+          "texto": "Prefeitura de Florianópolis",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/integracao_nfse_florianopolis.htm"
+        },
+        {
+          "texto": "F080TSI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080tsi.htm"
+        },
+        {
+          "texto": "Portal da Nota Fiscal Eletrônica",
+          "url": "http://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=/NJarYc9nus="
+        },
+        {
+          "texto": "F081GTP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081gtp.htm"
+        },
+        {
+          "texto": "F066OTE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f066ote.htm"
+        },
+        {
+          "texto": "F073TRA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f073tra.htm"
+        },
+        {
+          "texto": "F103CAT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f103cat.htm"
+        },
+        {
+          "texto": "Siscoserv",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/7.0.0/index.htm#compliance/siscoserv/introducao.htm"
+        },
+        {
+          "texto": "F670EBI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f670ebi.htm"
+        },
+        {
+          "texto": "F670EBN",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f670ebn.htm"
+        },
+        {
+          "texto": "F118PSI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_servicos/f118psi.htm"
+        },
+        {
+          "texto": "F055TPR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055tpr.htm"
+        },
+        {
+          "texto": "F080CSA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080csa.htm"
+        },
+        {
+          "texto": "F080SXC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080sxc.htm"
+        },
+        {
+          "texto": "F140GNF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140gnf.htm"
+        },
+        {
+          "texto": "F022CLF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f022clf.htm"
+        },
+        {
+          "texto": "F051DIS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm"
+        },
+        {
+          "texto": "geração da DIRF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/relatorios/financeiros/fpcp072.htm"
+        },
+        {
+          "texto": "F095CBO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cbo.htm"
+        },
+        {
+          "texto": "CIAE052",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/arquivos-eletronicos-estaduais/ciae052.htm"
+        },
+        {
+          "texto": "confira a documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660isp-remessa-retorno.htm#retorno-bloco-k"
+        },
+        {
+          "texto": "recebimento eletrônico de NFS-e",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/recebimento-eletronico/recebimento-eletronico.htm#nfs-e"
+        },
+        {
+          "texto": "Leiaute 17",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm#17"
+        },
+        {
+          "texto": "relatório",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/arquivos-eletronicos-municipais/ciam048.htm"
+        },
+        {
+          "texto": "código de tributação nacional",
+          "url": "https://www.gov.br/nfse/pt-br/mei-e-demais-empresas/codigos-de-tributacao-nacional-nbs"
+        },
+        {
+          "texto": "Portal da Nota Fiscal Fatura de Serviço de Comunicação Eletrônica - SVRS",
+          "url": "https://dfe-portal.svrs.rs.gov.br/NFCOM/tabelacclass"
+        }
+      ],
+      "caracteres": 27496
+    },
+    {
+      "ordem": 2,
+      "titulo": "Características",
+      "slug": "caracteristicas",
+      "arquivo": "02-caracteristicas.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080ser.htm",
+      "subtopicos": [],
+      "telas": [
+        "F010CTE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F010CTE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f010cte.htm"
+        }
+      ],
+      "caracteres": 232
+    }
+  ],
+  "indice_telas": {
+    "E080SER": [
+      "cadastro"
+    ],
+    "E083ORI": [
+      "cadastro"
+    ],
+    "F010CTE": [
+      "caracteristicas"
+    ],
+    "F012FAM": [
+      "cadastro"
+    ],
+    "F019TIR": [
+      "cadastro"
+    ],
+    "F022CLF": [
+      "cadastro"
+    ],
+    "F047NTG": [
+      "cadastro"
+    ],
+    "F051DIS": [
+      "cadastro"
+    ],
+    "F055TPR": [
+      "cadastro"
+    ],
+    "F066OTE": [
+      "cadastro"
+    ],
+    "F070FEF": [
+      "cadastro"
+    ],
+    "F073TRA": [
+      "cadastro"
+    ],
+    "F080CSA": [
+      "cadastro"
+    ],
+    "F080SXC": [
+      "cadastro"
+    ],
+    "F080TSI": [
+      "cadastro"
+    ],
+    "F081GTP": [
+      "cadastro"
+    ],
+    "F095CBO": [
+      "cadastro"
+    ],
+    "F103CAT": [
+      "cadastro"
+    ],
+    "F118PSI": [
+      "cadastro"
+    ],
+    "F140GNF": [
+      "cadastro"
+    ],
+    "F660NFV": [
+      "cadastro"
+    ],
+    "F670EBI": [
+      "cadastro"
+    ],
+    "F670EBN": [
+      "cadastro"
+    ]
+  },
+  "paginas_relacionadas": [
+    "http://www.nfe.fazenda.gov.br/portal/listaConteudo.aspx?tipoConteudo=/NJarYc9nus=",
+    "https://dfe-portal.svrs.rs.gov.br/NFCOM/tabelacclass",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000gersde4.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_080servi01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/integracao_nfse_florianopolis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/recebimento-eletronico/recebimento-eletronico.htm#nfs-e",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/rpa/parametrizacao.htm#reducao-inss",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#ConCtaRed",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f010cte.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f022clf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f047ntg.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055tpr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f066ote.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f073tra.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080csa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080sxc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080tsi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081gtp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cbo.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f103cat.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660isp-remessa-retorno.htm#retorno-bloco-k",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660nfv.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f670ebi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f670ebn.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/arquivos-eletronicos-estaduais/ciae052.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/arquivos-eletronicos-municipais/ciam048.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm#17",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/relatorios/financeiros/fpcp072.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140gnf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_servicos/f118psi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/7.0.0/index.htm#compliance/siscoserv/introducao.htm",
+    "https://www.gov.br/nfse/pt-br/mei-e-demais-empresas/codigos-de-tributacao-nacional-nbs"
+  ]
+}

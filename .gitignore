@@ -1,0 +1,78 @@
+# ============================================================================
+#  Agente de Implantação Fiscal — Senior ERP
+#
+#  Duas regras valem mais que as outras, porque o estrago é irreversível:
+#  documento fiscal de cliente e credencial NÃO entram no histórico. Depois de
+#  commitados, tirar exige reescrever a história do repositório — e se já tiver
+#  ido para um remoto, exige também revogar a chave e avisar o cliente.
+# ============================================================================
+
+# --------------------------------------------------------------- Credenciais
+.env
+.env.*
+!.env.example
+
+# ----------------------------------------------------- Dados de cliente (LGPD)
+# Notas enviadas pelo consultor durante a comparação: CNPJ, CPF, razão social e
+# chave de acesso de clientes reais.
+media/
+
+# Os XMLs de exemplo também são notas REAIS — auditado com
+# `apps.agente.privacidade`: 5 identificadores por arquivo (CNPJ do emitente,
+# CPF do destinatário, chave de acesso). Servem de fixture, mas versioná-los é
+# decisão de quem mantém o repositório, não efeito colateral do primeiro
+# `git add`. Para versionar mesmo assim, comente a linha correspondente.
+xml_example/
+
+# Gerados por `manage.py gerar_lote_exemplo` / `gerar_exemplos` — 198 XMLs e os
+# ZIPs. Reproduzíveis a qualquer momento; o padrão antigo (`exemplos/*.xml`)
+# pegava só os 2 da raiz e deixava passar os 196 das subpastas.
+exemplos/
+
+# ------------------------------------------------------------------- Django
+# O banco carrega a base de conhecimento com os embeddings: 3.934 trechos ×
+# 3.072 dimensões ≈ 253 MB. É reconstruível (`ingerir_links` +
+# `ingerir_zendesk` + `reindexar`) e mudaria a cada consulta — versionar só
+# inflaria o histórico.
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+*.sqlite3-*
+local_settings.py
+staticfiles/
+
+# ------------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+
+venv/
+.venv/
+env/
+ENV/
+
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# ---------------------------------------------------------------------- Logs
+*.log
+logs/
+
+# -------------------------------------------------------- Editor e sistema
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

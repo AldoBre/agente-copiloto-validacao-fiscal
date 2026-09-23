@@ -1,0 +1,40 @@
+{
+  "fonte": {
+    "pagina": "Conceito - Mercado",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado.htm",
+    "trilha": "Ajuda por telas"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Conceito - Mercado",
+      "slug": "conceito-mercado",
+      "arquivo": "01-conceito-mercado.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "ação SID",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/acoes-sid/acoes-sid.htm"
+        }
+      ],
+      "caracteres": 6316
+    }
+  ],
+  "indice_telas": {},
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/acoes-sid/acoes-sid.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+  ]
+}

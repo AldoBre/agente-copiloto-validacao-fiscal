@@ -1,0 +1,42 @@
+# ============================================================================
+#  Banco de desenvolvimento local.
+#
+#      docker compose up -d
+#
+#  Só o PostgreSQL: a aplicação roda no host, pelo ./run.sh. A versão acompanha
+#  a do banco de produção, para não descobrir incompatibilidade só na migração.
+#
+#  A porta 5435 no host não é capricho: 5432, 5433 e 5434 já estavam ocupadas
+#  por outros projetos. Dentro do container continua sendo a 5432.
+# ============================================================================
+services:
+  postgres:
+    # pgvector/pgvector, e nao postgres puro: a coluna `embedding` e' do tipo
+    # nativo `vector` e a migracao 0005 exige a extensao. A tag pg18 acompanha
+    # a versao de producao (PostgreSQL 18.4) — local em 17
+    # escondia diferenca de comportamento entre os dois.
+    image: pgvector/pgvector:pg18
+    container_name: agente-implantacao-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-agente_implantacao}
+      POSTGRES_USER: ${DB_USER:-agente}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-agente_dev_local}
+      POSTGRES_INITDB_ARGS: "--encoding=UTF8 --locale=C"
+    ports:
+      # Preso ao loopback: o banco de desenvolvimento não deve aceitar conexão
+      # da rede, ainda mais guardando nota fiscal de cliente.
+      - "127.0.0.1:${DB_PORT:-5435}:5432"
+    volumes:
+      # PG18+ guarda o dado em subdiretorio por versao maior e recusa subir
+      # com o mount antigo em /data. O ponto de montagem passa a ser o pai.
+      - pgdata:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-agente} -d ${DB_NAME:-agente_implantacao}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:
+    name: agente-implantacao-pgdata

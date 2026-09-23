@@ -1,0 +1,137 @@
+{
+  "fonte": {
+    "pagina": "F070PSE - Parâmetros Fiscais de produtos e serviços por filial e estado",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm",
+    "trilha": "Ajuda por telas > Cadastros > Mercado e Suprimentos > Parâmetros Fiscais"
+  },
+  "total_topicos": 3,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Exemplo:",
+      "slug": "exemplo",
+      "arquivo": "01-exemplo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm",
+      "subtopicos": [],
+      "telas": [
+        "F019TIR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Reduções e Acréscimos de Base de Cálculos de Impostos – Por Estado (F019TIR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm"
+        }
+      ],
+      "caracteres": 289
+    },
+    {
+      "ordem": 2,
+      "titulo": "Parâmetros Saída",
+      "slug": "parametros-saida",
+      "arquivo": "02-parametros-saida.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm",
+      "subtopicos": [
+        "Exemplo - Venda de SP para RO:"
+      ],
+      "telas": [
+        "F009PPE",
+        "F019TIR",
+        "F051DIS",
+        "F075PRO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-000ALDIF01",
+        "GER-000GRPFS01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F051DIS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm"
+        },
+        {
+          "texto": "COM-000ALDIF01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000aldif01.htm"
+        },
+        {
+          "texto": "F019TIR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm"
+        },
+        {
+          "texto": "aqui",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/diferencial-de-aliquota.htm"
+        },
+        {
+          "texto": "F009PPE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm"
+        }
+      ],
+      "caracteres": 5200
+    },
+    {
+      "ordem": 3,
+      "titulo": "Parâmetros Entrada",
+      "slug": "parametros-entrada",
+      "arquivo": "03-parametros-entrada.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm",
+      "subtopicos": [],
+      "telas": [
+        "F070FCP"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Convênio ICMS 52/91",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#convenio-icms-52/91"
+        },
+        {
+          "texto": "F070FCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fcp.htm"
+        }
+      ],
+      "caracteres": 2202
+    }
+  ],
+  "indice_telas": {
+    "F009PPE": [
+      "parametros-saida"
+    ],
+    "F019TIR": [
+      "exemplo",
+      "parametros-saida"
+    ],
+    "F051DIS": [
+      "parametros-saida"
+    ],
+    "F070FCP": [
+      "parametros-entrada"
+    ],
+    "F075PRO": [
+      "parametros-saida"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#convenio-icms-52/91",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000aldif01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/diferencial-de-aliquota.htm"
+  ]
+}

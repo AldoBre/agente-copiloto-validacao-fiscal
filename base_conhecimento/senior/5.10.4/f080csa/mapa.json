@@ -1,0 +1,173 @@
+{
+  "fonte": {
+    "pagina": "F080CSA - Cadastro de Serviços agrupado",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080csa.htm",
+    "trilha": "Ajuda por telas > Cadastros > Produtos e Serviços > Serviços"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F080CSA - Cadastro de Serviços agrupado",
+      "slug": "f080csa-cadastro-de-servicos-agrupado",
+      "arquivo": "01-f080csa-cadastro-de-servicos-agrupado.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080csa.htm",
+      "subtopicos": [],
+      "telas": [
+        "E012FAM",
+        "E070EMP",
+        "E080SER",
+        "E083ORI",
+        "F012FAM",
+        "F022CLF",
+        "F070EMP",
+        "F070FEF",
+        "F080CSA",
+        "F103CAT",
+        "F118PSI",
+        "F700CMC",
+        "F710CRP"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "GER-080SERVI01"
+      ],
+      "campos_xml_citados": [
+        "CEST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Duplicação automática de produto/serviço para outras empresas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/duplicacao-automatica.htm"
+        },
+        {
+          "texto": "Modelo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/conceito_modelo.htm"
+        },
+        {
+          "texto": "F070EMP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+        },
+        {
+          "texto": "recebimento eletrônico de NFS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/recebimento-eletronico/recebimento-eletronico.htm#nfs-e"
+        },
+        {
+          "texto": "F012FAM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm"
+        },
+        {
+          "texto": "F118PSI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_servicos/f118psi.htm"
+        },
+        {
+          "texto": "GER-080SERVI01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_080servi01.htm"
+        },
+        {
+          "texto": "F103CAT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f103cat.htm"
+        },
+        {
+          "texto": "CIAE052",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/arquivos-eletronicos-estaduais/ciae052.htm"
+        },
+        {
+          "texto": "F022CLF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f022clf.htm"
+        },
+        {
+          "texto": "geração da DIRF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/relatorios/financeiros/fpcp072.htm"
+        },
+        {
+          "texto": "confira a documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660isp-remessa-retorno.htm#retorno-bloco-k"
+        },
+        {
+          "texto": "código de tributação nacional",
+          "url": "https://www.gov.br/nfse/pt-br/mei-e-demais-empresas/codigos-de-tributacao-nacional-nbs"
+        },
+        {
+          "texto": "Portal da Nota Fiscal Fatura de Serviço de Comunicação Eletrônica - SVRS",
+          "url": "https://dfe-portal.svrs.rs.gov.br/NFCOM/tabelacclass"
+        },
+        {
+          "texto": "F710CRP.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/f710crp.htm"
+        },
+        {
+          "texto": "F700CMC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/f700cmc.htm"
+        }
+      ],
+      "caracteres": 15454
+    }
+  ],
+  "indice_telas": {
+    "E012FAM": [
+      "f080csa-cadastro-de-servicos-agrupado"
+    ],
+    "E070EMP": [
+      "f080csa-cadastro-de-servicos-agrupado"
+    ],
+    "E080SER": [
+      "f080csa-cadastro-de-servicos-agrupado"
+    ],
+    "E083ORI": [
+      "f080csa-cadastro-de-servicos-agrupado"
+    ],
+    "F012FAM": [
+      "f080csa-cadastro-de-servicos-agrupado"
+    ],
+    "F022CLF": [
+      "f080csa-cadastro-de-servicos-agrupado"
+    ],
+    "F070EMP": [
+      "f080csa-cadastro-de-servicos-agrupado"
+    ],
+    "F070FEF": [
+      "f080csa-cadastro-de-servicos-agrupado"
+    ],
+    "F080CSA": [
+      "f080csa-cadastro-de-servicos-agrupado"
+    ],
+    "F103CAT": [
+      "f080csa-cadastro-de-servicos-agrupado"
+    ],
+    "F118PSI": [
+      "f080csa-cadastro-de-servicos-agrupado"
+    ],
+    "F700CMC": [
+      "f080csa-cadastro-de-servicos-agrupado"
+    ],
+    "F710CRP": [
+      "f080csa-cadastro-de-servicos-agrupado"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://dfe-portal.svrs.rs.gov.br/NFCOM/tabelacclass",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_080servi01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/duplicacao-automatica.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/recebimento-eletronico/recebimento-eletronico.htm#nfs-e",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f022clf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f103cat.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660isp-remessa-retorno.htm#retorno-bloco-k",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/arquivos-eletronicos-estaduais/ciae052.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/relatorios/financeiros/fpcp072.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/conceito_modelo.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/f700cmc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_manufatura/f710crp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_servicos/f118psi.htm",
+    "https://www.gov.br/nfse/pt-br/mei-e-demais-empresas/codigos-de-tributacao-nacional-nbs"
+  ]
+}

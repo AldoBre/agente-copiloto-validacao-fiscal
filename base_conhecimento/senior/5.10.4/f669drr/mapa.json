@@ -1,0 +1,192 @@
+{
+  "fonte": {
+    "pagina": "F669DRR - ADRC-ST (PR)",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669drr.htm",
+    "trilha": "Ajuda por telas > Controladoria > Gestão de Tributos > Arquivos Fiscais > Estaduais"
+  },
+  "total_topicos": 3,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Campos",
+      "slug": "campos",
+      "arquivo": "01-campos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669drr.htm",
+      "subtopicos": [],
+      "telas": [
+        "F049DEC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F049DEC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f049dec.htm"
+        }
+      ],
+      "caracteres": 1305
+    },
+    {
+      "ordem": 2,
+      "titulo": "Leiautes",
+      "slug": "leiautes",
+      "arquivo": "02-leiautes.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669drr.htm",
+      "subtopicos": [
+        "Centro de Distribuição",
+        "0001 - Registro de abertura e identificação do contribuinte",
+        "1001 - Registro analítico do produto",
+        "1101 - Registro totalizador das entradas do produto",
+        "1111 - Registro das notas fiscais de entrada",
+        "9999 - Registro de encerramento do arquivo",
+        "Filial",
+        "0000 - Registro de abertura e identificação do contribuinte",
+        "1000 - Registro analítico do produto",
+        "1010 - Inventário total do produto (somente quando E070Fil.CodCrt for igual a 1 ou 2)",
+        "1100 - Registro totalizador das entradas",
+        "1110 - Registro das notas fiscais de entrada",
+        "1120 - Registro das notas fiscais de devolução das entradas",
+        "1200 - Registro totalizador das saídas internas para consumidor final",
+        "1210 - Registro das notas fiscais de saída interna para consumidor final",
+        "1220 - Registro das notas fiscais de devolução das saídas internas para consumidor final",
+        "1300 - Registro totalizador das saídas para outros estados",
+        "1310 - Registro das notas fiscais de saída para outros estados",
+        "1320 - Registro das notas fiscais de devolução das saídas para outros estados",
+        "1400 - Registro totalizador das saídas internas que trata o art. 119 do RICMS/17",
+        "1410 - Registro das notas fiscais de saídas internas que trata o art. 119 do RICMS/17",
+        "1420 - Registro das notas fiscais de devolução das saídas internas que trata o art. 119 do RICMS/17",
+        "1500 - Registro totalizador das saídas internas destinadas a contribuinte do Simples Nacional",
+        "1510 - Registro das notas fiscais de saídas internas destinadas a contribuinte do Simples Nacional",
+        "1520 - Registro das notas fiscais de devolução das saídas internas destinadas a contribuinte do Simples Nacional",
+        "1999 - Registro de encerramento do bloco 1",
+        "9000 - Apuração do Total do Arquivo",
+        "9999 - Registro de encerramento do arquivo"
+      ],
+      "telas": [
+        "E001TNS",
+        "E015MED",
+        "E022CLF",
+        "E070FIL",
+        "E075BAR",
+        "E075DER",
+        "E075PRO",
+        "E085CLI",
+        "E085HCL",
+        "E095FOR",
+        "E660IDE",
+        "E660INC",
+        "E660INV",
+        "E660NFC",
+        "E660NFV",
+        "E660RSC",
+        "E660RSV",
+        "F070FVE",
+        "F075GFP",
+        "F075PRO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CEST",
+        "CFOP",
+        "CST",
+        "NCM"
+      ],
+      "links_documentacao": [],
+      "caracteres": 33008
+    },
+    {
+      "ordem": 3,
+      "titulo": "Botões",
+      "slug": "botoes",
+      "arquivo": "03-botoes.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669drr.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "089 - Extrato de conferência da ADRC-ST (CIOO089.GER)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/operacionais/cioo089.htm"
+        }
+      ],
+      "caracteres": 257
+    }
+  ],
+  "indice_telas": {
+    "E001TNS": [
+      "leiautes"
+    ],
+    "E015MED": [
+      "leiautes"
+    ],
+    "E022CLF": [
+      "leiautes"
+    ],
+    "E070FIL": [
+      "leiautes"
+    ],
+    "E075BAR": [
+      "leiautes"
+    ],
+    "E075DER": [
+      "leiautes"
+    ],
+    "E075PRO": [
+      "leiautes"
+    ],
+    "E085CLI": [
+      "leiautes"
+    ],
+    "E085HCL": [
+      "leiautes"
+    ],
+    "E095FOR": [
+      "leiautes"
+    ],
+    "E660IDE": [
+      "leiautes"
+    ],
+    "E660INC": [
+      "leiautes"
+    ],
+    "E660INV": [
+      "leiautes"
+    ],
+    "E660NFC": [
+      "leiautes"
+    ],
+    "E660NFV": [
+      "leiautes"
+    ],
+    "E660RSC": [
+      "leiautes"
+    ],
+    "E660RSV": [
+      "leiautes"
+    ],
+    "F049DEC": [
+      "campos"
+    ],
+    "F070FVE": [
+      "leiautes"
+    ],
+    "F075GFP": [
+      "leiautes"
+    ],
+    "F075PRO": [
+      "leiautes"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f049dec.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/relatorios/operacionais/cioo089.htm"
+  ]
+}

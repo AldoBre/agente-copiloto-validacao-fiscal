@@ -1,0 +1,122 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block titulo %}Agente Implantação - ERP{% endblock %}</title>
+
+  <link rel="icon" type="image/svg+xml" href="{% static 'img/favicon.svg' %}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+  <!-- Tokens ANTES do Tailwind: o config abaixo lê as variáveis daqui. -->
+  <link rel="stylesheet" href="{% static 'css/sancon-tokens.css' %}">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Paleta do Sancon Design System. Nenhum hex aqui: tudo aponta para as
+    // variáveis de sancon-tokens.css, então trocar um token repinta a
+    // aplicação inteira. O `<alpha-value>` é o que mantém `bg-aco-900/50`
+    // funcionando nos overlays.
+    const cor = (nome) => `rgb(var(--sc-${nome}) / <alpha-value>)`;
+
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            // Lime — exclusivo de CTA. Texto sobre ele é SEMPRE `oliva`.
+            acao: { DEFAULT: cor('acao'), escuro: cor('acao-escuro'), pale: cor('acao-pale') },
+            oliva: cor('oliva'),
+            // Navy — estrutural: cabeçalho, realces, foco, links.
+            navy: {
+              50: cor('navy-50'), 100: cor('navy-100'), 200: cor('navy-200'),
+              300: cor('navy-300'), 400: cor('navy-400'), 500: cor('navy-500'),
+              600: cor('navy-600'), 700: cor('navy-700'), 800: cor('navy-800'),
+              900: cor('navy-900'),
+            },
+            roxo: { DEFAULT: cor('roxo'), pale: cor('roxo-pale') },
+            // Neutros do DS (background, border-default, outline, charcoal…).
+            aco: {
+              50: cor('aco-50'), 100: cor('aco-100'), 200: cor('aco-200'),
+              300: cor('aco-300'), 400: cor('aco-400'), 500: cor('aco-500'),
+              600: cor('aco-600'), 700: cor('aco-700'), 800: cor('aco-800'),
+              900: cor('aco-900'),
+            },
+            // Status têm roles próprios — lime nunca comunica estado.
+            sucesso: cor('sucesso'),
+            erro: cor('erro'),
+            atencao: cor('atencao'),
+            pendente: cor('pendente'),
+          },
+          fontFamily: {
+            sans: ['Hanken Grotesk', 'Segoe UI', 'system-ui', 'sans-serif'],
+            mono: ['IBM Plex Mono', 'Consolas', 'monospace'],
+          },
+          boxShadow: {
+            xs: 'var(--shadow-xs)', sm: 'var(--shadow-sm)', card: 'var(--shadow-card)',
+            md: 'var(--shadow-md)', lg: 'var(--shadow-lg)', modal: 'var(--shadow-modal)',
+          },
+          borderRadius: {
+            DEFAULT: 'var(--radius-default)', md: 'var(--radius-md)', lg: 'var(--radius-lg)',
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="{% static 'css/senior.css' %}">
+</head>
+<body class="h-full bg-aco-100 text-aco-800 font-sans antialiased">
+
+  <div class="flex h-full flex-col">
+
+    <!-- ============================ TOPO ============================ -->
+    <!-- Barra navy: no DS o navy é a cor estrutural (topbar/sidebar), e o
+         logo usa a versão branca sobre fundo escuro. -->
+    <header class="flex-none bg-navy-500">
+      <div class="flex h-14 items-center justify-between px-5">
+        <div class="flex items-center gap-3">
+          <img src="{% static 'img/logo-sancon-branco.svg' %}" alt="Grupo Sancon"
+               class="h-5 w-auto flex-none">
+          <span class="hidden h-6 w-px bg-white/20 sm:block"></span>
+          <div class="hidden leading-tight sm:block">
+            <div class="text-sm font-semibold text-white">Agente de Implantação Fiscal</div>
+            <div class="text-[11px] text-navy-100">Validação de XMLs · ERP Senior</div>
+          </div>
+        </div>
+
+        <nav class="flex items-center gap-1">
+          <a href="/"
+             class="rounded-md px-3 py-1.5 text-sm font-medium transition
+                    {% if pagina == 'painel' %}bg-white/15 text-white{% else %}text-navy-100 hover:bg-white/10 hover:text-white{% endif %}">
+            Painel
+          </a>
+          <a href="/configuracoes/"
+             class="rounded-md px-3 py-1.5 text-sm font-medium transition
+                    {% if pagina == 'configuracoes' %}bg-white/15 text-white{% else %}text-navy-100 hover:bg-white/10 hover:text-white{% endif %}">
+            Configurações
+          </a>
+          <span id="indicador-modelo"
+                class="ml-3 hidden rounded-full border border-white/25 px-3 py-1 text-[11px] text-navy-100 sm:inline-block">
+            —
+          </span>
+        </nav>
+      </div>
+    </header>
+
+    <!-- =========================== CONTEÚDO ========================= -->
+    <main class="min-h-0 flex-1">
+      {% block conteudo %}{% endblock %}
+    </main>
+  </div>
+
+  <!-- ============================ TOASTS ============================ -->
+  <div id="toasts" class="pointer-events-none fixed bottom-4 right-4 z-50 flex w-80 flex-col gap-2"></div>
+
+  <script src="{% static 'js/comum.js' %}"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

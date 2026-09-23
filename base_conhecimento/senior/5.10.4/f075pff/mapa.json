@@ -1,0 +1,60 @@
+{
+  "fonte": {
+    "pagina": "F075PFF - Parâmetros Fiscais",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pff.htm",
+    "trilha": "Ajuda por telas > Cadastros > Produtos e Serviços > Produtos"
+  },
+  "total_topicos": 3,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Campos atualmente atualizados na ligação do produto ao fornecedor",
+      "slug": "campos-atualmente-atualizados-na-ligacao-do-produto-ao-forne",
+      "arquivo": "01-campos-atualmente-atualizados-na-ligacao-do-produto-ao-forne.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pff.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 422
+    },
+    {
+      "ordem": 2,
+      "titulo": "Guia Produto",
+      "slug": "guia-produto",
+      "arquivo": "02-guia-produto.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pff.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST"
+      ],
+      "links_documentacao": [],
+      "caracteres": 4524
+    },
+    {
+      "ordem": 3,
+      "titulo": "Guia Derivação",
+      "slug": "guia-derivacao",
+      "arquivo": "03-guia-derivacao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pff.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1539
+    }
+  ],
+  "indice_telas": {},
+  "paginas_relacionadas": []
+}

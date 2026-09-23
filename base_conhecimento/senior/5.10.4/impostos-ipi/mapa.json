@@ -1,0 +1,178 @@
+{
+  "fonte": {
+    "pagina": "Imposto sobre Produto Industrializado (IPI)",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_ipi.htm",
+    "trilha": "Segmentos > Compliance > Configurações para cálculos fiscais > Impostos"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Imposto sobre Produto Industrializado (IPI)",
+      "slug": "imposto-sobre-produto-industrializado-ipi",
+      "arquivo": "01-imposto-sobre-produto-industrializado-ipi.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_ipi.htm",
+      "subtopicos": [],
+      "telas": [
+        "E440IPC",
+        "E440ISC",
+        "E440NFC",
+        "F001TCP",
+        "F001TVE",
+        "F022CLF",
+        "F070EMP",
+        "F075PRO",
+        "F081GTP",
+        "F081TPA",
+        "F095CAD",
+        "F095HFO",
+        "F403FPR",
+        "F660GDG"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-000ALIPI01",
+        "COM-000ALSTR02",
+        "CPR-000ECIPI01",
+        "CPR-440GERCS01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Cálculo do IPI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo_geracao_calculo_ipi.htm"
+        },
+        {
+          "texto": "Enquadramento e Situações Tributárias de IPI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/enquadramento-de-ipi.htm"
+        },
+        {
+          "texto": "Cadastro de Fornecedores (F095CAD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "Transações de Vendas (F001TVE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "Definições/Histórico do Fornecedor (F095HFO)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm"
+        },
+        {
+          "texto": "Cadastro de Empresa (F070EMP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+        },
+        {
+          "texto": "Classificações Fiscais (F022CLF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f022clf.htm"
+        },
+        {
+          "texto": "Cadastro de Produtos (F075PRO)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "COM-000ALIPI01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alipi01.htm"
+        },
+        {
+          "texto": "CPR-000ECIPI01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000ecipi01.htm"
+        },
+        {
+          "texto": "Transações de Compras (F001TCP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "Tabela de Preço de Venda (F081GTP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081gtp.htm"
+        },
+        {
+          "texto": "Ligações Fornecedor X Produtos Individual (F403FPR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm"
+        },
+        {
+          "texto": "Geração de detalhes (F660GDG)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660gdg.htm"
+        },
+        {
+          "texto": "COM-000ALSTR02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr02.htm"
+        },
+        {
+          "texto": "CPR-440GERCS01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440gercs01.htm"
+        },
+        {
+          "texto": "Tabela de Preço Vendas Agrupada (F081TPA)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081tpa.htm"
+        }
+      ],
+      "caracteres": 7987
+    }
+  ],
+  "indice_telas": {
+    "E440IPC": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ],
+    "E440ISC": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ],
+    "E440NFC": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ],
+    "F001TCP": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ],
+    "F001TVE": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ],
+    "F022CLF": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ],
+    "F070EMP": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ],
+    "F075PRO": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ],
+    "F081GTP": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ],
+    "F081TPA": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ],
+    "F095CAD": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ],
+    "F095HFO": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ],
+    "F403FPR": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ],
+    "F660GDG": [
+      "imposto-sobre-produto-industrializado-ipi"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/enquadramento-de-ipi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alipi01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000ecipi01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440gercs01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f022clf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081gtp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081tpa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660gdg.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo_geracao_calculo_ipi.htm"
+  ]
+}

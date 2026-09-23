@@ -1,0 +1,528 @@
+{
+  "fonte": {
+    "pagina": "F140LOT - Faturamento de Pedidos Agrupado",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140lot.htm",
+    "trilha": "Ajuda por telas > Mercado > Gestão de Faturamento e Outras Saídas > Notas Fiscais de Saída > Via Pedido"
+  },
+  "total_topicos": 6,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Processos",
+      "slug": "processos",
+      "arquivo": "01-processos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140lot.htm",
+      "subtopicos": [
+        "Guia Nacional de Recolhimento de Tributos Estaduais - GNRE",
+        "Exclusivo para proprietária Agronegócio",
+        "Controlar produtos com ICMS ST entre filiais em estados diferentes",
+        "Referenciar mais de uma NF de entrada para um item da NF de saída"
+      ],
+      "telas": [
+        "F001TES",
+        "F028GCP",
+        "F070FVE",
+        "F075APF",
+        "F075FCI",
+        "F075GFP",
+        "F075PFI",
+        "F075PRO",
+        "F081TCA",
+        "F140LOT"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "GER-085NGRCE01",
+        "VEN-140LIBTR01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Tela de exibição das notas fiscais a imprimir",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140enl.htm"
+        },
+        {
+          "texto": "VEN-140LIBTR01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140libtr01.htm"
+        },
+        {
+          "texto": "GER-085NGRCE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_085ngrce01.htm"
+        },
+        {
+          "texto": "processo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm"
+        },
+        {
+          "texto": "F001TES",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tes.htm"
+        },
+        {
+          "texto": "emissão do GNRE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/gnre.htm"
+        },
+        {
+          "texto": "F028GCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f028gcp.htm"
+        },
+        {
+          "texto": "F081TCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081tca.htm"
+        },
+        {
+          "texto": "documentação correspondente",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/referenciacao_nf_entrada_processo_exportacao.htm"
+        }
+      ],
+      "caracteres": 7488
+    },
+    {
+      "ordem": 2,
+      "titulo": "Geração de logs de títulos do contas a receber em notas fiscais de saída",
+      "slug": "geracao-de-logs-de-titulos-do-contas-a-receber-em-notas-fisc",
+      "arquivo": "02-geracao-de-logs-de-titulos-do-contas-a-receber-em-notas-fisc.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140lot.htm",
+      "subtopicos": [
+        "Orientações"
+      ],
+      "telas": [
+        "F000PGS",
+        "F000PPD",
+        "F098REG"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140CNFEC01",
+        "VEN-140CNFEC02",
+        "VEN-140CNFEC03"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F000PGS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm"
+        },
+        {
+          "texto": "LogNfsTit",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#LogNfsTit"
+        },
+        {
+          "texto": "F000PPD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm"
+        },
+        {
+          "texto": "LOG.NFS.TIT.CRE.140CNFEC01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.140CNFEC01"
+        },
+        {
+          "texto": "LOG.NFS.TIT.CRE.140CNFEC02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.140CNFEC02"
+        },
+        {
+          "texto": "LOG.NFS.TIT.CRE.140CNFEC03",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.140CNFEC03"
+        },
+        {
+          "texto": "LOG.NFS.TIT.CRE.EMISSAO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.EMISSAO"
+        },
+        {
+          "texto": "LOG.NFS.TIT.CRE.GERAR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.GERAR"
+        },
+        {
+          "texto": "F098REG",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f098reg.htm"
+        },
+        {
+          "texto": "VEN-140CNFEC01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cnfec01.htm"
+        },
+        {
+          "texto": "VEN-140CNFEC02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cnfec02.htm"
+        },
+        {
+          "texto": "VEN-140CNFEC03",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cnfec03.htm"
+        }
+      ],
+      "caracteres": 1931
+    },
+    {
+      "ordem": 3,
+      "titulo": "Campos",
+      "slug": "campos",
+      "arquivo": "03-campos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140lot.htm",
+      "subtopicos": [],
+      "telas": [
+        "E120PED",
+        "F001LTE",
+        "F009PTE",
+        "F070FVE",
+        "F140ENL"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-000TNSDE01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "VEN-000TNSDE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000tnsde01.htm"
+        },
+        {
+          "texto": "F001LTE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001lte.htm"
+        },
+        {
+          "texto": "F140ENL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140enl.htm"
+        },
+        {
+          "texto": "processo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm"
+        }
+      ],
+      "caracteres": 5206
+    },
+    {
+      "ordem": 4,
+      "titulo": "Botões",
+      "slug": "botoes",
+      "arquivo": "04-botoes.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140lot.htm",
+      "subtopicos": [],
+      "telas": [
+        "F140AUT",
+        "F140SLT",
+        "F140VCT"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F140SLT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140slt.htm"
+        },
+        {
+          "texto": "F140AUT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f140aut.htm"
+        }
+      ],
+      "caracteres": 573
+    },
+    {
+      "ordem": 5,
+      "titulo": "Parâmetros globais",
+      "slug": "parametros-globais",
+      "arquivo": "05-parametros-globais.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140lot.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "AtuUltNum",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#AtuUltNum"
+        },
+        {
+          "texto": "GerDetTrib",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#GerDetTrib"
+        },
+        {
+          "texto": "LogNfsTit",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#LogNfsTit"
+        },
+        {
+          "texto": "OpcGerNfs",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#OpcGerNfs"
+        },
+        {
+          "texto": "UsaEntOri",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#UsaEntOri"
+        }
+      ],
+      "caracteres": 607
+    },
+    {
+      "ordem": 6,
+      "titulo": "Identificadores de regras",
+      "slug": "identificadores-de-regras",
+      "arquivo": "06-identificadores-de-regras.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140lot.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "000ALSTR03",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr03.htm"
+        },
+        {
+          "texto": "000ALSTR04",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr04.htm"
+        },
+        {
+          "texto": "000SIGUF01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000siguf01.htm"
+        },
+        {
+          "texto": "000VLRET01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000vlret01.htm"
+        },
+        {
+          "texto": "440TNSIN01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440tnsin01.htm"
+        },
+        {
+          "texto": "000GERSDE1",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000gersde1.htm"
+        },
+        {
+          "texto": "000HFOAU01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000hfoau01.htm"
+        },
+        {
+          "texto": "085HCLAO01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_085hclao01.htm"
+        },
+        {
+          "texto": "000ALCLF01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alclf01.htm"
+        },
+        {
+          "texto": "000ALICM01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicm01.htm"
+        },
+        {
+          "texto": "000ALIRF01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alirf01.htm"
+        },
+        {
+          "texto": "000COMIS01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000comis01.htm"
+        },
+        {
+          "texto": "000COMIS03",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000comis03.htm"
+        },
+        {
+          "texto": "000CONIT01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000conit01.htm"
+        },
+        {
+          "texto": "000CONNF01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000connf01.htm"
+        },
+        {
+          "texto": "000TNSDE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000tnsde01.htm"
+        },
+        {
+          "texto": "140ALDIV01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140aldiv01.htm"
+        },
+        {
+          "texto": "140ALOBS01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140alobs01.htm"
+        },
+        {
+          "texto": "140ALPES01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140alpes01.htm"
+        },
+        {
+          "texto": "140FRENF01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140frenf01.htm"
+        },
+        {
+          "texto": "140LIBTR01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140libtr01.htm"
+        },
+        {
+          "texto": "140LOTHR01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140lothr01.htm"
+        },
+        {
+          "texto": "140OMFAP01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140omfap01.htm"
+        },
+        {
+          "texto": "140PARMA01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140parma01.htm"
+        },
+        {
+          "texto": "140PRECO01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140preco01.htm"
+        },
+        {
+          "texto": "140SUGMS01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140sugms01.htm"
+        },
+        {
+          "texto": "140VSFAP01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140vsfap01.htm"
+        },
+        {
+          "texto": "140VSFAP02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140vsfap02.htm"
+        },
+        {
+          "texto": "140SGRED01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140sgred01.htm"
+        },
+        {
+          "texto": "140TIPNF01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140tipnf01.htm"
+        },
+        {
+          "texto": "140ZERVL01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140zervl01.htm"
+        },
+        {
+          "texto": "140FSCOM01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140fscom01.htm"
+        }
+      ],
+      "caracteres": 705
+    }
+  ],
+  "indice_telas": {
+    "E120PED": [
+      "campos"
+    ],
+    "F000PGS": [
+      "geracao-de-logs-de-titulos-do-contas-a-receber-em-notas-fisc"
+    ],
+    "F000PPD": [
+      "geracao-de-logs-de-titulos-do-contas-a-receber-em-notas-fisc"
+    ],
+    "F001LTE": [
+      "campos"
+    ],
+    "F001TES": [
+      "processos"
+    ],
+    "F009PTE": [
+      "campos"
+    ],
+    "F028GCP": [
+      "processos"
+    ],
+    "F070FVE": [
+      "campos",
+      "processos"
+    ],
+    "F075APF": [
+      "processos"
+    ],
+    "F075FCI": [
+      "processos"
+    ],
+    "F075GFP": [
+      "processos"
+    ],
+    "F075PFI": [
+      "processos"
+    ],
+    "F075PRO": [
+      "processos"
+    ],
+    "F081TCA": [
+      "processos"
+    ],
+    "F098REG": [
+      "geracao-de-logs-de-titulos-do-contas-a-receber-em-notas-fisc"
+    ],
+    "F140AUT": [
+      "botoes"
+    ],
+    "F140ENL": [
+      "campos"
+    ],
+    "F140LOT": [
+      "processos"
+    ],
+    "F140SLT": [
+      "botoes"
+    ],
+    "F140VCT": [
+      "botoes"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr03.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr04.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000siguf01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000vlret01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440tnsin01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000gersde1.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000hfoau01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_085hclao01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_085ngrce01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alclf01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicm01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alirf01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000comis01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000comis03.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000conit01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000connf01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000tnsde01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140aldiv01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140alobs01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140alpes01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cnfec01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cnfec02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140cnfec03.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140frenf01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140fscom01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140libtr01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140lothr01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140omfap01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140parma01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140preco01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140sgred01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140sugms01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140tipnf01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140vsfap01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140vsfap02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140zervl01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/gnre.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#AtuUltNum",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#GerDetTrib",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#LogNfsTit",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#OpcGerNfs",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#UsaEntOri",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.140CNFEC01",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.140CNFEC02",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.140CNFEC03",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.EMISSAO",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm#LOG.NFS.TIT.CRE.GERAR",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001lte.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tes.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f028gcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081tca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f098reg.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f140aut.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140enl.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140slt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/referenciacao_nf_entrada_processo_exportacao.htm"
+  ]
+}

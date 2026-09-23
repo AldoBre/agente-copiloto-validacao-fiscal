@@ -1,0 +1,1899 @@
+{
+ "consolidado": {
+  "ICMS_CST": {
+   "values": [
+    "00",
+    "02",
+    "10",
+    "15",
+    "20",
+    "30",
+    "40",
+    "41",
+    "50",
+    "51",
+    "53",
+    "60",
+    "61",
+    "70",
+    "90"
+   ],
+   "n": 15,
+   "source_groups": [
+    "ICMS00",
+    "ICMS02",
+    "ICMS10",
+    "ICMS15",
+    "ICMS20",
+    "ICMS30",
+    "ICMS40",
+    "ICMS51",
+    "ICMS53",
+    "ICMS60",
+    "ICMS61",
+    "ICMS70",
+    "ICMS90",
+    "ICMSPart",
+    "ICMSST"
+   ]
+  },
+  "CSOSN": {
+   "values": [
+    "101",
+    "102",
+    "103",
+    "201",
+    "202",
+    "203",
+    "300",
+    "400",
+    "500",
+    "900"
+   ],
+   "n": 10,
+   "source_groups": [
+    "ICMSSN101",
+    "ICMSSN102",
+    "ICMSSN201",
+    "ICMSSN202",
+    "ICMSSN500",
+    "ICMSSN900"
+   ]
+  },
+  "IPI_CST": {
+   "values": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "99"
+   ],
+   "n": 14,
+   "source_groups": [
+    "IPITrib",
+    "IPINT"
+   ]
+  },
+  "PIS_CST": {
+   "values": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "98",
+    "99"
+   ],
+   "n": 33,
+   "source_groups": [
+    "PISAliq",
+    "PISQtde",
+    "PISNT",
+    "PISOutr"
+   ]
+  },
+  "COFINS_CST": {
+   "values": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "98",
+    "99"
+   ],
+   "n": 33,
+   "source_groups": [
+    "COFINSAliq",
+    "COFINSQtde",
+    "COFINSNT",
+    "COFINSOutr"
+   ]
+  },
+  "ORIGEM": {
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "n": 9,
+   "source_groups": [
+    "Torig"
+   ]
+  },
+  "CRT": {
+   "values": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "n": 4,
+   "source_groups": [
+    "emit"
+   ]
+  }
+ },
+ "brutos": [
+  {
+   "file": "DFeTiposBasicos_v1.00.xsd",
+   "named_type": "TOperCompraGov",
+   "field": "TOperCompraGov",
+   "context": "TOperCompraGov",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2"
+   ],
+   "doc": "Tipo da Operação com Ente Governamental"
+  },
+  {
+   "file": "DFeTiposBasicos_v1.00.xsd",
+   "named_type": "TEnteGov",
+   "field": "TEnteGov",
+   "context": "TEnteGov",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "doc": "Tipo de Ente Governamental"
+  },
+  {
+   "file": "DFeTiposBasicos_v1.00.xsd",
+   "named_type": "TTpCredPresIBSZFM",
+   "field": "TTpCredPresIBSZFM",
+   "context": "TTpCredPresIBSZFM",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "doc": "Tipo de classificação do Crédito Presumido IBS ZFM"
+  },
+  {
+   "file": "DFeTiposBasicos_v1.00.xsd",
+   "named_type": "TIndDoacao",
+   "field": "TIndDoacao",
+   "context": "TIndDoacao",
+   "base": "xs:string",
+   "values": [
+    "1"
+   ],
+   "doc": "Tipo Indicador de Doação"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "tpNF",
+   "context": "TNFe/infNFe/ide/tpNF",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Tipo do Documento Fiscal (0 - entrada; 1 - saída)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "idDest",
+   "context": "TNFe/infNFe/ide/idDest",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2",
+    "3"
+   ],
+   "doc": "Identificador de Local de destino da operação (1-Interna;2-Interestadual;3-Exterior)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "tpImp",
+   "context": "TNFe/infNFe/ide/tpImp",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "doc": "Formato de impressão do DANFE (0-sem DANFE;1-DANFe Retrato; 2-DANFe Paisagem;3-DANFe Simplificado;\n\t\t\t\t\t\t\t\t\t\t\t4-DANFe NFC-e;5-DANFe NFC-e em mensagem eletrônica)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "tpEmis",
+   "context": "TNFe/infNFe/ide/tpEmis",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "9"
+   ],
+   "doc": "Forma de emissão da NF-e\n1 - Normal;\n2 - Contingência FS\n3 - Regime Especial NFF (NT 2021.002)\n4 - Contingência DPEC\n5 - Contingência FSDA\n6 - Contingência SVC - AN\n7 - Contingência SVC - RS\n9 - Contingência off-line NFC-e"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indFinal",
+   "context": "TNFe/infNFe/ide/indFinal",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Indica operação com consumidor final (0-Não;1-Consumidor Final)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indPres",
+   "context": "TNFe/infNFe/ide/indPres",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "9"
+   ],
+   "doc": "Indicador de presença do comprador no estabelecimento comercial no momento da oepração\n\t\t\t\t\t\t\t\t\t\t\t(0-Não se aplica (ex.: Nota Fiscal complementar ou de ajuste;1-Operação presencial;2-Não presencial, internet;3-Não presencial, teleatendimento;4-NFC-e entrega em domicílio;5-Operação presencial, fora do estabelecimento;9-Não presencial, outros)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indIntermed",
+   "context": "TNFe/infNFe/ide/indIntermed",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Indicador de intermediador/marketplace \n\t\t\t\t\t\t\t\t\t\t\t0=Operação sem intermediador (em site ou plataforma própria) \n\t\t\t\t\t\t\t\t\t\t\t1=Operação em site ou plataforma de terceiros (intermediadores/marketplace)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "mod",
+   "context": "TNFe/infNFe/ide/NFref/refNF/mod",
+   "base": "xs:string",
+   "values": [
+    "01",
+    "02"
+   ],
+   "doc": "Código do modelo do Documento Fiscal. Utilizar 01 para NF modelo 1/1A e 02 para NF modelo 02"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "mod",
+   "context": "TNFe/infNFe/ide/NFref/refNFP/mod",
+   "base": "xs:string",
+   "values": [
+    "01",
+    "04"
+   ],
+   "doc": "Código do modelo do Documento Fiscal - utilizar 04 para NF de produtor  ou 01 para NF Avulsa"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "mod",
+   "context": "TNFe/infNFe/ide/NFref/refECF/mod",
+   "base": "xs:string",
+   "values": [
+    "2B",
+    "2C",
+    "2D"
+   ],
+   "doc": "Código do modelo do Documento Fiscal \nPreencher com \"2B\", quando se tratar de Cupom Fiscal emitido por máquina registradora (não ECF), com \"2C\", quando se tratar de Cupom Fiscal PDV, ou \"2D\", quando se tratar de Cupom Fiscal (emitido por ECF)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CRT",
+   "context": "TNFe/infNFe/emit/CRT",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "doc": "Código de Regime Tributário. \nEste campo será obrigatoriamente preenchido com:\n1 – Simples Nacional;\n2 – Simples Nacional – excesso de sublimite de receita bruta;\n3 – Regime Normal.\n4 - Simples Nacional - Microempreendedor individual - MEI"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indIEDest",
+   "context": "TNFe/infNFe/dest/indIEDest",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2",
+    "9"
+   ],
+   "doc": "Indicador da IE do destinatário:\n1 – Contribuinte ICMSpagamento à vista;\n2 – Contribuinte isento de inscrição;\n9 – Não Contribuinte"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indEscala",
+   "context": "TNFe/infNFe/det/prod/indEscala",
+   "base": "xs:string",
+   "values": [
+    "S",
+    "N"
+   ],
+   "doc": ""
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indTot",
+   "context": "TNFe/infNFe/det/prod/indTot",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Este campo deverá ser preenchido com:\n 0 – o valor do item (vProd) não compõe o valor total da NF-e (vProd)\n 1  – o valor do item (vProd) compõe o valor total da NF-e (vProd)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indBemMovelUsado",
+   "context": "TNFe/infNFe/det/prod/indBemMovelUsado",
+   "base": "xs:string",
+   "values": [
+    "1"
+   ],
+   "doc": "Indicador de fornecimento de bem móvel usado: 1-Bem Móvel Usado"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "tpViaTransp",
+   "context": "TNFe/infNFe/det/prod/DI/tpViaTransp",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13"
+   ],
+   "doc": "Via de transporte internacional informada na DI ou na Declaração Única de Importação (DUImp):\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1-Maritima;2-Fluvial;3-Lacustre;4-Aerea;5-Postal;6-Ferroviaria;7-Rodoviaria;8-Conduto;9-Meios Proprios;10-Entrada/Saida Ficta;\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t11-Courier;12-Em maos;13-Por reboque."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "tpIntermedio",
+   "context": "TNFe/infNFe/det/prod/DI/tpIntermedio",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2",
+    "3"
+   ],
+   "doc": "Forma de Importação quanto a intermediação \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1-por conta propria;2-por conta e ordem;3-encomenda"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "tpOp",
+   "context": "TNFe/infNFe/det/prod/veicProd/tpOp",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "doc": "Tipo da Operação (1 - Venda concessionária; 2 - Faturamento direto; 3 - Venda direta; 0 - Outros)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "VIN",
+   "context": "TNFe/infNFe/det/prod/veicProd/VIN",
+   "base": "TString",
+   "values": [
+    "R",
+    "N"
+   ],
+   "doc": "Informa-se o veículo tem VIN (chassi) remarcado.\nR-Remarcado\nN-NormalVIN"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "condVeic",
+   "context": "TNFe/infNFe/det/prod/veicProd/condVeic",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2",
+    "3"
+   ],
+   "doc": "Condição do veículo (1 - acabado; 2 - inacabado; 3 - semi-acabado)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "tpRest",
+   "context": "TNFe/infNFe/det/prod/veicProd/tpRest",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "9"
+   ],
+   "doc": "Restrição\n0 - Não há;\n1 - Alienação Fiduciária;\n2 - Arrendamento Mercantil;\n3 - Reserva de Domínio;\n4 - Penhor de Veículos;\n9 - outras."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "tpArma",
+   "context": "TNFe/infNFe/det/prod/arma/tpArma",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Indicador do tipo de arma de fogo (0 - Uso permitido; 1 - Uso restrito)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indImport",
+   "context": "TNFe/infNFe/det/prod/comb/origComb/indImport",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Indicador de importação 0=Nacional; 1=Importado;"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS00/CST",
+   "base": "xs:string",
+   "values": [
+    "00"
+   ],
+   "doc": "Tributção pelo ICMS\n00 - Tributada integralmente"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBC",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS00/modBC",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS:\n0 - Margem Valor Agregado (%);\n1 - Pauta (valor);\n2 - Preço Tabelado Máximo (valor);\n3 - Valor da Operação."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS02/CST",
+   "base": "xs:string",
+   "values": [
+    "02"
+   ],
+   "doc": "Tributção pelo ICMS\n02= Tributação monofásica própria sobre combustíveis;"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS10/CST",
+   "base": "xs:string",
+   "values": [
+    "10"
+   ],
+   "doc": "10 - Tributada e com cobrança do ICMS por substituição tributária"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBC",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS10/modBC",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS:\n0 - Margem Valor Agregado (%);\n1 - Pauta (valor);\n2 - Preço Tabelado Máximo (valor);\n3 - Valor da Operação."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBCST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS10/modBCST",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS ST:\n0 – Preço tabelado ou máximo  sugerido;\n1 - Lista Negativa (valor);\n2 - Lista Positiva (valor);\n3 - Lista Neutra (valor);\n4 - Margem Valor Agregado (%);\n5 - Pauta (valor)\n6-Valor da Operação;"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "motDesICMSST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS10/motDesICMSST",
+   "base": "xs:string",
+   "values": [
+    "3",
+    "9",
+    "12"
+   ],
+   "doc": "Motivo da desoneração do ICMS-ST: 3-Uso na agropecuária; 9-Outros; 12-Fomento agropecuário."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS15/CST",
+   "base": "xs:string",
+   "values": [
+    "15"
+   ],
+   "doc": "Tributção pelo ICMS\n15= Tributação monofásica própria e com responsabilidade pela retenção sobre combustíveis;"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "motRedAdRem",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS15/motRedAdRem",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "9"
+   ],
+   "doc": "Motivo da redução do adrem\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1= Transporte coletivo de passageiros; 9=Outros;"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS20/CST",
+   "base": "xs:string",
+   "values": [
+    "20"
+   ],
+   "doc": "Tributção pelo ICMS\n20 - Com redução de base de cálculo"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBC",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS20/modBC",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS:\n0 - Margem Valor Agregado (%);\n1 - Pauta (valor);\n2 - Preço Tabelado Máximo (valor);\n3 - Valor da Operação."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "motDesICMS",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS20/motDesICMS",
+   "base": "xs:string",
+   "values": [
+    "3",
+    "9",
+    "12"
+   ],
+   "doc": "Motivo da desoneração do ICMS:3-Uso na agropecuária;9-Outros;12-Fomento agropecuário"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indDeduzDeson",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS20/indDeduzDeson",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Indica se o valor do ICMS desonerado (vICMSDeson) deduz do valor do item (vProd):\n0=Valor do ICMS desonerado (vICMSDeson) não deduz do valor do item (vProd) / total da NF-e;\n1=Valor do ICMS desonerado (vICMSDeson) deduz do valor do item (vProd) / total da NF-e."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS30/CST",
+   "base": "xs:string",
+   "values": [
+    "30"
+   ],
+   "doc": "Tributção pelo ICMS\n30 - Isenta ou não tributada e com cobrança do ICMS por substituição tributária"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBCST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS30/modBCST",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS ST:\n0 – Preço tabelado ou máximo  sugerido;\n1 - Lista Negativa (valor);\n2 - Lista Positiva (valor);\n3 - Lista Neutra (valor);\n4 - Margem Valor Agregado (%);\n5 - Pauta (valor).\n6 - Valor da Operação"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "motDesICMS",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS30/motDesICMS",
+   "base": "xs:string",
+   "values": [
+    "6",
+    "7",
+    "9"
+   ],
+   "doc": "Motivo da desoneração do ICMS:6-Utilitários Motocicleta AÁrea Livre;7-SUFRAMA;9-Outros"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indDeduzDeson",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS30/indDeduzDeson",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Indica se o valor do ICMS desonerado (vICMSDeson) deduz do valor do item (vProd):\n0=Valor do ICMS desonerado (vICMSDeson) não deduz do valor do item (vProd) / total da NF-e;\n1=Valor do ICMS desonerado (vICMSDeson) deduz do valor do item (vProd) / total da NF-e."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS40/CST",
+   "base": "xs:string",
+   "values": [
+    "40",
+    "41",
+    "50"
+   ],
+   "doc": "Tributação pelo ICMS \n40 - Isenta \n41 - Não tributada \n50 - Suspensão \n51 - Diferimento"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "motDesICMS",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS40/motDesICMS",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "16",
+    "90"
+   ],
+   "doc": "Este campo será preenchido quando o campo anterior estiver preenchido.\nInformar o motivo da desoneração:\n1 – Táxi;\n3 – Produtor Agropecuário;\n4 – Frotista/Locadora;\n5 – Diplomático/Consular;\n6 – Utilitários e Motocicletas da Amazônia Ocidental e Áreas de Livre Comércio (Resolução 714/88 e 790/94 – CONTRAN e suas alterações);\n7 – SUFRAMA;\n8 - Venda a órgão Público;\n9 – Outros\n10- Deficiente Condutor\n11- Deficiente não condutor\n16 - Olimpíadas Rio 2016\n90 - Solicitado pelo Fisco"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indDeduzDeson",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS40/indDeduzDeson",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Indica se o valor do ICMS desonerado (vICMSDeson) deduz do valor do item (vProd):\n0=Valor do ICMS desonerado (vICMSDeson) não deduz do valor do item (vProd) / total da NF-e;\n1=Valor do ICMS desonerado (vICMSDeson) deduz do valor do item (vProd) / total da NF-e."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS51/CST",
+   "base": "xs:string",
+   "values": [
+    "51"
+   ],
+   "doc": "Tributação pelo ICMS 51 - Tributação com Diferimento"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBC",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS51/modBC",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t0 - Margem Valor Agregado (%);\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1 - Pauta (valor);\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2 - Preço Tabelado Máximo (valor);\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t3 - Valor da Operação."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS53/CST",
+   "base": "xs:string",
+   "values": [
+    "53"
+   ],
+   "doc": "Tributção pelo ICMS\n53= Tributação monofásica sobre combustíveis com recolhimento diferido;"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS60/CST",
+   "base": "xs:string",
+   "values": [
+    "60"
+   ],
+   "doc": "Tributação pelo ICMS \n60 - ICMS cobrado anteriormente por substituição tributária"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS61/CST",
+   "base": "xs:string",
+   "values": [
+    "61"
+   ],
+   "doc": "Tributção pelo ICMS\n61= Tributação monofásica sobre combustíveis cobrada anteriormente"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS70/CST",
+   "base": "xs:string",
+   "values": [
+    "70"
+   ],
+   "doc": "Tributção pelo ICMS\n70 - Com redução de base de cálculo e cobrança do ICMS por substituição tributária"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBC",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS70/modBC",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS:\n0 - Margem Valor Agregado (%);\n1 - Pauta (valor);\n2 - Preço Tabelado Máximo (valor);\n3 - Valor da Operação."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBCST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS70/modBCST",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS ST:\n0 – Preço tabelado ou máximo  sugerido;\n1 - Lista Negativa (valor);\n2 - Lista Positiva (valor);\n3 - Lista Neutra (valor);\n4 - Margem Valor Agregado (%);\n5 - Pauta (valor);\n6 - Valor da Operação."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "motDesICMS",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS70/motDesICMS",
+   "base": "xs:string",
+   "values": [
+    "3",
+    "9",
+    "12"
+   ],
+   "doc": "Motivo da desoneração do ICMS:3-Uso na agropecuária;9-Outros;12-Fomento agropecuário"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indDeduzDeson",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS70/indDeduzDeson",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Indica se o valor do ICMS desonerado (vICMSDeson) deduz do valor do item (vProd):\n0=Valor do ICMS desonerado (vICMSDeson) não deduz do valor do item (vProd) / total da NF-e;\n1=Valor do ICMS desonerado (vICMSDeson) deduz do valor do item (vProd) / total da NF-e."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "motDesICMSST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS70/motDesICMSST",
+   "base": "xs:string",
+   "values": [
+    "3",
+    "9",
+    "12"
+   ],
+   "doc": "Motivo da desoneração do ICMS-ST: 3-Uso na agropecuária; 9-Outros; 12-Fomento agropecuário."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS90/CST",
+   "base": "xs:string",
+   "values": [
+    "90"
+   ],
+   "doc": "Tributção pelo ICMS\n90 - Outras"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBC",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS90/modBC",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS: \n0 - Margem Valor Agregado (%);\n1 - Pauta (valor);\n2 - Preço Tabelado Máximo (valor);\n3 - Valor da Operação."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBCST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS90/modBCST",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS ST:\n0 – Preço tabelado ou máximo  sugerido;\n1 - Lista Negativa (valor);\n2 - Lista Positiva (valor);\n3 - Lista Neutra (valor);\n4 - Margem Valor Agregado (%);\n5 - Pauta (valor);\n6 - Valor da Operação."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "motDesICMS",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS90/motDesICMS",
+   "base": "xs:string",
+   "values": [
+    "3",
+    "9",
+    "12"
+   ],
+   "doc": "Motivo da desoneração do ICMS:3-Uso na agropecuária;9-Outros;12-Fomento agropecuário"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indDeduzDeson",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS90/indDeduzDeson",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Indica se o valor do ICMS desonerado (vICMSDeson) deduz do valor do item (vProd):\n0=Valor do ICMS desonerado (vICMSDeson) não deduz do valor do item (vProd) / total da NF-e;\n1=Valor do ICMS desonerado (vICMSDeson) deduz do valor do item (vProd) / total da NF-e."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "motDesICMSST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMS90/motDesICMSST",
+   "base": "xs:string",
+   "values": [
+    "3",
+    "9",
+    "12"
+   ],
+   "doc": "Motivo da desoneração do ICMS-ST: 3-Uso na agropecuária; 9-Outros; 12-Fomento agropecuário."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSPart/CST",
+   "base": "xs:string",
+   "values": [
+    "10",
+    "90"
+   ],
+   "doc": "Tributação pelo ICMS \n10 - Tributada e com cobrança do ICMS por substituição tributária;\n90 – Outros."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBC",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSPart/modBC",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS: \n0 - Margem Valor Agregado (%);\n1 - Pauta (valor);\n2 - Preço Tabelado Máximo (valor);\n3 - Valor da Operação."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBCST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSPart/modBCST",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS ST:\n0 – Preço tabelado ou máximo  sugerido;\n1 - Lista Negativa (valor);\n2 - Lista Positiva (valor);\n3 - Lista Neutra (valor);\n4 - Margem Valor Agregado (%);\n5 - Pauta (valor).\n6 - Valor da Operação"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSST/CST",
+   "base": "xs:string",
+   "values": [
+    "41",
+    "60"
+   ],
+   "doc": "Tributção pelo ICMS\n41-Não Tributado.\n60-Cobrado anteriormente por substituição tributária."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CSOSN",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSSN101/CSOSN",
+   "base": "xs:string",
+   "values": [
+    "101"
+   ],
+   "doc": "101- Tributada pelo Simples Nacional com permissão de crédito. (v.2.0)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CSOSN",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSSN102/CSOSN",
+   "base": "xs:string",
+   "values": [
+    "102",
+    "103",
+    "300",
+    "400"
+   ],
+   "doc": "102- Tributada pelo Simples Nacional sem permissão de crédito. \n103 – Isenção do ICMS  no Simples Nacional para faixa de receita bruta.\n300 – Imune.\n400 – Não tributda pelo Simples Nacional (v.2.0) (v.2.0)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CSOSN",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSSN201/CSOSN",
+   "base": "xs:string",
+   "values": [
+    "201"
+   ],
+   "doc": "201- Tributada pelo Simples Nacional com permissão de crédito e com cobrança do ICMS por Substituição Tributária (v.2.0)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBCST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSSN201/modBCST",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS ST:\n0 – Preço tabelado ou máximo  sugerido;\n1 - Lista Negativa (valor);\n2 - Lista Positiva (valor);\n3 - Lista Neutra (valor);\n4 - Margem Valor Agregado (%);\n5 - Pauta (valor). (v2.0)\n6 - Valor da Operação"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CSOSN",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSSN202/CSOSN",
+   "base": "xs:string",
+   "values": [
+    "202",
+    "203"
+   ],
+   "doc": "202- Tributada pelo Simples Nacional sem permissão de crédito e com cobrança do ICMS por Substituição Tributária;\n203-  Isenção do ICMS nos Simples Nacional para faixa de receita bruta e com cobrança do ICMS por Substituição Tributária (v.2.0)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBCST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSSN202/modBCST",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS ST:\n0 – Preço tabelado ou máximo  sugerido;\n1 - Lista Negativa (valor);\n2 - Lista Positiva (valor);\n3 - Lista Neutra (valor);\n4 - Margem Valor Agregado (%);\n5 - Pauta (valor). (v2.0)\n6 - Valor da Operação"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CSOSN",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSSN500/CSOSN",
+   "base": "xs:string",
+   "values": [
+    "500"
+   ],
+   "doc": "500 – ICMS cobrado anterirmente por substituição tributária (substituído) ou por antecipação\n(v.2.0)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CSOSN",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSSN900/CSOSN",
+   "base": "xs:string",
+   "values": [
+    "900"
+   ],
+   "doc": "Tributação pelo ICMS 900 - Outros(v2.0)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBC",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSSN900/modBC",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS: \n0 - Margem Valor Agregado (%);\n1 - Pauta (valor);\n2 - Preço Tabelado Máximo (valor);\n3 - Valor da Operação."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modBCST",
+   "context": "TNFe/infNFe/det/imposto/ICMS/ICMSSN900/modBCST",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "doc": "Modalidade de determinação da BC do ICMS ST:\n0 – Preço tabelado ou máximo  sugerido;\n1 - Lista Negativa (valor);\n2 - Lista Positiva (valor);\n3 - Lista Neutra (valor);\n4 - Margem Valor Agregado (%);\n5 - Pauta (valor).\n6 - Valor da Operação"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indISS",
+   "context": "TNFe/infNFe/det/imposto/ISSQN/indISS",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "doc": "Exibilidade do ISS:1-Exigível;2-Não incidente;3-Isenção;4-Exportação;5-Imunidade;6-Exig.Susp. Judicial;7-Exig.Susp. ADM"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indIncentivo",
+   "context": "TNFe/infNFe/det/imposto/ISSQN/indIncentivo",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2"
+   ],
+   "doc": "Indicador de Incentivo Fiscal. 1=Sim; 2=Não"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/PIS/PISAliq/CST",
+   "base": "xs:string",
+   "values": [
+    "01",
+    "02"
+   ],
+   "doc": "Código de Situação Tributária do PIS.\n 01 – Operação Tributável - Base de Cálculo = Valor da Operação Alíquota Normal (Cumulativo/Não Cumulativo);\n02 - Operação Tributável - Base de Calculo = Valor da Operação (Alíquota Diferenciada);"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/PIS/PISQtde/CST",
+   "base": "xs:string",
+   "values": [
+    "03"
+   ],
+   "doc": "Código de Situação Tributária do PIS.\n03 - Operação Tributável - Base de Calculo = Quantidade Vendida x Alíquota por Unidade de Produto;"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/PIS/PISNT/CST",
+   "base": "xs:string",
+   "values": [
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "doc": "Código de Situação Tributária do PIS.\n04 - Operação Tributável - Tributação Monofásica - (Alíquota Zero);\n05 - Operação Tributável (ST);\n06 - Operação Tributável - Alíquota Zero;\n07 - Operação Isenta da contribuição;\n08 - Operação Sem Incidência da contribuição;\n09 - Operação com suspensão da contribuição;"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/PIS/PISOutr/CST",
+   "base": "xs:string",
+   "values": [
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "98",
+    "99"
+   ],
+   "doc": "Código de Situação Tributária do PIS.\n99 - Outras Operações."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indSomaPISST",
+   "context": "TNFe/infNFe/det/imposto/PISST/indSomaPISST",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Indica se o valor do PISST compõe o valor total da NF-e"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/COFINS/COFINSAliq/CST",
+   "base": "xs:string",
+   "values": [
+    "01",
+    "02"
+   ],
+   "doc": "Código de Situação Tributária do COFINS.\n 01 – Operação Tributável - Base de Cálculo = Valor da Operação Alíquota Normal (Cumulativo/Não Cumulativo);\n02 - Operação Tributável - Base de Calculo = Valor da Operação (Alíquota Diferenciada);"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/COFINS/COFINSQtde/CST",
+   "base": "xs:string",
+   "values": [
+    "03"
+   ],
+   "doc": "Código de Situação Tributária do COFINS.\n03 - Operação Tributável - Base de Calculo = Quantidade Vendida x Alíquota por Unidade de Produto;"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/COFINS/COFINSNT/CST",
+   "base": "xs:string",
+   "values": [
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "doc": "Código de Situação Tributária do COFINS:\n04 - Operação Tributável - Tributação Monofásica - (Alíquota Zero);\n05 - Operação Tributável (ST);\n06 - Operação Tributável - Alíquota Zero;\n07 - Operação Isenta da contribuição;\n08 - Operação Sem Incidência da contribuição;\n09 - Operação com suspensão da contribuição;"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TNFe/infNFe/det/imposto/COFINS/COFINSOutr/CST",
+   "base": "xs:string",
+   "values": [
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "98",
+    "99"
+   ],
+   "doc": "Código de Situação Tributária do COFINS:\n49 - Outras Operações de Saída\n50 - Operação com Direito a Crédito - Vinculada Exclusivamente a Receita Tributada no Mercado Interno\n51 - Operação com Direito a Crédito – Vinculada Exclusivamente a Receita Não Tributada no Mercado Interno\n52 - Operação com Direito a Crédito - Vinculada Exclusivamente a Receita de Exportação\n53 - Operação com Direito a Crédito - Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno\n54 - Operação com Direito a Crédito - Vinculada a Receitas Tributadas no Mercado Interno e de Exportação\n55 - Operação com Direito a Crédito - Vinculada a Receitas Não-Tributadas no Mercado Interno e de Exportação\n56 - Operação com Direito a Crédito - Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno, e de Exportação\n60 - Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita Tributada no Mercado Interno\n61 - Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita Não-Tributada no Mercado Interno\n62 - Crédito Presumido - Operação de Aquisição Vinculada Exclusivamente a Receita de Exportação\n63 - Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno\n64 - Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas no Mercado Interno e de Exportação\n65 - Crédito Presumido - Operação de Aquisição Vinculada a Receitas Não-Tributadas no Mercado Interno e de Exportação\n66 - Crédito Presumido - Operação de Aquisição Vinculada a Receitas Tributadas e Não-Tributadas no Mercado Interno, e de Exportação\n67 - Crédito Presumido - Outras Operações\n70 - Operação de Aquisição sem Direito a Crédito\n71 - Operação de Aquisição com Isenção\n72 - Operação de Aquisição com Suspensão\n73 - Operação de Aquisição a Alíquota Zero\n74 - Operação de Aquisição sem Incidência da Contribuição\n75 - Operação de Aquisição por Substituição Tributária\n98 - Outras Operações de Entrada\n99 - Outras Operações."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indSomaCOFINSST",
+   "context": "TNFe/infNFe/det/imposto/COFINSST/indSomaCOFINSST",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Indica se o valor da COFINS ST compõe o valor total da NFe"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "pICMSInter",
+   "context": "TNFe/infNFe/det/imposto/ICMSUFDest/pICMSInter",
+   "base": "xs:string",
+   "values": [
+    "4.00",
+    "7.00",
+    "12.00"
+   ],
+   "doc": "Alíquota interestadual das UF envolvidas: - 4% alíquota interestadual para produtos importados; - 7% para os Estados de origem do Sul e Sudeste (exceto ES), destinado para os Estados do Norte e Nordeste  ou ES; - 12% para os demais casos."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "cRegTrib",
+   "context": "TNFe/infNFe/total/ISSQNtot/cRegTrib",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "doc": "Código do regime especial de tributação"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "modFrete",
+   "context": "TNFe/infNFe/transp/modFrete",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "9"
+   ],
+   "doc": "Modalidade do frete\n0- Contratação do Frete por conta do Remetente (CIF);\n1- Contratação do Frete por conta do destinatário/remetente (FOB);\n2- Contratação do Frete por conta de terceiros;\n3- Transporte próprio por conta do remetente;\n4- Transporte próprio por conta do destinatário;\n9- Sem Ocorrência de transporte."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indPag",
+   "context": "TNFe/infNFe/pag/detPag/indPag",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Indicador da Forma de Pagamento:0-Pagamento à Vista;1-Pagamento à Prazo;"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "tpIntegra",
+   "context": "TNFe/infNFe/pag/detPag/card/tpIntegra",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2"
+   ],
+   "doc": "Tipo de Integração do processo de pagamento com o sistema de automação da empresa:\n1 - Pagamento integrado com o sistema de automação da empresa (Ex.: equipamento TEF, Comércio Eletrônico, POS Integrado);\n2 - Pagamento não integrado com o sistema de automação da empresa (Ex.: equipamento POS Simples)."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indProc",
+   "context": "TNFe/infNFe/infAdic/procRef/indProc",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "9"
+   ],
+   "doc": "Origem do processo, informar com:\n0 - SEFAZ;\n1 - Justiça Federal;\n2 - Justiça Estadual;\n3 - Secex/RFB;\n4 - CONFAZ;\n9 - Outros."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "tpAto",
+   "context": "TNFe/infNFe/infAdic/procRef/tpAto",
+   "base": "xs:string",
+   "values": [
+    "08",
+    "10",
+    "12",
+    "14",
+    "15"
+   ],
+   "doc": "Tipo do ato concessório\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tPara origem do Processo na SEFAZ (indProc=0), informar o\ntipo de ato concessório:\n08 - Termo de Acordo;\n10 - Regime Especial;\n12 - Autorização específica;\n14 - Ajuste SINIEF;\n15 - Convênio ICMS."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "tpGuia",
+   "context": "TNFe/infNFe/agropecuario/guiaTransito/tpGuia",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "doc": "Tipo da Guia: 1 - GTA; 2 - TTA; 3 - DTA; 4 - ATV; 5 - PTV; 6 - GTV; 7 - Guia Florestal (DOF, SisFlora - PA e MT, SIAM - MG)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "indSinc",
+   "context": "TEnviNFe/indSinc",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1"
+   ],
+   "doc": "Indicador de processamento síncrono. 0=NÃO; 1=SIM=Síncrono"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "cPais",
+   "context": "TEnderEmi/cPais",
+   "base": "TString",
+   "values": [
+    "1058"
+   ],
+   "doc": "Código do país"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "xPais",
+   "context": "TEnderEmi/xPais",
+   "base": "TString",
+   "values": [
+    "Brasil",
+    "BRASIL"
+   ],
+   "doc": "Nome do país"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": "Torig",
+   "field": "Torig",
+   "context": "Torig",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "doc": "Tipo Origem da mercadoria CST ICMS  origem da mercadoria: 0-Nacional exceto as indicadas nos códigos 3, 4, 5 e 8;1-Estrangeira - Importação direta; 2-Estrangeira - Adquirida no mercado interno; 3-Nacional, conteudo superior 40% e inferior ou igual a 70%; 4-Nacional, processos produtivos básicos; 5-Nacional, conteudo inferior 40%; 6-Estrangeira - Importação direta, com similar nacional, lista CAMEX; 7-Estrangeira - mercado interno, sem simular,lista CAMEX;8-Nacional, Conteúdo de Importação superior a 70%."
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": "TFinNFe",
+   "field": "TFinNFe",
+   "context": "TFinNFe",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "doc": "Tipo Finalidade da NF-e (1=Normal; 2=Complementar; 3=Ajuste; 4=Devolução/Retorno)"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": "TTpNFDebito",
+   "field": "TTpNFDebito",
+   "context": "TTpNFDebito",
+   "base": "xs:string",
+   "values": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08"
+   ],
+   "doc": "Tipo de Nota de Débito: \n\t\t\t01=Transferência de créditos para Cooperativas; \n\t\t\t02=Anulação de Crédito por Saídas Imunes/Isentas; \n\t\t\t03=Débitos de notas fiscais não processadas na apuração; \n\t\t\t04=Multa e juros; \n\t\t\t05=Transferência de crédito na sucessão; \n\t\t\t06=Pagamento antecipado; \n\t\t\t07=Perda em estoque; \n\t\t\t08=Desenquadramento do SN;"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": "TTpNFCredito",
+   "field": "TTpNFCredito",
+   "context": "TTpNFCredito",
+   "base": "xs:string",
+   "values": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05"
+   ],
+   "doc": "Tipo de Nota de Crédito: \n\t\t\t01=Multa e juros; \n\t\t\t02=Apropriação de crédito presumido de IBS sobre o saldo devedor na ZFM (art. 450, § 1º, LC 214/25);\n\t\t\t03=Retorno por recusa na entrega ou por não localização do destinatário na tentativa de entrega;\n\t\t\t04=Redução de valores;\n\t\t\t05=Transferência de crédito na sucessão;"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": "TProcEmi",
+   "field": "TProcEmi",
+   "context": "TProcEmi",
+   "base": "xs:string",
+   "values": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "doc": "Tipo processo de emissão da NF-e"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TIpi/IPITrib/CST",
+   "base": "xs:string",
+   "values": [
+    "00",
+    "49",
+    "50",
+    "99"
+   ],
+   "doc": "Código da Situação Tributária do IPI:\n00-Entrada com recuperação de crédito\n49 - Outras entradas\n50-Saída tributada\n99-Outras saídas"
+  },
+  {
+   "file": "leiauteNFe_v4.00.xsd",
+   "named_type": null,
+   "field": "CST",
+   "context": "TIpi/IPINT/CST",
+   "base": "xs:string",
+   "values": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55"
+   ],
+   "doc": "Código da Situação Tributária do IPI:\n01-Entrada tributada com alíquota zero\n02-Entrada isenta\n03-Entrada não-tributada\n04-Entrada imune\n05-Entrada com suspensão\n51-Saída tributada com alíquota zero\n52-Saída isenta\n53-Saída não-tributada\n54-Saída imune\n55-Saída com suspensão"
+  },
+  {
+   "file": "tiposBasico_v4.00.xsd",
+   "named_type": "TCodUfIBGE",
+   "field": "TCodUfIBGE",
+   "context": "TCodUfIBGE",
+   "base": "xs:string",
+   "values": [
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "31",
+    "32",
+    "33",
+    "35",
+    "41",
+    "42",
+    "43",
+    "50",
+    "51",
+    "52",
+    "53"
+   ],
+   "doc": "Tipo Código da UF da tabela do IBGE"
+  },
+  {
+   "file": "tiposBasico_v4.00.xsd",
+   "named_type": "TMod",
+   "field": "TMod",
+   "context": "TMod",
+   "base": "xs:string",
+   "values": [
+    "55",
+    "65"
+   ],
+   "doc": "Tipo Modelo Documento Fiscal"
+  },
+  {
+   "file": "tiposBasico_v4.00.xsd",
+   "named_type": "TUf",
+   "field": "TUf",
+   "context": "TUf",
+   "base": "xs:string",
+   "values": [
+    "AC",
+    "AL",
+    "AM",
+    "AP",
+    "BA",
+    "CE",
+    "DF",
+    "ES",
+    "GO",
+    "MA",
+    "MG",
+    "MS",
+    "MT",
+    "PA",
+    "PB",
+    "PE",
+    "PI",
+    "PR",
+    "RJ",
+    "RN",
+    "RO",
+    "RR",
+    "RS",
+    "SC",
+    "SE",
+    "SP",
+    "TO",
+    "EX"
+   ],
+   "doc": "Tipo Sigla da UF"
+  },
+  {
+   "file": "tiposBasico_v4.00.xsd",
+   "named_type": "TUfEmi",
+   "field": "TUfEmi",
+   "context": "TUfEmi",
+   "base": "xs:string",
+   "values": [
+    "AC",
+    "AL",
+    "AM",
+    "AP",
+    "BA",
+    "CE",
+    "DF",
+    "ES",
+    "GO",
+    "MA",
+    "MG",
+    "MS",
+    "MT",
+    "PA",
+    "PB",
+    "PE",
+    "PI",
+    "PR",
+    "RJ",
+    "RN",
+    "RO",
+    "RR",
+    "RS",
+    "SC",
+    "SE",
+    "SP",
+    "TO"
+   ],
+   "doc": "Tipo Sigla da UF de emissor // acrescentado em 24/10/08"
+  },
+  {
+   "file": "tiposBasico_v4.00.xsd",
+   "named_type": "TAmb",
+   "field": "TAmb",
+   "context": "TAmb",
+   "base": "xs:string",
+   "values": [
+    "1",
+    "2"
+   ],
+   "doc": "Tipo Ambiente"
+  },
+  {
+   "file": "tiposBasico_v4.00.xsd",
+   "named_type": "TCOrgaoIBGE",
+   "field": "TCOrgaoIBGE",
+   "context": "TCOrgaoIBGE",
+   "base": "xs:string",
+   "values": [
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "31",
+    "32",
+    "33",
+    "35",
+    "41",
+    "42",
+    "43",
+    "50",
+    "51",
+    "52",
+    "53",
+    "90",
+    "91",
+    "92"
+   ],
+   "doc": "Tipo Código de orgão (UF da tabela do IBGE + 90 RFB)"
+  },
+  {
+   "file": "xmldsig-core-schema_v1.01.xsd",
+   "named_type": "TTransformURI",
+   "field": "TTransformURI",
+   "context": "TTransformURI",
+   "base": "anyURI",
+   "values": [
+    "http://www.w3.org/2000/09/xmldsig#enveloped-signature",
+    "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+   ],
+   "doc": ""
+  }
+ ]
+}

@@ -1,0 +1,301 @@
+{
+  "fonte": {
+    "pagina": "F019TIS - Tipos Substituições Impostos / Modalidade Base Cálculo / Antecipação - Por Estado",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+    "trilha": "Ajuda por telas > Cadastros > Mercado e Suprimentos > Parâmetros Fiscais > Substituições Impostos/Modalidade Base Cálculo/Antecipação"
+  },
+  "total_topicos": 12,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Cálculo da Base de Substituição de ICMS | Critérios 1 e 3",
+      "slug": "calculo-da-base-de-substituicao-de-icms-criterios-1-e-3",
+      "arquivo": "01-calculo-da-base-de-substituicao-de-icms-criterios-1-e-3.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+      "subtopicos": [
+        "Exemplo:"
+      ],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1900
+    },
+    {
+      "ordem": 2,
+      "titulo": "Cálculo da Base de Substituição \r\nde ICMS | Critério 2",
+      "slug": "calculo-da-base-de-substituicao-de-icms-criterio-2",
+      "arquivo": "02-calculo-da-base-de-substituicao-de-icms-criterio-2.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 2214
+    },
+    {
+      "ordem": 3,
+      "titulo": "Cálculo da Base de Substituição de ICMS |\r\nCritério 4",
+      "slug": "calculo-da-base-de-substituicao-de-icms-criterio-4",
+      "arquivo": "03-calculo-da-base-de-substituicao-de-icms-criterio-4.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+      "subtopicos": [],
+      "telas": [
+        "F009PPE",
+        "F019TIS",
+        "F075PRO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 2952
+    },
+    {
+      "ordem": 4,
+      "titulo": "Cálculo do ICMS ST Venda para o Decreto 36.453/2004 - RIOLOG",
+      "slug": "calculo-do-icms-st-venda-para-o-decreto-36-453-2004-riolog",
+      "arquivo": "04-calculo-do-icms-st-venda-para-o-decreto-36-453-2004-riolog.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+      "subtopicos": [
+        "Exemplo",
+        "Cálculo do ICMS ST",
+        "Exemplo de cálculo ICMS ST"
+      ],
+      "telas": [
+        "F070PSE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F070PSE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm#menu_cadastros/f070pse.htm"
+        }
+      ],
+      "caracteres": 3481
+    },
+    {
+      "ordem": 5,
+      "titulo": "Cálculo com comparação de duas tabelas de preço | Critério 5",
+      "slug": "calculo-com-comparacao-de-duas-tabelas-de-preco-criterio-5",
+      "arquivo": "05-calculo-com-comparacao-de-duas-tabelas-de-preco-criterio-5.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 576
+    },
+    {
+      "ordem": 6,
+      "titulo": "Cálculo por item enquadrado na PMPF/FP/IVA ST comparando com PMC | Critério 6",
+      "slug": "calculo-por-item-enquadrado-na-pmpf-fp-iva-st-comparando-com",
+      "arquivo": "06-calculo-por-item-enquadrado-na-pmpf-fp-iva-st-comparando-com.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+      "subtopicos": [
+        "Operação: Compra interestadual MG para SP",
+        "Operação: Compra interna SP para SP"
+      ],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 5867
+    },
+    {
+      "ordem": 7,
+      "titulo": "Inserir nova Validade",
+      "slug": "inserir-nova-validade",
+      "arquivo": "07-inserir-nova-validade.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+      "subtopicos": [
+        "Exemplo"
+      ],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 983
+    },
+    {
+      "ordem": 8,
+      "titulo": "Inserir novos Estados para uma validade específica ou validade vigente",
+      "slug": "inserir-novos-estados-para-uma-validade-especifica-ou-valida",
+      "arquivo": "08-inserir-novos-estados-para-uma-validade-especifica-ou-valida.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+      "subtopicos": [
+        "Exemplo"
+      ],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 578
+    },
+    {
+      "ordem": 9,
+      "titulo": "Exemplo",
+      "slug": "exemplo",
+      "arquivo": "09-exemplo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 601
+    },
+    {
+      "ordem": 10,
+      "titulo": "Exemplo",
+      "slug": "exemplo",
+      "arquivo": "10-exemplo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 153
+    },
+    {
+      "ordem": 11,
+      "titulo": "Guia Validades Substituições Impostos / Modalidade Base de Cálculo",
+      "slug": "guia-validades-substituicoes-impostos-modalidade-base-de-cal",
+      "arquivo": "11-guia-validades-substituicoes-impostos-modalidade-base-de-cal.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 345
+    },
+    {
+      "ordem": 12,
+      "titulo": "Guia Substituição Imposto / Modalidade Base Cálculo / Antecipação por estado",
+      "slug": "guia-substituicao-imposto-modalidade-base-calculo-antecipaca",
+      "arquivo": "12-guia-substituicao-imposto-modalidade-base-calculo-antecipaca.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+      "subtopicos": [
+        "Exemplo",
+        "Exemplo",
+        "Exemplo 1",
+        "Exemplo 2",
+        "Exemplo:",
+        "Simples",
+        "Dupla - Dif. Valor"
+      ],
+      "telas": [
+        "F009PPE",
+        "F019TIS",
+        "F019TST",
+        "F070FEF",
+        "F070PSE",
+        "F075GFP",
+        "F075PRO",
+        "F440RCI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Parâmetros da Filial para Tributos (F070FEF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm"
+        },
+        {
+          "texto": "Parâmetros por Estado (F009PPE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F440RCI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440rci.htm"
+        },
+        {
+          "texto": "F070PSE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm"
+        },
+        {
+          "texto": "F075GFP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm"
+        },
+        {
+          "texto": "F019TST",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tst.htm"
+        }
+      ],
+      "caracteres": 22424
+    }
+  ],
+  "indice_telas": {
+    "F009PPE": [
+      "calculo-da-base-de-substituicao-de-icms-criterio-4",
+      "guia-substituicao-imposto-modalidade-base-calculo-antecipaca"
+    ],
+    "F019TIS": [
+      "calculo-da-base-de-substituicao-de-icms-criterio-4",
+      "guia-substituicao-imposto-modalidade-base-calculo-antecipaca"
+    ],
+    "F019TST": [
+      "guia-substituicao-imposto-modalidade-base-calculo-antecipaca"
+    ],
+    "F070FEF": [
+      "guia-substituicao-imposto-modalidade-base-calculo-antecipaca"
+    ],
+    "F070PSE": [
+      "calculo-do-icms-st-venda-para-o-decreto-36-453-2004-riolog",
+      "guia-substituicao-imposto-modalidade-base-calculo-antecipaca"
+    ],
+    "F075GFP": [
+      "guia-substituicao-imposto-modalidade-base-calculo-antecipaca"
+    ],
+    "F075PRO": [
+      "calculo-da-base-de-substituicao-de-icms-criterio-4",
+      "guia-substituicao-imposto-modalidade-base-calculo-antecipaca"
+    ],
+    "F440RCI": [
+      "guia-substituicao-imposto-modalidade-base-calculo-antecipaca"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tst.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm#menu_cadastros/f070pse.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440rci.htm"
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "fonte": {
+    "pagina": "F660GDG - Geração de detalhes das Notas Fiscais",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660gdg.htm",
+    "trilha": "Ajuda por telas > Controladoria > Gestão de Tributos > Escrituração > Lançamentos"
+  },
+  "total_topicos": 3,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Gerais",
+      "slug": "gerais",
+      "arquivo": "01-gerais.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660gdg.htm",
+      "subtopicos": [
+        "Os campos serão inicializados da seguinte forma:"
+      ],
+      "telas": [
+        "E001TNS",
+        "E001TVE",
+        "E066FPG",
+        "E070PEE",
+        "E075PRO",
+        "E085HCL",
+        "E140IPV",
+        "E140PAR",
+        "E140RCI",
+        "E140RSV",
+        "E301MCR",
+        "E301TCR",
+        "E440IPC",
+        "E440ISC",
+        "E440RCI",
+        "E660INC",
+        "E660INV",
+        "E660IRZ",
+        "E660NFC",
+        "E660NFV",
+        "E660PAR",
+        "E660PAV",
+        "E660REZ",
+        "E660RRZ",
+        "E660RSC",
+        "E660RSV",
+        "F019TIS",
+        "F070FEF",
+        "F075CEP",
+        "F075FCI",
+        "F075GFP",
+        "F075PRO",
+        "F660GDG",
+        "F660ODC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CFOP",
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F075FCI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075fci.htm"
+        },
+        {
+          "texto": "F019TIS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm"
+        },
+        {
+          "texto": "F660ODC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660odc.htm"
+        },
+        {
+          "texto": "Cadastro de Empresas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F075GFP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm"
+        },
+        {
+          "texto": "Controle de Entrada de Produtos (F075CEP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cep.htm"
+        },
+        {
+          "texto": "Parâmetros da Filial Tributos  (F070FEF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm"
+        }
+      ],
+      "caracteres": 15865
+    },
+    {
+      "ordem": 2,
+      "titulo": "Notas",
+      "slug": "notas",
+      "arquivo": "02-notas.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660gdg.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TNC",
+        "E001TNS",
+        "E008CEP",
+        "E070FIL",
+        "E085CLI",
+        "E095FOR",
+        "E440IPC",
+        "E440ISC",
+        "E660INC",
+        "E660INV",
+        "E660NFC",
+        "E660NFV",
+        "F001TCP",
+        "F001TVE",
+        "F660NFC",
+        "F660NFV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CFOP"
+      ],
+      "links_documentacao": [],
+      "caracteres": 6878
+    },
+    {
+      "ordem": 3,
+      "titulo": "Imposto",
+      "slug": "imposto",
+      "arquivo": "03-imposto.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660gdg.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 266
+    }
+  ],
+  "indice_telas": {
+    "E001TNC": [
+      "notas"
+    ],
+    "E001TNS": [
+      "gerais",
+      "notas"
+    ],
+    "E001TVE": [
+      "gerais"
+    ],
+    "E008CEP": [
+      "notas"
+    ],
+    "E066FPG": [
+      "gerais"
+    ],
+    "E070FIL": [
+      "notas"
+    ],
+    "E070PEE": [
+      "gerais"
+    ],
+    "E075PRO": [
+      "gerais"
+    ],
+    "E085CLI": [
+      "notas"
+    ],
+    "E085HCL": [
+      "gerais"
+    ],
+    "E095FOR": [
+      "notas"
+    ],
+    "E140IPV": [
+      "gerais"
+    ],
+    "E140PAR": [
+      "gerais"
+    ],
+    "E140RCI": [
+      "gerais"
+    ],
+    "E140RSV": [
+      "gerais"
+    ],
+    "E301MCR": [
+      "gerais"
+    ],
+    "E301TCR": [
+      "gerais"
+    ],
+    "E440IPC": [
+      "gerais",
+      "notas"
+    ],
+    "E440ISC": [
+      "gerais",
+      "notas"
+    ],
+    "E440RCI": [
+      "gerais"
+    ],
+    "E660INC": [
+      "gerais",
+      "notas"
+    ],
+    "E660INV": [
+      "gerais",
+      "notas"
+    ],
+    "E660IRZ": [
+      "gerais"
+    ],
+    "E660NFC": [
+      "gerais",
+      "notas"
+    ],
+    "E660NFV": [
+      "gerais",
+      "notas"
+    ],
+    "E660PAR": [
+      "gerais"
+    ],
+    "E660PAV": [
+      "gerais"
+    ],
+    "E660REZ": [
+      "gerais"
+    ],
+    "E660RRZ": [
+      "gerais"
+    ],
+    "E660RSC": [
+      "gerais"
+    ],
+    "E660RSV": [
+      "gerais"
+    ],
+    "F001TCP": [
+      "notas"
+    ],
+    "F001TVE": [
+      "notas"
+    ],
+    "F019TIS": [
+      "gerais"
+    ],
+    "F070FEF": [
+      "gerais"
+    ],
+    "F075CEP": [
+      "gerais"
+    ],
+    "F075FCI": [
+      "gerais"
+    ],
+    "F075GFP": [
+      "gerais"
+    ],
+    "F075PRO": [
+      "gerais"
+    ],
+    "F660GDG": [
+      "gerais"
+    ],
+    "F660NFC": [
+      "notas"
+    ],
+    "F660NFV": [
+      "notas"
+    ],
+    "F660ODC": [
+      "gerais"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cep.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075fci.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660odc.htm"
+  ]
+}

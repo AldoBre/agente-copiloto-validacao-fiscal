@@ -1,0 +1,792 @@
+{
+  "fonte": {
+    "pagina": "F001TCP - Transações de Compras",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+    "trilha": "Ajuda por telas > Cadastros > Transações > Parâmetros por Gestão > Compras"
+  },
+  "total_topicos": 20,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Dados Gerais",
+      "slug": "dados-gerais",
+      "arquivo": "01-dados-gerais.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [
+        "Comportamento:"
+      ],
+      "telas": [
+        "E001TCP",
+        "E001TNS",
+        "F027STR",
+        "F440VAL"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-000BUDEP02"
+      ],
+      "campos_xml_citados": [
+        "CFOP"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F440VAL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440val.htm"
+        },
+        {
+          "texto": "VEN-000BUDEP02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000budep02.htm"
+        },
+        {
+          "texto": "Mensagens\r\nNF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f024msg.htm"
+        },
+        {
+          "texto": "F027STR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm"
+        },
+        {
+          "texto": "Processo para Controle de Entrada e Saída de Produtos (PEPS/FIFO)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-controle-entrada-saida-produto.htm"
+        }
+      ],
+      "caracteres": 8381
+    },
+    {
+      "ordem": 2,
+      "titulo": "Dados Gerais 2",
+      "slug": "dados-gerais-2",
+      "arquivo": "02-dados-gerais-2.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TCP",
+        "E001TNS",
+        "E075DER",
+        "E440PCD",
+        "F001TES",
+        "F001TVE",
+        "F001TXF",
+        "F012FXF",
+        "F012FXT",
+        "F051DIS",
+        "F075PXT",
+        "F080ISV",
+        "F080SXT",
+        "F095CAD",
+        "F113COA",
+        "F403FPR",
+        "F403FSE",
+        "F403LFP",
+        "F403LFS",
+        "F420GOC",
+        "F420OSC",
+        "F440GNE",
+        "F440NCI",
+        "F460PFO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "EST-215VALRE01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "GerMsgPed",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#GerMsgPed"
+        },
+        {
+          "texto": "Ordem de Compra Agrupada (F420GOC)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm"
+        },
+        {
+          "texto": "Ordens de Compra via Solicitação de Compra (F420OSC)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420osc.htm"
+        },
+        {
+          "texto": "F012FXT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fxt.htm"
+        },
+        {
+          "texto": "F075PXT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pxt.htm"
+        },
+        {
+          "texto": "F080SXT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080sxt.htm"
+        },
+        {
+          "texto": "F012FXF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fxf.htm"
+        },
+        {
+          "texto": "F403FPR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm"
+        },
+        {
+          "texto": "F403LFP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403lfp.htm"
+        },
+        {
+          "texto": "F403FSE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fse.htm"
+        },
+        {
+          "texto": "F403LFS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403lfs.htm"
+        },
+        {
+          "texto": "F001TXF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001txf.htm"
+        },
+        {
+          "texto": "F070EMP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+        },
+        {
+          "texto": "F080ISV",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080isv.htm"
+        },
+        {
+          "texto": "aqui",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/devolucao_proporcional.htm"
+        },
+        {
+          "texto": "Recalcular(M)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm#Recalcular"
+        },
+        {
+          "texto": "RecNfcDev",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#RecNfcDev"
+        },
+        {
+          "texto": "F051DIS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm"
+        },
+        {
+          "texto": "Parâmetros da Filial para Compras",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fcp.htm"
+        },
+        {
+          "texto": "F095CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "Redução do ICMS na base de PIS / COFINS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/reducao-pis-cofins.htm"
+        },
+        {
+          "texto": "F001TVE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "Processo de Vendas para Entrega Futura",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/processo-vendas-entrega-futura.htm"
+        },
+        {
+          "texto": "Siscoserv",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/7.0.0/index.htm#compliance/siscoserv/introducao.htm"
+        },
+        {
+          "texto": "Admissão Temporária",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/admissao-temporaria/processo-admissao-temporaria.htm"
+        },
+        {
+          "texto": "conta e ordem",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/processo-conta-ordem.htm#2"
+        },
+        {
+          "texto": "Nota Fiscal de Retorno – Notas Fiscais Compra – Itens (F440NCI)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440nci.htm"
+        },
+        {
+          "texto": "Transações de Estoques (F001TES)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tes.htm"
+        },
+        {
+          "texto": "F113COA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f113coa.htm"
+        },
+        {
+          "texto": "Registros C100, C170 e C190",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/bloco-c.htm#C170"
+        }
+      ],
+      "caracteres": 21564
+    },
+    {
+      "ordem": 3,
+      "titulo": "ICMS",
+      "slug": "icms",
+      "arquivo": "03-icms.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [
+        "Exemplo",
+        "Exemplo",
+        "Exemplo",
+        "Exemplo"
+      ],
+      "telas": [
+        "F119OCT"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 4163
+    },
+    {
+      "ordem": 4,
+      "titulo": "ICMS 2",
+      "slug": "icms-2",
+      "arquivo": "04-icms-2.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [
+        "F019TST",
+        "F660INT"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Integração de Notas Fiscais (F660INT)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660int.htm#menu_controladoria/F660INT.htm"
+        },
+        {
+          "texto": "ICMS Antecipação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#icms-antecipacao"
+        }
+      ],
+      "caracteres": 2422
+    },
+    {
+      "ordem": 5,
+      "titulo": "IPI",
+      "slug": "ipi",
+      "arquivo": "05-ipi.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 832
+    },
+    {
+      "ordem": 6,
+      "titulo": "IPI 2",
+      "slug": "ipi-2",
+      "arquivo": "06-ipi-2.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Admissão Temporária",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/admissao-temporaria/processo-admissao-temporaria.htm"
+        },
+        {
+          "texto": "aqui",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/parametrizacoes.htm#IPI-ImpostoSobreProdutosIndustrializados(Devolvido)"
+        }
+      ],
+      "caracteres": 1973
+    },
+    {
+      "ordem": 7,
+      "titulo": "IRRF",
+      "slug": "irrf",
+      "arquivo": "07-irrf.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 699
+    },
+    {
+      "ordem": 8,
+      "titulo": "INSS/Funrural",
+      "slug": "inss-funrural",
+      "arquivo": "08-inss-funrural.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Funrural",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/impostos/funrural.htm"
+        }
+      ],
+      "caracteres": 633
+    },
+    {
+      "ordem": 9,
+      "titulo": "INSS/Funrural 2",
+      "slug": "inss-funrural-2",
+      "arquivo": "09-inss-funrural-2.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [
+        "F080SER",
+        "F095CAD",
+        "F403FSE",
+        "F440GNE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F440GNE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm"
+        },
+        {
+          "texto": "processo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/reducao-inss.htm"
+        },
+        {
+          "texto": "F403FSE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fse.htm"
+        },
+        {
+          "texto": "F080SER",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080ser.htm"
+        },
+        {
+          "texto": "F095CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        }
+      ],
+      "caracteres": 789
+    },
+    {
+      "ordem": 10,
+      "titulo": "Financeiro",
+      "slug": "financeiro",
+      "arquivo": "10-financeiro.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [
+        "Lista de critérios de rateio",
+        "Exemplo"
+      ],
+      "telas": [
+        "E660RTC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Tipos Títulos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f002tpt.htm"
+        },
+        {
+          "texto": "Moedas-Índices",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f031aim.htm"
+        }
+      ],
+      "caracteres": 3327
+    },
+    {
+      "ordem": 11,
+      "titulo": "Outras Retenções",
+      "slug": "outras-retencoes",
+      "arquivo": "11-outras-retencoes.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 672
+    },
+    {
+      "ordem": 12,
+      "titulo": "PIS",
+      "slug": "pis",
+      "arquivo": "12-pis.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [
+        "E440PCD",
+        "F000INE",
+        "F019TIR",
+        "F440GNE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "processo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/reducao-pis-cofins.htm"
+        },
+        {
+          "texto": "F440GNE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm"
+        },
+        {
+          "texto": "F000INE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f000ine.htm"
+        }
+      ],
+      "caracteres": 3917
+    },
+    {
+      "ordem": 13,
+      "titulo": "COFINS",
+      "slug": "cofins",
+      "arquivo": "13-cofins.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [
+        "E440PCD",
+        "F000INE",
+        "F019TIR",
+        "F440GNE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "processo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/reducao-pis-cofins.htm"
+        },
+        {
+          "texto": "Admissão Temporária",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/admissao-temporaria/processo-admissao-temporaria.htm"
+        },
+        {
+          "texto": "F440GNE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm"
+        },
+        {
+          "texto": "F000INE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f000ine.htm"
+        }
+      ],
+      "caracteres": 4700
+    },
+    {
+      "ordem": 14,
+      "titulo": "ISS",
+      "slug": "iss",
+      "arquivo": "14-iss.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 698
+    },
+    {
+      "ordem": 15,
+      "titulo": "ISS 2",
+      "slug": "iss-2",
+      "arquivo": "15-iss-2.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 372
+    },
+    {
+      "ordem": 16,
+      "titulo": "SENAR/SENAT",
+      "slug": "senar-senat",
+      "arquivo": "16-senar-senat.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Senar",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/impostos/senar.htm"
+        }
+      ],
+      "caracteres": 630
+    },
+    {
+      "ordem": 17,
+      "titulo": "Importação",
+      "slug": "importacao",
+      "arquivo": "17-importacao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "vProd"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "Admissão Temporária",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/admissao-temporaria/processo-admissao-temporaria.htm"
+        }
+      ],
+      "caracteres": 2006
+    },
+    {
+      "ordem": 18,
+      "titulo": "CIDE",
+      "slug": "cide",
+      "arquivo": "18-cide.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Admissão Temporária",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/admissao-temporaria/processo-admissao-temporaria.htm"
+        }
+      ],
+      "caracteres": 1233
+    },
+    {
+      "ordem": 19,
+      "titulo": "CIAP",
+      "slug": "ciap",
+      "arquivo": "19-ciap.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [
+        "F070FCA"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F070FCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm"
+        }
+      ],
+      "caracteres": 586
+    },
+    {
+      "ordem": 20,
+      "titulo": "Integrações",
+      "slug": "integracoes",
+      "arquivo": "20-integracoes.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 442
+    }
+  ],
+  "indice_telas": {
+    "E001TCP": [
+      "dados-gerais",
+      "dados-gerais-2"
+    ],
+    "E001TNS": [
+      "dados-gerais",
+      "dados-gerais-2"
+    ],
+    "E075DER": [
+      "dados-gerais-2"
+    ],
+    "E440PCD": [
+      "cofins",
+      "dados-gerais-2",
+      "pis"
+    ],
+    "E660RTC": [
+      "financeiro"
+    ],
+    "F000INE": [
+      "cofins",
+      "pis"
+    ],
+    "F001TES": [
+      "dados-gerais-2"
+    ],
+    "F001TVE": [
+      "dados-gerais-2"
+    ],
+    "F001TXF": [
+      "dados-gerais-2"
+    ],
+    "F012FXF": [
+      "dados-gerais-2"
+    ],
+    "F012FXT": [
+      "dados-gerais-2"
+    ],
+    "F019TIR": [
+      "cofins",
+      "pis"
+    ],
+    "F019TST": [
+      "icms-2"
+    ],
+    "F027STR": [
+      "dados-gerais"
+    ],
+    "F051DIS": [
+      "dados-gerais-2"
+    ],
+    "F070FCA": [
+      "ciap"
+    ],
+    "F075PXT": [
+      "dados-gerais-2"
+    ],
+    "F080ISV": [
+      "dados-gerais-2"
+    ],
+    "F080SER": [
+      "inss-funrural-2"
+    ],
+    "F080SXT": [
+      "dados-gerais-2"
+    ],
+    "F095CAD": [
+      "dados-gerais-2",
+      "inss-funrural-2"
+    ],
+    "F113COA": [
+      "dados-gerais-2"
+    ],
+    "F119OCT": [
+      "icms"
+    ],
+    "F403FPR": [
+      "dados-gerais-2"
+    ],
+    "F403FSE": [
+      "dados-gerais-2",
+      "inss-funrural-2"
+    ],
+    "F403LFP": [
+      "dados-gerais-2"
+    ],
+    "F403LFS": [
+      "dados-gerais-2"
+    ],
+    "F420GOC": [
+      "dados-gerais-2"
+    ],
+    "F420OSC": [
+      "dados-gerais-2"
+    ],
+    "F440GNE": [
+      "cofins",
+      "dados-gerais-2",
+      "inss-funrural-2",
+      "pis"
+    ],
+    "F440NCI": [
+      "dados-gerais-2"
+    ],
+    "F440VAL": [
+      "dados-gerais"
+    ],
+    "F460PFO": [
+      "dados-gerais-2"
+    ],
+    "F660INT": [
+      "icms-2"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#icms-antecipacao",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000budep02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/parametrizacoes.htm#IPI-ImpostoSobreProdutosIndustrializados(Devolvido)",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/impostos/funrural.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/impostos/senar.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/admissao-temporaria/processo-admissao-temporaria.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/reducao-inss.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/reducao-pis-cofins.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/devolucao_proporcional.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#GerMsgPed",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#RecNfcDev",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tes.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001txf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f002tpt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fxf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fxt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f024msg.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027str.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f031aim.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pxt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080isv.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080ser.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080sxt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f113coa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fse.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403lfp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403lfs.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660int.htm#menu_controladoria/F660INT.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-controle-entrada-saida-produto.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/bloco-c.htm#C170",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/processo-vendas-entrega-futura.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f000ine.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420osc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm#Recalcular",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440nci.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440val.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/processo-conta-ordem.htm#2",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/7.0.0/index.htm#compliance/siscoserv/introducao.htm"
+  ]
+}

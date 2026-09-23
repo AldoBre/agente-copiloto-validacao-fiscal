@@ -1,0 +1,217 @@
+{
+  "fonte": {
+    "pagina": "F403FPR - Ligações Fornecedor X Produtos Individual",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm",
+    "trilha": "Ajuda por telas > Cadastros > Clientes e Fornecedores > Fornecedores > Ligações > Fornecedor X Produtos"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F403FPR - Ligações Fornecedor X Produtos Individual",
+      "slug": "f403fpr-ligacoes-fornecedor-x-produtos-individual",
+      "arquivo": "01-f403fpr-ligacoes-fornecedor-x-produtos-individual.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TCP",
+        "E070FIL",
+        "E075PRO",
+        "E403FPR",
+        "F001TCP",
+        "F012FAM",
+        "F013AGP",
+        "F075PRO",
+        "F083ORI",
+        "F085COP",
+        "F102CEI",
+        "F403FPP",
+        "F403FPR",
+        "F435CCC",
+        "F440GNE",
+        "F660NFC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "EST-210CSTLT01",
+        "GER-000HFOAU01",
+        "SGQ-102INSPE03"
+      ],
+      "campos_xml_citados": [
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "GER-000HFOAU01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000hfoau01.htm"
+        },
+        {
+          "texto": "F001TCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "esta documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f211aro_percom.htm"
+        },
+        {
+          "texto": "SGQ-102INSPE03",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/sgq_102inspe03.htm"
+        },
+        {
+          "texto": "F102CEI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_qualidade/f102cei.htm"
+        },
+        {
+          "texto": "210CSTLT01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/est_210cstlt01.htm"
+        },
+        {
+          "texto": "IPI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_ipi.htm"
+        },
+        {
+          "texto": "Cálculo do IPI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo_geracao_calculo_ipi.htm"
+        },
+        {
+          "texto": "Ato Cooperado",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/ato-cooperado/inicio.htm"
+        },
+        {
+          "texto": "F085COP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cop.htm"
+        },
+        {
+          "texto": "F012FAM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm"
+        },
+        {
+          "texto": "F083ORI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f083ori.htm"
+        },
+        {
+          "texto": "F013AGP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f013agp.htm"
+        },
+        {
+          "texto": "F660NFC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660nfc.htm"
+        },
+        {
+          "texto": "F440GNE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm"
+        },
+        {
+          "texto": "Enquadramento de IPI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/enquadramento-de-ipi.htm"
+        },
+        {
+          "texto": "Compras - Controle de Entradas e Saídas (Expedição via Contrato com Classificação) (F435CCC)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435ccc.htm"
+        },
+        {
+          "texto": "F403FPP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpp.htm"
+        },
+        {
+          "texto": "000CPLGE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000cplge01.htm"
+        },
+        {
+          "texto": "403ATPCG01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_403atpcg01.htm"
+        },
+        {
+          "texto": "403UFTNS01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_403uftns01.htm"
+        }
+      ],
+      "caracteres": 12303
+    }
+  ],
+  "indice_telas": {
+    "E001TCP": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "E070FIL": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "E075PRO": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "E403FPR": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "F001TCP": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "F012FAM": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "F013AGP": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "F075PRO": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "F083ORI": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "F085COP": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "F102CEI": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "F403FPP": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "F403FPR": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "F435CCC": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "F440GNE": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ],
+    "F660NFC": [
+      "f403fpr-ligacoes-fornecedor-x-produtos-individual"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/enquadramento-de-ipi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos_ipi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000cplge01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_403atpcg01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_403uftns01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/est_210cstlt01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000hfoau01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/sgq_102inspe03.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/ato-cooperado/inicio.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f013agp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f083ori.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cop.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660nfc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo_geracao_calculo_ipi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_qualidade/f102cei.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f211aro_percom.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435ccc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm"
+  ]
+}

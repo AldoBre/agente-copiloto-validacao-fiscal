@@ -1,0 +1,353 @@
+{
+  "fonte": {
+    "pagina": "F095CAD - Cadastro de Fornecedores",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm",
+    "trilha": "Ajuda por telas > Cadastros > Clientes e Fornecedores > Fornecedores"
+  },
+  "total_topicos": 5,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Cadastro",
+      "slug": "cadastro",
+      "arquivo": "01-cadastro.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm",
+      "subtopicos": [
+        "Opções"
+      ],
+      "telas": [
+        "E070FIL",
+        "F000PGS",
+        "F040IRF",
+        "F051FCI",
+        "F085CAD",
+        "F085COP",
+        "F095CAD",
+        "F095CBO",
+        "F095SEL",
+        "F410CAF",
+        "F410PCT"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "HabDocIde",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#HabDocIde"
+        },
+        {
+          "texto": "F085CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        },
+        {
+          "texto": "Tabelas de Imposto de Renda (F040IRF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f040irf.htm"
+        },
+        {
+          "texto": "controle de retenção de IRRF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/processo-geracao-controle-de-retencao-irrf-por-dia.htm"
+        },
+        {
+          "texto": "F095SEL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095sel.htm"
+        },
+        {
+          "texto": "F085COP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cop.htm"
+        },
+        {
+          "texto": "Siscoserv",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/7.0.0/index.htm#compliance/siscoserv/introducao.htm"
+        },
+        {
+          "texto": "site da OECD",
+          "url": "http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers"
+        },
+        {
+          "texto": "arquivo da DIRF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/relatorios/financeiros/fpcp072.htm"
+        },
+        {
+          "texto": "F095CBO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cbo.htm"
+        },
+        {
+          "texto": "RPA - Parametrização",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/rpa/parametrizacao.htm"
+        },
+        {
+          "texto": "RPA - Recibo Pagamento Autônomo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/rpa/rpa-recibo-pagamento-autonomo.htm"
+        },
+        {
+          "texto": "RPA - Controladoria",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/rpa/controladoria/rpa-controladoria.htm"
+        },
+        {
+          "texto": "HabCalCdo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#HabCalCdo"
+        },
+        {
+          "texto": "F410CAF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410caf.htm"
+        },
+        {
+          "texto": "F410PCT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410pct.htm"
+        },
+        {
+          "texto": "SCANC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669sca.htm"
+        },
+        {
+          "texto": "F051FCI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051fci.htm"
+        }
+      ],
+      "caracteres": 23935
+    },
+    {
+      "ordem": 2,
+      "titulo": "Definições",
+      "slug": "definicoes",
+      "arquivo": "02-definicoes.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm",
+      "subtopicos": [],
+      "telas": [
+        "F095HFO",
+        "F439FIX"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-440VLRMO02"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F095HFO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm"
+        },
+        {
+          "texto": "Compras -  Fixação de Preços (F439FIX)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f439fix.htm"
+        },
+        {
+          "texto": "CPR-440VLRMO02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440vlrmo02.htm"
+        }
+      ],
+      "caracteres": 2398
+    },
+    {
+      "ordem": 3,
+      "titulo": "Estado",
+      "slug": "estado",
+      "arquivo": "03-estado.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 53
+    },
+    {
+      "ordem": 4,
+      "titulo": "Convênios",
+      "slug": "convenios",
+      "arquivo": "04-convenios.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 120
+    },
+    {
+      "ordem": 5,
+      "titulo": "Botões",
+      "slug": "botoes",
+      "arquivo": "05-botoes.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm",
+      "subtopicos": [],
+      "telas": [
+        "F000ANX",
+        "F000PPD",
+        "F069CNV",
+        "F085DCV",
+        "F095AIF",
+        "F095CFO",
+        "F095CTO",
+        "F095FCP",
+        "F095OBS",
+        "F095ORM",
+        "F095SCN"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F095ORM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095orm.htm"
+        },
+        {
+          "texto": "F095CTO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cto.htm"
+        },
+        {
+          "texto": "F095CFO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cfo.htm"
+        },
+        {
+          "texto": "F095OBS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095obs.htm"
+        },
+        {
+          "texto": "F095SCN",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095scn.htm"
+        },
+        {
+          "texto": "F000ANX",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/f000anx.htm"
+        },
+        {
+          "texto": "F095AIF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095aif.htm"
+        },
+        {
+          "texto": "F069CNV",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f069cnv.htm"
+        },
+        {
+          "texto": "Chaves Pix de Fornecedores (F095FCP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095fcp.htm"
+        },
+        {
+          "texto": "Configuração de parâmetros (F000PPD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm"
+        }
+      ],
+      "caracteres": 1861
+    }
+  ],
+  "indice_telas": {
+    "E070FIL": [
+      "cadastro"
+    ],
+    "F000ANX": [
+      "botoes"
+    ],
+    "F000PGS": [
+      "cadastro"
+    ],
+    "F000PPD": [
+      "botoes"
+    ],
+    "F040IRF": [
+      "cadastro"
+    ],
+    "F051FCI": [
+      "cadastro"
+    ],
+    "F069CNV": [
+      "botoes"
+    ],
+    "F085CAD": [
+      "cadastro"
+    ],
+    "F085COP": [
+      "cadastro"
+    ],
+    "F085DCV": [
+      "botoes"
+    ],
+    "F095AIF": [
+      "botoes"
+    ],
+    "F095CAD": [
+      "cadastro"
+    ],
+    "F095CBO": [
+      "cadastro"
+    ],
+    "F095CFO": [
+      "botoes"
+    ],
+    "F095CTO": [
+      "botoes"
+    ],
+    "F095FCP": [
+      "botoes"
+    ],
+    "F095HFO": [
+      "definicoes"
+    ],
+    "F095OBS": [
+      "botoes"
+    ],
+    "F095ORM": [
+      "botoes"
+    ],
+    "F095SCN": [
+      "botoes"
+    ],
+    "F095SEL": [
+      "cadastro"
+    ],
+    "F410CAF": [
+      "cadastro"
+    ],
+    "F410PCT": [
+      "cadastro"
+    ],
+    "F439FIX": [
+      "definicoes"
+    ]
+  },
+  "paginas_relacionadas": [
+    "http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/f000anx.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440vlrmo02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/rpa/controladoria/rpa-controladoria.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/rpa/parametrizacao.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/rpa/rpa-recibo-pagamento-autonomo.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#HabCalCdo",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#HabDocIde",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f040irf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051fci.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f069cnv.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cop.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095aif.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cbo.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cfo.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cto.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095fcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095obs.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095orm.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095scn.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095sel.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669sca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_financas/relatorios/financeiros/fpcp072.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/processo-geracao-controle-de-retencao-irrf-por-dia.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410caf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410pct.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f439fix.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/7.0.0/index.htm#compliance/siscoserv/introducao.htm"
+  ]
+}

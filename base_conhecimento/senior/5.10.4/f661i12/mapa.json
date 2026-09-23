@@ -1,0 +1,263 @@
+{
+  "fonte": {
+    "pagina": "F661I12 - Resumo de Apuração do Imposto",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm",
+    "trilha": "Ajuda por telas > Controladoria > Gestão de Tributos > Operações e Cálculos Fiscais > Cálculos > Apuração"
+  },
+  "total_topicos": 5,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Exemplo",
+      "slug": "exemplo",
+      "arquivo": "01-exemplo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm",
+      "subtopicos": [],
+      "telas": [
+        "F661UCR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F661UCR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ucr.htm"
+        }
+      ],
+      "caracteres": 802
+    },
+    {
+      "ordem": 2,
+      "titulo": "Impacto de apuração do imposto",
+      "slug": "impacto-de-apuracao-do-imposto",
+      "arquivo": "02-impacto-de-apuracao-do-imposto.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1331
+    },
+    {
+      "ordem": 3,
+      "titulo": "Guia Apuração",
+      "slug": "guia-apuracao",
+      "arquivo": "03-guia-apuracao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm",
+      "subtopicos": [],
+      "telas": [
+        "E070IMP",
+        "E301MCR",
+        "E660BXT",
+        "E660NFV",
+        "E660ODC",
+        "E661UCR",
+        "E667SMC",
+        "F055PPF",
+        "F661CCC",
+        "F661DED",
+        "F661GRI",
+        "F661PRE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F055PPF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm"
+        },
+        {
+          "texto": "F661GRI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661gri.htm"
+        },
+        {
+          "texto": "F661PRE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pre.htm"
+        },
+        {
+          "texto": "processo de geração de prévias dos impostos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/previa-impostos.htm"
+        },
+        {
+          "texto": "créditos disponíveis.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661cre.htm"
+        },
+        {
+          "texto": "de como serão utilizados os créditos disponíveis.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ccc.htm"
+        }
+      ],
+      "caracteres": 10551
+    },
+    {
+      "ordem": 4,
+      "titulo": "Guia Contribuição",
+      "slug": "guia-contribuicao",
+      "arquivo": "04-guia-contribuicao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm",
+      "subtopicos": [],
+      "telas": [
+        "F055PPF",
+        "F070FEF",
+        "F661ARC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CFOP"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F055PPF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm"
+        },
+        {
+          "texto": "F070FEF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm"
+        },
+        {
+          "texto": "F661ARC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661arc.htm"
+        }
+      ],
+      "caracteres": 16095
+    },
+    {
+      "ordem": 5,
+      "titulo": "Guia Crédito",
+      "slug": "guia-credito",
+      "arquivo": "05-guia-credito.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm",
+      "subtopicos": [
+        "Regra",
+        "Alíquotas",
+        "Exemplo"
+      ],
+      "telas": [
+        "E660INC",
+        "E660ODC",
+        "E660RCX",
+        "E661OCS",
+        "E670MOV",
+        "F055PPF",
+        "F070FEF",
+        "F661AJS",
+        "F661OPC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CFOP",
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F055PPF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm"
+        },
+        {
+          "texto": "F661AJS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ajs.htm"
+        },
+        {
+          "texto": "F070FEF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm"
+        }
+      ],
+      "caracteres": 9981
+    }
+  ],
+  "indice_telas": {
+    "E070IMP": [
+      "guia-apuracao"
+    ],
+    "E301MCR": [
+      "guia-apuracao"
+    ],
+    "E660BXT": [
+      "guia-apuracao"
+    ],
+    "E660INC": [
+      "guia-credito"
+    ],
+    "E660NFV": [
+      "guia-apuracao"
+    ],
+    "E660ODC": [
+      "guia-apuracao",
+      "guia-credito"
+    ],
+    "E660RCX": [
+      "guia-credito"
+    ],
+    "E661OCS": [
+      "guia-credito"
+    ],
+    "E661UCR": [
+      "guia-apuracao"
+    ],
+    "E667SMC": [
+      "guia-apuracao"
+    ],
+    "E670MOV": [
+      "guia-credito"
+    ],
+    "F055PPF": [
+      "guia-apuracao",
+      "guia-contribuicao",
+      "guia-credito"
+    ],
+    "F070FEF": [
+      "guia-contribuicao",
+      "guia-credito"
+    ],
+    "F661AJS": [
+      "guia-credito"
+    ],
+    "F661ARC": [
+      "guia-contribuicao"
+    ],
+    "F661CCC": [
+      "guia-apuracao"
+    ],
+    "F661DED": [
+      "guia-apuracao"
+    ],
+    "F661GRI": [
+      "guia-apuracao"
+    ],
+    "F661OPC": [
+      "guia-credito"
+    ],
+    "F661PRE": [
+      "guia-apuracao"
+    ],
+    "F661UCR": [
+      "exemplo"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ajs.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661arc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ccc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661cre.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661gri.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pre.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661ucr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/previa-impostos.htm"
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "fonte": {
+    "pagina": "F135FCA - Formação de Cargas Via Produtos",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135fca.htm",
+    "trilha": "Ajuda por telas > Mercado > Gestão de Distribuição > Cargas > Formação"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F135FCA - Formação de Cargas Via Produtos",
+      "slug": "f135fca-formacao-de-cargas-via-produtos",
+      "arquivo": "01-f135fca-formacao-de-cargas-via-produtos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135fca.htm",
+      "subtopicos": [],
+      "telas": [
+        "E120IPD",
+        "E120PED",
+        "E135PES",
+        "E135PFA",
+        "E135PLA",
+        "F000CRT",
+        "F000DLS",
+        "F135FCA",
+        "F135ROT",
+        "F135SCA",
+        "F135TRA"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-135CRIFE01",
+        "VEN-135PPETI01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Mercado",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado.htm"
+        },
+        {
+          "texto": "Gestão de Distribuição",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado_gestao_distribuicao.htm"
+        },
+        {
+          "texto": "Cargas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_distribuicao_processo_cargas.htm"
+        },
+        {
+          "texto": "Pendências para a Carga",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135pen.htm"
+        },
+        {
+          "texto": "F000CRT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000crt.htm"
+        },
+        {
+          "texto": "documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/reforma-tributaria/rotinas-impactadas.htm"
+        },
+        {
+          "texto": "COM-135CRIFE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_135crife01.htm"
+        },
+        {
+          "texto": "VEN-135PPETI01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135ppeti01.htm"
+        },
+        {
+          "texto": "F135SCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135sca.htm"
+        },
+        {
+          "texto": "F135ROT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135rot.htm"
+        },
+        {
+          "texto": "F000DLS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000dls.htm"
+        },
+        {
+          "texto": "F135TRA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135tra.htm"
+        },
+        {
+          "texto": "GerParCar",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#GerParCar"
+        },
+        {
+          "texto": "135CGFCA01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_135cgfca01.htm"
+        },
+        {
+          "texto": "135OBUSU01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_135obusu01.htm"
+        },
+        {
+          "texto": "135BLOTE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/est_135blote01.htm"
+        },
+        {
+          "texto": "000EUDLE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000eudle01.htm"
+        },
+        {
+          "texto": "073NAOMT01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_073naomt01.htm"
+        },
+        {
+          "texto": "073NAOMT02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_073naomt02.htm"
+        },
+        {
+          "texto": "000ALICM01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicm01.htm"
+        },
+        {
+          "texto": "000ALIRF01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alirf01.htm"
+        },
+        {
+          "texto": "000COMIS01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000comis01.htm"
+        },
+        {
+          "texto": "000DLSUM01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000dlsum01.htm"
+        },
+        {
+          "texto": "000TNSDE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000tnsde01.htm"
+        },
+        {
+          "texto": "135CASLD01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135casld01.htm"
+        },
+        {
+          "texto": "135CRECL01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135crecl01.htm"
+        },
+        {
+          "texto": "135NAOTR01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135naotr01.htm"
+        },
+        {
+          "texto": "135PAEST01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135paest01.htm"
+        },
+        {
+          "texto": "135TNSPD01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135tnspd01.htm"
+        },
+        {
+          "texto": "135NAOIP01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135naoip01.htm"
+        },
+        {
+          "texto": "135LOTPA01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135lotpa01.htm"
+        },
+        {
+          "texto": "140PERTO01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140perto01.htm"
+        }
+      ],
+      "caracteres": 7340
+    }
+  ],
+  "indice_telas": {
+    "E120IPD": [
+      "f135fca-formacao-de-cargas-via-produtos"
+    ],
+    "E120PED": [
+      "f135fca-formacao-de-cargas-via-produtos"
+    ],
+    "E135PES": [
+      "f135fca-formacao-de-cargas-via-produtos"
+    ],
+    "E135PFA": [
+      "f135fca-formacao-de-cargas-via-produtos"
+    ],
+    "E135PLA": [
+      "f135fca-formacao-de-cargas-via-produtos"
+    ],
+    "F000CRT": [
+      "f135fca-formacao-de-cargas-via-produtos"
+    ],
+    "F000DLS": [
+      "f135fca-formacao-de-cargas-via-produtos"
+    ],
+    "F135FCA": [
+      "f135fca-formacao-de-cargas-via-produtos"
+    ],
+    "F135ROT": [
+      "f135fca-formacao-de-cargas-via-produtos"
+    ],
+    "F135SCA": [
+      "f135fca-formacao-de-cargas-via-produtos"
+    ],
+    "F135TRA": [
+      "f135fca-formacao-de-cargas-via-produtos"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_distribuicao_processo_cargas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado_gestao_distribuicao.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_135cgfca01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_135crife01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_135obusu01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/est_135blote01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_000eudle01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_073naomt01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_073naomt02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicm01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alirf01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000comis01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000dlsum01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000tnsde01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135casld01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135crecl01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135lotpa01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135naoip01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135naotr01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135paest01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135ppeti01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_135tnspd01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140perto01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000crt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000dls.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#GerParCar",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135pen.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135rot.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135sca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135tra.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/reforma-tributaria/rotinas-impactadas.htm"
+  ]
+}

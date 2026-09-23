@@ -1,0 +1,82 @@
+{
+  "fonte": {
+    "pagina": "F070FCA - Cadastro de Filiais",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm",
+    "trilha": "Ajuda por telas > Cadastros > Filiais"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F070FCA - Cadastro de Filiais",
+      "slug": "f070fca-cadastro-de-filiais",
+      "arquivo": "01-f070fca-cadastro-de-filiais.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm",
+      "subtopicos": [],
+      "telas": [
+        "E070AFI",
+        "F000PPD",
+        "F008CEP",
+        "F070DUP",
+        "F070FCA"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/nota-fiscal/nfe-pessoa-fisica.htm"
+        },
+        {
+          "texto": "F000PPD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm"
+        },
+        {
+          "texto": "FilCgcRep",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm"
+        },
+        {
+          "texto": "Duplicação de Filial (F070DUP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070dup.htm"
+        },
+        {
+          "texto": "UtiViaCep",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#UtiViaCep"
+        }
+      ],
+      "caracteres": 7090
+    }
+  ],
+  "indice_telas": {
+    "E070AFI": [
+      "f070fca-cadastro-de-filiais"
+    ],
+    "F000PPD": [
+      "f070fca-cadastro-de-filiais"
+    ],
+    "F008CEP": [
+      "f070fca-cadastro-de-filiais"
+    ],
+    "F070DUP": [
+      "f070fca-cadastro-de-filiais"
+    ],
+    "F070FCA": [
+      "f070fca-cadastro-de-filiais"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/nota-fiscal/nfe-pessoa-fisica.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#UtiViaCep",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000ppd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070dup.htm"
+  ]
+}

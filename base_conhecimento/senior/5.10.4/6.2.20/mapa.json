@@ -1,0 +1,28 @@
+{
+  "fonte": {
+    "pagina": "",
+    "versao": "6.2.20",
+    "url": "https://documentacao.senior.com.br/gestaodelojas/6.2.20",
+    "trilha": ""
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "",
+      "slug": "",
+      "arquivo": "01-.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaodelojas/6.2.20",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 534
+    }
+  ],
+  "indice_telas": {},
+  "paginas_relacionadas": []
+}

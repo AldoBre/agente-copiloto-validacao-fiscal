@@ -1,0 +1,261 @@
+{
+  "fonte": {
+    "pagina": "Cálculo do imposto 70 - ICMS ST Complementar",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-geracao-calculo-imposto-70.htm",
+    "trilha": "Ajuda por telas > Controladoria > Gestão de Tributos > Operações e Cálculos Fiscais > Cálculos > Apuração > F661IA5"
+  },
+  "total_topicos": 9,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Condições para NF de saída gravar os valores de crédito de ICMS e ICMS ST",
+      "slug": "condicoes-para-nf-de-saida-gravar-os-valores-de-credito-de-i",
+      "arquivo": "01-condicoes-para-nf-de-saida-gravar-os-valores-de-credito-de-i.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-geracao-calculo-imposto-70.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TNS",
+        "F019TIS"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CFOP"
+      ],
+      "links_documentacao": [],
+      "caracteres": 728
+    },
+    {
+      "ordem": 2,
+      "titulo": "Minas Gerais",
+      "slug": "minas-gerais",
+      "arquivo": "02-minas-gerais.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-geracao-calculo-imposto-70.htm",
+      "subtopicos": [],
+      "telas": [
+        "F669SIN"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F669SIN",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669sin.htm#menu_controladoria/f669sin.htm"
+        }
+      ],
+      "caracteres": 168
+    },
+    {
+      "ordem": 3,
+      "titulo": "São Paulo",
+      "slug": "sao-paulo",
+      "arquivo": "03-sao-paulo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-geracao-calculo-imposto-70.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Geração da Portaria CAT 42/2018",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669gpc.htm#menu_controladoria/f669gpc.htm"
+        }
+      ],
+      "caracteres": 151
+    },
+    {
+      "ordem": 4,
+      "titulo": "Paraná",
+      "slug": "parana",
+      "arquivo": "04-parana.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-geracao-calculo-imposto-70.htm",
+      "subtopicos": [],
+      "telas": [
+        "F669DRR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "ADRC-ST (PR) (F669DRR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669drr.htm"
+        }
+      ],
+      "caracteres": 239
+    },
+    {
+      "ordem": 5,
+      "titulo": "Santa Catarina",
+      "slug": "santa-catarina",
+      "arquivo": "05-santa-catarina.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-geracao-calculo-imposto-70.htm",
+      "subtopicos": [],
+      "telas": [
+        "E661RES",
+        "F669DRI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "leiaute de geração da DIME",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669dme.htm"
+        },
+        {
+          "texto": "Demonstrativo para Apuração Mensal do Ressarcimento, da Restituição e Complementação do ICMS Substituição Tributária",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669dri.htm#menu_controladoria/f669dri.htm"
+        }
+      ],
+      "caracteres": 2850
+    },
+    {
+      "ordem": 6,
+      "titulo": "Rio Grande do Sul",
+      "slug": "rio-grande-do-sul",
+      "arquivo": "06-rio-grande-do-sul.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-geracao-calculo-imposto-70.htm",
+      "subtopicos": [
+        "Conceito"
+      ],
+      "telas": [
+        "E051IMP",
+        "E660RES",
+        "E661RES",
+        "F051IMP",
+        "F669EFD"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F669EFD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669efd.htm"
+        },
+        {
+          "texto": "leiaute de geração da GIA-RS (SPED Fiscal)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/gia-rs.htm"
+        },
+        {
+          "texto": "Adequação aos leiautes 14 e 15 do SPED Fiscal",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm"
+        },
+        {
+          "texto": "atualização das médias",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm#medias"
+        },
+        {
+          "texto": "F051IMP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051imp.htm"
+        },
+        {
+          "texto": "Tributos SPED Fiscal (EFD)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669efd.htm#menu_controladoria/f669efd.htm"
+        }
+      ],
+      "caracteres": 2748
+    },
+    {
+      "ordem": 7,
+      "titulo": "Demais estados",
+      "slug": "demais-estados",
+      "arquivo": "07-demais-estados.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-geracao-calculo-imposto-70.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 121
+    },
+    {
+      "ordem": 8,
+      "titulo": "Exemplo de cálculo",
+      "slug": "exemplo-de-calculo",
+      "arquivo": "08-exemplo-de-calculo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-geracao-calculo-imposto-70.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 477
+    },
+    {
+      "ordem": 9,
+      "titulo": "Exemplo",
+      "slug": "exemplo",
+      "arquivo": "09-exemplo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-geracao-calculo-imposto-70.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 186
+    }
+  ],
+  "indice_telas": {
+    "E001TNS": [
+      "condicoes-para-nf-de-saida-gravar-os-valores-de-credito-de-i"
+    ],
+    "E051IMP": [
+      "rio-grande-do-sul"
+    ],
+    "E660RES": [
+      "rio-grande-do-sul"
+    ],
+    "E661RES": [
+      "rio-grande-do-sul",
+      "santa-catarina"
+    ],
+    "F019TIS": [
+      "condicoes-para-nf-de-saida-gravar-os-valores-de-credito-de-i"
+    ],
+    "F051IMP": [
+      "rio-grande-do-sul"
+    ],
+    "F669DRI": [
+      "santa-catarina"
+    ],
+    "F669DRR": [
+      "parana"
+    ],
+    "F669EFD": [
+      "rio-grande-do-sul"
+    ],
+    "F669SIN": [
+      "minas-gerais"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051imp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669dme.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669dri.htm#menu_controladoria/f669dri.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669drr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669efd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669efd.htm#menu_controladoria/f669efd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669gpc.htm#menu_controladoria/f669gpc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669sin.htm#menu_controladoria/f669sin.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/adequacoes-leiautes.htm#medias",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/gia-rs.htm"
+  ]
+}

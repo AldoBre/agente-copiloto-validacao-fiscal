@@ -1,0 +1,423 @@
+{
+  "fonte": {
+    "pagina": "Configuração de Dispositivo e Benefício Fiscais",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/geracao-beneficio-fiscal.htm",
+    "trilha": "Segmentos > Compliance > Documentos Eletrônicos > NF-e | NFC-e (Nota Fiscal Eletrônica) > Nota Fiscal Eletrônica 4.0"
+  },
+  "total_topicos": 6,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "1. Como configurar o Dispositivo Fiscal?",
+      "slug": "1-como-configurar-o-dispositivo-fiscal",
+      "arquivo": "01-1-como-configurar-o-dispositivo-fiscal.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/geracao-beneficio-fiscal.htm",
+      "subtopicos": [],
+      "telas": [
+        "F001TAG",
+        "F001TCP",
+        "F001TDC",
+        "F001TDV",
+        "F001TVE",
+        "F009PPE",
+        "F027BNF",
+        "F051DIS",
+        "F070PSE",
+        "F075PFI",
+        "F075PPC",
+        "F075PRO",
+        "F075PXT",
+        "F080SER",
+        "F403FPR",
+        "F403FSE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro de Dispositivos Fiscais (F051DIS)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm"
+        },
+        {
+          "texto": "F001TCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "F403FPR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm"
+        },
+        {
+          "texto": "F403FSE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fse.htm"
+        },
+        {
+          "texto": "F001TVE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "F075PPC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075ppc.htm"
+        },
+        {
+          "texto": "F075PFI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pfi.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F075PXT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pxt.htm"
+        },
+        {
+          "texto": "F080SER",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080ser.htm"
+        },
+        {
+          "texto": "F009PPE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm"
+        },
+        {
+          "texto": "F070PSE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm"
+        },
+        {
+          "texto": "F027BNF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027bnf.htm"
+        },
+        {
+          "texto": "F001TAG",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tag.htm"
+        }
+      ],
+      "caracteres": 1489
+    },
+    {
+      "ordem": 2,
+      "titulo": "2. Como ocorre a sugestão do Dispositivo Fiscal?",
+      "slug": "2-como-ocorre-a-sugestao-do-dispositivo-fiscal",
+      "arquivo": "02-2-como-ocorre-a-sugestao-do-dispositivo-fiscal.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/geracao-beneficio-fiscal.htm",
+      "subtopicos": [
+        "2.1 Funcionamento no módulo de Tributos",
+        "I - ICMS ou ICMS ST",
+        "S - ICMS ST",
+        "T - ICMS ST destacado",
+        "D - Diferencial de alíquota",
+        "M - DIFAL do estado de origem",
+        "E - DIFAL do estado de destino",
+        "F - Fundo de combate à pobreza",
+        "B - Isentas e Outras",
+        "N - Isentas ICMS",
+        "A - Outras ICMS",
+        "C - Valor Líquido",
+        "O - Outros Valores",
+        "X - Valor Frete",
+        "Z - Valor Bruto",
+        "R - Ressarcimento do ICMS ST",
+        "G - Ressarcimento do crédito de ICMS",
+        "V - Valor da antecipação do ICMS",
+        "P - Valor original de PIS anterior à decisão judicial - Identificador de Regra GER-051DISPCSU",
+        "H - Valor original de COFINS anterior à decisão judicial - Identificador de Regra GER-051DISPCSU",
+        "J - ICMS Desonerado",
+        "K - Valor do FCP Retido Ant. por Subst. Trib.",
+        "L - Valor do FCP Retido por Substituição Tributária",
+        "Q - Valor Retenção ICMS Substituto",
+        "Y - Via regra",
+        "W - Memória de Cálculo do Diferencial de Alíquota",
+        "U - Total do imposto antecipado, pelo controle de entradas e saídas",
+        "1 - ICMS Diferido",
+        "2 - ICMS Monofásico cobrado anteriormente",
+        "4 - Redução linear de incentivos e benefícios - LC nº 224/2025",
+        "2.2 Sugestão dos valores do ICMS Simples Nacional"
+      ],
+      "telas": [
+        "E009PPE",
+        "E051DIS",
+        "E140IPV",
+        "E140ISV",
+        "E440IPC",
+        "E440PCD",
+        "E660INC",
+        "E660INV",
+        "E660IRZ",
+        "E660RSC",
+        "E660RSV",
+        "F000INE",
+        "F140DIS",
+        "F660DIS",
+        "F660NFC",
+        "F660NFV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "GER-051DISPN02"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Dispositivos fiscais do item da nota fiscal de entrada, saída e cupom fiscal (F660DIS)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660dis.htm"
+        },
+        {
+          "texto": "Dispositivos Fiscais do item da Nota Fiscal de Saída (F140DIS)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140dis.htm"
+        },
+        {
+          "texto": "GER-051SUGDISP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_051sugdisp.htm"
+        },
+        {
+          "texto": "GER-051DISPN02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_051dispn02.htm"
+        },
+        {
+          "texto": "Processo para Controle de Entrada e Saída de Produtos (PEPS/FIFO)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-controle-entrada-saida-produto.htm"
+        },
+        {
+          "texto": "Rotinas de ICMS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm"
+        },
+        {
+          "texto": "NT 012/2026",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm#NT012/2026"
+        }
+      ],
+      "caracteres": 26188
+    },
+    {
+      "ordem": 3,
+      "titulo": "3. Como gerar o Benefício Fiscal?",
+      "slug": "3-como-gerar-o-beneficio-fiscal",
+      "arquivo": "03-3-como-gerar-o-beneficio-fiscal.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/geracao-beneficio-fiscal.htm",
+      "subtopicos": [],
+      "telas": [
+        "E051DIS",
+        "E140IPV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140BENEF01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "cBenef"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140BENEF01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140benef01.htm"
+        },
+        {
+          "texto": "Nota Técnica 2019.001\r\n- Criação e Atualização de Regras de Validação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/notas-tecnicas-nfe-nfce.htm"
+        },
+        {
+          "texto": "Portal da Nota Fiscal Eletrônica - SVRS",
+          "url": "https://dfe-portal.svrs.rs.gov.br/Nfe"
+        }
+      ],
+      "caracteres": 2611
+    },
+    {
+      "ordem": 4,
+      "titulo": "4. Como gerar a literal SEM CBENEF, conforme regra da NT?",
+      "slug": "4-como-gerar-a-literal-sem-cbenef-conforme-regra-da-nt",
+      "arquivo": "04-4-como-gerar-a-literal-sem-cbenef-conforme-regra-da-nt.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/geracao-beneficio-fiscal.htm",
+      "subtopicos": [],
+      "telas": [
+        "F027BNF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ligação de Situação Tributária X Dispositivo Fiscal (F027BNF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027bnf.htm"
+        }
+      ],
+      "caracteres": 445
+    },
+    {
+      "ordem": 5,
+      "titulo": "5. Como configurar Benefício Fiscal no ERP, conforme tabela da SEFAZ?",
+      "slug": "5-como-configurar-beneficio-fiscal-no-erp-conforme-tabela-da",
+      "arquivo": "05-5-como-configurar-beneficio-fiscal-no-erp-conforme-tabela-da.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/geracao-beneficio-fiscal.htm",
+      "subtopicos": [],
+      "telas": [
+        "F027BNF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ligação de Situação Tributária X Dispositivo Fiscal (F027BNF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027bnf.htm"
+        }
+      ],
+      "caracteres": 151
+    },
+    {
+      "ordem": 6,
+      "titulo": "6. Como configurar o valor para o dispositivo fiscal previsto na Ato Diat nº 79/2022?",
+      "slug": "6-como-configurar-o-valor-para-o-dispositivo-fiscal-previsto",
+      "arquivo": "06-6-como-configurar-o-valor-para-o-dispositivo-fiscal-previsto.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/geracao-beneficio-fiscal.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "GER-051DISPN01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "cBenef"
+      ],
+      "links_documentacao": [],
+      "caracteres": 1440
+    }
+  ],
+  "indice_telas": {
+    "E009PPE": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ],
+    "E051DIS": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal",
+      "3-como-gerar-o-beneficio-fiscal"
+    ],
+    "E140IPV": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal",
+      "3-como-gerar-o-beneficio-fiscal"
+    ],
+    "E140ISV": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ],
+    "E440IPC": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ],
+    "E440PCD": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ],
+    "E660INC": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ],
+    "E660INV": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ],
+    "E660IRZ": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ],
+    "E660RSC": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ],
+    "E660RSV": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ],
+    "F000INE": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ],
+    "F001TAG": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F001TCP": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F001TDC": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F001TDV": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F001TVE": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F009PPE": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F027BNF": [
+      "1-como-configurar-o-dispositivo-fiscal",
+      "4-como-gerar-a-literal-sem-cbenef-conforme-regra-da-nt",
+      "5-como-configurar-beneficio-fiscal-no-erp-conforme-tabela-da"
+    ],
+    "F051DIS": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F070PSE": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F075PFI": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F075PPC": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F075PRO": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F075PXT": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F080SER": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F140DIS": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ],
+    "F403FPR": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F403FSE": [
+      "1-como-configurar-o-dispositivo-fiscal"
+    ],
+    "F660DIS": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ],
+    "F660NFC": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ],
+    "F660NFV": [
+      "2-como-ocorre-a-sugestao-do-dispositivo-fiscal"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://dfe-portal.svrs.rs.gov.br/Nfe",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_051dispn02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_051sugdisp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140benef01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/notas-tecnicas-nfe-nfce.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tag.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f027bnf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pfi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075ppc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pxt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080ser.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fse.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660dis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i12.htm#NT012/2026",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-controle-entrada-saida-produto.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140dis.htm"
+  ]
+}

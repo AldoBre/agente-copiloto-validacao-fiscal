@@ -1,0 +1,62 @@
+{
+  "fonte": {
+    "pagina": "Convênio ICMS nº 109/2024",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/convenio-icms-109-2024.htm",
+    "trilha": "Segmentos > Compliance > Configurações para cálculos fiscais"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Convênio ICMS nº 109/2024",
+      "slug": "convenio-icms-no-109-2024",
+      "arquivo": "01-convenio-icms-no-109-2024.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/convenio-icms-109-2024.htm",
+      "subtopicos": [],
+      "telas": [
+        "F001TVE",
+        "F024MSG",
+        "F440RCI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "CFOP",
+        "CST"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F001TVE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "F024MSG",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f024msg.htm"
+        },
+        {
+          "texto": "F440RCI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440rci.htm"
+        }
+      ],
+      "caracteres": 4166
+    }
+  ],
+  "indice_telas": {
+    "F001TVE": [
+      "convenio-icms-no-109-2024"
+    ],
+    "F024MSG": [
+      "convenio-icms-no-109-2024"
+    ],
+    "F440RCI": [
+      "convenio-icms-no-109-2024"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f024msg.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440rci.htm"
+  ]
+}

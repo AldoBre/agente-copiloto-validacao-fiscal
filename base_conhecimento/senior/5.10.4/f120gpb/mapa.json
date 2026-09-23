@@ -1,0 +1,243 @@
+{
+  "fonte": {
+    "pagina": "F120GPB - Entrada de Pedidos Simplificada",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpb.htm",
+    "trilha": "Ajuda por telas > Mercado > Gestão de Vendas > Pedidos"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F120GPB - Entrada de Pedidos Simplificada",
+      "slug": "f120gpb-entrada-de-pedidos-simplificada",
+      "arquivo": "01-f120gpb-entrada-de-pedidos-simplificada.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpb.htm",
+      "subtopicos": [],
+      "telas": [
+        "E210DLS",
+        "E210EST",
+        "F000AVA",
+        "F000CRT",
+        "F019TIS",
+        "F028GCP",
+        "F070FVE",
+        "F075CPD",
+        "F081CTV",
+        "F081TCA",
+        "F085HCL",
+        "F099UVE",
+        "F120GPB",
+        "F120GPD",
+        "F120GPS",
+        "F121CAR",
+        "F211CPR"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "GER-120PEDAP01",
+        "VEN-120SUSPE01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Mercado",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado.htm"
+        },
+        {
+          "texto": "Gestão de Vendas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado_gestao_vendas.htm"
+        },
+        {
+          "texto": "Pedidos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_vendas_pedidos.htm"
+        },
+        {
+          "texto": "F028GCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f028gcp.htm"
+        },
+        {
+          "texto": "F081TCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081tca.htm"
+        },
+        {
+          "texto": "VEN-120SUSPE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120suspe01.htm"
+        },
+        {
+          "texto": "processo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm"
+        },
+        {
+          "texto": "F000CRT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000crt.htm"
+        },
+        {
+          "texto": "documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/reforma-tributaria/rotinas-impactadas.htm"
+        },
+        {
+          "texto": "NT 2020.006",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/notas-tecnicas-nfe-nfce.htm#2020.006"
+        },
+        {
+          "texto": "F000AVA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f000ava.htm"
+        },
+        {
+          "texto": "F120GPS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gps.htm"
+        },
+        {
+          "texto": "documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/processo_pedidos.htm"
+        },
+        {
+          "texto": "F075CPD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cpd.htm"
+        },
+        {
+          "texto": "F081CTV",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081ctv.htm"
+        },
+        {
+          "texto": "F211CPR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f211cpr.htm"
+        },
+        {
+          "texto": "F085HCL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085hcl.htm"
+        },
+        {
+          "texto": "GER-120PEDAP01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_120pedap01.htm"
+        },
+        {
+          "texto": "F099UVE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099uve.htm"
+        },
+        {
+          "texto": "F120GPD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpd.htm"
+        },
+        {
+          "texto": "120ALFLT01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120alflt01.htm"
+        },
+        {
+          "texto": "120CTRCB01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120ctrcb01.htm"
+        },
+        {
+          "texto": "120EXCOB01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120excob01.htm"
+        },
+        {
+          "texto": "120EXCLU01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120exclu01.htm"
+        },
+        {
+          "texto": "120GERNE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120gerne01.htm"
+        },
+        {
+          "texto": "000CONIT01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000conit01.htm"
+        },
+        {
+          "texto": "120CAPED01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120caped01.htm"
+        }
+      ],
+      "caracteres": 10323
+    }
+  ],
+  "indice_telas": {
+    "E210DLS": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "E210EST": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F000AVA": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F000CRT": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F019TIS": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F028GCP": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F070FVE": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F075CPD": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F081CTV": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F081TCA": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F085HCL": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F099UVE": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F120GPB": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F120GPD": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F120GPS": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F121CAR": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ],
+    "F211CPR": [
+      "f120gpb-entrada-de-pedidos-simplificada"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/fluxos/fluxograma_vendas_pedidos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado_gestao_vendas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_120pedap01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000conit01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120alflt01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120caped01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120ctrcb01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120exclu01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120excob01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120gerne01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_120suspe01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/notas-tecnicas-nfe-nfce.htm#2020.006",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000crt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f028gcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075cpd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081ctv.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081tca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085hcl.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099uve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f000ava.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gps.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/processo_pedidos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f211cpr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/reforma-tributaria/rotinas-impactadas.htm"
+  ]
+}

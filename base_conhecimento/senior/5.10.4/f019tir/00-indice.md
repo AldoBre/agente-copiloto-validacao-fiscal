@@ -1,0 +1,11 @@
+# F019TIR - Reduções e Acréscimos de bases de Cálculos de Impostos - Por Estado — índice
+
+Fonte: https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm (versão 5.10.4)
+
+3 tópicos, um arquivo por tópico. O mapa estruturado (telas, identificadores de regras, campos do XML e links) está em `mapa.json`.
+
+| # | Tópico | Arquivo | Telas | Identificadores |
+|---|---|---|---|---|
+| 01 | Exemplo | [`01-exemplo.md`](01-exemplo.md) | 0 | 0 |
+| 02 | Exemplo | [`02-exemplo.md`](02-exemplo.md) | 0 | 0 |
+| 03 | Exemplo | [`03-exemplo.md`](03-exemplo.md) | 1 | 0 |

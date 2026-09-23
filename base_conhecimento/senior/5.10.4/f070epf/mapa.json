@@ -1,0 +1,186 @@
+{
+  "fonte": {
+    "pagina": "F070EPF - Cadastro de Parâmetros Fiscais",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070epf.htm",
+    "trilha": "Ajuda por telas > Cadastros > Empresas"
+  },
+  "total_topicos": 2,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Fiscal",
+      "slug": "fiscal",
+      "arquivo": "01-fiscal.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070epf.htm",
+      "subtopicos": [],
+      "telas": [
+        "E000INT",
+        "E070EPF",
+        "E070INT",
+        "E075DER",
+        "E075PRO",
+        "E078ULT",
+        "E080SER",
+        "F055HFI",
+        "F070EPF",
+        "F075PRO",
+        "F081GTP"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "com.senior.g5.co.ger.cad.servico",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_cad_servicos.htm"
+        },
+        {
+          "texto": "com.senior.g5.co.ger.cad.produto",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_cad_produtos.htm"
+        },
+        {
+          "texto": "F055HFI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055hfi.htm"
+        },
+        {
+          "texto": "Tabela de Preço de Venda (F081GTP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081gtp.htm"
+        },
+        {
+          "texto": "Fiscal",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/bloco-0.htm#0150"
+        },
+        {
+          "texto": "Contribuições",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/bloco-0.htm#0150"
+        }
+      ],
+      "caracteres": 6434
+    },
+    {
+      "ordem": 2,
+      "titulo": "Contábil",
+      "slug": "contabil",
+      "arquivo": "02-contabil.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070epf.htm",
+      "subtopicos": [],
+      "telas": [
+        "E140IPC",
+        "E140IPV",
+        "E140ISC",
+        "E140ISV",
+        "E140IXV",
+        "E140RAT",
+        "E205DEP",
+        "E440IXC",
+        "E440RAT",
+        "E660INC",
+        "E660INV",
+        "E660RTC",
+        "E660RTV",
+        "F660IDN",
+        "F660IFI",
+        "F660INZ"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 2287
+    }
+  ],
+  "indice_telas": {
+    "E000INT": [
+      "fiscal"
+    ],
+    "E070EPF": [
+      "fiscal"
+    ],
+    "E070INT": [
+      "fiscal"
+    ],
+    "E075DER": [
+      "fiscal"
+    ],
+    "E075PRO": [
+      "fiscal"
+    ],
+    "E078ULT": [
+      "fiscal"
+    ],
+    "E080SER": [
+      "fiscal"
+    ],
+    "E140IPC": [
+      "contabil"
+    ],
+    "E140IPV": [
+      "contabil"
+    ],
+    "E140ISC": [
+      "contabil"
+    ],
+    "E140ISV": [
+      "contabil"
+    ],
+    "E140IXV": [
+      "contabil"
+    ],
+    "E140RAT": [
+      "contabil"
+    ],
+    "E205DEP": [
+      "contabil"
+    ],
+    "E440IXC": [
+      "contabil"
+    ],
+    "E440RAT": [
+      "contabil"
+    ],
+    "E660INC": [
+      "contabil"
+    ],
+    "E660INV": [
+      "contabil"
+    ],
+    "E660RTC": [
+      "contabil"
+    ],
+    "E660RTV": [
+      "contabil"
+    ],
+    "F055HFI": [
+      "fiscal"
+    ],
+    "F070EPF": [
+      "fiscal"
+    ],
+    "F075PRO": [
+      "fiscal"
+    ],
+    "F081GTP": [
+      "fiscal"
+    ],
+    "F660IDN": [
+      "contabil"
+    ],
+    "F660IFI": [
+      "contabil"
+    ],
+    "F660INZ": [
+      "contabil"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055hfi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081gtp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/contribuicoes-pis-cofins/bloco-0.htm#0150",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/sped/fiscal-icms-ipi/bloco-0.htm#0150",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_cad_produtos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_cad_servicos.htm"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "fonte": {
+    "pagina": "Identificador de Regra",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alsub02.htm",
+    "trilha": ""
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Identificador de Regra",
+      "slug": "identificador-de-regra",
+      "arquivo": "01-identificador-de-regra.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alsub02.htm",
+      "subtopicos": [],
+      "telas": [
+        "F120GPC",
+        "F120GPD"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-000ALSUB02"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F120GPD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpd.htm"
+        },
+        {
+          "texto": "F120GPC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpc.htm"
+        },
+        {
+          "texto": "com.senior.g5.co.mcm.ven.pedidos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_ven_pedidos.htm"
+        },
+        {
+          "texto": "LisVarReg",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#LisVarReg"
+        }
+      ],
+      "caracteres": 5574
+    }
+  ],
+  "indice_telas": {
+    "F120GPC": [
+      "identificador-de-regra"
+    ],
+    "F120GPD": [
+      "identificador-de-regra"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#LisVarReg",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_mcm_ven_pedidos.htm"
+  ]
+}

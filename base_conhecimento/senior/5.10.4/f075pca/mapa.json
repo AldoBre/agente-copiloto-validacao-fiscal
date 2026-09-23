@@ -1,0 +1,252 @@
+{
+  "fonte": {
+    "pagina": "F075PCA - Relação Produto X Cliente agrupado",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pca.htm",
+    "trilha": "Ajuda por telas > Cadastros > Produtos e Serviços > Ligações > Produto X Cliente"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F075PCA - Relação Produto X Cliente agrupado",
+      "slug": "f075pca-relacao-produto-x-cliente-agrupado",
+      "arquivo": "01-f075pca-relacao-produto-x-cliente-agrupado.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pca.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TDV",
+        "E001TNS",
+        "E001TVE",
+        "E009PPE",
+        "E012FAM",
+        "E028CPG",
+        "E031MOE",
+        "E070FIL",
+        "E070VEN",
+        "E075PPC",
+        "E075PRO",
+        "E081TAB",
+        "E083ORI",
+        "E085CLI",
+        "F001TVE",
+        "F012FAM",
+        "F070FCA",
+        "F075PCA",
+        "F075PRO",
+        "F075SPC",
+        "F081TPA",
+        "F083ORI",
+        "F085CAD",
+        "F121CIP",
+        "F121CPD",
+        "F141CIS",
+        "F141CNS"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-000TABPR01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "F083ORI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f083ori.htm"
+        },
+        {
+          "texto": "F012FAM",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm"
+        },
+        {
+          "texto": "F081TPA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081tpa.htm"
+        },
+        {
+          "texto": "F085CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F070FCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm"
+        },
+        {
+          "texto": "F001TVE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "Enquadramento de IPI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/enquadramento-de-ipi.htm"
+        },
+        {
+          "texto": "Tabelas > Comercial > Fiscais > Parâmetros p/Estado",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm"
+        },
+        {
+          "texto": "Tabelas > Financeiro > Moedas/Índices > Cadastro/Atualização",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f031aim.htm"
+        },
+        {
+          "texto": "Tabelas > Comercial > Condições Pagamento > Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f028gcp.htm"
+        },
+        {
+          "texto": "Tabelas > Comercial > Sugestão de Valores > Valores por Sugestão",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f037vds.htm"
+        },
+        {
+          "texto": "Cadastros > Clientes > Definições/Histórico",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085hcl.htm"
+        },
+        {
+          "texto": "tabela de preços",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081gtp.htm"
+        },
+        {
+          "texto": "E070VEN.USATPF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm"
+        },
+        {
+          "texto": "F075SPC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075spc.htm"
+        },
+        {
+          "texto": "170VLFRE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_170vlfre01.htm"
+        },
+        {
+          "texto": "000TABPR01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000tabpr01.htm"
+        },
+        {
+          "texto": "000TNSDE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000tnsde01.htm"
+        },
+        {
+          "texto": "075PPCAO01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_075ppcao01.htm"
+        },
+        {
+          "texto": "081DERGN01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_081dergn01.htm"
+        }
+      ],
+      "caracteres": 14244
+    }
+  ],
+  "indice_telas": {
+    "E001TDV": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "E001TNS": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "E001TVE": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "E009PPE": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "E012FAM": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "E028CPG": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "E031MOE": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "E070FIL": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "E070VEN": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "E075PPC": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "E075PRO": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "E081TAB": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "E083ORI": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "E085CLI": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "F001TVE": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "F012FAM": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "F070FCA": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "F075PCA": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "F075PRO": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "F075SPC": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "F081TPA": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "F083ORI": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "F085CAD": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "F121CIP": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "F121CPD": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "F141CIS": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ],
+    "F141CNS": [
+      "f075pca-relacao-produto-x-cliente-agrupado"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/enquadramento-de-ipi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_170vlfre01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_075ppcao01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ger_081dergn01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000tabpr01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000tnsde01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f012fam.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f028gcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f031aim.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f037vds.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075spc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081gtp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f081tpa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f083ori.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085hcl.htm"
+  ]
+}

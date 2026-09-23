@@ -1,0 +1,478 @@
+{
+  "fonte": {
+    "pagina": "F055PPF - Configuração de Impostos para a Filial",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+    "trilha": "Ajuda por telas > Cadastros > Controladoria > Tributos"
+  },
+  "total_topicos": 23,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Impostos",
+      "slug": "impostos",
+      "arquivo": "01-impostos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [
+        "Exemplo",
+        "Exemplo"
+      ],
+      "telas": [
+        "F049TTR",
+        "F051GUI",
+        "F661PAI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "documentação do processo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-geracao-calculo-imposto-70.htm"
+        }
+      ],
+      "caracteres": 13265
+    },
+    {
+      "ordem": 2,
+      "titulo": "Forma Apuração",
+      "slug": "forma-apuracao",
+      "arquivo": "02-forma-apuracao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [
+        "F046VIS",
+        "F055PPF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F046VIS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f046vis.htm"
+        },
+        {
+          "texto": "F661I15",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i15.htm"
+        }
+      ],
+      "caracteres": 2737
+    },
+    {
+      "ordem": 3,
+      "titulo": "Exceções dos Impostos de Retenção",
+      "slug": "excecoes-dos-impostos-de-retencao",
+      "arquivo": "03-excecoes-dos-impostos-de-retencao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 800
+    },
+    {
+      "ordem": 4,
+      "titulo": "Composição Base Cálculo",
+      "slug": "composicao-base-calculo",
+      "arquivo": "04-composicao-base-calculo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TNS",
+        "F660IFI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Integração de Outros Documentos (F660IFI)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660ifi.htm"
+        }
+      ],
+      "caracteres": 3006
+    },
+    {
+      "ordem": 5,
+      "titulo": "Parâmetros Financeiros/Patrimoniais para PIS não cumulativo ou parâmetros Financeiros/Patrimoniais para COFINS não cumulativo",
+      "slug": "parametros-financeiros-patrimoniais-para-pis-nao-cumulativo-",
+      "arquivo": "05-parametros-financeiros-patrimoniais-para-pis-nao-cumulativo-.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 2081
+    },
+    {
+      "ordem": 6,
+      "titulo": "Parâmetros Contábeis",
+      "slug": "parametros-contabeis",
+      "arquivo": "06-parametros-contabeis.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1870
+    },
+    {
+      "ordem": 7,
+      "titulo": "ICMS ST por Estado ou Estado",
+      "slug": "icms-st-por-estado-ou-estado",
+      "arquivo": "07-icms-st-por-estado-ou-estado.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [
+        "F051GUI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 5579
+    },
+    {
+      "ordem": 8,
+      "titulo": "Composição",
+      "slug": "composicao",
+      "arquivo": "08-composicao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 502
+    },
+    {
+      "ordem": 9,
+      "titulo": "Unificação de Impostos",
+      "slug": "unificacao-de-impostos",
+      "arquivo": "09-unificacao-de-impostos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 553
+    },
+    {
+      "ordem": 10,
+      "titulo": "Contribuição Social",
+      "slug": "contribuicao-social",
+      "arquivo": "10-contribuicao-social.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 671
+    },
+    {
+      "ordem": 11,
+      "titulo": "Configuração de Estoque",
+      "slug": "configuracao-de-estoque",
+      "arquivo": "11-configuracao-de-estoque.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 340
+    },
+    {
+      "ordem": 12,
+      "titulo": "Contribuição Previdenciária",
+      "slug": "contribuicao-previdenciaria",
+      "arquivo": "12-contribuicao-previdenciaria.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [
+        "F022CLF",
+        "F055CCC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F055CCC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ccc.htm"
+        },
+        {
+          "texto": "F022CLF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f022clf.htm"
+        }
+      ],
+      "caracteres": 659
+    },
+    {
+      "ordem": 13,
+      "titulo": "Transação Exportação",
+      "slug": "transacao-exportacao",
+      "arquivo": "13-transacao-exportacao.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 119
+    },
+    {
+      "ordem": 14,
+      "titulo": "Cidade ISS",
+      "slug": "cidade-iss",
+      "arquivo": "14-cidade-iss.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [
+        "E055ISS",
+        "E055PAR",
+        "F051GUI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "data de entrada ou pela data de execução do serviço.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm#Apura%C3%A7%C3%A3o"
+        }
+      ],
+      "caracteres": 5612
+    },
+    {
+      "ordem": 15,
+      "titulo": "Cidade ISS Instituições Financeiras",
+      "slug": "cidade-iss-instituicoes-financeiras",
+      "arquivo": "15-cidade-iss-instituicoes-financeiras.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "apuração do ISSQN para instituições financeiras",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/issqn-if.htm"
+        }
+      ],
+      "caracteres": 2546
+    },
+    {
+      "ordem": 16,
+      "titulo": "Parâmetros da Apuração Anual",
+      "slug": "parametros-da-apuracao-anual",
+      "arquivo": "16-parametros-da-apuracao-anual.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [
+        "F051GUI"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 3165
+    },
+    {
+      "ordem": 17,
+      "titulo": "Composição Débito Especial",
+      "slug": "composicao-debito-especial",
+      "arquivo": "17-composicao-debito-especial.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 845
+    },
+    {
+      "ordem": 18,
+      "titulo": "Detalhamento por Código de Arrecadação - ICMS",
+      "slug": "detalhamento-por-codigo-de-arrecadacao-icms",
+      "arquivo": "18-detalhamento-por-codigo-de-arrecadacao-icms.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "documentação da apuração",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo_geracao_calculo_icms.htm#detalhamento"
+        }
+      ],
+      "caracteres": 1652
+    },
+    {
+      "ordem": 19,
+      "titulo": "Detalhamento por Código de Arrecadação - IPI",
+      "slug": "detalhamento-por-codigo-de-arrecadacao-ipi",
+      "arquivo": "19-detalhamento-por-codigo-de-arrecadacao-ipi.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "documentação da apuração",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo_geracao_calculo_ipi.htm"
+        }
+      ],
+      "caracteres": 775
+    },
+    {
+      "ordem": 20,
+      "titulo": "Serviços ignorados na apuração do imposto",
+      "slug": "servicos-ignorados-na-apuracao-do-imposto",
+      "arquivo": "20-servicos-ignorados-na-apuracao-do-imposto.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 240
+    },
+    {
+      "ordem": 21,
+      "titulo": "Serviços considerados na apuração do imposto",
+      "slug": "servicos-considerados-na-apuracao-do-imposto",
+      "arquivo": "21-servicos-considerados-na-apuracao-do-imposto.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 244
+    },
+    {
+      "ordem": 22,
+      "titulo": "Parâmetros de Impostos X Família",
+      "slug": "parametros-de-impostos-x-familia",
+      "arquivo": "22-parametros-de-impostos-x-familia.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 191
+    },
+    {
+      "ordem": 23,
+      "titulo": "Regime Especial",
+      "slug": "regime-especial",
+      "arquivo": "23-regime-especial.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ppf.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 526
+    }
+  ],
+  "indice_telas": {
+    "E001TNS": [
+      "composicao-base-calculo"
+    ],
+    "E055ISS": [
+      "cidade-iss"
+    ],
+    "E055PAR": [
+      "cidade-iss"
+    ],
+    "F022CLF": [
+      "contribuicao-previdenciaria"
+    ],
+    "F046VIS": [
+      "forma-apuracao"
+    ],
+    "F049TTR": [
+      "impostos"
+    ],
+    "F051GUI": [
+      "cidade-iss",
+      "icms-st-por-estado-ou-estado",
+      "impostos",
+      "parametros-da-apuracao-anual"
+    ],
+    "F055CCC": [
+      "contribuicao-previdenciaria"
+    ],
+    "F055PPF": [
+      "forma-apuracao"
+    ],
+    "F660IFI": [
+      "composicao-base-calculo"
+    ],
+    "F661PAI": [
+      "impostos"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f022clf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f055ccc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f046vis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660ifi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661i15.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f661pai.htm#Apura%C3%A7%C3%A3o",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/issqn-if.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo-geracao-calculo-imposto-70.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo_geracao_calculo_icms.htm#detalhamento",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/processo_geracao_calculo_ipi.htm"
+  ]
+}

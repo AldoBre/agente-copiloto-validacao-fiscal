@@ -1,0 +1,491 @@
+{
+  "fonte": {
+    "pagina": "F460CTR - Contrato de Compra (Comercial/Financeiro/Eventos)",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+    "trilha": "Ajuda por telas > Suprimentos > Gestão de Compras > Contratos"
+  },
+  "total_topicos": 12,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Dados Gerais",
+      "slug": "dados-gerais",
+      "arquivo": "01-dados-gerais.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+      "subtopicos": [],
+      "telas": [
+        "E021MOT",
+        "E023CRP",
+        "E031MOE",
+        "E095FOR",
+        "E460APL",
+        "F023CRP",
+        "F070ENT",
+        "F070FCA",
+        "F070FCP",
+        "F099UCP",
+        "F461GNC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-460CONDG01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F099UCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099ucp.htm"
+        },
+        {
+          "texto": "F070FCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fcp.htm"
+        },
+        {
+          "texto": "CPR-460CONDG01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_460condg01.htm"
+        },
+        {
+          "texto": "Cadastros > Fornecedores >Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "F461GNC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f461gnc.htm"
+        },
+        {
+          "texto": "F023CRP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f023crp.htm"
+        },
+        {
+          "texto": "definições/histórico do fornecedor",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm"
+        },
+        {
+          "texto": "Tabelas > Financeiro > Moedas/Índices > Cadastro/Manutenção",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f031aim.htm"
+        },
+        {
+          "texto": "F070ENT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070ent.htm"
+        },
+        {
+          "texto": "F070FCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm"
+        }
+      ],
+      "caracteres": 5789
+    },
+    {
+      "ordem": 2,
+      "titulo": "Complementos",
+      "slug": "complementos",
+      "arquivo": "02-complementos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Norma IFRS-16",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/controladoria-tributos/ifrs-16.htm"
+        }
+      ],
+      "caracteres": 790
+    },
+    {
+      "ordem": 3,
+      "titulo": "Complementos Comercial",
+      "slug": "complementos-comercial",
+      "arquivo": "03-complementos-comercial.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TNS",
+        "E024MSG",
+        "E028CPG",
+        "E073TRA",
+        "E460CCP",
+        "E460CCS",
+        "E460IMO",
+        "F461GNC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "reajustes",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460rea.htm"
+        },
+        {
+          "texto": "Tabelas > Comercial > Condições de Pagamento > Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f028gcp.htm"
+        },
+        {
+          "texto": "definições/ histórico do fornecedor",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm#F095HFO_DEcodcpg1"
+        },
+        {
+          "texto": "definições/ histórico do fornecedor",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm#F095HFO_DEpagjmm1"
+        },
+        {
+          "texto": "Cadastros > Transportadoras > Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f073tra.htm"
+        },
+        {
+          "texto": "definições/ histórico do fornecedor",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm#F095HFO_DEcodtra1"
+        },
+        {
+          "texto": "Tabelas > Transações > Cadastro > Compras > Ordem Compra/NF Entrada/Faturas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "Tabelas > Comercial > Fiscais > Parâmetros por Estado",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm#F009PPE_cprtnp"
+        },
+        {
+          "texto": "Tabelas > Comercial > Fiscais > Mensagens NF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f024msg.htm"
+        },
+        {
+          "texto": "Tabelas > Transações > Cadastro > Compras > Ordem Compra/NF Entrada/Faturas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm#F001TCP_DEcprms11"
+        },
+        {
+          "texto": "F461GNC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f461gnc.htm"
+        }
+      ],
+      "caracteres": 7399
+    },
+    {
+      "ordem": 4,
+      "titulo": "Financeiro",
+      "slug": "financeiro",
+      "arquivo": "04-financeiro.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+      "subtopicos": [
+        "Exemplo:"
+      ],
+      "telas": [
+        "E001TNS",
+        "E002TPT",
+        "E020SNF",
+        "F000PGS",
+        "F460EVE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Tabelas > Financeiro > Tipos de Títulos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f002tpt.htm"
+        },
+        {
+          "texto": "Tabelas > Comercial > Fiscais > Séries Notas Fiscais",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f020snf.htm"
+        },
+        {
+          "texto": "Tabelas > Transações > Cadastro > Contas a Pagar.",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tpa.htm"
+        },
+        {
+          "texto": "Cadastros > Filiais > Contas a Pagar",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fpa.htm"
+        },
+        {
+          "texto": "Norma IFRS-16",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/controladoria-tributos/ifrs-16.htm"
+        },
+        {
+          "texto": "Eventos de Contrato de Compra (F460EVE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460eve.htm"
+        }
+      ],
+      "caracteres": 8318
+    },
+    {
+      "ordem": 5,
+      "titulo": "Produtos",
+      "slug": "produtos",
+      "arquivo": "05-produtos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+      "subtopicos": [],
+      "telas": [
+        "E460CCP",
+        "F000CRT",
+        "F460PIO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "processo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm"
+        },
+        {
+          "texto": "F000CRT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000crt.htm"
+        }
+      ],
+      "caracteres": 1785
+    },
+    {
+      "ordem": 6,
+      "titulo": "Serviços",
+      "slug": "servicos",
+      "arquivo": "06-servicos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+      "subtopicos": [],
+      "telas": [
+        "E460CCS",
+        "F000CRT",
+        "F460SIO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "processo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm"
+        },
+        {
+          "texto": "Redução de ISS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/cadastro-reducao-iss.htm"
+        },
+        {
+          "texto": "F000CRT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000crt.htm"
+        }
+      ],
+      "caracteres": 1620
+    },
+    {
+      "ordem": 7,
+      "titulo": "Reajuste",
+      "slug": "reajuste",
+      "arquivo": "07-reajuste.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 57
+    },
+    {
+      "ordem": 8,
+      "titulo": "Observações",
+      "slug": "observacoes",
+      "arquivo": "08-observacoes.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+      "subtopicos": [],
+      "telas": [
+        "E021MOT"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 593
+    },
+    {
+      "ordem": 9,
+      "titulo": "Documentos",
+      "slug": "documentos",
+      "arquivo": "09-documentos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 144
+    },
+    {
+      "ordem": 10,
+      "titulo": "Eventos",
+      "slug": "eventos",
+      "arquivo": "10-eventos.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+      "subtopicos": [],
+      "telas": [
+        "F441CIE",
+        "F460EVE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1328
+    },
+    {
+      "ordem": 11,
+      "titulo": "Dados herdados para os itens do contrato",
+      "slug": "dados-herdados-para-os-itens-do-contrato",
+      "arquivo": "11-dados-herdados-para-os-itens-do-contrato.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 2498
+    },
+    {
+      "ordem": 12,
+      "titulo": "Campos que acionam a rotina de replicação após serem alterados",
+      "slug": "campos-que-acionam-a-rotina-de-replicacao-apos-serem-alterad",
+      "arquivo": "12-campos-que-acionam-a-rotina-de-replicacao-apos-serem-alterad.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 999
+    }
+  ],
+  "indice_telas": {
+    "E001TNS": [
+      "complementos-comercial",
+      "financeiro"
+    ],
+    "E002TPT": [
+      "financeiro"
+    ],
+    "E020SNF": [
+      "financeiro"
+    ],
+    "E021MOT": [
+      "dados-gerais",
+      "observacoes"
+    ],
+    "E023CRP": [
+      "dados-gerais"
+    ],
+    "E024MSG": [
+      "complementos-comercial"
+    ],
+    "E028CPG": [
+      "complementos-comercial"
+    ],
+    "E031MOE": [
+      "dados-gerais"
+    ],
+    "E073TRA": [
+      "complementos-comercial"
+    ],
+    "E095FOR": [
+      "dados-gerais"
+    ],
+    "E460APL": [
+      "dados-gerais"
+    ],
+    "E460CCP": [
+      "complementos-comercial",
+      "produtos"
+    ],
+    "E460CCS": [
+      "complementos-comercial",
+      "servicos"
+    ],
+    "E460IMO": [
+      "complementos-comercial"
+    ],
+    "F000CRT": [
+      "produtos",
+      "servicos"
+    ],
+    "F000PGS": [
+      "financeiro"
+    ],
+    "F023CRP": [
+      "dados-gerais"
+    ],
+    "F070ENT": [
+      "dados-gerais"
+    ],
+    "F070FCA": [
+      "dados-gerais"
+    ],
+    "F070FCP": [
+      "dados-gerais"
+    ],
+    "F099UCP": [
+      "dados-gerais"
+    ],
+    "F441CIE": [
+      "eventos"
+    ],
+    "F460EVE": [
+      "eventos",
+      "financeiro"
+    ],
+    "F460PIO": [
+      "produtos"
+    ],
+    "F460SIO": [
+      "servicos"
+    ],
+    "F461GNC": [
+      "complementos-comercial",
+      "dados-gerais"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_460condg01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/controladoria-tributos/ifrs-16.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/cadastro-reducao-iss.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000crt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm#F001TCP_DEcprms11",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tpa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f002tpt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm#F009PPE_cprtnp",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f020snf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f023crp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f024msg.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f028gcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f031aim.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070ent.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fpa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f073tra.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm#F095HFO_DEcodcpg1",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm#F095HFO_DEcodtra1",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm#F095HFO_DEpagjmm1",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099ucp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460eve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460rea.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f461gnc.htm"
+  ]
+}

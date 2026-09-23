@@ -1,0 +1,41 @@
+{
+  "fonte": {
+    "pagina": "F009PPE - Parâmetros por Estado",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm",
+    "trilha": "Ajuda por telas > Cadastros > Mercado e Suprimentos > Parâmetros Fiscais > Parâmetros por Estado"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Fórmulas para os tipos de cálculo DIFAL",
+      "slug": "formulas-para-os-tipos-de-calculo-difal",
+      "arquivo": "01-formulas-para-os-tipos-de-calculo-difal.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm",
+      "subtopicos": [],
+      "telas": [
+        "F070PSE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F070PSE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm"
+        }
+      ],
+      "caracteres": 4419
+    }
+  ],
+  "indice_telas": {
+    "F070PSE": [
+      "formulas-para-os-tipos-de-calculo-difal"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm"
+  ]
+}

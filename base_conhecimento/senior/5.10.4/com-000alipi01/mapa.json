@@ -1,0 +1,69 @@
+{
+  "fonte": {
+    "pagina": "Identificador de Regra",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alipi01.htm",
+    "trilha": ""
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Identificador de Regra",
+      "slug": "identificador-de-regra",
+      "arquivo": "01-identificador-de-regra.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alipi01.htm",
+      "subtopicos": [],
+      "telas": [
+        "E075PPC",
+        "E075PRO",
+        "E440IPC",
+        "F075PPC",
+        "F075PRO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-000ALIPI01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F075PPC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075ppc.htm"
+        },
+        {
+          "texto": "LisVarReg",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#LisVarReg"
+        }
+      ],
+      "caracteres": 6271
+    }
+  ],
+  "indice_telas": {
+    "E075PPC": [
+      "identificador-de-regra"
+    ],
+    "E075PRO": [
+      "identificador-de-regra"
+    ],
+    "E440IPC": [
+      "identificador-de-regra"
+    ],
+    "F075PPC": [
+      "identificador-de-regra"
+    ],
+    "F075PRO": [
+      "identificador-de-regra"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#LisVarReg",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075ppc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+  ]
+}

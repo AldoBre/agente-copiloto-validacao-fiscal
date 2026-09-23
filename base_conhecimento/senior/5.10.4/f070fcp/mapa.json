@@ -1,0 +1,465 @@
+{
+  "fonte": {
+    "pagina": "F070FCP - Parâmetros da Filial para Compras",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fcp.htm",
+    "trilha": "Ajuda por telas > Cadastros > Filiais > Parâmetros por Gestão"
+  },
+  "total_topicos": 2,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Compras 1",
+      "slug": "compras-1",
+      "arquivo": "01-compras-1.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fcp.htm",
+      "subtopicos": [],
+      "telas": [
+        "F440GNE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F440GNE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm"
+        }
+      ],
+      "caracteres": 2690
+    },
+    {
+      "ordem": 2,
+      "titulo": "Compras 2",
+      "slug": "compras-2",
+      "arquivo": "02-compras-2.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fcp.htm",
+      "subtopicos": [
+        "Exemplo:",
+        "Aquisição de fornecedor do Simples Nacional",
+        "Convênio ICMS 236/2021",
+        "Exemplo:",
+        "Exemplo:"
+      ],
+      "telas": [
+        "E009PPE",
+        "E075PRO",
+        "E095HFO",
+        "E099USU",
+        "E405SOL",
+        "E410COT",
+        "E410CPE",
+        "E410LCO",
+        "E420OCP",
+        "E440CDV",
+        "E440HAR",
+        "E440NFV",
+        "E460CTR",
+        "F000DLA",
+        "F000DLS",
+        "F000INE",
+        "F001TCP",
+        "F008CEP",
+        "F009PPE",
+        "F070FCA",
+        "F070FCP",
+        "F070FVE",
+        "F070PSE",
+        "F099UCP",
+        "F115COE",
+        "F115TRF",
+        "F207RRP",
+        "F211ADA",
+        "F301BAA",
+        "F403FPR",
+        "F410CEA",
+        "F410COS",
+        "F420APR",
+        "F420GOC",
+        "F425FOA",
+        "F426CEQ",
+        "F435CCC",
+        "F435CCT",
+        "F435COS",
+        "F435CST",
+        "F435MDT",
+        "F439FIX",
+        "F440CNF",
+        "F440GNE",
+        "F440NOR",
+        "F440VAL",
+        "F460CXO",
+        "F460PFO",
+        "F460REA",
+        "F461GNC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-435TNSFO01",
+        "CPR-435TNSFO02",
+        "CPR-440SGLOT01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F435CCC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435ccc.htm"
+        },
+        {
+          "texto": "F435CST",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435cst.htm"
+        },
+        {
+          "texto": "F460PFO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460pfo.htm"
+        },
+        {
+          "texto": "F435COS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435cos.htm"
+        },
+        {
+          "texto": "Parametrizações do RPA/NF municipal",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/rpa/parametrizacao.htm#inss"
+        },
+        {
+          "texto": "Gestor Senior",
+          "url": "https://documentacao.senior.com.br/seniorxplatform/manual-do-usuario/aplicativo-gestor-senior/"
+        },
+        {
+          "texto": "LibIteCan",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#LibIteCan"
+        },
+        {
+          "texto": "Transações de Compras (F001TCP)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm#menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "F410CEA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410cea.htm"
+        },
+        {
+          "texto": "F410COS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410cos.htm"
+        },
+        {
+          "texto": "F420GOC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm"
+        },
+        {
+          "texto": "F425FOA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f425foa.htm"
+        },
+        {
+          "texto": "F115COE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f115coe.htm"
+        },
+        {
+          "texto": "F435MDT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435mdt.htm"
+        },
+        {
+          "texto": "situação de pós-saída",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/recebimento/recebimento_passos2.htm#pos-saida"
+        },
+        {
+          "texto": "F099UCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099ucp.htm"
+        },
+        {
+          "texto": "F439FIX",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f439fix.htm"
+        },
+        {
+          "texto": "F420APR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420apr.htm"
+        },
+        {
+          "texto": "ICMS - Convênio ICMS 236/2021",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#236/2021"
+        },
+        {
+          "texto": "F070PSE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm"
+        },
+        {
+          "texto": "Ajustes no estoque  no recebimento de produtos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/recebimento/origem-porto.htm#tolerancia"
+        },
+        {
+          "texto": "F000DLS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000dls.htm"
+        },
+        {
+          "texto": "F000DLA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000dla.htm"
+        },
+        {
+          "texto": "F440GNE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm"
+        },
+        {
+          "texto": "CPR-440SGLOT01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440sglot01.htm"
+        },
+        {
+          "texto": "F207RRP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f207rrp.htm#reabilitacao"
+        },
+        {
+          "texto": "F440GNE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm#reabilitar"
+        },
+        {
+          "texto": "Contratos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/contrato/contratos.htm"
+        },
+        {
+          "texto": "F460CXO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460cxo.htm"
+        },
+        {
+          "texto": "Transferência entre Produtores (F115TRF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f115trf.htm"
+        },
+        {
+          "texto": "tipo 1",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/recebimento/recebimento_passos2.htm"
+        },
+        {
+          "texto": "CPR-435TNSFO01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_435tnsfo01.htm"
+        },
+        {
+          "texto": "CPR-435TNSFO02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_435tnsfo02.htm"
+        },
+        {
+          "texto": "Ligações Fornecedor x Produtos Individual (F403FPR)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm"
+        },
+        {
+          "texto": "(F070FCA)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm"
+        },
+        {
+          "texto": "F008CEP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f008cep.htm"
+        },
+        {
+          "texto": "F070FVE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm"
+        },
+        {
+          "texto": "F435CCT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435cct.htm"
+        },
+        {
+          "texto": "com.senior.g5.co.int.agr.pesagem",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_agr_pesagem.htm"
+        },
+        {
+          "texto": "Integração com o Hub de Royalties",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/integracao-hub-royalties/inicio-hub-royalties.htm"
+        }
+      ],
+      "caracteres": 58171
+    }
+  ],
+  "indice_telas": {
+    "E009PPE": [
+      "compras-2"
+    ],
+    "E075PRO": [
+      "compras-2"
+    ],
+    "E095HFO": [
+      "compras-2"
+    ],
+    "E099USU": [
+      "compras-2"
+    ],
+    "E405SOL": [
+      "compras-2"
+    ],
+    "E410COT": [
+      "compras-2"
+    ],
+    "E410CPE": [
+      "compras-2"
+    ],
+    "E410LCO": [
+      "compras-2"
+    ],
+    "E420OCP": [
+      "compras-2"
+    ],
+    "E440CDV": [
+      "compras-2"
+    ],
+    "E440HAR": [
+      "compras-2"
+    ],
+    "E440NFV": [
+      "compras-2"
+    ],
+    "E460CTR": [
+      "compras-2"
+    ],
+    "F000DLA": [
+      "compras-2"
+    ],
+    "F000DLS": [
+      "compras-2"
+    ],
+    "F000INE": [
+      "compras-2"
+    ],
+    "F001TCP": [
+      "compras-2"
+    ],
+    "F008CEP": [
+      "compras-2"
+    ],
+    "F009PPE": [
+      "compras-2"
+    ],
+    "F070FCA": [
+      "compras-2"
+    ],
+    "F070FCP": [
+      "compras-2"
+    ],
+    "F070FVE": [
+      "compras-2"
+    ],
+    "F070PSE": [
+      "compras-2"
+    ],
+    "F099UCP": [
+      "compras-2"
+    ],
+    "F115COE": [
+      "compras-2"
+    ],
+    "F115TRF": [
+      "compras-2"
+    ],
+    "F207RRP": [
+      "compras-2"
+    ],
+    "F211ADA": [
+      "compras-2"
+    ],
+    "F301BAA": [
+      "compras-2"
+    ],
+    "F403FPR": [
+      "compras-2"
+    ],
+    "F410CEA": [
+      "compras-2"
+    ],
+    "F410COS": [
+      "compras-2"
+    ],
+    "F420APR": [
+      "compras-2"
+    ],
+    "F420GOC": [
+      "compras-2"
+    ],
+    "F425FOA": [
+      "compras-2"
+    ],
+    "F426CEQ": [
+      "compras-2"
+    ],
+    "F435CCC": [
+      "compras-2"
+    ],
+    "F435CCT": [
+      "compras-2"
+    ],
+    "F435COS": [
+      "compras-2"
+    ],
+    "F435CST": [
+      "compras-2"
+    ],
+    "F435MDT": [
+      "compras-2"
+    ],
+    "F439FIX": [
+      "compras-2"
+    ],
+    "F440CNF": [
+      "compras-2"
+    ],
+    "F440GNE": [
+      "compras-1",
+      "compras-2"
+    ],
+    "F440NOR": [
+      "compras-2"
+    ],
+    "F440VAL": [
+      "compras-2"
+    ],
+    "F460CXO": [
+      "compras-2"
+    ],
+    "F460PFO": [
+      "compras-2"
+    ],
+    "F460REA": [
+      "compras-2"
+    ],
+    "F461GNC": [
+      "compras-2"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#236/2021",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_435tnsfo01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_435tnsfo02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440sglot01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/integracao-hub-royalties/inicio-hub-royalties.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/contrato/contratos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/recebimento/origem-porto.htm#tolerancia",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/recebimento/recebimento_passos2.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/agronegocio/processos/recebimento/recebimento_passos2.htm#pos-saida",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/suprimentos/rpa/parametrizacao.htm#inss",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000dla.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000dls.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#LibIteCan",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm#menu_cadastros/f001tcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f008cep.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f099ucp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f115coe.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f115trf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f207rrp.htm#reabilitacao",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410cea.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410cos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420apr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f425foa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435ccc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435cct.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435cos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435cst.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f435mdt.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f439fix.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm#reabilitar",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460cxo.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460pfo.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_agr_pesagem.htm",
+    "https://documentacao.senior.com.br/seniorxplatform/manual-do-usuario/aplicativo-gestor-senior/"
+  ]
+}

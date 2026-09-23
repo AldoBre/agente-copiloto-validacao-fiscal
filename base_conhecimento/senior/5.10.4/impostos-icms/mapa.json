@@ -1,0 +1,1433 @@
+{
+  "fonte": {
+    "pagina": "Rotinas de ICMS",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm",
+    "trilha": "Segmentos > Compliance > Configurações para cálculos fiscais > Impostos"
+  },
+  "total_topicos": 25,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Parametrização para calcular ICMS",
+      "slug": "parametrizacao-para-calcular-icms",
+      "arquivo": "01-parametrizacao-para-calcular-icms.md",
+      "ancora": "parametrizacao",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#parametrizacao",
+      "subtopicos": [],
+      "telas": [
+        "F001TCP",
+        "F001TVE",
+        "F075PRO",
+        "F085CAD",
+        "F095CAD",
+        "F403FPR"
+      ],
+      "caminhos_menu": [
+        "1. Cadastros > Clientes e Fornecedores > Fornecedores > Cadastro (F095CAD)",
+        "1. Cadastros > Transações > Parâmetros por Gestão > Compras > Ordem Compra > NF Entrada > Fatura (F001TCP)",
+        "2. Cadastros > Clientes e Fornecedores > Clientes > Cadastro (F085CAD)",
+        "2. Cadastros > Produtos e Serviços > Produtos > Individual (F075PRO)",
+        "2. Cadastros > Transações > Parâmetros por Gestão > Vendas (F001TVE)",
+        "3. Cadastros > Clientes e Fornecedores > Fornecedores > Ligações > Fornecedor X Produtos > Individual (F403FPR)"
+      ],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        },
+        {
+          "texto": "Individual",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "Individual",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm"
+        },
+        {
+          "texto": "Fatura",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "Vendas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        }
+      ],
+      "caracteres": 859
+    },
+    {
+      "ordem": 2,
+      "titulo": "Sugestão da alíquota",
+      "slug": "sugestao-da-aliquota",
+      "arquivo": "02-sugestao-da-aliquota.md",
+      "ancora": "sugestao-aliquota",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#sugestao-aliquota",
+      "subtopicos": [],
+      "telas": [
+        "F009PPE",
+        "F019TIE"
+      ],
+      "caminhos_menu": [
+        "Cadastros > Mercado e Suprimentos > Parâmetros Fiscais > ICMS especiais (F019TIE)",
+        "Cadastros > Mercado e Suprimentos > Parâmetros Fiscais > Parâmetros por Estado > Cadastro (F009PPE)"
+      ],
+      "identificadores_regras": [
+        "CPR-000ALICM01",
+        "VEN-000ALICM01",
+        "VEN-140SGRED01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm"
+        },
+        {
+          "texto": "ICMS especiais",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tie.htm"
+        },
+        {
+          "texto": "VEN-000ALICM01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicm01.htm"
+        },
+        {
+          "texto": "CPR-000ALICM01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000alicm01.htm"
+        },
+        {
+          "texto": "VEN-140SGRED01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140sgred01.htm"
+        }
+      ],
+      "caracteres": 2061
+    },
+    {
+      "ordem": 3,
+      "titulo": "Redução/acréscimo de base",
+      "slug": "reducao-acrescimo-de-base",
+      "arquivo": "03-reducao-acrescimo-de-base.md",
+      "ancora": "reducao-acrescimo-base",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#reducao-acrescimo-base",
+      "subtopicos": [],
+      "telas": [
+        "F019TIR"
+      ],
+      "caminhos_menu": [
+        "Cadastros > Mercado e Suprimentos > Parâmetros Fiscais > Reduções/acréscimos base impostos (F019TIR)"
+      ],
+      "identificadores_regras": [
+        "CPR-000ALICM01",
+        "VEN-000ALICM01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Reduções/acréscimos base impostos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm"
+        },
+        {
+          "texto": "VEN-000ALICM01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicm01.htm"
+        },
+        {
+          "texto": "CPR-000ALICM01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000alicm01.htm"
+        }
+      ],
+      "caracteres": 698
+    },
+    {
+      "ordem": 4,
+      "titulo": "Cálculo de ICMS para serviços",
+      "slug": "calculo-de-icms-para-servicos",
+      "arquivo": "04-calculo-de-icms-para-servicos.md",
+      "ancora": "calculo-servico",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#calculo-servico",
+      "subtopicos": [],
+      "telas": [
+        "F070EMP"
+      ],
+      "caminhos_menu": [
+        "Cadastros > Empresas > Cadastro (F070EMP)"
+      ],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+        }
+      ],
+      "caracteres": 216
+    },
+    {
+      "ordem": 5,
+      "titulo": "Cálculo de ICMS para fornecedores do Simples Nacional",
+      "slug": "calculo-de-icms-para-fornecedores-do-simples-nacional",
+      "arquivo": "05-calculo-de-icms-para-fornecedores-do-simples-nacional.md",
+      "ancora": "calculo-simples",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#calculo-simples",
+      "subtopicos": [],
+      "telas": [
+        "F095CAD"
+      ],
+      "caminhos_menu": [
+        "Cadastros > Clientes e Fornecedores > Fornecedores > Cadastro (F095CAD)"
+      ],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        }
+      ],
+      "caracteres": 483
+    },
+    {
+      "ordem": 6,
+      "titulo": "Recuperação de ICMS",
+      "slug": "recuperacao-de-icms",
+      "arquivo": "06-recuperacao-de-icms.md",
+      "ancora": "recuperacao",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#recuperacao",
+      "subtopicos": [],
+      "telas": [
+        "F001TCP",
+        "F075PRO",
+        "F095CAD",
+        "F403FPR"
+      ],
+      "caminhos_menu": [
+        "Cadastros > Clientes e Fornecedores > Fornecedores > Cadastro (F095CAD)",
+        "Cadastros > Clientes e Fornecedores > Fornecedores > Ligações > Fornecedor X Produtos > Individual (F403FPR)",
+        "Cadastros > Produtos e Serviços > Produtos > Individual (F075PRO)",
+        "Cadastros > Transações > Parâmetros por Gestão > Compras > Ordem Compra > NF Entrada > Fatura (F001TCP)"
+      ],
+      "identificadores_regras": [
+        "CPR-000ECICM01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Fatura",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "Individual",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "Individual",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm"
+        }
+      ],
+      "caracteres": 1137
+    },
+    {
+      "ordem": 7,
+      "titulo": "ICMS Creditado Efetivamente x F660GDG",
+      "slug": "icms-creditado-efetivamente-x-f660gdg",
+      "arquivo": "07-icms-creditado-efetivamente-x-f660gdg.md",
+      "ancora": "icms-creditado",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#icms-creditado",
+      "subtopicos": [],
+      "telas": [
+        "E440NFC",
+        "F660GDG"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Geração de detalhes",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660gdg.htm"
+        }
+      ],
+      "caracteres": 511
+    },
+    {
+      "ordem": 8,
+      "titulo": "Campos das tabelas onde o ICMS é gravado",
+      "slug": "campos-das-tabelas-onde-o-icms-e-gravado",
+      "arquivo": "08-campos-das-tabelas-onde-o-icms-e-gravado.md",
+      "ancora": "tabelas",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#tabelas",
+      "subtopicos": [],
+      "telas": [
+        "E440IPC",
+        "E440ISC",
+        "E440NFC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 515
+    },
+    {
+      "ordem": 9,
+      "titulo": "ICMS nos movimentos dos estoques",
+      "slug": "icms-nos-movimentos-dos-estoques",
+      "arquivo": "09-icms-nos-movimentos-dos-estoques.md",
+      "ancora": "icms-estoques",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#icms-estoques",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-440VLRMO01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "CPR-440VLRMO01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440vlrmo01.htm"
+        }
+      ],
+      "caracteres": 654
+    },
+    {
+      "ordem": 10,
+      "titulo": "Mensagem ao incluir item na nota",
+      "slug": "mensagem-ao-incluir-item-na-nota",
+      "arquivo": "10-mensagem-ao-incluir-item-na-nota.md",
+      "ancora": "mensagem",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#mensagem",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 1075
+    },
+    {
+      "ordem": 11,
+      "titulo": "Isentas/Outras x IPI na base de ICMS",
+      "slug": "isentas-outras-x-ipi-na-base-de-icms",
+      "arquivo": "11-isentas-outras-x-ipi-na-base-de-icms.md",
+      "ancora": "isentas",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#isentas",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-000AISOU01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "COM-000AISOU01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000aisou01.htm"
+        }
+      ],
+      "caracteres": 889
+    },
+    {
+      "ordem": 12,
+      "titulo": "Redução da base de cálculo de ICMS x valor do frete",
+      "slug": "reducao-da-base-de-calculo-de-icms-x-valor-do-frete",
+      "arquivo": "12-reducao-da-base-de-calculo-de-icms-x-valor-do-frete.md",
+      "ancora": "reducao-frete",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#reducao-frete",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-000REDUC01",
+        "VEN-000REDUC01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "CPR-000REDUC01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000reduc01.htm"
+        },
+        {
+          "texto": "VEN-000REDUC01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000reduc01.htm"
+        }
+      ],
+      "caracteres": 660
+    },
+    {
+      "ordem": 13,
+      "titulo": "Habilitação dos códigos de ICMS especial, ICMS redução e ICMS ST",
+      "slug": "habilitacao-dos-codigos-de-icms-especial-icms-reducao-e-icms",
+      "arquivo": "13-habilitacao-dos-codigos-de-icms-especial-icms-reducao-e-icms.md",
+      "ancora": "habilitacao-codigos",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#habilitacao-codigos",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 463
+    },
+    {
+      "ordem": 14,
+      "titulo": "Base de ICMS x valor do desconto",
+      "slug": "base-de-icms-x-valor-do-desconto",
+      "arquivo": "14-base-de-icms-x-valor-do-desconto.md",
+      "ancora": "base-desconto",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#base-desconto",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-000ALICM01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 680
+    },
+    {
+      "ordem": 15,
+      "titulo": "Código ICMS especial, ICMS redução e ICMS ST x recálculo de nota de devolução",
+      "slug": "codigo-icms-especial-icms-reducao-e-icms-st-x-recalculo-de-n",
+      "arquivo": "15-codigo-icms-especial-icms-reducao-e-icms-st-x-recalculo-de-n.md",
+      "ancora": "codigos-recalculo",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#codigos-recalculo",
+      "subtopicos": [],
+      "telas": [
+        "F070FVE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 723
+    },
+    {
+      "ordem": 16,
+      "titulo": "Notas de saída x alteração do valor de ICMS no fechamento",
+      "slug": "notas-de-saida-x-alteracao-do-valor-de-icms-no-fechamento",
+      "arquivo": "16-notas-de-saida-x-alteracao-do-valor-de-icms-no-fechamento.md",
+      "ancora": "notas-fechamento",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#notas-fechamento",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-140MNTVL01"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "VEN-140MNTVL01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140mntvl01.htm"
+        }
+      ],
+      "caracteres": 236
+    },
+    {
+      "ordem": 17,
+      "titulo": "ICMS x Tabela de Pauta",
+      "slug": "icms-x-tabela-de-pauta",
+      "arquivo": "17-icms-x-tabela-de-pauta.md",
+      "ancora": "tabela-pauta",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#tabela-pauta",
+      "subtopicos": [
+        "Exemplo"
+      ],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "VEN-000ALICM01",
+        "VEN-140NEITE01"
+      ],
+      "campos_xml_citados": [
+        "modBC"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "VEN-000ALICM01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicm01.htm"
+        },
+        {
+          "texto": "VEN-140NEITE01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm"
+        }
+      ],
+      "caracteres": 934
+    },
+    {
+      "ordem": 18,
+      "titulo": "ICMS Desonerado",
+      "slug": "icms-desonerado",
+      "arquivo": "18-icms-desonerado.md",
+      "ancora": "icms-desonerado",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#icms-desonerado",
+      "subtopicos": [
+        "Exemplo",
+        "Exemplo",
+        "Exemplo",
+        "Cálculo do valor do ICMS Dispensado",
+        "Exemplo"
+      ],
+      "telas": [
+        "F001TVE",
+        "F019TIR",
+        "F051DIS",
+        "F070FVE",
+        "F075GFP",
+        "F075PCA",
+        "F075PFI",
+        "F075PRO",
+        "F085CAD",
+        "F085HCL",
+        "F095CAD"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "CPR-000ALICD01",
+        "VEN-000ALICD01",
+        "VEN-140DISFS01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "motDesICMS",
+        "vICMSDeson"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F085CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        },
+        {
+          "texto": "F085HCL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085hcl.htm"
+        },
+        {
+          "texto": "F075PFI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pfi.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F075GFP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm"
+        },
+        {
+          "texto": "F075PCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pca.htm"
+        },
+        {
+          "texto": "F001TVE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "VEN-000ALICD01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicd01.htm"
+        },
+        {
+          "texto": "CPR-000ALICD01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000alicd01.htm"
+        },
+        {
+          "texto": "F070FVE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm"
+        },
+        {
+          "texto": "F095CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "Guia prático de escrituração Incentivos e Benefício Fiscais v3",
+          "url": "https://www.sef.sc.gov.br/arquivos_portal/assuntos/108/Guia_Pratico_de_Escrituracao_de_Incentivos_e_Beneficios_Fiscais___3_edicao.pdf"
+        },
+        {
+          "texto": "configurar o dispositivo fiscal",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/geracao-beneficio-fiscal.htm"
+        }
+      ],
+      "caracteres": 8297
+    },
+    {
+      "ordem": 19,
+      "titulo": "Sugestão de Situação Tributária",
+      "slug": "sugestao-de-situacao-tributaria",
+      "arquivo": "19-sugestao-de-situacao-tributaria.md",
+      "ancora": "sugestao-icms",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#sugestao-icms",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Sugestão do Código da Situação Tributária de ICMS de Saída",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestaocst-icms-saida.htm"
+        },
+        {
+          "texto": "Sugestão do Código da Situação Tributária de ICMS de Entrada",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestaocst-icms-entrada.htm"
+        }
+      ],
+      "caracteres": 297
+    },
+    {
+      "ordem": 20,
+      "titulo": "Cálculo do diferencial de alíquota",
+      "slug": "calculo-do-diferencial-de-aliquota",
+      "arquivo": "20-calculo-do-diferencial-de-aliquota.md",
+      "ancora": "calculo-diferencial",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#calculo-diferencial",
+      "subtopicos": [
+        "Parametrização para cálculo do diferencial",
+        "Diferencial de alíquota x ICMS especial",
+        "Diferencial de alíquota nas notas de saída",
+        "Convênio ICMS 52/91",
+        "Convênio ICMS 236/2021"
+      ],
+      "telas": [
+        "E009PPE",
+        "F001TCP",
+        "F009PPE",
+        "F019TIS",
+        "F070FCA",
+        "F070FCP",
+        "F070PSE",
+        "F095CAD"
+      ],
+      "caminhos_menu": [
+        "Cadastros > Clientes e Fornecedores > Fornecedores > Cadastro (F095CAD)",
+        "Cadastros > Filiais > Cadastro (F070FCA)",
+        "Cadastros > Filiais > Parâmetros por Gestão > Compras e Recebimento (F070FCP)",
+        "Cadastros > Mercado e Suprimentos > Parâmetros Fiscais > Parâmetros por Estado > Cadastro (F009PPE)",
+        "Cadastros > Mercado e Suprimentos > Parâmetros Fiscais > Substituições impostos (F019TIS)",
+        "Cadastros > Transações > Parâmetros por Gestão > Compras > Ordem Compra > NF Entrada > Fatura (F001TCP)"
+      ],
+      "identificadores_regras": [
+        "CPR-440ALDFA01",
+        "CPR-440ALDFA02"
+      ],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm"
+        },
+        {
+          "texto": "Fatura",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "Compras e Recebimento",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fcp.htm"
+        },
+        {
+          "texto": "Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "Cadastro",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm"
+        },
+        {
+          "texto": "CPR-440ALDFA01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440aldfa01.htm"
+        },
+        {
+          "texto": "CPR-440ALDFA02",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440aldfa02.htm"
+        },
+        {
+          "texto": "Substituições impostos",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm"
+        },
+        {
+          "texto": "F070PSE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm"
+        }
+      ],
+      "caracteres": 5918
+    },
+    {
+      "ordem": 21,
+      "titulo": "Pauta fiscal",
+      "slug": "pauta-fiscal",
+      "arquivo": "21-pauta-fiscal.md",
+      "ancora": "pauta-fiscal",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#pauta-fiscal",
+      "subtopicos": [],
+      "telas": [
+        "F001TCP",
+        "F001TVE",
+        "F019TIS",
+        "F075PPC",
+        "F075PRO",
+        "F403FPR"
+      ],
+      "caminhos_menu": [
+        "Cadastros > Clientes e Fornecedores > Clientes > Ligações > Cliente X Produto > Individual (F075PPC)",
+        "Cadastros > Clientes e Fornecedores > Fornecedores > Ligações > Fornecedor X Produtos > Individual (F403FPR)",
+        "Cadastros > Mercado e Suprimentos > Parâmetros Fiscais > Substituições Impostos > Modalidade Base Cálculo (F019TIS)",
+        "Cadastros > Produtos e Serviços > Produtos > Individual (F075PRO)",
+        "Cadastros > Transações > Parâmetros por Gestão > Compras > Ordem Compra > NF Entrada > Fatura (F001TCP)",
+        "Cadastros > Transações > Parâmetros por Gestão > Vendas (F001TVE)"
+      ],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Modalidade Base Cálculo",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm"
+        },
+        {
+          "texto": "Fatura",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "Vendas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "Individual",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "Individual",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm"
+        },
+        {
+          "texto": "Individual",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075ppc.htm"
+        }
+      ],
+      "caracteres": 1965
+    },
+    {
+      "ordem": 22,
+      "titulo": "ICMS Diferido",
+      "slug": "icms-diferido",
+      "arquivo": "22-icms-diferido.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm",
+      "subtopicos": [
+        "Exemplo 1",
+        "Exemplo 2",
+        "Exemplo 1",
+        "Exemplo 2",
+        "Exemplo 1",
+        "Exemplo 2",
+        "Exemplo 1",
+        "Exemplo 2",
+        "Exemplo 1",
+        "Exemplo 2",
+        "Exemplo 1",
+        "Exemplo 2",
+        "Exemplo 1",
+        "Exemplo 2"
+      ],
+      "telas": [
+        "F000INE",
+        "F001TCP",
+        "F001TVE",
+        "F070EMP",
+        "F070FVE",
+        "F075GFP",
+        "F075PCA",
+        "F075PPC",
+        "F075PRO",
+        "F080CSA",
+        "F080SER",
+        "F085CAD",
+        "F085HCL",
+        "F095CAD",
+        "F095HFO",
+        "F120CAC",
+        "F120CAI",
+        "F120CAP",
+        "F120CAR",
+        "F120GPB",
+        "F120GPD",
+        "F135FCA",
+        "F135FCP",
+        "F140CIP",
+        "F140CNF",
+        "F140GNF",
+        "F140LOT",
+        "F140PRE",
+        "F403FPR",
+        "F403FSE",
+        "F403LFP",
+        "F403LFS",
+        "F410CEA",
+        "F410COS",
+        "F410PCT",
+        "F420GOC",
+        "F420OCC",
+        "F420OPE",
+        "F420OPS",
+        "F420VAL",
+        "F440CNE",
+        "F440GNE",
+        "F440GOC",
+        "F460CTR",
+        "F460PFO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [
+        "COM-000ALSTR01"
+      ],
+      "campos_xml_citados": [
+        "CST",
+        "vBC",
+        "vICMS",
+        "vProd"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "F403FPR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm"
+        },
+        {
+          "texto": "F403LFP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403lfp.htm"
+        },
+        {
+          "texto": "F403FSE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fse.htm"
+        },
+        {
+          "texto": "F403LFS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403lfs.htm"
+        },
+        {
+          "texto": "F075PPC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075ppc.htm"
+        },
+        {
+          "texto": "F075PCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pca.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F075GFP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm"
+        },
+        {
+          "texto": "F080SER",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080ser.htm"
+        },
+        {
+          "texto": "F080CSA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080csa.htm"
+        },
+        {
+          "texto": "F001TCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "F001TVE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm"
+        },
+        {
+          "texto": "VenProStr",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#VenProStr"
+        },
+        {
+          "texto": "F085HCL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085hcl.htm"
+        },
+        {
+          "texto": "COM-000ALSTR01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr01.htm"
+        },
+        {
+          "texto": "F085CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm"
+        },
+        {
+          "texto": "F095CAD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm"
+        },
+        {
+          "texto": "F095HFO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm"
+        },
+        {
+          "texto": "F001TCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm#menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "Parâmetros da Filial para Vendas (F070FVE)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm"
+        },
+        {
+          "texto": "F460CTR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm"
+        },
+        {
+          "texto": "F460PFO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460pfo.htm"
+        },
+        {
+          "texto": "F410CEA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410cea.htm"
+        },
+        {
+          "texto": "F410COS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410cos.htm"
+        },
+        {
+          "texto": "F410PCT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410pct.htm"
+        },
+        {
+          "texto": "F070EMP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+        },
+        {
+          "texto": "F420OCC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420occ.htm"
+        },
+        {
+          "texto": "F420OPS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420ops.htm"
+        },
+        {
+          "texto": "F420GOC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm"
+        },
+        {
+          "texto": "F420OPE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420ope.htm"
+        },
+        {
+          "texto": "F420VAL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420val.htm"
+        },
+        {
+          "texto": "F440GNE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm"
+        },
+        {
+          "texto": "F440CNE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440cne.htm"
+        },
+        {
+          "texto": "F000INE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f000ine.htm"
+        },
+        {
+          "texto": "F120GPB",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpb.htm"
+        },
+        {
+          "texto": "F120GPD",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpd.htm"
+        },
+        {
+          "texto": "F135FCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135fca.htm"
+        },
+        {
+          "texto": "F135FCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135fcp.htm"
+        },
+        {
+          "texto": "F140PRE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm"
+        },
+        {
+          "texto": "F140LOT",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140lot.htm"
+        },
+        {
+          "texto": "F140GNF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140gnf.htm"
+        },
+        {
+          "texto": "F120CAP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120cap.htm"
+        },
+        {
+          "texto": "F120CAI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120cai.htm"
+        },
+        {
+          "texto": "F120CAR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120car.htm"
+        },
+        {
+          "texto": "F120CAC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120cac.htm"
+        },
+        {
+          "texto": "F140CIP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140cip.htm"
+        },
+        {
+          "texto": "F140CNF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140cnf.htm"
+        }
+      ],
+      "caracteres": 30176
+    },
+    {
+      "ordem": 23,
+      "titulo": "Retenção de contribuições sociais",
+      "slug": "retencao-de-contribuicoes-sociais",
+      "arquivo": "23-retencao-de-contribuicoes-sociais.md",
+      "ancora": "retencao-sociais",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#retencao-sociais",
+      "subtopicos": [],
+      "telas": [
+        "F019RET",
+        "F070FEF"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F070FEF",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm"
+        },
+        {
+          "texto": "F019RET",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f019ret.htm"
+        }
+      ],
+      "caracteres": 1066
+    },
+    {
+      "ordem": 24,
+      "titulo": "Antecipação de ICMS",
+      "slug": "antecipacao-de-icms",
+      "arquivo": "24-antecipacao-de-icms.md",
+      "ancora": "icms-antecipacao",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#icms-antecipacao",
+      "subtopicos": [
+        "Geração da SEF"
+      ],
+      "telas": [
+        "E440IPC",
+        "F001TCP",
+        "F019TIS",
+        "F019TST",
+        "F051DIS",
+        "F070FCA",
+        "F070FCP",
+        "F075GFP",
+        "F075PRO",
+        "F440CIP",
+        "F440GNE",
+        "F441CIE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F070FCA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm"
+        },
+        {
+          "texto": "F070FCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fcp.htm"
+        },
+        {
+          "texto": "F001TCP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm"
+        },
+        {
+          "texto": "F019TST",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tst.htm"
+        },
+        {
+          "texto": "F019TIS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm"
+        },
+        {
+          "texto": "F051DIS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F075GFP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm"
+        },
+        {
+          "texto": "F440CIP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440cip.htm"
+        },
+        {
+          "texto": "F440GNE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm"
+        },
+        {
+          "texto": "F441CIE",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f441cie.htm"
+        }
+      ],
+      "caracteres": 7391
+    },
+    {
+      "ordem": 25,
+      "titulo": "ICMS Monofásico",
+      "slug": "icms-monofasico",
+      "arquivo": "25-icms-monofasico.md",
+      "ancora": "icms-monofasico",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/impostos-icms.htm#icms-monofasico",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Conceito e parametrização",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm"
+        },
+        {
+          "texto": "Apuração do imposto",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm#apuracao"
+        }
+      ],
+      "caracteres": 51
+    }
+  ],
+  "indice_telas": {
+    "E009PPE": [
+      "calculo-do-diferencial-de-aliquota"
+    ],
+    "E440IPC": [
+      "antecipacao-de-icms",
+      "campos-das-tabelas-onde-o-icms-e-gravado"
+    ],
+    "E440ISC": [
+      "campos-das-tabelas-onde-o-icms-e-gravado"
+    ],
+    "E440NFC": [
+      "campos-das-tabelas-onde-o-icms-e-gravado",
+      "icms-creditado-efetivamente-x-f660gdg"
+    ],
+    "F000INE": [
+      "icms-diferido"
+    ],
+    "F001TCP": [
+      "antecipacao-de-icms",
+      "calculo-do-diferencial-de-aliquota",
+      "icms-diferido",
+      "parametrizacao-para-calcular-icms",
+      "pauta-fiscal",
+      "recuperacao-de-icms"
+    ],
+    "F001TVE": [
+      "icms-desonerado",
+      "icms-diferido",
+      "parametrizacao-para-calcular-icms",
+      "pauta-fiscal"
+    ],
+    "F009PPE": [
+      "calculo-do-diferencial-de-aliquota",
+      "sugestao-da-aliquota"
+    ],
+    "F019RET": [
+      "retencao-de-contribuicoes-sociais"
+    ],
+    "F019TIE": [
+      "sugestao-da-aliquota"
+    ],
+    "F019TIR": [
+      "icms-desonerado",
+      "reducao-acrescimo-de-base"
+    ],
+    "F019TIS": [
+      "antecipacao-de-icms",
+      "calculo-do-diferencial-de-aliquota",
+      "pauta-fiscal"
+    ],
+    "F019TST": [
+      "antecipacao-de-icms"
+    ],
+    "F051DIS": [
+      "antecipacao-de-icms",
+      "icms-desonerado"
+    ],
+    "F070EMP": [
+      "calculo-de-icms-para-servicos",
+      "icms-diferido"
+    ],
+    "F070FCA": [
+      "antecipacao-de-icms",
+      "calculo-do-diferencial-de-aliquota"
+    ],
+    "F070FCP": [
+      "antecipacao-de-icms",
+      "calculo-do-diferencial-de-aliquota"
+    ],
+    "F070FEF": [
+      "retencao-de-contribuicoes-sociais"
+    ],
+    "F070FVE": [
+      "codigo-icms-especial-icms-reducao-e-icms-st-x-recalculo-de-n",
+      "icms-desonerado",
+      "icms-diferido"
+    ],
+    "F070PSE": [
+      "calculo-do-diferencial-de-aliquota"
+    ],
+    "F075GFP": [
+      "antecipacao-de-icms",
+      "icms-desonerado",
+      "icms-diferido"
+    ],
+    "F075PCA": [
+      "icms-desonerado",
+      "icms-diferido"
+    ],
+    "F075PFI": [
+      "icms-desonerado"
+    ],
+    "F075PPC": [
+      "icms-diferido",
+      "pauta-fiscal"
+    ],
+    "F075PRO": [
+      "antecipacao-de-icms",
+      "icms-desonerado",
+      "icms-diferido",
+      "parametrizacao-para-calcular-icms",
+      "pauta-fiscal",
+      "recuperacao-de-icms"
+    ],
+    "F080CSA": [
+      "icms-diferido"
+    ],
+    "F080SER": [
+      "icms-diferido"
+    ],
+    "F085CAD": [
+      "icms-desonerado",
+      "icms-diferido",
+      "parametrizacao-para-calcular-icms"
+    ],
+    "F085HCL": [
+      "icms-desonerado",
+      "icms-diferido"
+    ],
+    "F095CAD": [
+      "calculo-de-icms-para-fornecedores-do-simples-nacional",
+      "calculo-do-diferencial-de-aliquota",
+      "icms-desonerado",
+      "icms-diferido",
+      "parametrizacao-para-calcular-icms",
+      "recuperacao-de-icms"
+    ],
+    "F095HFO": [
+      "icms-diferido"
+    ],
+    "F120CAC": [
+      "icms-diferido"
+    ],
+    "F120CAI": [
+      "icms-diferido"
+    ],
+    "F120CAP": [
+      "icms-diferido"
+    ],
+    "F120CAR": [
+      "icms-diferido"
+    ],
+    "F120GPB": [
+      "icms-diferido"
+    ],
+    "F120GPD": [
+      "icms-diferido"
+    ],
+    "F135FCA": [
+      "icms-diferido"
+    ],
+    "F135FCP": [
+      "icms-diferido"
+    ],
+    "F140CIP": [
+      "icms-diferido"
+    ],
+    "F140CNF": [
+      "icms-diferido"
+    ],
+    "F140GNF": [
+      "icms-diferido"
+    ],
+    "F140LOT": [
+      "icms-diferido"
+    ],
+    "F140PRE": [
+      "icms-diferido"
+    ],
+    "F403FPR": [
+      "icms-diferido",
+      "parametrizacao-para-calcular-icms",
+      "pauta-fiscal",
+      "recuperacao-de-icms"
+    ],
+    "F403FSE": [
+      "icms-diferido"
+    ],
+    "F403LFP": [
+      "icms-diferido"
+    ],
+    "F403LFS": [
+      "icms-diferido"
+    ],
+    "F410CEA": [
+      "icms-diferido"
+    ],
+    "F410COS": [
+      "icms-diferido"
+    ],
+    "F410PCT": [
+      "icms-diferido"
+    ],
+    "F420GOC": [
+      "icms-diferido"
+    ],
+    "F420OCC": [
+      "icms-diferido"
+    ],
+    "F420OPE": [
+      "icms-diferido"
+    ],
+    "F420OPS": [
+      "icms-diferido"
+    ],
+    "F420VAL": [
+      "icms-diferido"
+    ],
+    "F440CIP": [
+      "antecipacao-de-icms"
+    ],
+    "F440CNE": [
+      "icms-diferido"
+    ],
+    "F440GNE": [
+      "antecipacao-de-icms",
+      "icms-diferido"
+    ],
+    "F440GOC": [
+      "icms-diferido"
+    ],
+    "F441CIE": [
+      "antecipacao-de-icms"
+    ],
+    "F460CTR": [
+      "icms-diferido"
+    ],
+    "F460PFO": [
+      "icms-diferido"
+    ],
+    "F660GDG": [
+      "icms-creditado-efetivamente-x-f660gdg"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/icms-monofasico.htm#apuracao",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000aisou01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/com_000alstr01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000alicd01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000alicm01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_000reduc01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440aldfa01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440aldfa02.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_440vlrmo01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicd01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000alicm01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_000reduc01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140mntvl01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140neite01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/ven_140sgred01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/geracao-beneficio-fiscal.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#VenProStr",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tcp.htm#menu_cadastros/f001tcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f001tve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f009ppe.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tie.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tir.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f019tst.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f051dis.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fef.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070fve.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070pse.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pfi.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075ppc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080csa.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f080ser.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085hcl.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095cad.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f095hfo.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fpr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403fse.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403lfp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f403lfs.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660gdg.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f019ret.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120cac.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120cai.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120cap.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120car.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpb.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f120gpd.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135fca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f135fcp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140cip.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140cnf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140gnf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140lot.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/f140pre.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestaocst-icms-entrada.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestaocst-icms-saida.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f000ine.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410cea.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410cos.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410pct.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420occ.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420ope.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420ops.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420val.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440cip.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440cne.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f440gne.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f441cie.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460ctr.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460pfo.htm",
+    "https://www.sef.sc.gov.br/arquivos_portal/assuntos/108/Guia_Pratico_de_Escrituracao_de_Incentivos_e_Beneficios_Fiscais___3_edicao.pdf"
+  ]
+}

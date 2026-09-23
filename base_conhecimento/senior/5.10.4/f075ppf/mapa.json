@@ -1,0 +1,102 @@
+{
+  "fonte": {
+    "pagina": "F075PPF - Ligação Produto X Fabricante",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075ppf.htm",
+    "trilha": "Ajuda por telas > Cadastros > Produtos e Serviços > Ligações > Produto X Fabricante"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "F075PPF - Ligação Produto X Fabricante",
+      "slug": "f075ppf-ligacao-produto-x-fabricante",
+      "arquivo": "01-f075ppf-ligacao-produto-x-fabricante.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075ppf.htm",
+      "subtopicos": [],
+      "telas": [
+        "E076FAB",
+        "F075GFP",
+        "F075PFL",
+        "F075PPF",
+        "F075PRO",
+        "F410CEA",
+        "F420GOC"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [
+        "NCM"
+      ],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "F410CEA",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410cea.htm"
+        },
+        {
+          "texto": "F420GOC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm"
+        },
+        {
+          "texto": "F075PFL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pfl.htm"
+        },
+        {
+          "texto": "F075PRO",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm"
+        },
+        {
+          "texto": "F075GFP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm"
+        },
+        {
+          "texto": "Indicador de Escala Relevante",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/nf-e/regras-e-sugestoes-valores.htm#indicador_de_escala_relevante"
+        },
+        {
+          "texto": "410CONIP01",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_410conip01.htm"
+        }
+      ],
+      "caracteres": 3283
+    }
+  ],
+  "indice_telas": {
+    "E076FAB": [
+      "f075ppf-ligacao-produto-x-fabricante"
+    ],
+    "F075GFP": [
+      "f075ppf-ligacao-produto-x-fabricante"
+    ],
+    "F075PFL": [
+      "f075ppf-ligacao-produto-x-fabricante"
+    ],
+    "F075PPF": [
+      "f075ppf-ligacao-produto-x-fabricante"
+    ],
+    "F075PRO": [
+      "f075ppf-ligacao-produto-x-fabricante"
+    ],
+    "F410CEA": [
+      "f075ppf-ligacao-produto-x-fabricante"
+    ],
+    "F420GOC": [
+      "f075ppf-ligacao-produto-x-fabricante"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/identificadores_regras/cpr_410conip01.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/nf-e/regras-e-sugestoes-valores.htm#indicador_de_escala_relevante",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075gfp.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pfl.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f075pro.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f410cea.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f420goc.htm"
+  ]
+}

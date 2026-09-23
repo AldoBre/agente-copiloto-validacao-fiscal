@@ -1,0 +1,223 @@
+{
+  "fonte": {
+    "pagina": "F085CAD - Cadastro de Clientes",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm",
+    "trilha": "Ajuda por telas > Cadastros > Clientes e Fornecedores > Clientes"
+  },
+  "total_topicos": 4,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Cadastro",
+      "slug": "cadastro",
+      "arquivo": "01-cadastro.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm",
+      "subtopicos": [],
+      "telas": [
+        "E070FIL",
+        "F000PGS",
+        "F040IRF",
+        "F070VAR",
+        "F085CAD",
+        "F085COP",
+        "F085ENT",
+        "F085SEL",
+        "F660NFV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "HabDocIde",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#HabDocIde"
+        },
+        {
+          "texto": "GruCliExc",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#GruCliExc"
+        },
+        {
+          "texto": "F000PGS",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm"
+        },
+        {
+          "texto": "GruCliAlt",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#GruCliAlt"
+        },
+        {
+          "texto": "documentação correspondente",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/analise-credito-pedido.htm"
+        },
+        {
+          "texto": "isenção de ICMS e/ou IPI da Zona Franca de Manaus",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/deduzir_icms_pis_cofins_.htm"
+        },
+        {
+          "texto": "Tabelas de Imposto de Renda (F040IRF)",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f040irf.htm"
+        },
+        {
+          "texto": "F085SEL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085sel.htm"
+        },
+        {
+          "texto": "parametrizações para NF-e 4.0",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/parametrizacoes.htm"
+        },
+        {
+          "texto": "F070VAR",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070var.htm"
+        },
+        {
+          "texto": "F085COP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cop.htm"
+        },
+        {
+          "texto": "regra de sugestão",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/nf-e/regras-e-sugestoes-valores.htm#mensagens-fiscais"
+        },
+        {
+          "texto": "F660NFV",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660nfv.htm"
+        },
+        {
+          "texto": "com.senior.g5.co.int.varejo.cliente",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_varejo_cliente.htm"
+        },
+        {
+          "texto": "SCANC",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669sca.htm"
+        }
+      ],
+      "caracteres": 17878
+    },
+    {
+      "ordem": 2,
+      "titulo": "Definições",
+      "slug": "definicoes",
+      "arquivo": "02-definicoes.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm",
+      "subtopicos": [],
+      "telas": [
+        "F085HCL"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F085HCL",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085hcl.htm"
+        },
+        {
+          "texto": "documentação correspondente",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/validacao_existencia_ligacao_produto_cliente.htm"
+        },
+        {
+          "texto": "consultar a documentação",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/tabela_preco_especial.htm"
+        }
+      ],
+      "caracteres": 653
+    },
+    {
+      "ordem": 3,
+      "titulo": "Estado",
+      "slug": "estado",
+      "arquivo": "03-estado.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm",
+      "subtopicos": [],
+      "telas": [
+        "E085CLI",
+        "E085INE"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 2272
+    },
+    {
+      "ordem": 4,
+      "titulo": "Convênios",
+      "slug": "convenios",
+      "arquivo": "04-convenios.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cad.htm",
+      "subtopicos": [],
+      "telas": [
+        "F069CNV"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 475
+    }
+  ],
+  "indice_telas": {
+    "E070FIL": [
+      "cadastro"
+    ],
+    "E085CLI": [
+      "estado"
+    ],
+    "E085INE": [
+      "estado"
+    ],
+    "F000PGS": [
+      "cadastro"
+    ],
+    "F040IRF": [
+      "cadastro"
+    ],
+    "F069CNV": [
+      "convenios"
+    ],
+    "F070VAR": [
+      "cadastro"
+    ],
+    "F085CAD": [
+      "cadastro"
+    ],
+    "F085COP": [
+      "cadastro"
+    ],
+    "F085ENT": [
+      "cadastro"
+    ],
+    "F085HCL": [
+      "definicoes"
+    ],
+    "F085SEL": [
+      "cadastro"
+    ],
+    "F660NFV": [
+      "cadastro"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/integracoes/nf-e/parametrizacoes.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/manuais_processos/mercado/nf-e/regras-e-sugestoes-valores.htm#mensagens-fiscais",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/deduzir_icms_pis_cofins_.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#GruCliAlt",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#GruCliExc",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f000pgs.htm#HabDocIde",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f040irf.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070var.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085cop.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085hcl.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f085sel.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/tabela_preco_especial.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f660nfv.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_controladoria/f669sca.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/analise-credito-pedido.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/validacao_existencia_ligacao_produto_cliente.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/webservices/com_senior_g5_co_int_varejo_cliente.htm"
+  ]
+}

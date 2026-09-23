@@ -1,0 +1,93 @@
+{
+  "fonte": {
+    "pagina": "F460PFO - Contrato de Compra com Participação de Fornecedores",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460pfo.htm",
+    "trilha": "Ajuda por telas > Suprimentos > Gestão de Compras > Contratos"
+  },
+  "total_topicos": 3,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Exemplo",
+      "slug": "exemplo",
+      "arquivo": "01-exemplo.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460pfo.htm",
+      "subtopicos": [],
+      "telas": [],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 490
+    },
+    {
+      "ordem": 2,
+      "titulo": "Como funciona?",
+      "slug": "como-funciona",
+      "arquivo": "02-como-funciona.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460pfo.htm",
+      "subtopicos": [],
+      "telas": [
+        "F031AIM",
+        "F031IMH"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [],
+      "caracteres": 345
+    },
+    {
+      "ordem": 3,
+      "titulo": "Como saber se a moeda da empresa é igual a do contrato?",
+      "slug": "como-saber-se-a-moeda-da-empresa-e-igual-a-do-contrato",
+      "arquivo": "03-como-saber-se-a-moeda-da-empresa-e-igual-a-do-contrato.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_suprimentos/f460pfo.htm",
+      "subtopicos": [],
+      "telas": [
+        "F006PAI",
+        "F070EMP",
+        "F460PFO"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "F070EMP",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+        },
+        {
+          "texto": "F006PAI",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f006pai.htm"
+        }
+      ],
+      "caracteres": 589
+    }
+  ],
+  "indice_telas": {
+    "F006PAI": [
+      "como-saber-se-a-moeda-da-empresa-e-igual-a-do-contrato"
+    ],
+    "F031AIM": [
+      "como-funciona"
+    ],
+    "F031IMH": [
+      "como-funciona"
+    ],
+    "F070EMP": [
+      "como-saber-se-a-moeda-da-empresa-e-igual-a-do-contrato"
+    ],
+    "F460PFO": [
+      "como-saber-se-a-moeda-da-empresa-e-igual-a-do-contrato"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f006pai.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_cadastros/f070emp.htm"
+  ]
+}

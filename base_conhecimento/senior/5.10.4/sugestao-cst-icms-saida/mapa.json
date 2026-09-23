@@ -1,0 +1,82 @@
+{
+  "fonte": {
+    "pagina": "Sugestão do Código da Situação Tributária de ICMS de Saída",
+    "versao": "5.10.4",
+    "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestaocst-icms-saida.htm",
+    "trilha": "Ajuda por telas > Mercado"
+  },
+  "total_topicos": 1,
+  "topicos": [
+    {
+      "ordem": 1,
+      "titulo": "Sugestão do Código da Situação Tributária de ICMS de Saída",
+      "slug": "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-saida",
+      "arquivo": "01-sugestao-do-codigo-da-situacao-tributaria-de-icms-de-saida.md",
+      "ancora": "",
+      "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/menu_mercado/sugestaocst-icms-saida.htm",
+      "subtopicos": [],
+      "telas": [
+        "E001TNS",
+        "E075PPC",
+        "E075PRO",
+        "E080SER",
+        "E085HCL",
+        "F001TVE",
+        "F075PPC",
+        "F075PRO",
+        "F080SER",
+        "F085HCL"
+      ],
+      "caminhos_menu": [],
+      "identificadores_regras": [],
+      "campos_xml_citados": [],
+      "links_documentacao": [
+        {
+          "texto": "Ajuda por telas",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm"
+        },
+        {
+          "texto": "Mercado",
+          "url": "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado.htm"
+        }
+      ],
+      "caracteres": 3248
+    }
+  ],
+  "indice_telas": {
+    "E001TNS": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-saida"
+    ],
+    "E075PPC": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-saida"
+    ],
+    "E075PRO": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-saida"
+    ],
+    "E080SER": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-saida"
+    ],
+    "E085HCL": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-saida"
+    ],
+    "F001TVE": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-saida"
+    ],
+    "F075PPC": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-saida"
+    ],
+    "F075PRO": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-saida"
+    ],
+    "F080SER": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-saida"
+    ],
+    "F085HCL": [
+      "sugestao-do-codigo-da-situacao-tributaria-de-icms-de-saida"
+    ]
+  },
+  "paginas_relacionadas": [
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/ajuda-telas.htm",
+    "https://documentacao.senior.com.br/gestaoempresarialerp/5.10.4/geral/menu_mercado.htm"
+  ]
+}
